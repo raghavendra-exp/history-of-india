@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>People — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <span class="eyebrow">Personalities</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">People Who Shaped the History</h1>
+      <p class="section-desc" style="font-size:1.05rem;">Rulers, strategists, philosophers, poets and administrators drawn from the source material — grouped by the period they belong to.</p>
+      <div class="filter-bar" id="periodFilterBar" style="margin-top:22px;"></div>
+    </div>
+  </header>
+  <section class="section">
+    <div class="wrap card-grid" id="peopleRoot"><p class="loading-note">Loading people…</p></div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+let ALL_PEOPLE = [];
+async function initPeople(){
+  renderNav('people.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'People'}]);
+  const d = await HistoryData.load();
+  ALL_PEOPLE = await HistoryData.allPeople(false);
+
+  document.getElementById('periodFilterBar').innerHTML = ['all', ...d.periods.map(p=>p.id)].map(id => `
+    <button class="filter-chip ${id==='all'?'active':''}" data-p="${id}">${id==='all' ? 'All Periods' : d.periods.find(p=>p.id===id).title}</button>`).join('');
+  document.querySelectorAll('#periodFilterBar .filter-chip').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('#periodFilterBar .filter-chip').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    drawPeople(btn.dataset.p);
+  }));
+
+  drawPeople('all');
+  renderFooter();
+}
+function drawPeople(filter){
+  const list = filter === 'all' ? ALL_PEOPLE : ALL_PEOPLE.filter(p => p.periodId === filter);
+  document.getElementById('peopleRoot').innerHTML = list.length ? list.map(p => `
+    <div class="person-card reveal">
+      <a href="period.html?id=${p.periodId}#people" style="text-decoration:none; color:inherit; display:block;">
+        <span class="theme-chip" style="margin-bottom:8px;">${p.periodTitle}</span>
+        <div class="p-name">${p.name}</div>
+        <div class="p-role">${p.role || ''}</div>
+        <div class="p-note">${p.note || ''}</div>
+      </a>
+      <a href="graph.html?q=${encodeURIComponent(p.name)}" style="display:inline-block; margin-top:10px; font-size:.74rem; font-family:var(--font-mono); color:var(--accent); text-decoration:none; font-weight:600;">View in Knowledge Graph →</a>
+    </div>`).join('') : '<p class="loading-note">No profiles for this period yet.</p>';
+  initReveal();
+}
+initPeople();
+</script>
+</body>
+</html>

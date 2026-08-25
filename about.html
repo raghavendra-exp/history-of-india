@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About &amp; Sources — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <span class="eyebrow">About This Project</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">Sources &amp; Method</h1>
+    </div>
+  </header>
+  <section class="section">
+    <div class="wrap" style="max-width:70ch;">
+      <p style="font-size:1.05rem; color:var(--ink-soft);">This site converts a set of supplied revision-sheet infographics — covering the Prehistoric Age through the Khalji Dynasty (1206–1320 CE) within the Delhi Sultanate — into an interactive, interconnected reference. The chronology, terminology, dates, phases and level of detail follow the source sheets; nothing has been invented to make a period look fuller than its source material supports.</p>
+
+      <h2>What comes from the source sheets</h2>
+      <p style="color:var(--ink-soft);">Every period overview, phase, event, aspect-wise table, list of women's contributions, list of important sites, and UPSC Prelims/Mains point on this site is drawn from the corresponding revision sheet, which you can open at any time via the <b>"View Original Revision Sheet"</b> control on each period page.</p>
+
+      <h2>What is added for navigation only</h2>
+      <p style="color:var(--ink-soft);">Search indexing, cross-linking between periods/people/themes, and the small set of curated external reference links (Britannica, UNESCO, Government portals) are added purely as navigation aids and are visually distinguished with an <span class="ext-link">example ↗</span> external-link style. They are not part of the original source material.</p>
+
+      <h2>Coverage</h2>
+      <p style="color:var(--ink-soft);">The current build covers 14 periods across Ancient, Early Medieval and Sultanate India. The data architecture (<code>data/history.json</code>) is designed so that later periods — the Mughal Empire, British Colonial Rule, and Independent India — can be added by extending the JSON file and dropping in the corresponding infographic, without any redesign. See the README in the project repository for the exact steps.</p>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+renderNav('about.html');
+renderBreadcrumb([{label:'Home',href:'index.html'},{label:'About'}]);
+renderFooter();
+</script>
+</body>
+</html>
