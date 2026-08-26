@@ -87,6 +87,14 @@
 
   <section class="section" style="padding-top:0;">
     <div class="wrap">
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px;">
+        <div>
+          <span class="t-cat cat-up" style="margin-bottom:10px;">For UPPSC Aspirants</span>
+          <h3 style="margin-bottom:6px;">A dedicated Uttar Pradesh history track</h3>
+          <p class="t-tag" style="margin:0; max-width:56ch;">20 exam-focused pages — prehistoric U.P. through socio-religious reform movements — cross-linked with this atlas's national chronology and knowledge graph.</p>
+        </div>
+        <a href="up-history.html" class="btn btn-primary" style="flex-shrink:0;">Explore UP History (UPPSC) →</a>
+      </div>
       <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
         <div>
           <span class="t-cat cat-world" style="margin-bottom:10px;">Knowledge Graph</span>
@@ -149,12 +157,13 @@
 <script>
 async function initHome(){
   renderNav('index.html');
-  const d = await HistoryData.load();
+  const dAll = await HistoryData.load();
+  const d = { periods: dAll.periods.filter(p => !p.region) };
 
   // stats
-  const events = await HistoryData.allEvents();
-  const people = await HistoryData.allPeople(false);
-  const women = (await HistoryData.allPeople(true)).filter(p => p.isWomen);
+  const events = (await HistoryData.allEvents()).filter(e => !dAll.periods.find(p=>p.id===e.periodId)?.region);
+  const people = (await HistoryData.allPeople(false)).filter(p => !dAll.periods.find(x=>x.id===p.periodId)?.region);
+  const women = (await HistoryData.allPeople(true)).filter(p => p.isWomen && !dAll.periods.find(x=>x.id===p.periodId)?.region);
   const stats = document.querySelectorAll('#statStrip .num');
   stats[0].textContent = d.periods.length;
   stats[1].textContent = events.length + '+';

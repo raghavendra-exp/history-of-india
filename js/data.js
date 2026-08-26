@@ -33,11 +33,22 @@ const HistoryData = (() => {
 
   async function getAdjacent(id) {
     const d = await load();
-    const idx = d.periods.findIndex(p => p.id === id);
+    const period = d.periods.find(p => p.id === id);
+    const region = period ? (period.region || null) : null;
+    // Adjacency is computed within the same region (national periods chain among
+    // themselves; Uttar Pradesh periods chain among themselves) so the two
+    // chronologies don't interleave into a confusing prev/next sequence.
+    const scoped = d.periods.filter(p => (p.region || null) === region);
+    const idx = scoped.findIndex(p => p.id === id);
     return {
-      prev: idx > 0 ? d.periods[idx - 1] : null,
-      next: idx < d.periods.length - 1 ? d.periods[idx + 1] : null
+      prev: idx > 0 ? scoped[idx - 1] : null,
+      next: idx < scoped.length - 1 ? scoped[idx + 1] : null
     };
+  }
+
+  async function byRegion(region) {
+    const d = await load();
+    return d.periods.filter(p => (p.region || null) === (region || null));
   }
 
   async function allEvents() {
@@ -63,5 +74,5 @@ const HistoryData = (() => {
     foreign: 'Foreign Relations'
   };
 
-  return { load, loadLinks, getPeriod, getAdjacent, allEvents, allPeople, THEME_LABELS, rootPath };
+  return { load, loadLinks, getPeriod, getAdjacent, byRegion, allEvents, allPeople, THEME_LABELS, rootPath };
 })();

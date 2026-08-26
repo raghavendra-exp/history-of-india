@@ -4,10 +4,10 @@ async function renderTimelinePage(){
   renderNav('timeline.html');
   renderBreadcrumb([{ label: 'Home', href: 'index.html' }, { label: 'Master Timeline' }]);
   const d = await HistoryData.load();
-  TL_STATE.periods = d.periods;
+  TL_STATE.periods = d.periods.filter(p => !p.region);
 
   const themeSet = new Set();
-  d.periods.forEach(p => (p.themes||[]).forEach(t => themeSet.add(t)));
+  TL_STATE.periods.forEach(p => (p.themes||[]).forEach(t => themeSet.add(t)));
 
   document.getElementById('filterBar').innerHTML = ['all', ...themeSet].map(t => `
     <button class="filter-chip ${t==='all'?'active':''}" data-filter="${t}">${t==='all' ? 'All' : (HistoryData.THEME_LABELS[t]||t)}</button>

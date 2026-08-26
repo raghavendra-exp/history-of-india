@@ -262,6 +262,8 @@ body.upsc-on .upsc-only{display:block !important;}
 [data-theme="dark"] .cat-independent{background:#182a1a; color:#7fbf85;}
 .cat-world{background:#eee6f6; color:#5b3f82;}
 [data-theme="dark"] .cat-world{background:#241c30; color:#b79ddb;}
+.cat-up{background:#fde8d6; color:#a3560f;}
+[data-theme="dark"] .cat-up{background:#332212; color:#e8a25f;}
 .tablet h3{font-size:1.25rem; margin-bottom:4px;}
 .tablet .t-range{font-family:var(--font-mono); font-size:.76rem; color:var(--ink-faint); margin-bottom:12px; display:block;}
 .tablet .t-tag{font-size:.86rem; color:var(--ink-soft); margin-bottom:0;}

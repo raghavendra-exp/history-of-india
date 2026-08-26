@@ -48,6 +48,7 @@ function renderNav(active){
   const links = [
     ['index.html', 'Home'],
     ['timeline.html', 'Timeline'],
+    ['up-history.html', 'UP History (UPPSC)'],
     ['themes.html', 'Themes'],
     ['people.html', 'People'],
     ['women.html', 'Women'],
@@ -86,6 +87,7 @@ function renderFooter(){
         <div>
           <h5>Explore</h5>
           <a href="timeline.html">Master Timeline</a>
+          <a href="up-history.html">Uttar Pradesh History (UPPSC)</a>
           <a href="themes.html">Themes</a>
           <a href="people.html">People</a>
           <a href="women.html">Women in History</a>
