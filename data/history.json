@@ -10931,6 +10931,143 @@
       "order": 62
     },
     {
+      "id": "up-jaunpur-sultanate",
+      "title": "Jaunpur Sultanate in Uttar Pradesh",
+      "dateRange": "1394 – 1479 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "A Powerful Regional Sultanate that Made Jaunpur a Centre of Politics, Learning, Architecture and Indo-Islamic Culture",
+      "heroImg": "up_jaunpur_saltante.png",
+      "sourceImages": [
+        "up_jaunpur_saltante.png"
+      ],
+      "overview": "Emerging from the Sharqi governorship of Jaunpur under the declining Tughlaqs, the independent Jaunpur Sultanate — founded by Malik Sarwar in 1394 — became one of the most important regional powers of medieval North India, celebrated as a centre of learning and Indo-Islamic architecture (Atala Masjid, Lal Darwaza, Shahi Bridge) before its annexation by Bahlul Lodi in 1479.",
+      "phases": [
+        {
+          "name": "Foundation",
+          "range": "1394 – 1398 CE",
+          "points": [
+            "Malik Sarwar (founder), the governor (nawab) of Jaunpur under the Tughlaqs, declares independence from Delhi"
+          ]
+        },
+        {
+          "name": "Consolidation",
+          "range": "1398 – 1440 CE",
+          "points": [
+            "Mubarak Shah (1398–1434) and Ibrahim Shah Sharqi (1434–1440) consolidate the Sharqi kingdom"
+          ]
+        },
+        {
+          "name": "Peak & Cultural Flourishing",
+          "range": "1440 – 1457 CE",
+          "points": [
+            "Mahmud Shah Sharqi (1440–1457) presides over Jaunpur's peak as a centre of politics, learning and architecture"
+          ]
+        },
+        {
+          "name": "Decline & Annexation",
+          "range": "1457 – 1479 CE",
+          "points": [
+            "Muhammad Shah Sharqi (1457–1479); constant wars with the Delhi Sultanate and Gujarat Sultanate weaken the kingdom; after the death of the last ruler, Jaunpur is annexed by Bahlul Lodi in 1479 CE, marking the end of the Sharqi dynasty"
+          ]
+        }
+      ],
+      "aspects": {
+        "Administration": [
+          "Sultan was the supreme authority; kingdom divided into parganas and villages; Iqta system prevailed; efficient revenue system based on land revenue",
+          "Officials: Diwan (finance), Ariz (military), Qazi (judicial), Kotwal (police chief); strong emphasis on law and order and public works"
+        ],
+        "Military Power": [
+          "Maintained a strong army with cavalry and infantry; fortified the capital Jaunpur; built forts and defensive structures; often in conflict with the Delhi Sultanate, Gujarat Sultanate and other neighbours"
+        ],
+        "Society & Economy": [
+          "Society was multi-religious and composite; Hindus and Muslims lived together, cultural synthesis developed; agriculture was the main occupation; development of irrigation and canals; trade and crafts flourished, with Jaunpur an important trade centre on the Ganga"
+        ],
+        "Religion & Culture": [
+          "Islam was the state religion; Sufism flourished with the presence of many Sufi saints; promotion of religious tolerance and coexistence; Persian was the court language; development of literature, poetry and music; Jaunpur became a great centre of learning and scholarship"
+        ],
+        "Art & Architecture": [
+          "Jaunpur style of architecture is distinct and grand; use of red sandstone and bricks; arches, domes, minarets and strong fortifications; blend of Islamic and local (Hindu) architectural elements",
+          "Major monuments: Atala Masjid — one of the largest mosques in Jaunpur; Jami Masjid; Lal Darwaza — famous for its grand gateway; Shahi Bridge (over the Gomti River); Jhanjhari Masjid; Maqbara of Malik Sarwar; Rampur Fort"
+        ]
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1394 CE",
+          "title": "Malik Sarwar declares Jaunpur's independence",
+          "theme": "polity",
+          "desc": "Founds the Sharqi dynasty and the independent Jaunpur Sultanate."
+        },
+        {
+          "year": "1440–1457 CE",
+          "title": "Mahmud Shah Sharqi's reign",
+          "theme": "art",
+          "desc": "Jaunpur reaches its peak as a centre of politics, learning and grand Indo-Islamic architecture."
+        },
+        {
+          "year": "1479 CE",
+          "title": "Annexation by Bahlul Lodi",
+          "theme": "polity",
+          "desc": "After the death of the last Sharqi ruler, the Jaunpur Sultanate is absorbed into the Lodi Sultanate."
+        }
+      ],
+      "people": [
+        {
+          "name": "Malik Sarwar",
+          "role": "Founder, Jaunpur Sultanate",
+          "note": "r. 1394–1398; declared independence from Delhi."
+        },
+        {
+          "name": "Ibrahim Shah Sharqi",
+          "role": "Sharqi ruler",
+          "note": "r. 1434–1440; patron of learning."
+        },
+        {
+          "name": "Mahmud Shah Sharqi",
+          "role": "Sharqi ruler",
+          "note": "r. 1440–1457; peak of Jaunpur's power and culture."
+        }
+      ],
+      "themes": [
+        "polity",
+        "war",
+        "art",
+        "religion"
+      ],
+      "upsc": {
+        "prelims": [
+          "Founded in 1394 by Malik Sarwar; important rulers — Mubarak Shah, Mahmud Shah; Atala Masjid, Lal Darwaza, Shahi Bridge are important monuments; annexed by the Lodi dynasty in 1479 CE"
+        ],
+        "mains": [
+          "Jaunpur was not just a kingdom, it was a lamp of learning and culture in the medieval age of India; frequently asked in Prelims on rulers, monuments, dates; important for Mains on state formation, culture, architecture and regional powers of medieval India"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Period",
+          "1394 – 1479 CE"
+        ],
+        [
+          "Founder",
+          "Malik Sarwar"
+        ],
+        [
+          "Dynasty",
+          "Sharqi"
+        ],
+        [
+          "Capital",
+          "Jaunpur"
+        ],
+        [
+          "End",
+          "1479 CE, annexed by the Lodi Dynasty"
+        ]
+      ],
+      "order": 63
+    },
+    {
       "id": "up-sayyid-lodi-dynasty",
       "title": "Delhi Sayyid & Lodi Dynasties in Uttar Pradesh",
       "dateRange": "1414 – 1526 CE",
@@ -11077,143 +11214,6 @@
         [
           "End of Lodi Rule",
           "1526 CE (First Battle of Panipat)"
-        ]
-      ],
-      "order": 63
-    },
-    {
-      "id": "up-jaunpur-sultanate",
-      "title": "Jaunpur Sultanate in Uttar Pradesh",
-      "dateRange": "1394 – 1479 CE",
-      "category": "up",
-      "region": "up",
-      "tagline": "A Powerful Regional Sultanate that Made Jaunpur a Centre of Politics, Learning, Architecture and Indo-Islamic Culture",
-      "heroImg": "up_jaunpur_saltante.png",
-      "sourceImages": [
-        "up_jaunpur_saltante.png"
-      ],
-      "overview": "Emerging from the Sharqi governorship of Jaunpur under the declining Tughlaqs, the independent Jaunpur Sultanate — founded by Malik Sarwar in 1394 — became one of the most important regional powers of medieval North India, celebrated as a centre of learning and Indo-Islamic architecture (Atala Masjid, Lal Darwaza, Shahi Bridge) before its annexation by Bahlul Lodi in 1479.",
-      "phases": [
-        {
-          "name": "Foundation",
-          "range": "1394 – 1398 CE",
-          "points": [
-            "Malik Sarwar (founder), the governor (nawab) of Jaunpur under the Tughlaqs, declares independence from Delhi"
-          ]
-        },
-        {
-          "name": "Consolidation",
-          "range": "1398 – 1440 CE",
-          "points": [
-            "Mubarak Shah (1398–1434) and Ibrahim Shah Sharqi (1434–1440) consolidate the Sharqi kingdom"
-          ]
-        },
-        {
-          "name": "Peak & Cultural Flourishing",
-          "range": "1440 – 1457 CE",
-          "points": [
-            "Mahmud Shah Sharqi (1440–1457) presides over Jaunpur's peak as a centre of politics, learning and architecture"
-          ]
-        },
-        {
-          "name": "Decline & Annexation",
-          "range": "1457 – 1479 CE",
-          "points": [
-            "Muhammad Shah Sharqi (1457–1479); constant wars with the Delhi Sultanate and Gujarat Sultanate weaken the kingdom; after the death of the last ruler, Jaunpur is annexed by Bahlul Lodi in 1479 CE, marking the end of the Sharqi dynasty"
-          ]
-        }
-      ],
-      "aspects": {
-        "Administration": [
-          "Sultan was the supreme authority; kingdom divided into parganas and villages; Iqta system prevailed; efficient revenue system based on land revenue",
-          "Officials: Diwan (finance), Ariz (military), Qazi (judicial), Kotwal (police chief); strong emphasis on law and order and public works"
-        ],
-        "Military Power": [
-          "Maintained a strong army with cavalry and infantry; fortified the capital Jaunpur; built forts and defensive structures; often in conflict with the Delhi Sultanate, Gujarat Sultanate and other neighbours"
-        ],
-        "Society & Economy": [
-          "Society was multi-religious and composite; Hindus and Muslims lived together, cultural synthesis developed; agriculture was the main occupation; development of irrigation and canals; trade and crafts flourished, with Jaunpur an important trade centre on the Ganga"
-        ],
-        "Religion & Culture": [
-          "Islam was the state religion; Sufism flourished with the presence of many Sufi saints; promotion of religious tolerance and coexistence; Persian was the court language; development of literature, poetry and music; Jaunpur became a great centre of learning and scholarship"
-        ],
-        "Art & Architecture": [
-          "Jaunpur style of architecture is distinct and grand; use of red sandstone and bricks; arches, domes, minarets and strong fortifications; blend of Islamic and local (Hindu) architectural elements",
-          "Major monuments: Atala Masjid — one of the largest mosques in Jaunpur; Jami Masjid; Lal Darwaza — famous for its grand gateway; Shahi Bridge (over the Gomti River); Jhanjhari Masjid; Maqbara of Malik Sarwar; Rampur Fort"
-        ]
-      },
-      "women": [],
-      "events": [
-        {
-          "year": "1394 CE",
-          "title": "Malik Sarwar declares Jaunpur's independence",
-          "theme": "polity",
-          "desc": "Founds the Sharqi dynasty and the independent Jaunpur Sultanate."
-        },
-        {
-          "year": "1440–1457 CE",
-          "title": "Mahmud Shah Sharqi's reign",
-          "theme": "art",
-          "desc": "Jaunpur reaches its peak as a centre of politics, learning and grand Indo-Islamic architecture."
-        },
-        {
-          "year": "1479 CE",
-          "title": "Annexation by Bahlul Lodi",
-          "theme": "polity",
-          "desc": "After the death of the last Sharqi ruler, the Jaunpur Sultanate is absorbed into the Lodi Sultanate."
-        }
-      ],
-      "people": [
-        {
-          "name": "Malik Sarwar",
-          "role": "Founder, Jaunpur Sultanate",
-          "note": "r. 1394–1398; declared independence from Delhi."
-        },
-        {
-          "name": "Ibrahim Shah Sharqi",
-          "role": "Sharqi ruler",
-          "note": "r. 1434–1440; patron of learning."
-        },
-        {
-          "name": "Mahmud Shah Sharqi",
-          "role": "Sharqi ruler",
-          "note": "r. 1440–1457; peak of Jaunpur's power and culture."
-        }
-      ],
-      "themes": [
-        "polity",
-        "war",
-        "art",
-        "religion"
-      ],
-      "upsc": {
-        "prelims": [
-          "Founded in 1394 by Malik Sarwar; important rulers — Mubarak Shah, Mahmud Shah; Atala Masjid, Lal Darwaza, Shahi Bridge are important monuments; annexed by the Lodi dynasty in 1479 CE"
-        ],
-        "mains": [
-          "Jaunpur was not just a kingdom, it was a lamp of learning and culture in the medieval age of India; frequently asked in Prelims on rulers, monuments, dates; important for Mains on state formation, culture, architecture and regional powers of medieval India"
-        ]
-      },
-      "quickFacts": [
-        [
-          "Period",
-          "1394 – 1479 CE"
-        ],
-        [
-          "Founder",
-          "Malik Sarwar"
-        ],
-        [
-          "Dynasty",
-          "Sharqi"
-        ],
-        [
-          "Capital",
-          "Jaunpur"
-        ],
-        [
-          "End",
-          "1479 CE, annexed by the Lodi Dynasty"
         ]
       ],
       "order": 64
@@ -11532,169 +11532,6 @@
       "order": 66
     },
     {
-      "id": "up-revolt-of-1857",
-      "title": "Revolt of 1857 in Uttar Pradesh",
-      "dateRange": "1857 – 1858 CE",
-      "category": "up",
-      "region": "up",
-      "tagline": "The First Major War of Independence — Widespread, Well-Organized and Led by People from Every Section of Society",
-      "heroImg": "up_revolt_of_1857.png",
-      "sourceImages": [
-        "up_revolt_of_1857.png"
-      ],
-      "overview": "Uttar Pradesh formed the strongest base of the Revolt of 1857, sparked at Meerut and spreading rapidly to Delhi, Lucknow, Kanpur, Jhansi, Bareilly and Allahabad. Led by figures like Nana Sahib, Begum Hazrat Mahal, Maulvi Ahmadullah Shah, Kunwar Singh and Khan Bahadur Khan, and drawing participation from soldiers, zamindars, taluqdars, peasants, artisans and common people alike, the revolt showed a genuinely mass, composite character before its suppression by 1858.",
-      "phases": [
-        {
-          "name": "Background & Outbreak",
-          "range": "1856 – May 1857",
-          "points": [
-            "After the Doctrine of Lapse and annexations, British territories expand in U.P.; discontent among soldiers over low pay and the greased-cartridges controversy; harsh revenue policies affecting zamindars and taluqdars",
-            "10 May 1857: revolt at Meerut, sepoys march to Delhi; 11 May 1857: Bahadur Shah Zafar proclaimed Emperor at Delhi"
-          ]
-        },
-        {
-          "name": "Spread Across U.P.",
-          "range": "May – June 1857",
-          "points": [
-            "30 May 1857: revolutionaries enter Lucknow; 5 June 1857: Allahabad captured by revolutionaries; 6 June 1857: Agra captured; 27 June 1857: Cawnpore (Kanpur) captured by Nana Sahib"
-          ]
-        },
-        {
-          "name": "Resistance & Sieges",
-          "range": "July – November 1857",
-          "points": [
-            "Strong resistance in Rohilkhand and Awadh; the British Residency at Lucknow besieged from July to November 1857"
-          ]
-        },
-        {
-          "name": "British Reconquest",
-          "range": "September 1857 – 1858",
-          "points": [
-            "September 1857: British forces recapture Delhi; March 1858: British forces under Colin Campbell recapture Lucknow; by the end of 1858: organization of the revolt collapses after severe suppression"
-          ]
-        }
-      ],
-      "aspects": {
-        "Leaders of the Revolt in U.P.": [
-          "Nana Sahib (Neelkanth Peshwa) — Kanpur; led the revolt in Kanpur, proclaimed Peshwa",
-          "Begum Hazrat Mahal — Lucknow; led the resistance in Awadh in the name of her son Birjis Qadr",
-          "Maulvi Ahmadullah Shah (Faizabad) — Awadh region; popular religious leader who mobilised people",
-          "Kunwar Singh — operated in the Azamgarh–Ballia region, with links to Bihar; supported the revolt",
-          "Raja Jai Lal Singh — Aligarh; led the revolt in Aligarh",
-          "Feroz Shah — Fatehpur; mobilised people",
-          "Khan Bahadur Khan — Bareilly; proclaimed himself ruler of Bareilly"
-        ],
-        "The Revolt in Awadh (Lucknow & Faizabad)": [
-          "Awadh was the heartland of the revolt; Begum Hazrat Mahal took charge in the name of her minor son Birjis Qadr; Maulvi Ahmadullah Shah became the spiritual and military leader; people from all sections — taluqdars, peasants, artisans, women — participated; the British Residency in Lucknow was besieged from July to November 1857"
-        ],
-        "Kanpur (Cawnpore) & Rohilkhand": [
-          "Kanpur: led by Nana Sahib, Tatya Tope and Azimullah Khan; the British garrison surrendered on 27 June 1857; the Satichaura Ghat incident and the subsequent Bibighar incident took place; Kanpur was recaptured by the British in July 1857",
-          "Rohilkhand: widespread participation in Bareilly, Shahjahanpur, Budaun, Pilibhit, Moradabad, Rampur etc.; Khan Bahadur Khan proclaimed ruler of Bareilly; strong anti-British sentiments among Rohilla Pathans and local zamindars; the British regained control after heavy fighting"
-        ],
-        "Nature, Significance & Reasons for Failure": [
-          "Mass character in Awadh — involvement of peasants, taluqdars, clerics, artisans and women; combination of sepoy mutiny and a people's revolt aimed at ending British rule and restoring traditional authority; showed Hindu-Muslim unity (composite culture)",
-          "Reasons for failure: lack of centralised leadership and coordination; limited modern arms and ammunition; some princes and zamindars remained loyal to the British; better organisation, resources and communication of the British; internal differences among leaders"
-        ],
-        "Consequences of the Revolt in U.P.": [
-          "End of East India Company rule; Government of India Act, 1858; direct British Crown rule in India; policy of reconciliation with landlords and princes",
-          "Reorganisation of the army — more British, fewer Indians; strengthening of police, intelligence and communication; land settlements relaxed in Awadh to win support of taluqdars; beginning of modern nationalism"
-        ]
-      },
-      "women": [
-        {
-          "name": "Begum Hazrat Mahal",
-          "role": "Leader of the revolt in Awadh",
-          "note": "Took charge in the name of her minor son Birjis Qadr; led resistance at Lucknow."
-        }
-      ],
-      "events": [
-        {
-          "year": "10 May 1857",
-          "title": "Outbreak of the Revolt at Meerut",
-          "theme": "war",
-          "desc": "Sepoys rise in revolt at Meerut and march toward Delhi, sparking the wider uprising."
-        },
-        {
-          "year": "27 June 1857",
-          "title": "Fall of Cawnpore (Kanpur)",
-          "theme": "war",
-          "desc": "Nana Sahib's forces capture Kanpur after the British garrison surrenders; the Satichaura Ghat incident follows."
-        },
-        {
-          "year": "July–November 1857",
-          "title": "Siege of the Lucknow Residency",
-          "theme": "war",
-          "desc": "British forces are besieged in Lucknow for months while Begum Hazrat Mahal leads resistance across Awadh."
-        },
-        {
-          "year": "March 1858",
-          "title": "Recapture of Lucknow",
-          "theme": "war",
-          "desc": "British forces under Colin Campbell retake Lucknow, a major step in suppressing the revolt in U.P."
-        }
-      ],
-      "people": [
-        {
-          "name": "Nana Sahib",
-          "role": "Leader, Kanpur",
-          "note": "Proclaimed Peshwa; led the revolt in Kanpur."
-        },
-        {
-          "name": "Begum Hazrat Mahal",
-          "role": "Leader, Lucknow/Awadh",
-          "note": "Led resistance in the name of Birjis Qadr."
-        },
-        {
-          "name": "Maulvi Ahmadullah Shah",
-          "role": "Religious & military leader, Awadh",
-          "note": "Faizabad."
-        },
-        {
-          "name": "Khan Bahadur Khan",
-          "role": "Leader, Bareilly",
-          "note": "Proclaimed himself ruler of Bareilly."
-        }
-      ],
-      "themes": [
-        "war",
-        "polity",
-        "society",
-        "women"
-      ],
-      "upsc": {
-        "prelims": [
-          "The revolt had its strongest base in Awadh; key leaders — Begum Hazrat Mahal, Nana Sahib, Maulvi Ahmadullah Shah; important centres — Lucknow, Kanpur, Bareilly, Allahabad, Agra, Aligarh"
-        ],
-        "mains": [
-          "It was a turning point in India's freedom struggle, leading to the end of Company rule and the beginning of Crown rule; use examples, data, timelines and maps in answers",
-          "Awadh was the soul of 1857 in Uttar Pradesh — it awakened the spirit of freedom that continued till 1947"
-        ]
-      },
-      "quickFacts": [
-        [
-          "Year",
-          "1857 (suppressed by 1858)"
-        ],
-        [
-          "Nature",
-          "First War of Independence"
-        ],
-        [
-          "Main Areas in U.P.",
-          "Awadh, Rohilkhand, Doab, Bundelkhand (connected)"
-        ],
-        [
-          "British Commander in U.P.",
-          "Colonel/General Colin Campbell"
-        ],
-        [
-          "Result",
-          "Suppressed by 1858; Government of India Act, 1858"
-        ]
-      ],
-      "order": 67
-    },
-    {
       "id": "up-british-rule-administration",
       "title": "British Rule and Administration in Uttar Pradesh",
       "dateRange": "1764 – 1902 CE",
@@ -11856,7 +11693,349 @@
           "United Provinces of Agra and Oudh"
         ]
       ],
+      "order": 67
+    },
+    {
+      "id": "up-revolt-of-1857",
+      "title": "Revolt of 1857 in Uttar Pradesh",
+      "dateRange": "1857 – 1858 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "The First Major War of Independence — Widespread, Well-Organized and Led by People from Every Section of Society",
+      "heroImg": "up_revolt_of_1857.png",
+      "sourceImages": [
+        "up_revolt_of_1857.png"
+      ],
+      "overview": "Uttar Pradesh formed the strongest base of the Revolt of 1857, sparked at Meerut and spreading rapidly to Delhi, Lucknow, Kanpur, Jhansi, Bareilly and Allahabad. Led by figures like Nana Sahib, Begum Hazrat Mahal, Maulvi Ahmadullah Shah, Kunwar Singh and Khan Bahadur Khan, and drawing participation from soldiers, zamindars, taluqdars, peasants, artisans and common people alike, the revolt showed a genuinely mass, composite character before its suppression by 1858.",
+      "phases": [
+        {
+          "name": "Background & Outbreak",
+          "range": "1856 – May 1857",
+          "points": [
+            "After the Doctrine of Lapse and annexations, British territories expand in U.P.; discontent among soldiers over low pay and the greased-cartridges controversy; harsh revenue policies affecting zamindars and taluqdars",
+            "10 May 1857: revolt at Meerut, sepoys march to Delhi; 11 May 1857: Bahadur Shah Zafar proclaimed Emperor at Delhi"
+          ]
+        },
+        {
+          "name": "Spread Across U.P.",
+          "range": "May – June 1857",
+          "points": [
+            "30 May 1857: revolutionaries enter Lucknow; 5 June 1857: Allahabad captured by revolutionaries; 6 June 1857: Agra captured; 27 June 1857: Cawnpore (Kanpur) captured by Nana Sahib"
+          ]
+        },
+        {
+          "name": "Resistance & Sieges",
+          "range": "July – November 1857",
+          "points": [
+            "Strong resistance in Rohilkhand and Awadh; the British Residency at Lucknow besieged from July to November 1857"
+          ]
+        },
+        {
+          "name": "British Reconquest",
+          "range": "September 1857 – 1858",
+          "points": [
+            "September 1857: British forces recapture Delhi; March 1858: British forces under Colin Campbell recapture Lucknow; by the end of 1858: organization of the revolt collapses after severe suppression"
+          ]
+        }
+      ],
+      "aspects": {
+        "Leaders of the Revolt in U.P.": [
+          "Nana Sahib (Neelkanth Peshwa) — Kanpur; led the revolt in Kanpur, proclaimed Peshwa",
+          "Begum Hazrat Mahal — Lucknow; led the resistance in Awadh in the name of her son Birjis Qadr",
+          "Maulvi Ahmadullah Shah (Faizabad) — Awadh region; popular religious leader who mobilised people",
+          "Kunwar Singh — operated in the Azamgarh–Ballia region, with links to Bihar; supported the revolt",
+          "Raja Jai Lal Singh — Aligarh; led the revolt in Aligarh",
+          "Feroz Shah — Fatehpur; mobilised people",
+          "Khan Bahadur Khan — Bareilly; proclaimed himself ruler of Bareilly"
+        ],
+        "The Revolt in Awadh (Lucknow & Faizabad)": [
+          "Awadh was the heartland of the revolt; Begum Hazrat Mahal took charge in the name of her minor son Birjis Qadr; Maulvi Ahmadullah Shah became the spiritual and military leader; people from all sections — taluqdars, peasants, artisans, women — participated; the British Residency in Lucknow was besieged from July to November 1857"
+        ],
+        "Kanpur (Cawnpore) & Rohilkhand": [
+          "Kanpur: led by Nana Sahib, Tatya Tope and Azimullah Khan; the British garrison surrendered on 27 June 1857; the Satichaura Ghat incident and the subsequent Bibighar incident took place; Kanpur was recaptured by the British in July 1857",
+          "Rohilkhand: widespread participation in Bareilly, Shahjahanpur, Budaun, Pilibhit, Moradabad, Rampur etc.; Khan Bahadur Khan proclaimed ruler of Bareilly; strong anti-British sentiments among Rohilla Pathans and local zamindars; the British regained control after heavy fighting"
+        ],
+        "Nature, Significance & Reasons for Failure": [
+          "Mass character in Awadh — involvement of peasants, taluqdars, clerics, artisans and women; combination of sepoy mutiny and a people's revolt aimed at ending British rule and restoring traditional authority; showed Hindu-Muslim unity (composite culture)",
+          "Reasons for failure: lack of centralised leadership and coordination; limited modern arms and ammunition; some princes and zamindars remained loyal to the British; better organisation, resources and communication of the British; internal differences among leaders"
+        ],
+        "Consequences of the Revolt in U.P.": [
+          "End of East India Company rule; Government of India Act, 1858; direct British Crown rule in India; policy of reconciliation with landlords and princes",
+          "Reorganisation of the army — more British, fewer Indians; strengthening of police, intelligence and communication; land settlements relaxed in Awadh to win support of taluqdars; beginning of modern nationalism"
+        ]
+      },
+      "women": [
+        {
+          "name": "Begum Hazrat Mahal",
+          "role": "Leader of the revolt in Awadh",
+          "note": "Took charge in the name of her minor son Birjis Qadr; led resistance at Lucknow."
+        }
+      ],
+      "events": [
+        {
+          "year": "10 May 1857",
+          "title": "Outbreak of the Revolt at Meerut",
+          "theme": "war",
+          "desc": "Sepoys rise in revolt at Meerut and march toward Delhi, sparking the wider uprising."
+        },
+        {
+          "year": "27 June 1857",
+          "title": "Fall of Cawnpore (Kanpur)",
+          "theme": "war",
+          "desc": "Nana Sahib's forces capture Kanpur after the British garrison surrenders; the Satichaura Ghat incident follows."
+        },
+        {
+          "year": "July–November 1857",
+          "title": "Siege of the Lucknow Residency",
+          "theme": "war",
+          "desc": "British forces are besieged in Lucknow for months while Begum Hazrat Mahal leads resistance across Awadh."
+        },
+        {
+          "year": "March 1858",
+          "title": "Recapture of Lucknow",
+          "theme": "war",
+          "desc": "British forces under Colin Campbell retake Lucknow, a major step in suppressing the revolt in U.P."
+        }
+      ],
+      "people": [
+        {
+          "name": "Nana Sahib",
+          "role": "Leader, Kanpur",
+          "note": "Proclaimed Peshwa; led the revolt in Kanpur."
+        },
+        {
+          "name": "Begum Hazrat Mahal",
+          "role": "Leader, Lucknow/Awadh",
+          "note": "Led resistance in the name of Birjis Qadr."
+        },
+        {
+          "name": "Maulvi Ahmadullah Shah",
+          "role": "Religious & military leader, Awadh",
+          "note": "Faizabad."
+        },
+        {
+          "name": "Khan Bahadur Khan",
+          "role": "Leader, Bareilly",
+          "note": "Proclaimed himself ruler of Bareilly."
+        }
+      ],
+      "themes": [
+        "war",
+        "polity",
+        "society",
+        "women"
+      ],
+      "upsc": {
+        "prelims": [
+          "The revolt had its strongest base in Awadh; key leaders — Begum Hazrat Mahal, Nana Sahib, Maulvi Ahmadullah Shah; important centres — Lucknow, Kanpur, Bareilly, Allahabad, Agra, Aligarh"
+        ],
+        "mains": [
+          "It was a turning point in India's freedom struggle, leading to the end of Company rule and the beginning of Crown rule; use examples, data, timelines and maps in answers",
+          "Awadh was the soul of 1857 in Uttar Pradesh — it awakened the spirit of freedom that continued till 1947"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Year",
+          "1857 (suppressed by 1858)"
+        ],
+        [
+          "Nature",
+          "First War of Independence"
+        ],
+        [
+          "Main Areas in U.P.",
+          "Awadh, Rohilkhand, Doab, Bundelkhand (connected)"
+        ],
+        [
+          "British Commander in U.P.",
+          "Colonel/General Colin Campbell"
+        ],
+        [
+          "Result",
+          "Suppressed by 1858; Government of India Act, 1858"
+        ]
+      ],
       "order": 68
+    },
+    {
+      "id": "up-freedom-struggle",
+      "title": "Freedom Struggle in Uttar Pradesh",
+      "dateRange": "1857 – 1947 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "A Combination of Sacrifice, Leadership and Mass Participation Which Paved the Way for India's Freedom",
+      "heroImg": "up_freedom_struggle.png",
+      "sourceImages": [
+        "up_freedom_struggle.png"
+      ],
+      "overview": "Uttar Pradesh played a pivotal role in India's freedom struggle, from the very first spark of the 1857 revolt at Meerut through the rise of the Indian National Congress, the Swadeshi and Extremist phases, the Gandhian mass movements, and a vigorous parallel current of armed revolutionary activity centred on organisations like the Hindustan Republican Association and the Kakori Conspiracy. Nearly every phase of the all-India movement had a strong, often leading, U.P. chapter — from Motilal and Jawaharlal Nehru's Allahabad to the Kakori martyrs' Shahjahanpur and the Awadh Kisan Sabha's countryside.",
+      "phases": [
+        {
+          "name": "Early Resistance",
+          "range": "1857",
+          "points": [
+            "First War of Independence; widespread uprising across U.P., centred on Meerut, Bareilly, Awadh, Jhansi, Kanpur and Fatehpur"
+          ]
+        },
+        {
+          "name": "Rise of the National Movement",
+          "range": "1885 – 1905",
+          "points": [
+            "Indian National Congress formed (1885); socio-religious reforms and early political awakening across U.P."
+          ]
+        },
+        {
+          "name": "Swadeshi & Extremist Phase",
+          "range": "1905 – 1918",
+          "points": [
+            "Boycott, Swadeshi, national education, early revolutionary activities"
+          ]
+        },
+        {
+          "name": "Gandhian Mass Movements",
+          "range": "1919 – 1942",
+          "points": [
+            "Non-Cooperation, Civil Disobedience, Quit India — genuine mass participation across the province"
+          ]
+        },
+        {
+          "name": "Revolutionary & Parallel Activities",
+          "range": "1900 – 1947",
+          "points": [
+            "Armed revolutionary activities, secret organisations (HRA, HSRA), workers' and peasants' movements running throughout the period"
+          ]
+        },
+        {
+          "name": "Final Phase",
+          "range": "1942 – 1947",
+          "points": [
+            "Quit India Movement, INA influence, the Naval Mutiny's effect, moving towards Independence"
+          ]
+        }
+      ],
+      "aspects": {
+        "Major Centres of the Freedom Struggle in U.P.": [
+          "Meerut — centre of the 1857 revolt; Kanpur — Nana Saheb, Tatya Tope; Lucknow — centre of politics, peasant movements; Allahabad (Prayagraj) — political activities, Congress sessions (1888, 1910, 1921); Ballia — 'first district to raise the tricolour', 1942"
+        ],
+        "Revolutionary Movement": [
+          "U.P. was a strong centre of revolutionary activities; important organisations — Hindustan Republican Association (HRA, founded by Ram Prasad Bismil and Sachindranath Sanyal) and Hindustan Socialist Republican Association (HSRA, Chandra Shekhar Azad)",
+          "Notable events: the Kakori Conspiracy (1925) — Ram Prasad Bismil, Ashfaqullah Khan, Rajendra Lahiri, Roshan Singh etc.; Chandra Shekhar Azad's active base in Allahabad (Anand Bhavan); martyrs — Ram Prasad Bismil (Gonda), Ashfaqullah Khan (Shahjahanpur), Roshan Singh (Pratapgarh), Chandrashekhar Azad (Allahabad)"
+        ],
+        "Peasant & Tribal Movements": [
+          "Awadh Kisan Sabha (1920) — led by Baba Ramchandra; Eka Movement (1921) — Pratapgarh, against high rents, begar (forced labour), illegal cesses; Kisan Movements in Rae Bareli, Sultanpur, Faizabad, Gorakhpur, Ballia",
+          "Main demands: reduction in land revenue, abolition of begar, security of tenure; drew on Bardoli and Champaran-style methods and influences"
+        ],
+        "Participation of Different Sections": [
+          "Students: boycott of government schools, national education, students' unions active; Women: participation in movements, picketing, spinning, promoting khadi; Peasants: Kisan Sabhas, no-tax campaigns, agrarian agitations",
+          "Workers: railway, textile and municipal workers took part in strikes and protests; Business & Middle Class: boycott of foreign goods, Swadeshi, financial support; Religious & Social Leaders: promoted unity, social reform and national awakening"
+        ],
+        "Important Institutions & Organisations": [
+          "Indian National Congress Sessions — 1888, 1910, 1921 (Allahabad); Servants of the People Society — 1911 (Allahabad; Gokhale, Malaviya); Kashi Vidyapith — 1921 (Varanasi); Gandhi Ashram — 1921 (Allahabad); Awadh Kisan Sabha — 1920 (Awadh Region); Congress Seva Dal — 1923 (U.P. units active); Hindustan Republican Association (HRA) — 1924 (Shahjahanpur, Kanpur, Allahabad)"
+        ]
+      },
+      "women": [
+        {
+          "name": "Women in the U.P. freedom struggle",
+          "note": "Participated in movements, picketing, spinning and the promotion of khadi across the province."
+        }
+      ],
+      "events": [
+        {
+          "year": "10 May 1857",
+          "title": "First spark of revolt at Meerut",
+          "theme": "war",
+          "desc": "Meerut becomes the flashpoint of the Revolt of 1857, U.P.'s first great chapter in the freedom struggle."
+        },
+        {
+          "year": "1920",
+          "title": "Awadh Kisan Sabha founded",
+          "theme": "society",
+          "desc": "Baba Ramchandra leads a major peasant mobilisation against high rents and forced labour in Awadh."
+        },
+        {
+          "year": "1925",
+          "title": "Kakori Conspiracy",
+          "theme": "war",
+          "desc": "Ram Prasad Bismil, Ashfaqullah Khan and comrades carry out the Kakori train action, a landmark event in India's revolutionary movement."
+        },
+        {
+          "year": "1942",
+          "title": "Quit India Movement; Ballia raises the tricolour",
+          "theme": "polity",
+          "desc": "Ballia becomes the first district in India to hoist the national flag during the Quit India Movement."
+        }
+      ],
+      "people": [
+        {
+          "name": "Pandit Madan Mohan Malaviya",
+          "role": "Educationist, founder of BHU",
+          "note": "Social reformer active across U.P."
+        },
+        {
+          "name": "Pt. Motilal Nehru",
+          "role": "Congress President (1919, 1928)",
+          "note": "Leading figure from Allahabad."
+        },
+        {
+          "name": "Chandra Shekhar Azad",
+          "role": "Revolutionary",
+          "note": "Active in the HSRA; based in Allahabad."
+        },
+        {
+          "name": "Ram Prasad Bismil",
+          "role": "Revolutionary poet",
+          "note": "Key figure in the Kakori Conspiracy."
+        },
+        {
+          "name": "Ashfaqullah Khan",
+          "role": "Revolutionary",
+          "note": "Hanged in the Kakori Case."
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "President of India",
+          "note": "Active in the freedom struggle."
+        },
+        {
+          "name": "Purushottam Das Tandon",
+          "role": "Congress leader",
+          "note": "Champion of Hindi and Swadeshi."
+        }
+      ],
+      "themes": [
+        "polity",
+        "war",
+        "society",
+        "women"
+      ],
+      "upsc": {
+        "prelims": [
+          "1857 — Meerut (10 May), first spark of revolt; Ballia — first district to hoist the tricolour in 1942; Allahabad — important centre of Congress politics; BHU established 1916 by Malaviya; Kakori Conspiracy — 1925; Awadh Kisan Sabha — 1920"
+        ],
+        "mains": [
+          "The freedom struggle in U.P. was a combination of sacrifice, leadership and mass participation which paved the way for India's freedom; use examples, data, timelines and balanced analysis"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Period Covered",
+          "1857 – 1947 CE"
+        ],
+        [
+          "Key Organisations",
+          "INC, Awadh Kisan Sabha, HRA, HSRA, Congress Seva Dal"
+        ],
+        [
+          "Landmark Revolutionary Event",
+          "Kakori Conspiracy, 1925"
+        ],
+        [
+          "First to Hoist Tricolour (1942)",
+          "Ballia"
+        ]
+      ],
+      "order": 69
     },
     {
       "id": "up-socio-religious-movement",
@@ -12038,7 +12217,1067 @@
           "Ideological foundation of nationalism and social change in U.P."
         ]
       ],
-      "order": 69
+      "order": 70
+    },
+    {
+      "id": "up-united-provinces-modern",
+      "title": "United Provinces (U.P.) During Modern India",
+      "dateRange": "1902 – 1947 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "United Provinces Was Not Just a British Administrative Unit; It Was a Land of Leaders, Movements and Sacrifices That Shaped Modern India",
+      "heroImg": "up_united_provinces_in_modern_age.png",
+      "sourceImages": [
+        "up_united_provinces_in_modern_age.png"
+      ],
+      "overview": "Formed on 1 April 1902 by merging the North-Western Provinces (NWP) with Oudh (annexed in 1856), the United Provinces of Agra and Oudh became one of British India's largest and most important provinces — politically, economically, administratively and culturally — with Allahabad as its capital and headquarters until 1920. Through the Morley-Minto and Montagu-Chelmsford reforms and, finally, provincial autonomy under the Government of India Act, 1935, the United Provinces built the administrative and political scaffolding that would carry directly into independent Uttar Pradesh.",
+      "phases": [
+        {
+          "name": "Formation",
+          "range": "1 April 1902",
+          "points": [
+            "North-Western Provinces (NWP) + Oudh (annexed 1856) merge to form the United Provinces of Agra and Oudh (1902–1947); first Lieutenant Governor: Sir Antony MacDonnell (1902); headquarters at Allahabad"
+          ]
+        },
+        {
+          "name": "Early Political Awakening",
+          "range": "1905 – 1919",
+          "points": [
+            "1905: Partition of Bengal sparks strong reactions in U.P.; 1909: Morley-Minto Reforms — separate electorates, political awakening; 1916: Lucknow Pact — Congress & Muslim League unity at Lucknow; 1919: Jallianwala Bagh's influence, Rowlatt Act protests in U.P."
+          ]
+        },
+        {
+          "name": "Mass Movements",
+          "range": "1920 – 1934",
+          "points": [
+            "1920–22: Non-Cooperation Movement — widespread participation; 1930–34: Civil Disobedience Movement — salt satyagraha, forest satyagraha (Terai), no-tax campaigns"
+          ]
+        },
+        {
+          "name": "Provincial Autonomy & Quit India",
+          "range": "1935 – 1942",
+          "points": [
+            "Government of India Act, 1935 grants provincial autonomy; 1937 elections — Congress forms government under Govind Ballabh Pant; 1942: Quit India Movement — strong participation, parallel governments in some areas"
+          ]
+        }
+      ],
+      "aspects": {
+        "Administration of United Provinces": [
+          "Head of Province: Lieutenant Governor (appointed by the British Crown); Executive Council assisted the Lieutenant Governor; divisions (early 20th century) — Agra, Lucknow, Allahabad, Bareilly, Meerut, Benares, Gorakhpur etc.",
+          "District Administration: District Collector was the highest authority, responsible for revenue, magisterial and executive functions; Local Self Government: Municipalities (1884), District Boards (1884), Union Committees (1919 onwards); Judiciary: High Court established at Allahabad (1866), Munsif Courts for lower judiciary"
+        ],
+        "Economy & Society": [
+          "Agriculture was the main occupation; cash crops — indigo, sugarcane, opium; Land Revenue System — Mahalwari (majority), Taluqdari (in some Oudh areas); industries — handicrafts, textiles (Banaras silk), leather, sugar, glass (Firozabad), brass (Moradabad); railways expanded — Allahabad, Kanpur, Lucknow, Agra became major centres"
+        ],
+        "Education, Press & Social Reforms": [
+          "Education: Wood's Despatch (1854) impact continued; Universities Act (1904); Allahabad, Agra (now Dr. Bhimrao Ambedkar University), Banaras Hindu University (1916)",
+          "Press: rise of Hindi, Urdu, English newspapers — 'Leader' (Allahabad), 'Pratap' (Kanpur), 'Abhyudaya', 'Hindustan Times' (Delhi, impact in U.P.); Social Reforms: work of Arya Samaj, Brahmo Samaj, Theosophical Society, Ramakrishna Mission, Aligarh Movement (Muslim education)"
+        ],
+        "Role of U.P. in the National Movement & Contribution to All-India Politics": [
+          "Strong participation in all phases of the freedom struggle; leaders emerged from U.P. who played an all-India role; U.P. became a base for revolutionary activities, Kisan movements and Congress politics; Awadh Kisan Sabha, Pratapgarh Kisan movement, Eka Movement based in U.P.",
+          "Major source of Congress leaders and workers; high participation in elections (1919, 1923, 1937); formation of Provincial Congress Committee (UP) — active in mobilisation; U.P. Legislative Council since 1935 — a platform for political debate; strong traditions of public meetings, sabhas, processions, prabhat pheris"
+        ],
+        "Governance & Reforms (1919–1935)": [
+          "Government of India Act, 1919 — dyarchy introduced in U.P., limited self-government; Montagu-Chelmsford Reforms — transfer of some subjects (education, health, local self-government)",
+          "Government of India Act, 1935 — provincial autonomy, elections held in 1937 in U.P.; 1937 Elections — Congress formed government in U.P. (Pt. Govind Ballabh Pant, Premier)"
+        ]
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1 April 1902",
+          "title": "Formation of the United Provinces",
+          "theme": "polity",
+          "desc": "The North-Western Provinces and Oudh merge into the United Provinces of Agra and Oudh, with Allahabad as capital."
+        },
+        {
+          "year": "1916",
+          "title": "Lucknow Pact",
+          "theme": "polity",
+          "desc": "The Congress and Muslim League reach a rare moment of unity at Lucknow."
+        },
+        {
+          "year": "1920–22",
+          "title": "Non-Cooperation Movement in U.P.",
+          "theme": "polity",
+          "desc": "Widespread participation across the province marks a new, mass phase of the national movement."
+        },
+        {
+          "year": "1937",
+          "title": "Congress forms government under Govind Ballabh Pant",
+          "theme": "polity",
+          "desc": "Provincial autonomy under the 1935 Act allows Congress to form its first elected government in U.P."
+        }
+      ],
+      "people": [
+        {
+          "name": "Sir Antony MacDonnell",
+          "role": "First Lieutenant Governor",
+          "note": "1902; oversaw the newly formed United Provinces."
+        },
+        {
+          "name": "Govind Ballabh Pant",
+          "role": "Premier of United Provinces",
+          "note": "1937–1939; later independent India's first Chief Minister of U.P."
+        },
+        {
+          "name": "Pt. Motilal Nehru",
+          "role": "Leader, Congress President",
+          "note": "1919, 1928."
+        }
+      ],
+      "themes": [
+        "polity",
+        "economy",
+        "society"
+      ],
+      "upsc": {
+        "prelims": [
+          "United Provinces formed on 1 April 1902 by merging NWP & Oudh; headquarters at Allahabad; Allahabad High Court established 1866; Congress government formed in U.P. in 1937 under Govind Ballabh Pant"
+        ],
+        "mains": [
+          "United Provinces was not just a British administrative unit; it was a land of leaders, movements and sacrifices that shaped modern India; use maps, timelines and examples to strengthen answers"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Period",
+          "1902 – 1947 CE"
+        ],
+        [
+          "Formation",
+          "1 April 1902 (merger of NWP and Oudh)"
+        ],
+        [
+          "Capital",
+          "Allahabad (headquarters till 1920)"
+        ],
+        [
+          "First Lieutenant Governor",
+          "Sir Antony MacDonnell"
+        ],
+        [
+          "1937 Premier",
+          "Pt. Govind Ballabh Pant"
+        ]
+      ],
+      "order": 71
+    },
+    {
+      "id": "up-formation",
+      "title": "Formation of Uttar Pradesh",
+      "dateRange": "1775 – 1950 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "Uttar Pradesh Is Not Just a State, It Is a Legacy of History, a Centre of Culture, and a Strong Pillar of India's Unity and Progress",
+      "heroImg": "up_formation.png",
+      "sourceImages": [
+        "up_formation.png"
+      ],
+      "overview": "The state of Uttar Pradesh was not created in a single act, but emerged through nearly two centuries of administrative evolution — from the British-formed Province of Oudh (1775) through the North-Western Provinces (1835) and the United Provinces of Agra and Oudh (1902), to the renaming of the United Provinces as Uttar Pradesh on 24 January 1950 (with effect coinciding with India's new Constitution on 26 January 1950). Understanding this administrative genealogy is a recurring UPPSC theme, tying together British administrative history, the geography of the Ganga-Yamuna Doab, and U.P.'s central role in the freedom struggle.",
+      "phases": [
+        {
+          "name": "Formation of the Province of Oudh",
+          "range": "1775 CE",
+          "points": [
+            "The British establish the Province of Oudh under Company oversight"
+          ]
+        },
+        {
+          "name": "Cession of Rohilkhand",
+          "range": "1801 CE",
+          "points": [
+            "Rohilkhand is ceded to the British by the Nawab of Oudh"
+          ]
+        },
+        {
+          "name": "North-Western Provinces Formed",
+          "range": "1835 CE",
+          "points": [
+            "Created by Lord William Bentinck; included central Oudh region, Rohilkhand, Doab, Meerut, Saharanpur, Agra and Allahabad Divisions"
+          ]
+        },
+        {
+          "name": "United Provinces of Agra & Oudh",
+          "range": "1902 CE",
+          "points": [
+            "Merger of the North-Western Provinces with Oudh; Chief Commissioner's Province; Allahabad made the capital"
+          ]
+        },
+        {
+          "name": "Uttar Pradesh",
+          "range": "1947 – 1950 CE",
+          "points": [
+            "1947: U.P. becomes part of independent India; 1950: comes into existence as Uttar Pradesh with the Constitution, democracy and elected government, and the Indian Constitution became applicable"
+          ]
+        }
+      ],
+      "aspects": {
+        "Key Factors in Formation": [
+          "British administrative convenience and control; the need for efficient revenue collection and law & order; geographical contiguity and communication (roads, railways); socio-economic similarities of the regions; nationalist movements and the demand for self-governance"
+        ],
+        "Important Regions Included in U.P.": [
+          "Oudh: Lucknow, Faizabad, Sultanpur, Rae Bareli, Barabanki, Sitapur, Hardoi, Unnao etc.; Rohilkhand: Bareilly, Moradabad, Bijnor, Rampur, Pilibhit, Shahjahanpur etc.",
+          "Doab (Upper Ganga-Yamuna): Meerut, Muzaffarnagar, Baghpat, Bulandshahr, Aligarh, Etah, Mainpuri, Farrukhabad etc.; Central Doab: Agra, Mathura, Hathras, Etawah; Allahabad Division: Allahabad (Prayagraj), Mirzapur, Jaunpur, Ghazipur, Basti, Deoria, Azamgarh, Ballia etc.; Bundelkhand (later addition): Jhansi, Lalitpur, Hamirpur, Banda, Fatehpur, Mahoba etc."
+        ],
+        "Role of Allahabad": [
+          "Allahabad was the capital of the United Provinces (1902–1920); it was the political, administrative, educational and cultural centre; the Allahabad High Court of Judicature was established here in 1866; many important Congress sessions and political activities took place in Allahabad"
+        ],
+        "Importance in the Freedom Struggle": [
+          "U.P. was a hotbed of nationalist activities; many leaders like Pandit Madan Mohan Malaviya, Pt. Motilal Nehru, Jawaharlal Nehru, Purushottam Das Tandon and Govind Ballabh Pant emerged from the region",
+          "Centres of movements included Allahabad, Kanpur, Varanasi, Lucknow, Gorakhpur, Bareilly etc.; Kisan movements — Awadh Kisan Sabha, Eka Movement; participation in Non-Cooperation, Civil Disobedience and Quit India Movements"
+        ],
+        "From United Provinces to Uttar Pradesh": [
+          "Name till 1949: United Provinces of Agra and Oudh; the Government of India Act, 1935 provided for provincial autonomy; post-1947, U.P. remained a part of independent India as a Chief Commissioner's/Governor's Province",
+          "On 26 January 1950, with the Constitution of India coming into force, it became a full State of the Indian Union under the official name Uttar Pradesh (U.P.), following the United Provinces (Alteration of Name) Order, 1950"
+        ]
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1775 CE",
+          "title": "Formation of the Province of Oudh",
+          "theme": "polity",
+          "desc": "The British establish administrative oversight of Oudh, an early building block of the future state."
+        },
+        {
+          "year": "1835 CE",
+          "title": "North-Western Provinces formed",
+          "theme": "polity",
+          "desc": "Lord William Bentinck creates the North-Western Provinces, consolidating much of the region that would become U.P."
+        },
+        {
+          "year": "1902 CE",
+          "title": "United Provinces of Agra & Oudh formed",
+          "theme": "polity",
+          "desc": "Merger of the North-Western Provinces and Oudh creates one of British India's largest provinces."
+        },
+        {
+          "year": "24/26 January 1950",
+          "title": "Uttar Pradesh comes into existence",
+          "theme": "polity",
+          "desc": "The United Provinces (Alteration of Name) Order 1950 renames the province Uttar Pradesh, effective with the commencement of the Constitution of India."
+        }
+      ],
+      "people": [
+        {
+          "name": "Lord William Bentinck",
+          "role": "Governor-General",
+          "note": "Created the North-Western Provinces in 1835."
+        },
+        {
+          "name": "Pandit Madan Mohan Malaviya",
+          "role": "Nationalist leader & educationist",
+          "note": "Associated with U.P.'s formation-era leadership."
+        },
+        {
+          "name": "Govind Ballabh Pant",
+          "role": "Premier, then first Chief Minister of U.P.",
+          "note": "Bridged the United Provinces and the new state of Uttar Pradesh."
+        }
+      ],
+      "themes": [
+        "polity",
+        "society"
+      ],
+      "upsc": {
+        "prelims": [
+          "Formation of Oudh: 1775; Formation of NWP: 1835; Formation of United Provinces of Agra & Oudh: 1902; Capital till 1920: Allahabad; Independence: 1947; Came into existence as Uttar Pradesh: 24/26 January 1950"
+        ],
+        "mains": [
+          "The formation of U.P. was a gradual process from British administrative policies; trace its evolution, role in the freedom struggle, and socio-economic and political significance for both Prelims and Mains"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Formation of Oudh",
+          "1775"
+        ],
+        [
+          "Formation of NWP",
+          "1835"
+        ],
+        [
+          "Formation of United Provinces of Agra & Oudh",
+          "1902"
+        ],
+        [
+          "Capital till 1920",
+          "Allahabad"
+        ],
+        [
+          "Came into Existence as Uttar Pradesh",
+          "24/26 January 1950"
+        ]
+      ],
+      "order": 72
+    },
+    {
+      "id": "up-political-developments",
+      "title": "Political Developments in Uttar Pradesh",
+      "dateRange": "1857 – Present",
+      "category": "up",
+      "region": "up",
+      "tagline": "U.P. Has Not Only Witnessed India's Political Journey but Has Also Shaped the Destiny of the Nation Through Its People, Leaders and Movements",
+      "heroImg": "up_political_developments.png",
+      "sourceImages": [
+        "up_political_developments.png"
+      ],
+      "overview": "From the age of Mahajanapadas and Gana-Sanghas through the Delhi Sultanate, the Mughals and Later Mughals, Uttar Pradesh has been at the centre of Indian political history. In the modern period specifically, it moved from being the leadership base of the Indian National Congress during the freedom struggle, through decades of Congress dominance after Independence, to the post-1967 rise of regional and caste-based parties, the Mandal-era politics of the 1990s, and today's role as India's most politically consequential state — sending more members to the Lok Sabha than any other.",
+      "phases": [
+        {
+          "name": "Traditional Polities (Background)",
+          "range": "Pre-1857",
+          "points": [
+            "Mahajanapadas, Gana-Sanghas, Delhi Sultanate, Mughals, Later Mughals — U.P.'s long political heritage before colonial rule"
+          ]
+        },
+        {
+          "name": "The Revolt of 1857",
+          "range": "1857",
+          "points": [
+            "Widespread participation in U.P. — Meerut, Kanpur, Awadh, Jhansi"
+          ]
+        },
+        {
+          "name": "British Rule & Nationalist Rise",
+          "range": "1858 – 1947",
+          "points": [
+            "Formation of United Provinces (1902); rise of the Indian National Congress; mass movements"
+          ]
+        },
+        {
+          "name": "Integration & Early Statehood",
+          "range": "1947 – 1950",
+          "points": [
+            "U.P. becomes part of independent India; Constituent Assembly and integration of princely states"
+          ]
+        },
+        {
+          "name": "Congress Dominance & Reform",
+          "range": "1950 – 1967",
+          "points": [
+            "Congress dominance, land reforms, linguistic reorganisation, Panchayati Raj"
+          ]
+        },
+        {
+          "name": "Rise of Regional Parties",
+          "range": "1967 – 1990",
+          "points": [
+            "Rise of regional parties, caste-based politics, the JP Movement, the Emergency"
+          ]
+        },
+        {
+          "name": "Era of Identity Politics",
+          "range": "1990 – Present",
+          "points": [
+            "Identity politics, coalition governments, governance reforms and developmental politics"
+          ]
+        }
+      ],
+      "aspects": {
+        "Political Developments During the Freedom Struggle": [
+          "U.P. was a stronghold of the Indian National Congress; important leaders — Motilal Nehru, Jawaharlal Nehru, Pt. Govind Ballabh Pant, Madan Mohan Malaviya, Purushottam Das Tandon, Acharya Narendra Dev; key movements — Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942)",
+          "Kisan movements — Awadh Kisan Sabha (Baba Ramchandra), Bardoli's influence, Eka Movement; active centres — Allahabad, Banaras, Lucknow, Kanpur, Gorakhpur, Faizabad; U.P. provided leadership, cadre and ideas for India's freedom struggle"
+        ],
+        "Political Developments After Independence": [
+          "Formation of Uttar Pradesh (1950) — integration of various regions and princely states; dominance of the Indian National Congress under leaders like Govind Ballabh Pant, Sampurnanand, C. B. Gupta",
+          "Implementation of land reforms, zamindari abolition, community development programmes; linguistic reorganisation — formation of Uttarakhand (2000), Purvanchal & Bundelkhand (2011); political stability till the mid-1960s, later a multi-party era"
+        ],
+        "Rise of Regional Parties & Political Social Engineering": [
+          "1967 — decline of Congress dominance, rise of the Samyukta Vidhayak Dal; 1980s onwards — rise of caste-based regional parties; Mandal Commission recommendations (1990) — politics of OBC assertion; Kamandal politics — mobilisation on religious identity",
+          "Emergence of Bahujan politics — BSP under Kanshi Ram and Mayawati; Samajwadi Party (SP) founded in 1992 by Mulayam Singh Yadav; major parties: Indian National Congress, Bahujan Samaj Party (BSP), Samajwadi Party (SP), Bharatiya Janata Party (BJP), Apna Dal (Soneylal)"
+        ],
+        "Major Political Movements & Election Trends": [
+          "Kisan Movements (1920s–1940s): Awadh Kisan Sabha, Eka Movement, Bardoli's influence; JP Movement (1974–75): Total Revolution movement led by Jayaprakash Narayan from U.P.; Anti-Emergency Movement (1975–77): U.P. was a major centre of opposition to the Emergency; Mandal Movement (1990): mobilisation for OBC reservation with major impact in U.P.; Dalit Movement (1980s–present): BSP's rise, focus on Dalit assertion & empowerment",
+          "Election trends: Congress dominance (1952–1962); Non-Congress wave and rise of SVD (1967); rise of BJP & regional parties (1989); caste-based politics dominates (1991–1996, SP-BSP rise); BJP strong phase (1998–2012); BJP landslide, clear majority (2017); BJP retains power (2022)"
+        ],
+        "Role of U.P. in National Politics": [
+          "U.P. has the highest number of Lok Sabha seats (80) — key to forming governments at the Centre; many national leaders have emerged from U.P. and shaped its politics; U.P. is a bellwether state, with political trends in U.P. influencing national outcomes; from nationalism to social justice to development — U.P.'s politics reflects India's changing priorities"
+        ]
+      },
+      "women": [
+        {
+          "name": "Mayawati",
+          "role": "Former Chief Minister of U.P.",
+          "note": "Icon of Dalit politics and social transformation."
+        }
+      ],
+      "events": [
+        {
+          "year": "1967",
+          "title": "Decline of Congress dominance",
+          "theme": "polity",
+          "desc": "The rise of the Samyukta Vidhayak Dal marks the end of nearly two decades of unbroken Congress rule in U.P."
+        },
+        {
+          "year": "1974–75",
+          "title": "JP Movement",
+          "theme": "polity",
+          "desc": "Jayaprakash Narayan leads the 'Total Revolution' movement from U.P., contributing to the political upheaval that follows."
+        },
+        {
+          "year": "1990",
+          "title": "Mandal Commission implementation",
+          "theme": "polity",
+          "desc": "OBC reservation triggers major political mobilisation and realignment in U.P."
+        },
+        {
+          "year": "1992",
+          "title": "Samajwadi Party founded",
+          "theme": "polity",
+          "desc": "Mulayam Singh Yadav establishes the Samajwadi Party, a major force in subsequent U.P. politics."
+        },
+        {
+          "year": "2017",
+          "title": "BJP landslide victory",
+          "theme": "polity",
+          "desc": "The BJP wins a clear majority, marking a new political era in the state."
+        }
+      ],
+      "people": [
+        {
+          "name": "Govind Ballabh Pant",
+          "role": "First Chief Minister of U.P.",
+          "note": "Architect of U.P. state administration."
+        },
+        {
+          "name": "Sampurnanand",
+          "role": "Educationist, freedom fighter",
+          "note": "Former CM of U.P."
+        },
+        {
+          "name": "Mulayam Singh Yadav",
+          "role": "Former CM, founder of Samajwadi Party",
+          "note": "Champion of backward classes and social justice."
+        },
+        {
+          "name": "Mayawati",
+          "role": "Former CM of U.P.",
+          "note": "Icon of Dalit politics and social transformation."
+        },
+        {
+          "name": "Yogi Adityanath",
+          "role": "Current CM of U.P.",
+          "note": "Focuses on governance, development & law and order."
+        }
+      ],
+      "themes": [
+        "polity",
+        "society"
+      ],
+      "upsc": {
+        "prelims": [
+          "Formation of U.P.: 26 January 1950; largest state by population; 80 Lok Sabha seats; Vidhan Sabha: 403 seats; 75 districts (as per 2024 restructuring)"
+        ],
+        "mains": [
+          "Uttar Pradesh has been the political heartland of India; its politics reflects the journey from nationalism to social justice and development; understanding political developments in U.P. is crucial for both UPPSC and the national perspective"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Formation of U.P.",
+          "26 January 1950"
+        ],
+        [
+          "Largest State By",
+          "Population"
+        ],
+        [
+          "Lok Sabha Seats",
+          "80"
+        ],
+        [
+          "Capital",
+          "Lucknow"
+        ],
+        [
+          "Vidhan Sabha Seats",
+          "403"
+        ]
+      ],
+      "order": 73
+    },
+    {
+      "id": "up-reorganisation",
+      "title": "Reorganisation of Uttar Pradesh",
+      "dateRange": "1950 – 2013 CE",
+      "category": "up",
+      "region": "up",
+      "tagline": "Reorganisation Is Not Just About Drawing Boundaries, but About Building a Better Future for Every Region and Every Citizen",
+      "heroImg": "up_reorganisation.png",
+      "sourceImages": [
+        "up_reorganisation.png"
+      ],
+      "overview": "Since its formation in 1950, Uttar Pradesh has been reorganised in phases reflecting India's linguistic reorganisation of states (1956), the long-standing hill-region demand that led to the creation of Uttarakhand (2000), the 2011 administrative division into Purvanchal and Bundelkhand for balanced regional development, and the creation of seven new districts and eighteen new tehsils in 2013 for administrative convenience — a continuing process that reflects India's dynamic federal structure and U.P.'s own regional aspirations.",
+      "phases": [
+        {
+          "name": "Formation of Uttar Pradesh",
+          "range": "1950",
+          "points": [
+            "United Provinces becomes Uttar Pradesh on 26 January 1950"
+          ]
+        },
+        {
+          "name": "States Reorganisation Act",
+          "range": "1956",
+          "points": [
+            "Provides the basis of linguistic reorganisation of states nationally, consolidating U.P. as a large state"
+          ]
+        },
+        {
+          "name": "Formation of Uttarakhand",
+          "range": "2000",
+          "points": [
+            "Hill districts of U.P. carved out to form a new state (initially called Uttaranchal)"
+          ]
+        },
+        {
+          "name": "Creation of Purvanchal and Bundelkhand Divisions",
+          "range": "2011",
+          "points": [
+            "Administrative divisions created for balanced regional development"
+          ]
+        },
+        {
+          "name": "New Districts & Tehsils",
+          "range": "2013",
+          "points": [
+            "Internal administrative restructuring for better governance — 7 new districts and 18 new tehsils"
+          ]
+        }
+      ],
+      "aspects": {
+        "Formation of Uttarakhand (2000)": [
+          "Long-standing demand of the people of the hill regions; reasons: difficult terrain and inaccessibility, neglect in development, distinct cultural identity, administrative convenience; carved out of 13 districts of U.P. (now Uttarakhand) on 9 November 2000",
+          "Districts carved out to form Uttarakhand: Almora, Bageshwar, Chamoli, Champawat, Dehradun, Haridwar, Nainital, Pauri Garhwal, Pithoragarh, Rudraprayag, Tehri Garhwal, Udham Singh Nagar, Uttarkashi"
+        ],
+        "Creation of Purvanchal and Bundelkhand (2011)": [
+          "Announced on 20 August 2011 for balanced regional development; Purvanchal (Eastern U.P.): 21 districts; Bundelkhand (Southern U.P.): 7 districts; aimed at decentralised administration, faster development and better delivery of public services"
+        ],
+        "New Districts Created in U.P. (2013)": [
+          "Seven new districts: Shamli (carved from Muzaffarnagar), Sant Kabir Nagar (from Sant Ravidas Nagar), Ambedkar Nagar (from Faizabad), Bhadohi (from Sant Ravidas Nagar & Varanasi), Chandauli (from Varanasi), Shravasti (from Bahraich), Siddharthnagar (from Maharajganj); 18 new tehsils were also created for better administration"
+        ],
+        "Reasons for Reorganisation": [
+          "Administrative Efficiency — to ensure effective governance and easy access to administration; Balanced Regional Development — to reduce regional disparities and promote inclusive growth; Linguistic & Cultural Identity — recognition of distinct linguistic, cultural and regional identities; People's Aspirations — fulfilment of long-pending demands; Better Delivery of Services — decentralisation for faster and better public service delivery"
+        ],
+        "Impact of Reorganisation": [
+          "Improved administration and governance; focused development of backward regions; strengthened regional identity and cultural pride; better infrastructure and connectivity",
+          "However, challenges remain: regional disparities, resources sharing, and border issues between the reorganised units"
+        ]
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1956",
+          "title": "States Reorganisation Act",
+          "theme": "polity",
+          "desc": "Provides the national legal basis for linguistic reorganisation of Indian states, shaping U.P.'s boundaries in the process."
+        },
+        {
+          "year": "9 November 2000",
+          "title": "Uttarakhand carved out of U.P.",
+          "theme": "polity",
+          "desc": "Thirteen hill districts separate to form the new state of Uttarakhand (initially Uttaranchal)."
+        },
+        {
+          "year": "20 August 2011",
+          "title": "Purvanchal and Bundelkhand divisions created",
+          "theme": "polity",
+          "desc": "New administrative divisions are announced for balanced regional development within U.P."
+        },
+        {
+          "year": "2013",
+          "title": "Seven new districts created",
+          "theme": "polity",
+          "desc": "Shamli, Sant Kabir Nagar, Ambedkar Nagar, Bhadohi, Chandauli, Shravasti and Siddharthnagar are carved out for administrative convenience."
+        }
+      ],
+      "people": [],
+      "themes": [
+        "polity",
+        "economy"
+      ],
+      "upsc": {
+        "prelims": [
+          "1950 — Formation of Uttar Pradesh; 1956 — Reorganisation under the States Reorganisation Act; 2000 — Formation of Uttarakhand; 2011 — Purvanchal & Bundelkhand Divisions; 2013 — 7 New Districts, 18 Tehsils"
+        ],
+        "mains": [
+          "Reorganisation is a continuous process reflecting India's unity in diversity; it strengthens federalism and democratic aspirations, aiming at people-centric governance and equitable development; use examples, data, maps and balanced analysis in answers"
+        ]
+      },
+      "quickFacts": [
+        [
+          "1950",
+          "Formation of Uttar Pradesh"
+        ],
+        [
+          "1956",
+          "Reorganisation under States Reorganisation Act"
+        ],
+        [
+          "2000",
+          "Formation of Uttarakhand (13 districts carved out)"
+        ],
+        [
+          "2011",
+          "Purvanchal & Bundelkhand Divisions created"
+        ],
+        [
+          "2013",
+          "7 new districts, 18 new tehsils created"
+        ]
+      ],
+      "order": 74
+    },
+    {
+      "id": "up-economic-social-progress",
+      "title": "Economical and Social Progress in Uttar Pradesh",
+      "dateRange": "1990s – Present",
+      "category": "up",
+      "region": "up",
+      "tagline": "The Progress of Uttar Pradesh Is the Progress of New India — Balanced Economic Growth and Social Justice Are the True Pillars of a Developed U.P.",
+      "heroImg": "up_economical_and_social_progress.png",
+      "sourceImages": [
+        "up_economical_and_social_progress.png"
+      ],
+      "overview": "As India's most populous state, Uttar Pradesh has made significant progress in economic development and social advancement since Independence, underpinned by a large agricultural base, a vast workforce, and growing industrial and infrastructural investment. It ranks 2nd nationally in GSDP with a highest-in-India workforce, yet continues to close persistent gaps in literacy, female literacy, and health indicators relative to the national average — making balanced regional development between resource-rich western/central U.P. and lagging Purvanchal/Bundelkhand a central policy priority.",
+      "phases": [
+        {
+          "name": "Economic Overview",
+          "range": "2023–24",
+          "points": [
+            "GSDP (Nominal): approx. ₹24.89 lakh crore, 2nd in India; share in India's GSDP: approx. 8.3%; per capita income (2022–23): approx. ₹57,033, below the national average",
+            "Workforce (2023): 10.2 crore+, the highest of any state; contribution to FDI inflow (2000–2023): approx. 5%, among the top 5 states; Ease of Doing Business Rank 2020: 2nd"
+          ]
+        },
+        {
+          "name": "Agricultural & Industrial Base",
+          "range": "Ongoing",
+          "points": [
+            "Largest producer of foodgrains in India; highest sugarcane production; leading state in milk production; success of the 'Mukhya Mantri Krishi Sinchai Yojana', crop diversification, soil health mission",
+            "U.P. is an emerging industrial hub of North India — textiles, leather, handicrafts, brassware, glassware, sports goods, food processing, IT/ITeS; Noida, Greater Noida, Yamuna Expressway Industrial Development Authority (YEIDA) are major industrial growth engines; One District One Product (ODOP) initiative promotes local products globally"
+          ]
+        },
+        {
+          "name": "Investment & Infrastructure",
+          "range": "Ongoing",
+          "points": [
+            "'UP Investors Summit' has attracted large investments and MoUs; industrial corridors — DMIC influence, Bundelkhand Industrial Development Authority; Film City (Noida), Toy City (Greater Noida), Electronics Manufacturing Policy",
+            "Infrastructure: Purvanchal Expressway, Bundelkhand Expressway, Ganga Expressway, four-laning of rural roads; Dedicated Freight Corridor, Vande Bharat trains, station modernisation; Jewar Airport (Noida), Kushinagar, Ayodhya, Gorakhpur, Chitrakoot Airports; Smart Cities — Lucknow, Kanpur, Varanasi, Agra, Prayagraj"
+          ]
+        },
+        {
+          "name": "Social Development",
+          "range": "NFHS-5, 2019–21",
+          "points": [
+            "Literacy rate (15+ years): 67.7% in U.P. vs 77.7% nationally; female literacy rate: 59.4% vs 70.3% nationally; school enrolment (6–14 years): 97.1% vs 96.5% nationally",
+            "Institutional delivery: 79.8% vs 88.6% nationally; Infant Mortality Rate: 37 per 1000 live births vs 28 nationally; Maternal Mortality Ratio: 155 per lakh live births vs 97 nationally; stunting in children under 5: 43.1% vs 35.5% nationally"
+          ]
+        }
+      ],
+      "aspects": {
+        "Education and Human Development": [
+          "Expansion of basic education infrastructure — schools, colleges, universities; launch of Kanya Vidya Dhan, Mission Shakti, Beti Bachao Beti Padhao; new universities — BBAU, Central University of South Asia, Mahatma Gandhi Kashi Vidyapith (Central University); skill development through the Kaushal Vikas Mission; improvement in digital education and e-governance in schools"
+        ],
+        "Health and Nutrition": [
+          "Expansion of healthcare facilities — PHCs, CHCs, district hospitals, medical colleges; Ayushman Bharat covers a large number of beneficiaries; Mission Indradhanush, Nikshay Mitra, TB control programmes; nutritional support through ICDS, POSHAN Abhiyaan, mid-day meal scheme"
+        ],
+        "Social Welfare and Inclusion": [
+          "Reservation policies for SCs, STs, OBCs and EWS; welfare schemes — Old Age Pension, Widow Pension, Divyang Pension; Housing for All, Ujjwala Yojana, PM Awas Yojana; free ration under NFSA, health insurance; upliftment of weaker sections and empowerment of women through self-help groups; promotion of minority welfare and inclusive development"
+        ],
+        "Poverty Alleviation, Employment & Women's Empowerment": [
+          "Decline in the poverty ratio over the decades; MGNREGA — rural employment and asset creation; self-employment schemes — PMEGP, ODOP, MUDRA loans; growth in the service sector and urban employment",
+          "Mission Shakti — women's safety, security and empowerment; increase in women's SHGs and financial inclusion; 33% reservation in Panchayati Raj Institutions; Sukanya Samriddhi Yojana, Matru Vandana Yojana; more women's participation in education, workforce and entrepreneurship"
+        ],
+        "Culture, Tourism, Heritage & Challenges": [
+          "Rich cultural heritage — Varanasi, Ayodhya, Mathura, Sarnath, Kushinagar, Prayagraj, Dudhwa; promotion of spiritual, eco and heritage tourism; Kumbh Mela, Dev Deepawali, Ramayana Circuit boosting the economy; conservation of monuments and promotion of local arts and handicrafts",
+          "Challenges: regional imbalance — Purvanchal and Bundelkhand lag behind; low per capita income and industrialisation in some regions; unemployment and underemployment; low literacy and health indicators compared to the national average; population pressure, urban congestion, pollution and environmental degradation"
+        ]
+      },
+      "women": [
+        {
+          "name": "Women's economic participation",
+          "note": "Growth in women's SHGs, financial inclusion, and entrepreneurship under Mission Shakti and related schemes."
+        }
+      ],
+      "events": [
+        {
+          "year": "2023–24",
+          "title": "U.P.'s GSDP reaches ₹24.89 lakh crore",
+          "theme": "economy",
+          "desc": "Uttar Pradesh consolidates its position as India's 2nd largest state economy by nominal GSDP."
+        },
+        {
+          "year": "2019–21",
+          "title": "NFHS-5 data released",
+          "theme": "society",
+          "desc": "The National Family Health Survey highlights continued gaps between U.P. and national averages on literacy, institutional delivery, and child health indicators."
+        }
+      ],
+      "people": [],
+      "themes": [
+        "economy",
+        "society",
+        "women"
+      ],
+      "upsc": {
+        "prelims": [
+          "U.P. is the largest state by population (Census 2011); has 75 districts (post-2024 reorganisation); Ganga-Yamuna Doab is the backbone of its economy; majority of the workforce is in agriculture; capital is Lucknow"
+        ],
+        "mains": [
+          "Focus on trends, initiatives, impact, challenges and the way forward for U.P.'s economic and social development; use data, examples, government reports and balanced analysis in answers"
+        ]
+      },
+      "quickFacts": [
+        [
+          "GSDP (Nominal) 2023–24",
+          "₹24.89 lakh crore (approx.), 2nd in India"
+        ],
+        [
+          "Workforce (2023)",
+          "10.2 crore+, highest among states"
+        ],
+        [
+          "Literacy Rate (NFHS-5)",
+          "67.7% (U.P.) vs 77.7% (India)"
+        ],
+        [
+          "Key Challenge",
+          "Regional imbalance — Purvanchal & Bundelkhand"
+        ]
+      ],
+      "order": 75
+    },
+    {
+      "id": "up-21st-century",
+      "title": "Uttar Pradesh in 21st Century",
+      "dateRange": "2000 – Present",
+      "category": "up",
+      "region": "up",
+      "tagline": "Viksit Uttar Pradesh Is the Foundation of Viksit Bharat",
+      "heroImg": "up_in_21st_century_.png",
+      "sourceImages": [
+        "up_in_21st_century_.png"
+      ],
+      "overview": "The 21st century has been a period of transformation for Uttar Pradesh — with its large population, strategic location and rich heritage, the state plays a crucial role in India's growth story. With India's largest population (per Census 2011, about 18% of the national total), the 2nd largest state economy, leadership in foodgrain and sugarcane production, and a rapidly expanding infrastructure and investment base, U.P. increasingly positions itself as an engine of India's growth, while continuing to work through challenges of regional disparity, urban congestion and human development gaps.",
+      "phases": [
+        {
+          "name": "Economic Growth & Development",
+          "range": "2022–24",
+          "points": [
+            "GSDP (current prices): ₹20.51 lakh crore, 2nd in India; share in India's GSDP: approx. 8.6%; per capita income: approx. ₹46,817, below the national average",
+            "NSDP growth rate (2023–24): 12.8%, 1st among large states; FDI inflow (Apr 2000–Dec 2023): US$20+ Billion, a top state; Ease of Doing Business Rank 2020: 2nd; strong growth in services, manufacturing, IT/ITeS and exports"
+          ]
+        },
+        {
+          "name": "Industry, Investment & Infrastructure",
+          "range": "Ongoing",
+          "points": [
+            "Industrial corridors — DMIC, Bundelkhand, Purvanchal Expressway, Ganga Expressway; major sectors — electronics, food processing, textile, leather, furniture, defence, handicrafts",
+            "'One District One Product' (ODOP) is a flagship programme; thriving start-up ecosystem (Lucknow, Noida, Kanpur, Varanasi hubs); regular Investors Summits — U.P. Global Investors Summit; expressways, dedicated freight corridors, Vande Bharat trains, international airports (Noida/Jewar, Kushinagar); power-surplus state with a focus on solar and renewable energy"
+          ]
+        },
+        {
+          "name": "Governance, Social Justice & Culture",
+          "range": "Ongoing",
+          "points": [
+            "Focus on transparent, accountable, technology-driven governance — e-District, online services, DigiLocker, Jan Suvidha Kendras; Swachh Bharat Mission, Mission Shakti (women's safety & empowerment); law & order modernisation — 112, CCTNS, e-FIR",
+            "Social justice & welfare schemes — PM Awas Yojana, Ujjwala Yojana, PM Kisan Samman Nidhi, Ayushman Bharat, Mission Shakti, Kanya Sumangala Yojana, Antyodaya Anna Yojana; culture & heritage — development of the Ramayana, Buddhist and Krishna spiritual circuits, Kashi Vishwanath Corridor, Ayodhya Dham, Mathura-Vrindavan Corridor, Prayagraj Mahakumbh (2019, 2025)"
+          ]
+        }
+      ],
+      "aspects": {
+        "Social Development and Human Capital": [
+          "Education: improvement in enrolment, especially of girls, through 'Beti Bachao, Beti Padhao', Samagra Shiksha, Mission Prerna; Health: expansion of CHCs, PHCs, medical colleges, Ayushman Bharat, Jan Aushadhi Kendras",
+          "Skill Development: Kaushal Vikas Mission, ITIs modernisation, focus on youth employability; Digital Inclusion: BharatNet, Common Service Centres (CSCs), digital payments & DBT"
+        ],
+        "Urbanization, Environment & Sustainable Development": [
+          "Rapid urbanisation with planned development; Smart City Mission projects in Lucknow, Kanpur, Varanasi, Agra, Prayagraj; Metro Rail — Lucknow, Kanpur, Agra, Noida-Greater Noida; AMRUT, Housing for All, SBM-U 2.0",
+          "Afforestation and increase in green cover; Namami Gange Programme — Ganga rejuvenation; promotion of renewable energy (Solar Policy); waste management, solid & liquid waste handling; climate change adaptation — flood control, drought management, water conservation"
+        ],
+        "Major Challenges": [
+          "Unemployment and underemployment; regional disparities (Purvanchal, Bundelkhand); low per capita income; population pressure and urban congestion; farm distress, land fragmentation; environmental degradation and pollution; quality of education and health services; women's safety and social issues"
+        ],
+        "Way Forward": [
+          "Balanced regional development — Purvanchal & Bundelkhand; quality education, skill development and innovation; industrialisation with sustainability and green growth; agricultural diversification and value addition; strengthening health, nutrition and social protection",
+          "Good governance, digital transformation and citizen-centric services; inclusive growth ensuring 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas'"
+        ]
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "2022–24",
+          "title": "U.P.'s NSDP growth rate reaches 12.8%",
+          "theme": "economy",
+          "desc": "The highest growth rate among large Indian states, reflecting the state's expanding industrial and services base."
+        },
+        {
+          "year": "2019 & 2025",
+          "title": "Prayagraj Mahakumbh",
+          "theme": "society",
+          "desc": "The Kumbh Mela at Prayagraj draws record numbers of pilgrims, boosting spiritual tourism and the local economy."
+        }
+      ],
+      "people": [],
+      "themes": [
+        "economy",
+        "society",
+        "polity"
+      ],
+      "upsc": {
+        "prelims": [
+          "Population (Census 2011): 19.98 crore (approx. 18% of India); Number of Districts: 75; Number of Divisions: 18; Capital: Lucknow; High Courts: Allahabad (Prayagraj) & Lucknow Bench; Largest state by population; 2nd largest state by GSDP"
+        ],
+        "mains": [
+          "U.P. has emerged as an engine of India's growth in the 21st century; infrastructure, governance and investment are transforming the state; focus on human development and social justice is essential for inclusive progress; use data, examples, reports and current initiatives in answers"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Population (Census 2011)",
+          "19.98 crore (approx. 18% of India)"
+        ],
+        [
+          "Districts / Divisions",
+          "75 / 18"
+        ],
+        [
+          "GSDP Rank",
+          "2nd largest economy in India"
+        ],
+        [
+          "Sector Leadership",
+          "Largest producer of foodgrains & sugarcane"
+        ],
+        [
+          "Vision",
+          "Viksit Uttar Pradesh, foundation of Viksit Bharat"
+        ]
+      ],
+      "order": 76
+    },
+    {
+      "id": "up-important-personalities",
+      "title": "Important Cities & Personalities of Uttar Pradesh",
+      "dateRange": "Ancient – Present",
+      "category": "up",
+      "region": "up",
+      "tagline": "From the Banks of the Ganga to the Fields of Awadh, from Ancient Sages to Modern Leaders, Uttar Pradesh Has Always Been a Land of Ideas, Courage and Contribution to India's Journey",
+      "heroImg": "up_important_personalities.png",
+      "sourceImages": [
+        "up_important_personalities.png"
+      ],
+      "overview": "A cross-cutting reference companion to the rest of the Uttar Pradesh track: a gallery of the state's defining cities and of the men and women — from mythological and Vedic figures through medieval rulers and reformers to modern political leaders, freedom fighters, scientists and artists — whose lives are most frequently drawn on in UPPSC's History, Art & Culture, and Society questions. Because this page spans every era, it functions as a hub: almost every name here also has a fuller biography or period on this site.",
+      "phases": [
+        {
+          "name": "Mythological & Vedic Figures",
+          "range": "Mythological – Vedic Period",
+          "points": [
+            "Lord Rama (Ayodhya) — ideal ruler, Maryada Purushottam, symbol of dharma; Lord Krishna (Mathura) — pivotal role in the Mahabharata, symbol of wisdom & diplomacy",
+            "Gargi Vachaknavi, Maitreyi (associated with Vedic learning centres) — Vedic scholars & philosophers who participated in debates and are known for their philosophical wisdom"
+          ]
+        },
+        {
+          "name": "Ancient & Early Medieval Figures",
+          "range": "3rd Century BCE – 10th Century CE",
+          "points": [
+            "Chanakya (Kautilya, 4th century BCE) — political thinker, author of the Arthashastra, associate of Chandragupta Maurya; Ashoka (born in Lumbini, associated with U.P., 3rd century BCE) — Mauryan emperor, propagated Buddhism, dharma & welfare",
+            "Harsha Vardhana (Kanauj, 7th century CE) — mighty ruler of Kanauj, patron of learning & Buddhism"
+          ]
+        },
+        {
+          "name": "Medieval Figures",
+          "range": "13th – 18th Century",
+          "points": [
+            "Goswami Tulsidas (16th century) — author of the Ramcharitmanas, devotee poet of Lord Rama; Raja Todar Mal (16th century) — finance minister of Akbar, land revenue reforms",
+            "Razia Sultan (13th century, associated with Badaun) — ruler of the Delhi Sultanate, known for her courage; Rani Durgavati (16th century, associated with Bundelkhand) — Gond queen who fought against Mughal forces bravely; Jahanara Begum (17th century, associated with Agra) — Mughal princess, philanthropist, builder of sarais & bazaars; Ahilyabai Holkar (18th century, associated with the Kashi corridor) — Holkar queen who built ghats in Varanasi and many temples"
+          ]
+        },
+        {
+          "name": "19th Century Figures",
+          "range": "19th Century",
+          "points": [
+            "Begum Hazrat Mahal (Lucknow) — leader of the 1857 revolt in Awadh, symbol of courage; Nana Saheb Peshwa (Dhondu Pant) — key leader of the 1857 revolt in Kanpur; Mangal Pandey (Ballia) — freedom fighter associated with the 1857 revolt",
+            "Rani Lakshmibai (Allahabad & Jhansi) — brave warrior of the 1857 revolt, symbol of valour and sacrifice; Uda Devi Pasi (Lucknow) — brave freedom fighter of the 1857 revolt; Pt. Madan Mohan Malaviya (Prayagraj, 19th–20th century) — freedom fighter, founder of BHU, champion of education"
+          ]
+        },
+        {
+          "name": "20th–21st Century Figures",
+          "range": "20th – 21st Century",
+          "points": [
+            "Chandra Shekhar Azad (Allahabad), Govind Ballabh Pant (Allahabad) — freedom fighter, first CM of U.P.; Dr. Sampurnanand (Varanasi); Atal Bihari Vajpayee (Gwalior-born, associated with U.P.) — former PM of India, poet, statesman",
+            "Sarojini Naidu (Prayagraj), Vijaya Lakshmi Pandit (Allahabad), Sucheta Kripalani (Lucknow) — freedom fighter, first woman CM of U.P.; Mulayam Singh Yadav (Etawah), Mayawati (Delhi, active in U.P.), Yogi Adityanath (Pauri Garhwal, associated with Gorakhpur) — political leaders of independent India's U.P.; Dr. APJ Abdul Kalam (Rameswaram, long associated with U.P. through work at DRDO) — former President of India"
+          ]
+        }
+      ],
+      "aspects": {
+        "Important Cities of U.P.": [
+          "Ayodhya — birthplace of Lord Ram, ancient cultural & religious centre; Varanasi — one of the world's oldest living cities, spiritual capital of India; Prayagraj (Allahabad) — confluence of Triveni, Kumbh Mela, centre of freedom struggle; Mathura — birthplace of Lord Krishna, important religious and cultural centre",
+          "Sarnath — the Buddha delivered his first sermon here, important Buddhist site; Kanpur — major industrial city, role in the freedom struggle, centre of leather & textiles; Lucknow — capital of Awadh, centre of culture, art, architecture & education; Agra — home to the Taj Mahal, major Mughal centre, tourism & industry hub; Jhansi — historical fort, symbol of resistance & valour in 1857; Meerut — birthplace of the 1857 revolt, major cantonment city"
+        ],
+        "Personalities — Sports, Literature, Art & Culture": [
+          "Sports: Major Dhyan Chand (Allahabad) — hockey wizard, Bharat Ratna; Vijay Singh (Ghazipur) — golfer; Saina Nehwal (associated with U.P.) — badminton champion",
+          "Literature: Munshi Premchand (Varanasi) — novelist, Godan, Nirmala; Harivansh Rai Bachchan (Prayagraj) — poet, Madhushala; Amritlal Nagar (Agra) — novelist, cultural chronicler; Mahadevi Verma (Farrukhabad) — poet, modern Hindi literature stalwart",
+          "Art & Music: Bismillah Khan (Dumraon, U.P.) — shehnai maestro, Bharat Ratna; Ravi Shankar (Varanasi) — sitar maestro, Bharat Ratna; Pt. Birju Maharaj (Lucknow) — Kathak exponent",
+          "Spiritual & Reformers: Swami Vivekananda (visited Kashi); Swami Ramanand (Varanasi) — Bhakti reformer; Saint Kabir (Varanasi) — Bhakti poet, social reformer; Saint Ravidas (Varanasi) — Bhakti saint, social equality",
+          "Science & Others: Dr. Har Gobind Khorana (Raipur, U.P. origin) — Nobel Laureate; Homi Bhabha (born in Mumbai, father from Allahabad) — Father of the Indian Nuclear Programme"
+        ],
+        "Freedom Struggle Heroes of U.P. at a Glance": [
+          "Leaders of the 1857 Revolt: Nana Saheb, Rani Lakshmibai, Begum Hazrat Mahal, Kunwar Singh (Bihar, associated with U.P. areas), Mangal Pandey",
+          "Revolutionaries: Chandra Shekhar Azad, Ram Prasad Bismil (Shahjahanpur), Ashfaqullah Khan, Roshan Singh, Sachindra Nath Sanyal",
+          "Kisan Leaders: Baba Ramchandra (Awadh Kisan Movement), Swami Sahajanand Saraswati (Kisan leader); Gandhian Leaders: Govind Ballabh Pant, Purushottam Das Tandon, Jawaharlal Nehru (associated with Allahabad), Brahm Dutt Dwivedi"
+        ]
+      },
+      "women": [
+        {
+          "name": "Gargi Vachaknavi",
+          "role": "Vedic scholar/philosopher",
+          "note": "Associated with Vedic learning centres; participated in debates."
+        },
+        {
+          "name": "Maitreyi",
+          "role": "Vedic scholar",
+          "note": "Known for her philosophical wisdom."
+        },
+        {
+          "name": "Razia Sultan",
+          "role": "Ruler of the Delhi Sultanate",
+          "note": "Associated with Badaun; known for her courage."
+        },
+        {
+          "name": "Rani Durgavati",
+          "role": "Gond queen",
+          "note": "Associated with the Bundelkhand region of U.P.; fought Mughal forces bravely."
+        },
+        {
+          "name": "Jahanara Begum",
+          "role": "Mughal princess, philanthropist",
+          "note": "Associated with Agra; builder of sarais & bazaars."
+        },
+        {
+          "name": "Ahilyabai Holkar",
+          "role": "Holkar queen",
+          "note": "Associated with the Kashi corridor; built ghats in Varanasi and many temples."
+        },
+        {
+          "name": "Begum Hazrat Mahal",
+          "role": "Leader of the 1857 revolt in Awadh",
+          "note": "Lucknow; symbol of resistance."
+        },
+        {
+          "name": "Rani Lakshmibai",
+          "role": "Brave warrior of the 1857 revolt",
+          "note": "Allahabad & Jhansi; symbol of valour and sacrifice."
+        },
+        {
+          "name": "Uda Devi Pasi",
+          "role": "Freedom fighter",
+          "note": "Lucknow; fought bravely in the 1857 revolt."
+        },
+        {
+          "name": "Sarojini Naidu",
+          "role": "Freedom fighter, first Indian woman President of the INC",
+          "note": "Prayagraj."
+        },
+        {
+          "name": "Vijaya Lakshmi Pandit",
+          "role": "Diplomat",
+          "note": "Allahabad; first woman President of the UN General Assembly."
+        },
+        {
+          "name": "Sucheta Kripalani",
+          "role": "Freedom fighter",
+          "note": "Lucknow; first woman Chief Minister of U.P."
+        },
+        {
+          "name": "Hemvati Nandan Bahuguna",
+          "role": "Social worker",
+          "note": "Garhwal-associated; worked for women & child welfare."
+        },
+        {
+          "name": "Mayawati",
+          "role": "Former CM of U.P.",
+          "note": "Delhi-born, active in U.P.; iconic Dalit leader."
+        },
+        {
+          "name": "Anandiben Patel",
+          "role": "Former CM of U.P.",
+          "note": "Administrator."
+        },
+        {
+          "name": "Smriti Irani",
+          "role": "Union Minister",
+          "note": "Amethi; political leader."
+        }
+      ],
+      "events": [],
+      "people": [
+        {
+          "name": "Goswami Tulsidas",
+          "role": "Poet, author of the Ramcharitmanas",
+          "note": "16th century."
+        },
+        {
+          "name": "Raja Todar Mal",
+          "role": "Finance Minister of Akbar",
+          "note": "16th century; land revenue reforms."
+        },
+        {
+          "name": "Nana Saheb Peshwa (Dhondu Pant)",
+          "role": "Key leader of the 1857 revolt",
+          "note": "Kanpur."
+        },
+        {
+          "name": "Mangal Pandey",
+          "role": "Freedom fighter",
+          "note": "Ballia; associated with the 1857 revolt."
+        },
+        {
+          "name": "Chandra Shekhar Azad",
+          "role": "Revolutionary",
+          "note": "Allahabad."
+        },
+        {
+          "name": "Atal Bihari Vajpayee",
+          "role": "Former Prime Minister of India",
+          "note": "Poet, statesman, Bharat Ratna; long associated with U.P."
+        },
+        {
+          "name": "Dr. APJ Abdul Kalam",
+          "role": "Former President of India",
+          "note": "Long associated with U.P. through his work at DRDO."
+        }
+      ],
+      "themes": [
+        "society",
+        "art",
+        "religion",
+        "women"
+      ],
+      "upsc": {
+        "prelims": [
+          "Important cities, personalities and places associated with the freedom struggle, culture & heritage of U.P.; U.P. has been the cradle of religion, culture, learning, art and politics"
+        ],
+        "mains": [
+          "Role of leaders, contribution of personalities, impact of culture & social reform movements in U.P.; women of U.P. have played a vital role from ancient times to modern politics and social reform"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Coverage",
+          "Mythological era to the 21st century"
+        ],
+        [
+          "Notable Cities",
+          "Ayodhya, Varanasi, Prayagraj, Mathura, Sarnath, Kanpur, Lucknow, Agra, Jhansi, Meerut"
+        ],
+        [
+          "Function",
+          "Cross-cutting reference; most entries link to a fuller period or biography elsewhere on this site"
+        ]
+      ],
+      "order": 77
     }
   ]
 }

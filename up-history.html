@@ -21,13 +21,13 @@
     <div class="wrap">
       <span class="eyebrow">A Dedicated Track · For UPPSC (Prelims + Mains) · GS Paper I &amp; II</span>
       <h1>History of <em>Uttar Pradesh</em></h1>
-      <p class="lede">The land of Lord Ram, Lord Krishna, Buddha and Mahavira — from prehistoric settlements to the modern state. Twenty exam-focused pages, fully cross-linked with the national chronology and knowledge graph.</p>
+      <p class="lede">The land of Lord Ram, Lord Krishna, Buddha and Mahavira — from prehistoric settlements to the modern state. Exam-focused pages, fully cross-linked with the national chronology and knowledge graph.</p>
       <div class="hero-ctas">
         <a href="period.html?id=up-history-overview" class="btn btn-primary">Start with the Master Flow Chart</a>
-        <a href="#up-periods" class="btn btn-outline">Browse All 20 Pages</a>
+        <a href="#up-periods" class="btn btn-outline" id="upBrowseAllBtn">Browse All Pages</a>
       </div>
       <div class="stat-strip reveal" id="upStatStrip">
-        <div class="stat"><span class="num">20</span><span class="lab">UP-Specific Pages</span></div>
+        <div class="stat"><span class="num" id="upPageCount">—</span><span class="lab">UP-Specific Pages</span></div>
         <div class="stat"><span class="num">—</span><span class="lab">Dated Events</span></div>
         <div class="stat"><span class="num">—</span><span class="lab">Key Personalities</span></div>
         <div class="stat"><span class="num">Prehistory</span><span class="lab">Coverage Begins</span></div>
@@ -50,7 +50,7 @@
       <div class="section-head">
         <div>
           <span class="kicker">The Complete UP Track</span>
-          <h2 class="mt0">Twenty Pages, One Continuous Regional Story</h2>
+          <h2 class="mt0" id="upTrackHeading">One Continuous Regional Story</h2>
         </div>
       </div>
       <div class="journey-rail">
@@ -108,6 +108,8 @@ async function initUpHub(){
     (p.people||[]).forEach(x => people.add(x.name));
     (p.women||[]).forEach(x => people.add(x.name));
   });
+  document.getElementById('upPageCount').textContent = upPeriods.length;
+  document.getElementById('upTrackHeading').textContent = `${upPeriods.length} Pages, One Continuous Regional Story`;
   const stats = document.querySelectorAll('#upStatStrip .num');
   stats[1].textContent = events + '+';
   stats[2].textContent = people.size + '+';

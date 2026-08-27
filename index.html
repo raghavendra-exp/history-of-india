@@ -4,12 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Complete History of India — An Interactive Journey</title>
-<meta name="description" content="An interactive historical atlas of India from Prehistory to the Delhi Sultanate, with a master timeline, themes, people, women's contributions and a UPSC revision mode.">
+<meta name="description" content="An interactive historical atlas of India from Prehistory to the present day, plus a dedicated Uttar Pradesh (UPPSC) track, a computed knowledge graph, a master timeline, themes, people, women's contributions and a UPSC revision mode.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
 <nav class="site-nav" id="siteNav"></nav>
+
+<div class="wrap" style="padding-top:14px;">
+  <div class="tablet" id="latestUpdateBanner" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:14px 20px; margin-bottom:0;">
+    <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+      <span class="badge" style="background:var(--gold-tint); color:#7d5a1c;">Latest Update</span>
+      <span style="font-size:.88rem; color:var(--ink-soft);" id="latestUpdateText">Loading…</span>
+    </div>
+    <a href="about.html#changelog" class="btn btn-ghost btn-sm">What's new →</a>
+  </div>
+</div>
 
 <main id="main">
 
@@ -212,6 +222,12 @@ async function initHome(){
   wireQuickSearch('qSearch', 'qSearchResults');
   renderFooter();
   initReveal();
+
+  // Latest update banner — computed from live data, not hardcoded
+  const upCount = dAll.periods.filter(p => p.region === 'up').length;
+  const natCount = dAll.periods.filter(p => !p.region).length;
+  document.getElementById('latestUpdateText').innerHTML =
+    `Added a full <a href="up-history.html" style="color:var(--seal); font-weight:600; text-decoration:none;">Uttar Pradesh history track for UPPSC</a> (${upCount} pages) — prehistoric U.P. through the 21st century, political developments, reorganisation and a personalities gallery. ${natCount} national pages plus ${upCount} UP pages are now cross-linked through the <a href="graph.html" style="color:var(--accent); font-weight:600; text-decoration:none;">knowledge graph</a>.`;
 }
 initHome();
 </script>
