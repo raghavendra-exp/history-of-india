@@ -227,7 +227,7 @@ async function initHome(){
   const upCount = dAll.periods.filter(p => p.region === 'up').length;
   const natCount = dAll.periods.filter(p => !p.region).length;
   document.getElementById('latestUpdateText').innerHTML =
-    `Added a full <a href="up-history.html" style="color:var(--seal); font-weight:600; text-decoration:none;">Uttar Pradesh history track for UPPSC</a> (${upCount} pages) — prehistoric U.P. through the 21st century, political developments, reorganisation and a personalities gallery. ${natCount} national pages plus ${upCount} UP pages are now cross-linked through the <a href="graph.html" style="color:var(--accent); font-weight:600; text-decoration:none;">knowledge graph</a>.`;
+    `Rewrote all <a href="timeline.html" style="color:var(--seal); font-weight:600; text-decoration:none;">${natCount} national-track overviews</a> into longer, more explanatory narratives (~250 words each, up from ~70) — added causation, significance and connective context between eras. UP track elaboration is next; see the <a href="about.html#changelog" style="color:var(--accent); font-weight:600; text-decoration:none;">changelog</a> for details.`;
 }
 initHome();
 </script>
