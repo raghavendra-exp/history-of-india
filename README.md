@@ -111,6 +111,13 @@ A parallel, self-contained regional track — **`up-history.html`** — covers U
 - `up-history.html` is a dedicated hub (journey rail + grid) scoped to `region: "up"`, in the same visual language as the rest of the site, with its own `up` category colour.
 - Nothing else was filtered: `themes.html`, `people.html`, `women.html`, `search.html` and the knowledge graph (`graph.html`) still include UP content alongside national content, because that's where the cross-region connections actually pay off — Akbar, Ashoka, Chandragupta Maurya, Samudragupta, Kanishka, Menander, Pushyamitra Shunga and dozens of other names recur in both tracks and are automatically cross-linked (84 shared names as of this build). Searching "Akbar" or opening his card on either page surfaces the other page too.
 
+## Elaborated content
+
+Both the national and Uttar Pradesh tracks have been through an elaboration pass beyond the initial infographic extraction:
+
+- **Every period's `overview` field** (all 77) was rewritten into a longer, standalone narrative — national overviews average ~250 words, UP overviews ~200 — adding causation, significance, and connective context between periods. The 28 UP overviews additionally cross-reference their national counterpart by name wherever one exists (e.g. the UP Mughal Period page explicitly says what it adds beyond the national Akbar/Jahangir/Shah Jahan pages).
+- **Every UP-track aspect-table category** (127 of them, across all 28 pages) now carries an optional `intro` string alongside its `points` array — a short explanatory lead-in rendered above the bullet list on the period page, flagging what's exam-relevant, what connects to another page, or what's easy to misread. `js/period.js`'s aspect-rendering code checks for this `{intro, points}` shape and falls back to the older plain-array format automatically, so the national track's aspect tables (still plain arrays) render exactly as before with no migration needed.
+
 ## Knowledge graph
 
 Beyond the static "Related Themes" panel, every period page now includes a **Related Topics** panel and automatic **"↗ also appears in"** links on every person/woman card. These are computed live at page-load time by `js/graph.js` from the same structured fields every period already carries (`themes`, `people`, `women`, `events`) — nothing here is a hand-authored link list:

@@ -9068,17 +9068,26 @@
         }
       ],
       "aspects": {
-        "Why Important for UPPSC": [
-          "U.P. has a rich historical, cultural, religious and political heritage; many MCQs and Descriptive questions come from U.P. history",
-          "Key for General Studies Paper I & II, Essay, and Interview"
-        ],
-        "Important Places in U.P.": [
-          "Ayodhya — birthplace of Lord Ram; Kashi (Varanasi) — spiritual capital; Prayagraj — Sangam, Kumbh Mela; Sarnath — Buddha's first sermon",
-          "Shravasti — Lord Buddha's stay; Kaushambi — Buddhist site; Mathura — Lord Krishna's birthplace; Agra — Taj Mahal, Fatehpur Sikri; Jhansi — Rani Lakshmibai; Lucknow — Nawabi culture & capital"
-        ],
-        "Important Personalities": [
-          "Gautam Buddha, Mahavira, Chandragupta Maurya, Ashoka, Harshavardhana, Raja Suheldev, Alauddin Khalji, Akbar, Begum Hazrat Mahal, Nana Saheb, Govind Ballabh Pant"
-        ]
+        "Why Important for UPPSC": {
+          "intro": "This section explains the exam logic behind the whole track: U.P.'s history is not simply background reading but a recurring, scorable component of GS Paper I and II, which is why every subsequent page in this track is written with Prelims facts and Mains analytical themes deliberately called out.",
+          "points": [
+            "U.P. has a rich historical, cultural, religious and political heritage; many MCQs and Descriptive questions come from U.P. history",
+            "Key for General Studies Paper I & II, Essay, and Interview"
+          ]
+        },
+        "Important Places in U.P.": {
+          "intro": "These are the fixed points every other page in this track keeps returning to — Ayodhya, Kashi, Prayagraj, Sarnath, Mathura — so learning their significance here first makes the more detailed period-by-period pages that follow far easier to place on a mental map.",
+          "points": [
+            "Ayodhya — birthplace of Lord Ram; Kashi (Varanasi) — spiritual capital; Prayagraj — Sangam, Kumbh Mela; Sarnath — Buddha's first sermon",
+            "Shravasti — Lord Buddha's stay; Kaushambi — Buddhist site; Mathura — Lord Krishna's birthplace; Agra — Taj Mahal, Fatehpur Sikri; Jhansi — Rani Lakshmibai; Lucknow — Nawabi culture & capital"
+          ]
+        },
+        "Important Personalities": {
+          "intro": "This is a preview list only; the fuller Important Cities & Personalities page later in this track, and the individual period pages for each name, go into far more depth on every figure named here.",
+          "points": [
+            "Gautam Buddha, Mahavira, Chandragupta Maurya, Ashoka, Harshavardhana, Raja Suheldev, Alauddin Khalji, Akbar, Begum Hazrat Mahal, Nana Saheb, Govind Ballabh Pant"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -9187,25 +9196,34 @@
         }
       ],
       "aspects": {
-        "Life & Culture by Phase": [
-          "Old Stone Age: nomadic life, hunting/fishing/food gathering, hand axes/cleavers/choppers, caves & rock shelters, small bands based on family groups, animism",
-          "Mesolithic Age: semi-nomadic, microlithic tools (blades, points, scrapers), bow & arrow, rock shelters/seasonal camps, clan-based groups, spirit worship & early Mother Goddess worship, rock paintings (Chopani-Mando)",
-          "Neolithic Age: settled life begins, agriculture (rice, wheat, barley), domestication of cattle/buffalo/goat/dog, mud huts, polished stone tools (axes, adzes), headman as early form of leader, worship of Mother Goddess & fertility cult",
-          "Chalcolithic/Early Settlements: permanent villages, planned rectangular houses, copper tools alongside stone tools, surplus production & barter trade, growth of villages and division of labour, mother goddess idols and terracotta figurines"
-        ],
-        "Important Archaeological Sites": [
-          "Belan Valley (Mirzapur, Sonbhadra) — one of the earliest human habitations in India, Acheulian tools found",
-          "Chopani-Mando (Pratapgarh) — Mesolithic rock shelter, microlithic tools, animal drawings",
-          "Mahagara (Rae Bareli) — Neolithic-Chalcolithic site, pottery, stone tools, house remains, agriculture evidence",
-          "Sarai Nahar Rai (Baghpat) — Chalcolithic settlement (2600–1900 BCE), copper objects, pottery, beads, remains of huts",
-          "Lahuradewa (Sant Kabir Nagar) — one of the earliest known agricultural sites in India (7000–2000 BCE), rice cultivation evidence",
-          "Narhan (Ballia) — Chalcolithic culture, Painted Grey Ware (later stage), early farming community",
-          "Atranjikhera (Etah) — early urban settlement (2nd millennium BCE), beads, seals, terracotta figurines"
-        ],
-        "Contribution of Men & Women": [
-          "Men: hunting & protection of the group, making tools & weapons, clearing land for agriculture, construction of huts, trade & exchange, leadership roles",
-          "Women: collection of fruits/roots/seeds, early agriculture (sowing, weeding, harvesting), pottery making, care of children & elderly, domestication of animals, making ornaments & handicrafts; both men and women contributed equally to the development of society and culture"
-        ]
+        "Life & Culture by Phase": {
+          "intro": "This table exists to show the same four-stage transition the national Prehistoric Age page describes in outline — nomadic to settled, foraging to farming — but tracked in parallel columns across society, technology, shelter, and religion specifically as the U.P. archaeological record documents it.",
+          "points": [
+            "Old Stone Age: nomadic life, hunting/fishing/food gathering, hand axes/cleavers/choppers, caves & rock shelters, small bands based on family groups, animism",
+            "Mesolithic Age: semi-nomadic, microlithic tools (blades, points, scrapers), bow & arrow, rock shelters/seasonal camps, clan-based groups, spirit worship & early Mother Goddess worship, rock paintings (Chopani-Mando)",
+            "Neolithic Age: settled life begins, agriculture (rice, wheat, barley), domestication of cattle/buffalo/goat/dog, mud huts, polished stone tools (axes, adzes), headman as early form of leader, worship of Mother Goddess & fertility cult",
+            "Chalcolithic/Early Settlements: permanent villages, planned rectangular houses, copper tools alongside stone tools, surplus production & barter trade, growth of villages and division of labour, mother goddess idols and terracotta figurines"
+          ]
+        },
+        "Important Archaeological Sites": {
+          "intro": "Each of these sites is a physical, excavated anchor for the more abstract stages described above; Lahuradewa in particular deserves special attention since its early rice-cultivation evidence is one of the most UPPSC-relevant single facts in this entire period.",
+          "points": [
+            "Belan Valley (Mirzapur, Sonbhadra) — one of the earliest human habitations in India, Acheulian tools found",
+            "Chopani-Mando (Pratapgarh) — Mesolithic rock shelter, microlithic tools, animal drawings",
+            "Mahagara (Rae Bareli) — Neolithic-Chalcolithic site, pottery, stone tools, house remains, agriculture evidence",
+            "Sarai Nahar Rai (Baghpat) — Chalcolithic settlement (2600–1900 BCE), copper objects, pottery, beads, remains of huts",
+            "Lahuradewa (Sant Kabir Nagar) — one of the earliest known agricultural sites in India (7000–2000 BCE), rice cultivation evidence",
+            "Narhan (Ballia) — Chalcolithic culture, Painted Grey Ware (later stage), early farming community",
+            "Atranjikhera (Etah) — early urban settlement (2nd millennium BCE), beads, seals, terracotta figurines"
+          ]
+        },
+        "Contribution of Men & Women": {
+          "intro": "The source material is explicit that both sexes contributed materially to early society's development, a point worth remembering precisely because it becomes harder to trace with the same clarity once the more hierarchical Vedic-age social structures covered on the next page take hold.",
+          "points": [
+            "Men: hunting & protection of the group, making tools & weapons, clearing land for agriculture, construction of huts, trade & exchange, leadership roles",
+            "Women: collection of fruits/roots/seeds, early agriculture (sowing, weeding, harvesting), pottery making, care of children & elderly, domestication of animals, making ornaments & handicrafts; both men and women contributed equally to the development of society and culture"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -9299,22 +9317,31 @@
         }
       ],
       "aspects": {
-        "Society, Polity & Economy by Phase": [
-          "Early Vedic: tribal (Jana) based society, no rigid hierarchy; Gana (clan) based polity, King (Rajan) elected; cattle rearing main occupation; nature worship (Indra, Agni, Varuna)",
-          "Later Vedic: Varna system develops, families become patriarchal; monarchy becomes hereditary; agriculture (plough used), surplus production, trade & craft development; more rituals and Yajnas, gods like Prajapati/Vishnu/Rudra",
-          "Late Vedic/Upanishadic: caste system becomes stronger, joint family system; Janapadas more organized, kings powerful, taxation begins; iron tools used, trade routes active; rise of philosophy & Upanishads",
-          "Transition: society complex, emergence of urban class; formation of Janapadas — Kuru, Panchala, Kosala, Kashi; trade & commerce grow, coinage (punch-marked) begins; rise of Shramana traditions (Buddhism, Jainism later)"
-        ],
-        "Important Janas / States in Vedic Age U.P.": [
-          "Kuru (1500–600 BCE): capital Hastinapur; powerful tribe, Rigvedic & later Vedic importance",
-          "Panchala (1500–600 BCE): capital Ahichchhatra, North & South Panchala; centre of learning & culture",
-          "Kashi (1500–600 BCE): capital Varanasi; ancient settlement on Ganga, trade & culture centre",
-          "Kosala (1000–600 BCE): capital Ayodhya; powerful kingdom on Sarayu, important in the Later Vedic age",
-          "Surasena (800–600 BCE): capital Mathura; Yadu tribe, trade & cultural importance"
-        ],
-        "Important Vedic Literature Composed": [
-          "Rigveda — early Vedic hymns (1500–1200 BCE); Samaveda, Yajurveda, Atharvaveda — later Vedic composition; Brahmanas, Aranyakas, Upanishads (700–500 BCE); Vedangas — phonetics, grammar, astronomy"
-        ]
+        "Society, Polity & Economy by Phase": {
+          "intro": "Reading this table left to right traces the same narrowing of social flexibility that the overview above describes in prose — note in particular how the 'Position of women' and 'Family & Social Life' rows shift across the four columns, since that trajectory doesn't reverse for the rest of this track.",
+          "points": [
+            "Early Vedic: tribal (Jana) based society, no rigid hierarchy; Gana (clan) based polity, King (Rajan) elected; cattle rearing main occupation; nature worship (Indra, Agni, Varuna)",
+            "Later Vedic: Varna system develops, families become patriarchal; monarchy becomes hereditary; agriculture (plough used), surplus production, trade & craft development; more rituals and Yajnas, gods like Prajapati/Vishnu/Rudra",
+            "Late Vedic/Upanishadic: caste system becomes stronger, joint family system; Janapadas more organized, kings powerful, taxation begins; iron tools used, trade routes active; rise of philosophy & Upanishads",
+            "Transition: society complex, emergence of urban class; formation of Janapadas — Kuru, Panchala, Kosala, Kashi; trade & commerce grow, coinage (punch-marked) begins; rise of Shramana traditions (Buddhism, Jainism later)"
+          ]
+        },
+        "Important Janas / States in Vedic Age U.P.": {
+          "intro": "These five Janas are the direct institutional ancestors of the Mahajanapadas covered on the very next page — every capital named here (Hastinapur, Ahichchhatra, Varanasi, Ayodhya, Mathura) remains a major U.P. city today, worth memorising as a set.",
+          "points": [
+            "Kuru (1500–600 BCE): capital Hastinapur; powerful tribe, Rigvedic & later Vedic importance",
+            "Panchala (1500–600 BCE): capital Ahichchhatra, North & South Panchala; centre of learning & culture",
+            "Kashi (1500–600 BCE): capital Varanasi; ancient settlement on Ganga, trade & culture centre",
+            "Kosala (1000–600 BCE): capital Ayodhya; powerful kingdom on Sarayu, important in the Later Vedic age",
+            "Surasena (800–600 BCE): capital Mathura; Yadu tribe, trade & cultural importance"
+          ]
+        },
+        "Important Vedic Literature Composed": {
+          "intro": "This chronological list of texts is best read as a dating tool: knowing that the Rigveda belongs to the Early Vedic phase while the Upanishads belong to the Late Vedic/Upanishadic phase lets you place any Vedic-era fact correctly on a timeline even without memorising exact years.",
+          "points": [
+            "Rigveda — early Vedic hymns (1500–1200 BCE); Samaveda, Yajurveda, Atharvaveda — later Vedic composition; Brahmanas, Aranyakas, Upanishads (700–500 BCE); Vedangas — phonetics, grammar, astronomy"
+          ]
+        }
       },
       "women": [
         {
@@ -9478,23 +9505,35 @@
         }
       ],
       "aspects": {
-        "The 16 Mahajanapadas and Their Link to U.P.": [
-          "Directly associated with present-day U.P.: Kashi (capital Varanasi), Kosala (capital Shravasti), Vatsa (capital Kaushambi), Kuru (capital Hastinapura), Panchala (capital Ahichchhatra/Kampilya), Surasena (capital Mathura)",
-          "Malla (capital Kushinagara/Pava) is partly associated with U.P./Bihar; the remaining Mahajanapadas (Anga, Magadha, Avanti, Chedi, Matsya, Vajji, Gandhara, Kamboja, Assaka) lay outside present-day U.P."
-        ],
-        "Polity & Governance": [
-          "Evolution of political form: Tribe/Jana → Janapada → Territorial State → Mahajanapada",
-          "Monarchical states: hereditary kingship, king as political & military authority, ministers & officials, tax collection, army, fortified cities (examples: Kosala, Kashi, Vatsa, Surasena)",
-          "Gana-Sangha/Republican traditions: collective leadership, assemblies (Sabha, Sanstha), clan-based participation, oligarchic system (important in wider U.P. region, e.g. Malla of Kushinagara, Pava)"
-        ],
-        "Society & Economy": [
-          "Evolution of society: Clan-based → Territorial → Urban society; Varna system becomes more structured; emergence of occupational specialization (farmers, artisans, merchants, traders, officials, rulers)",
-          "Economic features: agriculture as the main occupation, iron tools increase productivity, surplus production; craft production (pottery, metalwork, textiles, bead making); trade & commerce (local and long distance); use of punch-marked coins; growth of towns and urban centres; banking and credit in early forms"
-        ],
-        "Role & Contribution of Men and Women": [
-          "Men: political & military roles (kings, warriors, ministers, administrators, fortification builders); economic roles (farmers, artisans, merchants, caravan traders, metalworkers, potters); intellectual & religious roles (Brahmins, teachers/acharyas, philosophers, monks)",
-          "Women: participated in household and economic production; elite women could influence political & dynastic relationships; participated in religious & intellectual traditions; Buddhist and Jain traditions welcomed women (Bhikkhuni Sangha, Jain Sadhvis); some women known for learning, wisdom & philosophical dialogues (Gargi, Maitreyi in tradition); property rights were limited but not entirely absent"
-        ]
+        "The 16 Mahajanapadas and Their Link to U.P.": {
+          "intro": "This is arguably the single most exam-relevant fact in this entire track — six of the sixteen Mahajanapadas sat inside present-day U.P. — so the specific list of which six, and which capital belonged to which, is worth committing to memory before moving further into this period.",
+          "points": [
+            "Directly associated with present-day U.P.: Kashi (capital Varanasi), Kosala (capital Shravasti), Vatsa (capital Kaushambi), Kuru (capital Hastinapura), Panchala (capital Ahichchhatra/Kampilya), Surasena (capital Mathura)",
+            "Malla (capital Kushinagara/Pava) is partly associated with U.P./Bihar; the remaining Mahajanapadas (Anga, Magadha, Avanti, Chedi, Matsya, Vajji, Gandhara, Kamboja, Assaka) lay outside present-day U.P."
+          ]
+        },
+        "Polity & Governance": {
+          "intro": "The two-column structure here (Monarchical vs. Gana-Sangha) matters because U.P. is one of the few regions where both political models existed simultaneously and in close proximity, giving this page an unusually complete picture of Mahajanapada-era statecraft.",
+          "points": [
+            "Evolution of political form: Tribe/Jana → Janapada → Territorial State → Mahajanapada",
+            "Monarchical states: hereditary kingship, king as political & military authority, ministers & officials, tax collection, army, fortified cities (examples: Kosala, Kashi, Vatsa, Surasena)",
+            "Gana-Sangha/Republican traditions: collective leadership, assemblies (Sabha, Sanstha), clan-based participation, oligarchic system (important in wider U.P. region, e.g. Malla of Kushinagara, Pava)"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "Note how tightly linked these two categories are in the source material: the same iron tools and agricultural surplus that reshaped society also financed the armies and urban infrastructure the next page's Mauryan conquest would later inherit and formalise.",
+          "points": [
+            "Evolution of society: Clan-based → Territorial → Urban society; Varna system becomes more structured; emergence of occupational specialization (farmers, artisans, merchants, traders, officials, rulers)",
+            "Economic features: agriculture as the main occupation, iron tools increase productivity, surplus production; craft production (pottery, metalwork, textiles, bead making); trade & commerce (local and long distance); use of punch-marked coins; growth of towns and urban centres; banking and credit in early forms"
+          ]
+        },
+        "Role & Contribution of Men and Women": {
+          "intro": "This table's honest caveat about limited and regionally uneven sources is worth taking seriously — it is a reminder that the relatively good visibility of women in Vedic-age debate, described on the previous page, does not automatically carry forward at the same level of detail into every subsequent period.",
+          "points": [
+            "Men: political & military roles (kings, warriors, ministers, administrators, fortification builders); economic roles (farmers, artisans, merchants, caravan traders, metalworkers, potters); intellectual & religious roles (Brahmins, teachers/acharyas, philosophers, monks)",
+            "Women: participated in household and economic production; elite women could influence political & dynastic relationships; participated in religious & intellectual traditions; Buddhist and Jain traditions welcomed women (Bhikkhuni Sangha, Jain Sadhvis); some women known for learning, wisdom & philosophical dialogues (Gargi, Maitreyi in tradition); property rights were limited but not entirely absent"
+          ]
+        }
       },
       "women": [
         {
@@ -9629,25 +9668,40 @@
         }
       ],
       "aspects": {
-        "Maurya Administration & Important Centres in U.P.": [
-          "Ahichchhatra (Panchala region) — important Mauryan administrative & military centre; Shravasti (Kosala) — provincial capital during Mauryan rule; Hastinapura (Kuru region) — Mauryan presence, part of the northern provincial system",
-          "Kampilya (Panchala) — Mauryan control over Panchala territory; Sarnath (near Varanasi) — where the Buddha delivered the Dhammachakra Pravartana, major Buddhist centre especially under Ashoka; Varanasi (Kashi) — important city, trade & craft centre under the Mauryas; Kaushambi (Vatsa region) — important urban & administrative centre on the Yamuna; Prayagraj (ancient Prayaga) — confluence (Triveni), important religious/economic/strategic centre; Mathura (Surasena region) — major urban centre, trade & religion (Mauryan sculptures, Yakshi, inscriptions)"
-        ],
-        "Maurya Administrative System (Arthashastra & Inscriptions)": [
-          "King (Chakravartin) at the apex; Mantri Parishad (council of ministers), Yuvaraja, Mahamatras (high officials), Kumara/Aryaputra (provincial governors)",
-          "Important officials: Samaharta (revenue collection), Sannidhata (treasury officer), Dandanayaka (military chief), Nagarak (city superintendent), Pautavadhyaksha (weights & measures), Dharma Mahamatras (moral welfare)",
-          "U.P. was divided into Pradeshas (provinces) and Ahara/Vishayas (districts); strong central administration with a network of officers; use of spies/secret agents (gudhapurusha)"
-        ],
-        "Maurya Economy in U.P.": [
-          "Agriculture: well-developed irrigation, use of plough and seeds; trade & commerce: active trade on Ganga-Yamuna routes; industry & crafts: textiles, pottery, metalwork, ivory, beads, stone craft; state control over mines, forests, salt, liquor; punch-marked coins in circulation"
-        ],
-        "Public Works & Ashoka's Dhamma": [
-          "Construction of roads, bridges, rest houses; tree plantation, wells, tanks; ferries and boating facilities; fortified towns",
-          "After the Kalinga War, Ashoka adopted Dhamma — promoting non-violence, compassion, respect for all sects; inscriptions and edicts spread across U.P.; support to Buddhism while respecting other religions; establishment of stupas, viharas, pillars; Dhamma-Mahamatras appointed for moral upliftment"
-        ],
-        "Art & Architecture in U.P.": [
-          "Polished Mauryan pillars; Sarnath Lion Capital; Yakshi sculptures (Mathura); Barabar-style influence on cave architecture; stupas & monasteries at Sarnath, Kaushambi"
-        ]
+        "Maurya Administration & Important Centres in U.P.": {
+          "intro": "Each city listed here corresponds to one of the five Mahajanapada-era regions carried straight over from the previous page — Kosala's Shravasti, Kashi's Varanasi, Panchala's Ahichchhatra and Kampilya, Vatsa's Kaushambi, and Surasena's Mathura — showing administrative continuity rather than a clean break at the moment of Mauryan conquest.",
+          "points": [
+            "Ahichchhatra (Panchala region) — important Mauryan administrative & military centre; Shravasti (Kosala) — provincial capital during Mauryan rule; Hastinapura (Kuru region) — Mauryan presence, part of the northern provincial system",
+            "Kampilya (Panchala) — Mauryan control over Panchala territory; Sarnath (near Varanasi) — where the Buddha delivered the Dhammachakra Pravartana, major Buddhist centre especially under Ashoka; Varanasi (Kashi) — important city, trade & craft centre under the Mauryas; Kaushambi (Vatsa region) — important urban & administrative centre on the Yamuna; Prayagraj (ancient Prayaga) — confluence (Triveni), important religious/economic/strategic centre; Mathura (Surasena region) — major urban centre, trade & religion (Mauryan sculptures, Yakshi, inscriptions)"
+          ]
+        },
+        "Maurya Administrative System (Arthashastra & Inscriptions)": {
+          "intro": "This official-by-official breakdown is the regional, on-the-ground version of the same Arthashastra-based administrative theory the national Mauryan Empire page discusses at empire-wide scale; knowing these specific titles (Samaharta, Sannidhata, Nagarak) is a common Prelims trap since they sound similar but cover distinct functions.",
+          "points": [
+            "King (Chakravartin) at the apex; Mantri Parishad (council of ministers), Yuvaraja, Mahamatras (high officials), Kumara/Aryaputra (provincial governors)",
+            "Important officials: Samaharta (revenue collection), Sannidhata (treasury officer), Dandanayaka (military chief), Nagarak (city superintendent), Pautavadhyaksha (weights & measures), Dharma Mahamatras (moral welfare)",
+            "U.P. was divided into Pradeshas (provinces) and Ahara/Vishayas (districts); strong central administration with a network of officers; use of spies/secret agents (gudhapurusha)"
+          ]
+        },
+        "Maurya Economy in U.P.": {
+          "intro": "State control over key sectors here — mines, trade, coinage — is the same policy the Arthashastra prescribes nationally, but this table shows it concretely applied to the Ganga-Yamuna trade routes running directly through this region.",
+          "points": [
+            "Agriculture: well-developed irrigation, use of plough and seeds; trade & commerce: active trade on Ganga-Yamuna routes; industry & crafts: textiles, pottery, metalwork, ivory, beads, stone craft; state control over mines, forests, salt, liquor; punch-marked coins in circulation"
+          ]
+        },
+        "Public Works & Ashoka's Dhamma": {
+          "intro": "This is where the national Ashoka the Great page's account of Dhamma-based governance becomes locally specific: Sarnath, listed here, is not merely one Buddhist site among many but the exact location of the Buddha's first sermon, which is precisely why Ashoka chose it for some of his most significant inscriptions.",
+          "points": [
+            "Construction of roads, bridges, rest houses; tree plantation, wells, tanks; ferries and boating facilities; fortified towns",
+            "After the Kalinga War, Ashoka adopted Dhamma — promoting non-violence, compassion, respect for all sects; inscriptions and edicts spread across U.P.; support to Buddhism while respecting other religions; establishment of stupas, viharas, pillars; Dhamma-Mahamatras appointed for moral upliftment"
+          ]
+        },
+        "Art & Architecture in U.P.": {
+          "intro": "The polished pillars and Sarnath Lion Capital described here are the physical evidence for the administrative and religious claims made in the two categories above — inscribed stone that has survived over two millennia to confirm what the textual sources report.",
+          "points": [
+            "Polished Mauryan pillars; Sarnath Lion Capital; Yakshi sculptures (Mathura); Barabar-style influence on cave architecture; stupas & monasteries at Sarnath, Kaushambi"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -9768,32 +9822,47 @@
         }
       ],
       "aspects": {
-        "Major Dynasties / Powers (185 BCE – 320 CE)": [
-          "Shunga (185–73 BCE): capital Pataliputra; rise of Brahmanical traditions, Buddhist patronage continued",
-          "Kanva (73–28 BCE): capital Pataliputra; continuation of Shunga policies, gradual decline",
-          "Indo-Greek (c. 2nd–1st century BCE): capital Saketa/Mathura; Greek rulers, bilingual coins, trade & culture exchange",
-          "Indo-Scythian/Shaka (1st century BCE–1st century CE): Mathura region; Kshatrapas ruled, silver coins, rise of trade",
-          "Indo-Parthian (1st–2nd century CE): Mathura region; bridged Greeks and Kushanas, issued coins",
-          "Kushana (1st–3rd century CE): capital Mathura; major power, great patronage to Buddhism, art & trade",
-          "Early Local Dynasties (Nagas, Yaudheyas, Kunindas etc., 1st–3rd century CE): various parts of western U.P.; republican traditions, issue of coins"
-        ],
-        "Polity & Governance": [
-          "Monarchies: hereditary kingship, king as supreme authority, council of ministers (Mantriparishad), officials (Mahamatras, Amatyas, Senapati), tax collection, maintenance of army & forts, law and order through local officials",
-          "Republican traditions: clan-based oligarchic republics, decisions taken in assemblies (Sabhas/Sanghas), headed by chiefs or elected representatives (examples in the wider region: Yaudheyas, Malavas, Arjunayanas, Kunindas, Nagas) — note: republican systems were oligarchic, not democratic in the modern sense"
-        ],
-        "Society & Economy": [
-          "Varna system continued and became more rigid; Brahmins gained importance; Kshatriyas, Vaishyas, Shudras had traditional roles; growth of new social groups — artisans, traders, guilds (Shrenis); urbanisation increased",
-          "Agriculture, crafts & industries (pottery, metal, beads, textiles); trade & commerce (caravan, river routes, ports); use of coins (punch-marked, die-struck, gold, silver, copper); guilds (Shrenis) & occupational specialisation; important trade centres — Mathura (international trade hub), Saketa (Ayodhya), Kaushambi, Prayaga, Varanasi"
-        ],
-        "Religious & Cultural Developments": [
-          "Buddhism: continued patronage under Shungas and Kushanas; monasteries & stupas developed (Sarnath, Kaushambi, Sankisa)",
-          "Jainism: flourished; spread of Digambara and Svetambara traditions; Jain monks travelled widely, supported by merchants & urban groups",
-          "Brahmanism & Hinduism: revival of Brahmanical traditions under Shungas; construction of temples began; worship of Vishnu, Shiva, Skanda, Devi; development of Puranic traditions"
-        ],
-        "Art & Architecture": [
-          "Mathura School of Art — red sandstone sculptures, Yaksha-yakshi and Buddha images, Jain Tirthankaras, realistic human figures",
-          "Stupas & Monuments — Sarnath, Kaushambi, Sankisa important Buddhist sites; early temple architecture developed; brick & stone structures; Brahmi and Kharoshthi scripts used in inscriptions"
-        ]
+        "Major Dynasties / Powers (185 BCE – 320 CE)": {
+          "intro": "The sheer number of overlapping dynasties in this single table is the point: no other period in this track shows quite this level of simultaneous political fragmentation, which makes the cultural continuity described in the categories below all the more notable by contrast.",
+          "points": [
+            "Shunga (185–73 BCE): capital Pataliputra; rise of Brahmanical traditions, Buddhist patronage continued",
+            "Kanva (73–28 BCE): capital Pataliputra; continuation of Shunga policies, gradual decline",
+            "Indo-Greek (c. 2nd–1st century BCE): capital Saketa/Mathura; Greek rulers, bilingual coins, trade & culture exchange",
+            "Indo-Scythian/Shaka (1st century BCE–1st century CE): Mathura region; Kshatrapas ruled, silver coins, rise of trade",
+            "Indo-Parthian (1st–2nd century CE): Mathura region; bridged Greeks and Kushanas, issued coins",
+            "Kushana (1st–3rd century CE): capital Mathura; major power, great patronage to Buddhism, art & trade",
+            "Early Local Dynasties (Nagas, Yaudheyas, Kunindas etc., 1st–3rd century CE): various parts of western U.P.; republican traditions, issue of coins"
+          ]
+        },
+        "Polity & Governance": {
+          "intro": "Pay attention to the coexistence of monarchical and republican traditions in the same broad era and region that the up-mahajanapadas page already introduced — that older Gana-Sangha model, per the note here, persisted at the edges of U.P. even as larger monarchies like the Kushanas dominated the centre.",
+          "points": [
+            "Monarchies: hereditary kingship, king as supreme authority, council of ministers (Mantriparishad), officials (Mahamatras, Amatyas, Senapati), tax collection, maintenance of army & forts, law and order through local officials",
+            "Republican traditions: clan-based oligarchic republics, decisions taken in assemblies (Sabhas/Sanghas), headed by chiefs or elected representatives (examples in the wider region: Yaudheyas, Malavas, Arjunayanas, Kunindas, Nagas) — note: republican systems were oligarchic, not democratic in the modern sense"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "Guild-based craft production and standardised coinage in this table are the direct economic legacy of the Mauryan administrative systems covered two pages earlier — the state control has loosened, but the underlying commercial infrastructure it built kept functioning regardless of who held political power.",
+          "points": [
+            "Varna system continued and became more rigid; Brahmins gained importance; Kshatriyas, Vaishyas, Shudras had traditional roles; growth of new social groups — artisans, traders, guilds (Shrenis); urbanisation increased",
+            "Agriculture, crafts & industries (pottery, metal, beads, textiles); trade & commerce (caravan, river routes, ports); use of coins (punch-marked, die-struck, gold, silver, copper); guilds (Shrenis) & occupational specialisation; important trade centres — Mathura (international trade hub), Saketa (Ayodhya), Kaushambi, Prayaga, Varanasi"
+          ]
+        },
+        "Religious & Cultural Developments": {
+          "intro": "Notice that all three traditions — Buddhism, Jainism, and a reviving Brahmanism — are described as flourishing at the very same sites in the very same decades; this genuine, sustained religious pluralism is one of this period's most distinctive and frequently tested features.",
+          "points": [
+            "Buddhism: continued patronage under Shungas and Kushanas; monasteries & stupas developed (Sarnath, Kaushambi, Sankisa)",
+            "Jainism: flourished; spread of Digambara and Svetambara traditions; Jain monks travelled widely, supported by merchants & urban groups",
+            "Brahmanism & Hinduism: revival of Brahmanical traditions under Shungas; construction of temples began; worship of Vishnu, Shiva, Skanda, Devi; development of Puranic traditions"
+          ]
+        },
+        "Art & Architecture": {
+          "intro": "The Mathura School of Art introduced in this table is the direct forerunner of the sculptural tradition the next page's Gupta Period will bring to full maturity, so it is worth reading this category alongside the up-gupta-period page's own art section.",
+          "points": [
+            "Mathura School of Art — red sandstone sculptures, Yaksha-yakshi and Buddha images, Jain Tirthankaras, realistic human figures",
+            "Stupas & Monuments — Sarnath, Kaushambi, Sankisa important Buddhist sites; early temple architecture developed; brick & stone structures; Brahmi and Kharoshthi scripts used in inscriptions"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -9933,27 +10002,42 @@
         }
       ],
       "aspects": {
-        "Gupta Rulers and Their Connection with U.P.": [
-          "Chandragupta I (c. 320–335 CE): Pataliputra; consolidated power in Magadha, influence extended to Prayag region",
-          "Samudragupta (c. 335–375 CE): Pataliputra; covered Aryavarta including U.P. regions (Prayag, Kosala, Panchala etc.); described as the 'Napoleon of India'",
-          "Chandragupta II Vikramaditya (c. 375–415 CE): Ujjain, Pataliputra; patronized Kashi, Mathura, Sarnath and other centres, strengthened administration; cultural boom, expansion of trade and gold coins",
-          "Kumaragupta I (c. 415–455 CE): Pataliputra; continued prosperity in U.P., Mathura art and temples flourished; stable administration, economic growth",
-          "Skandagupta (c. 455–467 CE): Pataliputra; defended the empire from Huns (Pushyamitras) in the North-West, protected the U.P. region; military victories, continuity maintained"
-        ],
-        "Administration & Governance": [
-          "Well-organised centralised administration with provincial and local divisions; King (Maharajadhiraja) at the apex, assisted by Mantri Parishad (council of ministers), Amatyas (high officials), Uparika (provincial governor)",
-          "Administrative divisions: Bhukti (province) → Vishaya (district) → Vithi (sub-district) → Grama (village); officials — Uparika, Vishayapati, Dandapashika, Mahadandanayaka, Ayuktas; record keeping, revenue collection and judicial system well developed"
-        ],
-        "Society & Economy": [
-          "Varna system continued with greater rigidity; Brahmins enjoyed high status and received land grants; growth of towns and urban life; artisans, merchants and traders formed important groups; women enjoyed respect in family & society, some were scholars",
-          "Agriculture remained the backbone; use of iron plough, better irrigation, multiple cropping; growth of trade & commerce (internal & external); guilds (shrenis) of traders and artisans flourished; use of gold coins (Dinars) extensively"
-        ],
-        "Religion & Culture": [
-          "Hinduism (Vaishnavism & Shaivism) was the dominant religion; Buddhism continued with royal patronage (Sarnath, Kushinagar, Kaushambi, Sravasti); Jainism also existed in urban centres; Sanskrit language flourished, classical literature, drama, poetry and epics developed; education centres flourished (Kashi, Mathura, Sarnath); science, mathematics, astronomy, Ayurveda and metallurgy progressed"
-        ],
-        "Land Grants (A Key Feature)": [
-          "Gupta rulers granted land to Brahmins, religious institutions and officials; land grants promoted agriculture, settlement and Sanskritisation; done through copper plate inscriptions (important sites: Sarnath, Damodarpur near Varanasi, Prayag, Rohilkhand region, Mathura region)"
-        ]
+        "Gupta Rulers and Their Connection with U.P.": {
+          "intro": "This ruler-by-ruler table is the regional companion to the national Gupta Age page's dynastic narrative — use the 'Connection with U.P.' column specifically to see which emperor is responsible for which local development, since the national page does not break this down by region.",
+          "points": [
+            "Chandragupta I (c. 320–335 CE): Pataliputra; consolidated power in Magadha, influence extended to Prayag region",
+            "Samudragupta (c. 335–375 CE): Pataliputra; covered Aryavarta including U.P. regions (Prayag, Kosala, Panchala etc.); described as the 'Napoleon of India'",
+            "Chandragupta II Vikramaditya (c. 375–415 CE): Ujjain, Pataliputra; patronized Kashi, Mathura, Sarnath and other centres, strengthened administration; cultural boom, expansion of trade and gold coins",
+            "Kumaragupta I (c. 415–455 CE): Pataliputra; continued prosperity in U.P., Mathura art and temples flourished; stable administration, economic growth",
+            "Skandagupta (c. 455–467 CE): Pataliputra; defended the empire from Huns (Pushyamitras) in the North-West, protected the U.P. region; military victories, continuity maintained"
+          ]
+        },
+        "Administration & Governance": {
+          "intro": "The Bhukti-Vishaya-Vithi-Grama hierarchy described here is the Gupta era's specific refinement of the same basic provincial structure the Mauryas used centuries earlier, adapted for a more decentralised, feudatory-inclusive style of rule.",
+          "points": [
+            "Well-organised centralised administration with provincial and local divisions; King (Maharajadhiraja) at the apex, assisted by Mantri Parishad (council of ministers), Amatyas (high officials), Uparika (provincial governor)",
+            "Administrative divisions: Bhukti (province) → Vishaya (district) → Vithi (sub-district) → Grama (village); officials — Uparika, Vishayapati, Dandapashika, Mahadandanayaka, Ayuktas; record keeping, revenue collection and judicial system well developed"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The note on women's status here — respected in family and society, some acting as scholars — is worth cross-referencing against the more mixed picture given on the up-vedic-age page, since Gupta-era U.P. represents something of a high point before later medieval restrictions tighten again.",
+          "points": [
+            "Varna system continued with greater rigidity; Brahmins enjoyed high status and received land grants; growth of towns and urban life; artisans, merchants and traders formed important groups; women enjoyed respect in family & society, some were scholars",
+            "Agriculture remained the backbone; use of iron plough, better irrigation, multiple cropping; growth of trade & commerce (internal & external); guilds (shrenis) of traders and artisans flourished; use of gold coins (Dinars) extensively"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "This category's core claim — that Hinduism, Buddhism, and Jainism all received patronage simultaneously — is exactly the same religious pluralism the up-post-maurya-period page already documented two pages earlier, showing it as a persistent regional pattern rather than a one-off.",
+          "points": [
+            "Hinduism (Vaishnavism & Shaivism) was the dominant religion; Buddhism continued with royal patronage (Sarnath, Kushinagar, Kaushambi, Sravasti); Jainism also existed in urban centres; Sanskrit language flourished, classical literature, drama, poetry and epics developed; education centres flourished (Kashi, Mathura, Sarnath); science, mathematics, astronomy, Ayurveda and metallurgy progressed"
+          ]
+        },
+        "Land Grants (A Key Feature)": {
+          "intro": "Land grants are singled out here because this is the specific administrative mechanism, well documented through surviving copper-plate inscriptions at Sarnath, Damodarpur, and Mathura, by which the Gupta state actually extended its authority and its favoured religious institutions into the countryside.",
+          "points": [
+            "Gupta rulers granted land to Brahmins, religious institutions and officials; land grants promoted agriculture, settlement and Sanskritisation; done through copper plate inscriptions (important sites: Sarnath, Damodarpur near Varanasi, Prayag, Rohilkhand region, Mathura region)"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10090,24 +10174,39 @@
         }
       ],
       "aspects": {
-        "Harsha — The King & His Empire": [
-          "Belonged to the Pushyabhuti dynasty; succeeded his brother Rajyavardhana; a great conqueror, able administrator and patron of arts, literature and religion",
-          "His empire extended over Punjab, Haryana and parts of Uttar Pradesh, Rajasthan, Madhya Pradesh and Bengal; the Narmada River formed the southern boundary (following conflict with the Chalukyas); administration was efficient but not as highly centralized as the Mauryas"
-        ],
-        "Administration & Governance": [
-          "Monarchical rule: Harsha was a benevolent king who exercised personal supervision over administration; territorial division: empire divided into Bhuktis (provinces), further divided into Vishayas (districts) and Patakas (sub-districts)",
-          "Officials: Upa-Rajukas, Vishaya-patis, Dandanayakas, Mahattaras and Sresthins were important officials; king was the supreme authority in justice, punishment for crime was moderate; land revenue was the main source, with trade, taxes, fines and tributes as other sources; large standing army with infantry, cavalry, elephants and chariots; maintained friendly relations with neighbouring states through embassies"
-        ],
-        "Religion & Culture": [
-          "Harsha was a great patron of Buddhism, but respected all religions; himself described as a follower of Mahayana Buddhism; supported Brahmanism, Jainism and other sects; grand religious assemblies at Prayaga (c. 643–644 CE) once every five years",
-          "Flourishing of Sanskrit literature and learning; Harsha himself was a scholar and playwright; famous works: Nagananda and Ratnavali (dramas), and Priyadarshika (these are among the known works); development of art, sculpture and architecture continued; centres of learning — Nalanda, Valabhi, Kanyakubja, Varanasi and Mathura"
-        ],
-        "Chinese Traveller — Xuanzang (Hsuan Tsang)": [
-          "Xuanzang visited Harsha's court c. 630–645 CE; described Harsha as a kind, generous and religious king; provided a detailed account of cities, administration, society, religion, education and economy of the period; his travelogue 'Si-yu-ki' is a valuable historical source"
-        ],
-        "Decline of Harsha's Empire": [
-          "No capable successor after Harsha's death in 647 CE; the empire broke into smaller states; rise of regional powers — Gurjara-Pratiharas, Palas and Rashtrakutas in the later period; feudal tendencies and land grants led to disintegration"
-        ]
+        "Harsha — The King & His Empire": {
+          "intro": "This category's description of an empire 'not highly centralized like the Mauryas' is an important nuance — Harsha's Kannauj-based rule looked impressive on the map but rested on a genuinely looser, more negotiated relationship with regional governors than the tightly administered empires covered earlier in this track.",
+          "points": [
+            "Belonged to the Pushyabhuti dynasty; succeeded his brother Rajyavardhana; a great conqueror, able administrator and patron of arts, literature and religion",
+            "His empire extended over Punjab, Haryana and parts of Uttar Pradesh, Rajasthan, Madhya Pradesh and Bengal; the Narmada River formed the southern boundary (following conflict with the Chalukyas); administration was efficient but not as highly centralized as the Mauryas"
+          ]
+        },
+        "Administration & Governance": {
+          "intro": "Compare this table's Bhukti-Vishaya-Pataka structure to the very similar Gupta-era hierarchy on the previous page — the continuity in terminology shows how much Harsha's administration was consciously modelled on the Gupta system, even without the same level of central control.",
+          "points": [
+            "Monarchical rule: Harsha was a benevolent king who exercised personal supervision over administration; territorial division: empire divided into Bhuktis (provinces), further divided into Vishayas (districts) and Patakas (sub-districts)",
+            "Officials: Upa-Rajukas, Vishaya-patis, Dandanayakas, Mahattaras and Sresthins were important officials; king was the supreme authority in justice, punishment for crime was moderate; land revenue was the main source, with trade, taxes, fines and tributes as other sources; large standing army with infantry, cavalry, elephants and chariots; maintained friendly relations with neighbouring states through embassies"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "The description of Harsha as a Buddhist patron who nonetheless respected all religions is the same broad-tolerance pattern this track has already documented under the Guptas and Post-Mauryan dynasties — evidence that this was a durable regional norm rather than any single ruler's personal quirk.",
+          "points": [
+            "Harsha was a great patron of Buddhism, but respected all religions; himself described as a follower of Mahayana Buddhism; supported Brahmanism, Jainism and other sects; grand religious assemblies at Prayaga (c. 643–644 CE) once every five years",
+            "Flourishing of Sanskrit literature and learning; Harsha himself was a scholar and playwright; famous works: Nagananda and Ratnavali (dramas), and Priyadarshika (these are among the known works); development of art, sculpture and architecture continued; centres of learning — Nalanda, Valabhi, Kanyakubja, Varanasi and Mathura"
+          ]
+        },
+        "Chinese Traveller — Xuanzang (Hsuan Tsang)": {
+          "intro": "Xuanzang's account is singled out in its own category because it is genuinely unusual: very few 7th-century Indian rulers have a detailed, independent, outside eyewitness record of their court, which is exactly why Harsha's reign is so much better documented than most contemporaneous regional kingdoms.",
+          "points": [
+            "Xuanzang visited Harsha's court c. 630–645 CE; described Harsha as a kind, generous and religious king; provided a detailed account of cities, administration, society, religion, education and economy of the period; his travelogue 'Si-yu-ki' is a valuable historical source"
+          ]
+        },
+        "Decline of Harsha's Empire": {
+          "intro": "This category is the direct hinge to the rest of the medieval section of this track — every dynasty covered on the following several pages (Gurjara-Pratiharas, Palas, Rashtrakutas, Chandellas, Gahadavalas) emerges specifically because Harsha left no capable successor to hold his Kannauj-centred empire together.",
+          "points": [
+            "No capable successor after Harsha's death in 647 CE; the empire broke into smaller states; rise of regional powers — Gurjara-Pratiharas, Palas and Rashtrakutas in the later period; feudal tendencies and land grants led to disintegration"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10241,22 +10340,34 @@
         }
       ],
       "aspects": {
-        "Arab Invasions & the Pratihara Role": [
-          "Arabs under Muhammad bin Qasim reached Sindh in 712 CE; successors attempted expansion into Rajasthan and western India; Nagabhata I and Nagabhata II defeated Arab forces near Jalore, Bhinmal and the Rajasthan frontiers (c. 754–756 CE)",
-          "This saved North India from further Arab expansion and marked the beginning of the Pratiharas' reputation as 'Defenders of North India'"
-        ],
-        "Administration & Governance": [
-          "Hereditary monarchy with strong central authority; empire divided into Bhuktis (provinces), Vishayas (districts) and Pattakas (sub-districts) and Villages; officials — Uparika (governor), Vishayapati, Dandapashika, Mahattaras, Bhogika and Sresthin (revenue officials)",
-          "Revenue system: land revenue as the main source, other taxes — trade tax, profession tax, fines etc.; strong cavalry, elephants and infantry; king supreme in justice, local officers maintained law and order"
-        ],
-        "Society & Economy": [
-          "Varna system continued; Brahmins enjoyed high status, many land grants; growth of municipalities and urban centres; artisans, traders, merchants and agriculturists contributed to the economy; position of women relatively better in elite families",
-          "Agriculture was the backbone of the economy; use of iron plough, irrigation tanks, wells and canals; active trade through land routes (Uttarapatha) and river routes; growth of towns like Kannauj, Mathura, Varanasi, Ahichchhatra, Prayag; guilds (shrenis) of artisans and merchants flourished"
-        ],
-        "Religion & Culture": [
-          "Patronage to Hinduism — Shaivism, Vaishnavism, Shaktism; maintenance of temples, mathas and tirthas; tolerance towards Buddhism and Jainism continued; many grants to Brahmans and religious institutions",
-          "Patronage of Sanskrit literature and scholarship; famous works: Rajatarangini (later period), Harshacharita (Banabhatta — under Mihir Bhoja); development of art, sculpture and temple architecture; flourishing of learning centres in Kannauj, Kashi and Mathura"
-        ]
+        "Arab Invasions & the Pratihara Role": {
+          "intro": "This is the category that explains the dynasty's historical reputation: the specific victories described here, at the Rajasthan frontier in the mid-8th century, are what earned the Pratiharas their title as 'Defenders of North India' rather than simply one more regional power among several.",
+          "points": [
+            "Arabs under Muhammad bin Qasim reached Sindh in 712 CE; successors attempted expansion into Rajasthan and western India; Nagabhata I and Nagabhata II defeated Arab forces near Jalore, Bhinmal and the Rajasthan frontiers (c. 754–756 CE)",
+            "This saved North India from further Arab expansion and marked the beginning of the Pratiharas' reputation as 'Defenders of North India'"
+          ]
+        },
+        "Administration & Governance": {
+          "intro": "The Bhukti-Vishaya-Pattaka-Village hierarchy here should look familiar by now — it is the same basic administrative template this track has traced continuously from the Guptas through Harsha, refined slightly by each successive dynasty rather than reinvented from scratch.",
+          "points": [
+            "Hereditary monarchy with strong central authority; empire divided into Bhuktis (provinces), Vishayas (districts) and Pattakas (sub-districts) and Villages; officials — Uparika (governor), Vishayapati, Dandapashika, Mahattaras, Bhogika and Sresthin (revenue officials)",
+            "Revenue system: land revenue as the main source, other taxes — trade tax, profession tax, fines etc.; strong cavalry, elephants and infantry; king supreme in justice, local officers maintained law and order"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "Note the specific claim that women's position was 'relatively better in elite families' — a more qualified statement than the broader Gupta-era description on an earlier page, suggesting genuine regional and class variation rather than a single uniform trend across the whole Early Medieval period.",
+          "points": [
+            "Varna system continued; Brahmins enjoyed high status, many land grants; growth of municipalities and urban centres; artisans, traders, merchants and agriculturists contributed to the economy; position of women relatively better in elite families",
+            "Agriculture was the backbone of the economy; use of iron plough, irrigation tanks, wells and canals; active trade through land routes (Uttarapatha) and river routes; growth of towns like Kannauj, Mathura, Varanasi, Ahichchhatra, Prayag; guilds (shrenis) of artisans and merchants flourished"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "Mihir Bhoja's patronage of the Harshacharita, referenced here, is a useful reminder that 'Harsha' as a name recurs in Indian history for reasons unrelated to the emperor Harsha covered earlier in this track — a common source of confusion worth clearing up explicitly.",
+          "points": [
+            "Patronage to Hinduism — Shaivism, Vaishnavism, Shaktism; maintenance of temples, mathas and tirthas; tolerance towards Buddhism and Jainism continued; many grants to Brahmans and religious institutions",
+            "Patronage of Sanskrit literature and scholarship; famous works: Rajatarangini (later period), Harshacharita (Banabhatta — under Mihir Bhoja); development of art, sculpture and temple architecture; flourishing of learning centres in Kannauj, Kashi and Mathura"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10377,22 +10488,34 @@
         }
       ],
       "aspects": {
-        "Administration & Governance": [
-          "Kalachuris: monarchical rule with strong central authority, territories divided into provinces (Mandalas/Vishayas), officials (Mahasamantas, Uparika, Dandapashika), land revenue as the main source of income",
-          "Chandellas: well-organised administration, division into Bhuktis, Vishayas, Pattakas and Grams, officers — Vishayapati, Mahattaras, Dandadhikritas, Pustapalas; land revenue, tanks and wells were created; land grants to Brahmans, temples and officers"
-        ],
-        "Society & Economy": [
-          "Varna system continued; Brahmins and Kshatriyas enjoyed high status; growth of temple-based society; artisans, temple servants, dancers, musicians, traders flourished; women participated in religious and cultural life",
-          "Agriculture was the backbone; crops — rice, wheat, pulses, sugarcane, oilseeds; irrigation — tanks, wells, rivers, canals; trade & commerce flourished, use of coins; guilds (shrenis) of artisans and traders were active"
-        ],
-        "Religion & Culture": [
-          "Hinduism was the dominant religion (Shaivism, Vaishnavism, Shaktism, all flourished); Jainism also patronised by both dynasties; temples were centres of religion, art, education, economy and culture; temple architecture reached its zenith under the Chandellas",
-          "Art, architecture & literature: Khajuraho temples — world famous for Nagara style architecture; temples at Kalinjar, Mahoba, Ajaigarh, Deogarh etc.; fine sculptures, erotic art, mythological themes; use of sandstone; patronage of poets — Rajasekhara (under Mahendrapala of the Chandellas); development of music, dance and drama"
-        ],
-        "Legacy & Importance in U.P.": [
-          "Strengthened regional polity and administrative systems; patronised magnificent temple architecture (especially Khajuraho); promoted art, sculpture, literature and education; developed agriculture, irrigation and trade; U.P.'s Bundelkhand region became a great centre of culture and learning",
-          "Both dynasties contributed to political decentralisation but also cultural florescence in North India"
-        ]
+        "Administration & Governance": {
+          "intro": "Comparing the two dynasties side by side in this table, the Chandellas' more elaborate provincial hierarchy (Bhuktis, Vishayas, Pattakas, Grams with named officer categories) suggests a somewhat more developed bureaucratic apparatus than the Kalachuris managed to build in the same Bundelkhand region.",
+          "points": [
+            "Kalachuris: monarchical rule with strong central authority, territories divided into provinces (Mandalas/Vishayas), officials (Mahasamantas, Uparika, Dandapashika), land revenue as the main source of income",
+            "Chandellas: well-organised administration, division into Bhuktis, Vishayas, Pattakas and Grams, officers — Vishayapati, Mahattaras, Dandadhikritas, Pustapalas; land revenue, tanks and wells were created; land grants to Brahmans, temples and officers"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The temple-centred society described here is the direct social context for the monumental religious architecture discussed below — Khajuraho was not built in isolation but grew out of a broader regional culture in which temples functioned as economic and social hubs, not just places of worship.",
+          "points": [
+            "Varna system continued; Brahmins and Kshatriyas enjoyed high status; growth of temple-based society; artisans, temple servants, dancers, musicians, traders flourished; women participated in religious and cultural life",
+            "Agriculture was the backbone; crops — rice, wheat, pulses, sugarcane, oilseeds; irrigation — tanks, wells, rivers, canals; trade & commerce flourished, use of coins; guilds (shrenis) of artisans and traders were active"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "This category's claim that 'temple architecture reached its zenith' under these two dynasties is not exaggeration for effect — Khajuraho genuinely represents one of the peak achievements of medieval Indian temple-building, which is exactly why the next category treats it in such detail.",
+          "points": [
+            "Hinduism was the dominant religion (Shaivism, Vaishnavism, Shaktism, all flourished); Jainism also patronised by both dynasties; temples were centres of religion, art, education, economy and culture; temple architecture reached its zenith under the Chandellas",
+            "Art, architecture & literature: Khajuraho temples — world famous for Nagara style architecture; temples at Kalinjar, Mahoba, Ajaigarh, Deogarh etc.; fine sculptures, erotic art, mythological themes; use of sandstone; patronage of poets — Rajasekhara (under Mahendrapala of the Chandellas); development of music, dance and drama"
+          ]
+        },
+        "Legacy & Importance in U.P.": {
+          "intro": "The phrase 'political decentralisation but cultural florescence' used here captures a pattern this entire Early Medieval section of the track keeps demonstrating: fragmented political power and vibrant regional culture were not opposites in this period but frequently went hand in hand.",
+          "points": [
+            "Strengthened regional polity and administrative systems; patronised magnificent temple architecture (especially Khajuraho); promoted art, sculpture, literature and education; developed agriculture, irrigation and trade; U.P.'s Bundelkhand region became a great centre of culture and learning",
+            "Both dynasties contributed to political decentralisation but also cultural florescence in North India"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10525,24 +10648,39 @@
         }
       ],
       "aspects": {
-        "Administration & Governance": [
-          "Monarchical, hereditary kingship; empire divided into Bhuktis (provinces), Vishayas (districts) and Pattakas (sub-districts); officials — Uparika (governor), Vishayapati, Dandapashika, Mahattaras, Kayasthas and other officials",
-          "Land revenue was the main source; other taxes included trade tax, transit tax, fines and tributes; strong cavalry, infantry and elephants; king was supreme authority, Brahmanas consulted in judicial matters; maintained relations with neighbouring kingdoms, at times engaged in conflicts with Turko-Afghan invaders"
-        ],
-        "Society & Economy": [
-          "Varna system continued; Brahmanas enjoyed high status; growth of urban centres and market towns; artisans, traders, merchants and agriculturists formed important sections; women participated in religious, cultural and social life",
-          "Agriculture was the backbone of the economy; crops — rice, wheat, pulses, sugarcane, sesame; irrigation through tanks, wells, rivers and canals; active trade in local and long distance routes; land grants to Brahmanas, temples and scholars"
-        ],
-        "Religion & Culture": [
-          "Vaishnavism, Shaivism and Shaktism were prominent; King Govindachandra was a great patron of all religions; tolerance towards Buddhism and Jainism continued; confluence of religious traditions in Kashi and Prayaga",
-          "Flourishing of Sanskrit literature and learning; important scholar Vijnaneshvara (author of Mitakshara on Hindu law) under Govindachandra; development of temples, tanks, rest houses (Dharmashalas) and ghats; promotion of art, sculpture, music and dance"
-        ],
-        "Art & Architecture in U.P.": [
-          "Temples built in Nagara style; major centres — Varanasi, Kannauj, Ayodhya, Ghazipur, Prayaga and surrounding areas; examples — Vishwanath Temple (Varanasi, earlier structures), Bhairav Temple (Kashi), Madan Mohan Temple (Kannauj) etc.; fine stone sculptures of deities, dvarapalas, surasundaris influenced by earlier Pratihara-Chandella traditions"
-        ],
-        "Legacy & Importance": [
-          "Gahadavalas were the last great Hindu dynasty in North India before the establishment of the Delhi Sultanate; promoted culture, learning, temples and urban development; strengthened Kashi and Prayaga as major religious and cultural centres; their period is important for understanding the transition from regional kingdoms to Sultanate rule"
-        ]
+        "Administration & Governance": {
+          "intro": "This is the same Bhukti-Vishaya-Pattaka structure this track has now traced across the Guptas, Harsha, the Gurjara-Pratiharas, and the Chandellas — by this point in the chronology it is worth noticing how remarkably stable this basic administrative vocabulary remained across four centuries of otherwise constant dynastic change.",
+          "points": [
+            "Monarchical, hereditary kingship; empire divided into Bhuktis (provinces), Vishayas (districts) and Pattakas (sub-districts); officials — Uparika (governor), Vishayapati, Dandapashika, Mahattaras, Kayasthas and other officials",
+            "Land revenue was the main source; other taxes included trade tax, transit tax, fines and tributes; strong cavalry, infantry and elephants; king was supreme authority, Brahmanas consulted in judicial matters; maintained relations with neighbouring kingdoms, at times engaged in conflicts with Turko-Afghan invaders"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The description of active local and long-distance trade here connects directly to the following page's focus on medieval city foundations — the same trade routes and economic activity described in this table are precisely what made new city foundations commercially viable under the Sultanate rulers who follow.",
+          "points": [
+            "Varna system continued; Brahmanas enjoyed high status; growth of urban centres and market towns; artisans, traders, merchants and agriculturists formed important sections; women participated in religious, cultural and social life",
+            "Agriculture was the backbone of the economy; crops — rice, wheat, pulses, sugarcane, sesame; irrigation through tanks, wells, rivers and canals; active trade in local and long distance routes; land grants to Brahmanas, temples and scholars"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "Vijnaneshvara's Mitakshara, mentioned here, deserves particular attention: it became one of the most influential legal texts in the entire history of Hindu law, meaning this relatively short-lived regional dynasty produced a genuinely lasting all-India intellectual legacy.",
+          "points": [
+            "Vaishnavism, Shaivism and Shaktism were prominent; King Govindachandra was a great patron of all religions; tolerance towards Buddhism and Jainism continued; confluence of religious traditions in Kashi and Prayaga",
+            "Flourishing of Sanskrit literature and learning; important scholar Vijnaneshvara (author of Mitakshara on Hindu law) under Govindachandra; development of temples, tanks, rest houses (Dharmashalas) and ghats; promotion of art, sculpture, music and dance"
+          ]
+        },
+        "Art & Architecture in U.P.": {
+          "intro": "The temples described here at Varanasi and Kannauj are the last major flowering of specifically Hindu dynastic patronage this track will cover before the architectural vocabulary shifts decisively toward the Indo-Islamic styles introduced on the following pages.",
+          "points": [
+            "Temples built in Nagara style; major centres — Varanasi, Kannauj, Ayodhya, Ghazipur, Prayaga and surrounding areas; examples — Vishwanath Temple (Varanasi, earlier structures), Bhairav Temple (Kashi), Madan Mohan Temple (Kannauj) etc.; fine stone sculptures of deities, dvarapalas, surasundaris influenced by earlier Pratihara-Chandella traditions"
+          ]
+        },
+        "Legacy & Importance": {
+          "intro": "This category's framing of the Gahadavalas as 'the last great Hindu dynasty before the Delhi Sultanate' is the direct bridge to the next page — Jayachandra's 1194 defeat, detailed in the overview above, is the specific event this legacy statement is built around.",
+          "points": [
+            "Gahadavalas were the last great Hindu dynasty in North India before the establishment of the Delhi Sultanate; promoted culture, learning, temples and urban development; strengthened Kashi and Prayaga as major religious and cultural centres; their period is important for understanding the transition from regional kingdoms to Sultanate rule"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10675,25 +10813,40 @@
         }
       ],
       "aspects": {
-        "Factors Behind Foundation of Cities": [
-          "Strategic & military considerations (frontiers, defence); control over important trade routes; proximity to rivers, fertile land and markets",
-          "Administrative needs — provincial capitals, garrisons; religious & cultural centres attracted population; patronage of rulers, nobles, Sufis and merchants; growth of craft production and urban economy"
-        ],
-        "Functions & Characteristics of Medieval Cities": [
-          "Administrative centres: provincial headquarters, court, revenue offices; military centres: fortress, garrisons, arsenals; economic hubs: trade, markets (bazaars), craft production",
-          "Cultural & religious centres: mosques, madrasas, temples, khanqahs, libraries; urban amenities: sarais, wells, tanks, bridges, roads, gardens"
-        ],
-        "Economy & Urban Life": [
-          "Active participation in regional and long-distance trade; products — textiles, metalware, ivory, pottery, leather, sugar, spices; guilds (shrenis), artisans, weavers, metalworkers, carpenters flourished; use of copper/silver coins, monetised economy; growth of moneylenders, merchants and bankers",
-          "Important trade routes: Delhi–Badaun–Kannauj–Jaunpur–Bengal; Delhi–Etawah–Gwalior–Central India; Agra–Allahabad–Varanasi–Bengal; Northwest (Punjab)–Sambhal–Ganga Plain"
-        ],
-        "Administration of Cities": [
-          "Shahna (Governor) or Iqtadars controlled the city and surrounding area; Muhtasib supervised markets, weights & measures, public morals; Kotwal maintained law & order; revenue collection through taxes on trade, land, houses and professions; strong fortification in many cities"
-        ],
-        "Architectural & Cultural Heritage": [
-          "Architectural features: fortresses, city walls & gates (e.g. Badaun, Jaunpur), mosques with arches, domes, minarets; sarais, bridges, tanks, gardens; blend of Indo-Islamic and local styles",
-          "Cultural contributions: Jaunpur — 'Shiraz-i-Hind' (centre of learning, music, literature); patronage of art, architecture, calligraphy, Persian literature; growth of Sufi centres and khanqahs"
-        ]
+        "Factors Behind Foundation of Cities": {
+          "intro": "This list of motives — strategic, commercial, administrative, religious — is worth keeping in mind while reading every subsequent dynasty-specific page in this track, since it explains why so many of the same city names (Agra, Jaunpur, Allahabad) keep reappearing across otherwise very different political regimes.",
+          "points": [
+            "Strategic & military considerations (frontiers, defence); control over important trade routes; proximity to rivers, fertile land and markets",
+            "Administrative needs — provincial capitals, garrisons; religious & cultural centres attracted population; patronage of rulers, nobles, Sufis and merchants; growth of craft production and urban economy"
+          ]
+        },
+        "Functions & Characteristics of Medieval Cities": {
+          "intro": "Notice how many distinct functions a single medieval city was expected to combine — administrative, military, economic, and religious all at once — which is exactly why capturing or founding a city like Kannauj or Agra mattered so much more than simply gaining farmland.",
+          "points": [
+            "Administrative centres: provincial headquarters, court, revenue offices; military centres: fortress, garrisons, arsenals; economic hubs: trade, markets (bazaars), craft production",
+            "Cultural & religious centres: mosques, madrasas, temples, khanqahs, libraries; urban amenities: sarais, wells, tanks, bridges, roads, gardens"
+          ]
+        },
+        "Economy & Urban Life": {
+          "intro": "The specific trade routes listed here (Delhi–Badaun–Kannauj–Jaunpur–Bengal, for instance) are the actual commercial arteries that the following Delhi Sultanate and Mughal-era pages assume already exist when they discuss regional trade and revenue.",
+          "points": [
+            "Active participation in regional and long-distance trade; products — textiles, metalware, ivory, pottery, leather, sugar, spices; guilds (shrenis), artisans, weavers, metalworkers, carpenters flourished; use of copper/silver coins, monetised economy; growth of moneylenders, merchants and bankers",
+            "Important trade routes: Delhi–Badaun–Kannauj–Jaunpur–Bengal; Delhi–Etawah–Gwalior–Central India; Agra–Allahabad–Varanasi–Bengal; Northwest (Punjab)–Sambhal–Ganga Plain"
+          ]
+        },
+        "Administration of Cities": {
+          "intro": "The Shahna–Muhtasib–Kotwal structure described here is specifically an urban administrative layer, distinct from (though coordinated with) the broader provincial Iqta system the following Delhi Sultanate page describes — cities needed their own dedicated market and law-and-order officials that rural provinces did not.",
+          "points": [
+            "Shahna (Governor) or Iqtadars controlled the city and surrounding area; Muhtasib supervised markets, weights & measures, public morals; Kotwal maintained law & order; revenue collection through taxes on trade, land, houses and professions; strong fortification in many cities"
+          ]
+        },
+        "Architectural & Cultural Heritage": {
+          "intro": "Jaunpur's description here as 'Shiraz-i-Hind' is a preview of a claim the dedicated Jaunpur Sultanate page will explore in far more depth — worth flagging now so the connection is clear when you reach that page later in this track.",
+          "points": [
+            "Architectural features: fortresses, city walls & gates (e.g. Badaun, Jaunpur), mosques with arches, domes, minarets; sarais, bridges, tanks, gardens; blend of Indo-Islamic and local styles",
+            "Cultural contributions: Jaunpur — 'Shiraz-i-Hind' (centre of learning, music, literature); patronage of art, architecture, calligraphy, Persian literature; growth of Sufi centres and khanqahs"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10824,27 +10977,42 @@
         }
       ],
       "aspects": {
-        "Important Sultans and Their Connection with U.P.": [
-          "Mamluk (Slave) Dynasty: Qutb-ud-din Aibak (1206–1210) laid the foundation of Sultanate power in U.P.; built mosques, consolidated control; Iltutmish (1211–1236) consolidated rule in North India including U.P.; Sambhal, Badaun developed",
-          "Khalji Dynasty: Jalal-ud-din Khalji (1290–1296) captured strategic forts in U.P.; Alauddin Khalji (1296–1316) conquered Awadh, Kannauj, Varanasi, Jalaun; introduced market reforms",
-          "Tughlaq Dynasty: Ghiyas-ud-din Tughlaq (1320–1325) strengthened administration in the Doab; Muhammad bin Tughlaq (1325–1351) undertook reforms, revenue measures, attempted capital shift, agricultural expansion; Firoz Shah Tughlaq (1351–1388) built canals in the Doab, developed cities, mosques, madrasas",
-          "Sayyid Dynasty: Khizr Khan (1414–1421) had weak control in U.P., local chiefs grew; Lodi Dynasty: Bahlul Lodi (1451–1489) reorganized administration in U.P.; Sikandar Lodi (1489–1517) developed Agra, encouraged agriculture, trade & arts; Ibrahim Lodi (1517–1526) defeated by Babur in 1526"
-        ],
-        "Administration & Governance": [
-          "Centralised Sultanate with the Sultan at the head; Iqta System — land revenue assignments to nobles in exchange for military service; provinces (Iqtas) headed by Iqtadars; strong revenue administration especially under Alauddin Khalji",
-          "Qazi, Muhtasib, Barid — important officials; development of a police & intelligence system; urban administration in major towns & cities"
-        ],
-        "Society & Economy": [
-          "Composite society: interaction of Turks, Afghans and local Hindus; growth of urban middle class — artisans, traders, soldiers, officials; emergence of new occupational groups — weavers, dyers, metal workers; Sufism played a unifying role; social mobility through service, trade & religious movements",
-          "Agriculture — mainstay; revenue improvement under Khaljis & Tughlaqs; canal construction (especially under Firoz Shah Tughlaq); growth of towns and trade centres — Kannauj, Varanasi, Koil, Sambhal, Badaun; development of crafts — textile, metal, pottery, leather, arms; active internal & external trade via land routes"
-        ],
-        "Religion, Culture, Art & Architecture": [
-          "Islam became dominant among the ruling class; construction of mosques, madrasas, tombs, khanqahs; Sufis — Khwaja Muinuddin Chishti (Ajmer, connected with U.P. travel), Nizamuddin Auliya visits the region; Hindi language & literature saw growth; Indo-Islamic architecture developed; cultural synthesis and syncretic traditions",
-          "Mosques: Quwwat-ul-Islam Mosque (Sambhal), Adhai Din ka Jhonpra (influence in region); tombs: Tomb of Iltutmish (Delhi, influence), Sharqi & Lodi structures in Jaunpur; forts: Chunar Fort, Etawah, Kalpi; Persian was the official language; Hindi/Sanskrit literature continued; Amir Khusrau's cultural influence extended to the region"
-        ],
-        "Legacy & Impact": [
-          "Delhi Sultanate laid the foundation of political unification in North India; development of administration, revenue system and law & order; growth of cities, trade, crafts and agriculture; Indo-Islamic culture flourished in U.P.; Sufism promoted social harmony; prepared the ground for emergence of independent kingdoms (Jaunpur) and later the Mughals"
-        ]
+        "Important Sultans and Their Connection with U.P.": {
+          "intro": "This ruler-by-dynasty table is the single most useful quick-reference item in this section of the track — use the 'Contribution/Impact in U.P.' column specifically to distinguish what each of the five Sultanate dynasties actually did in this region, since the national Delhi Sultanate pages cover the same rulers at empire-wide scale without this regional breakdown.",
+          "points": [
+            "Mamluk (Slave) Dynasty: Qutb-ud-din Aibak (1206–1210) laid the foundation of Sultanate power in U.P.; built mosques, consolidated control; Iltutmish (1211–1236) consolidated rule in North India including U.P.; Sambhal, Badaun developed",
+            "Khalji Dynasty: Jalal-ud-din Khalji (1290–1296) captured strategic forts in U.P.; Alauddin Khalji (1296–1316) conquered Awadh, Kannauj, Varanasi, Jalaun; introduced market reforms",
+            "Tughlaq Dynasty: Ghiyas-ud-din Tughlaq (1320–1325) strengthened administration in the Doab; Muhammad bin Tughlaq (1325–1351) undertook reforms, revenue measures, attempted capital shift, agricultural expansion; Firoz Shah Tughlaq (1351–1388) built canals in the Doab, developed cities, mosques, madrasas",
+            "Sayyid Dynasty: Khizr Khan (1414–1421) had weak control in U.P., local chiefs grew; Lodi Dynasty: Bahlul Lodi (1451–1489) reorganized administration in U.P.; Sikandar Lodi (1489–1517) developed Agra, encouraged agriculture, trade & arts; Ibrahim Lodi (1517–1526) defeated by Babur in 1526"
+          ]
+        },
+        "Administration & Governance": {
+          "intro": "The Iqta system described here as the backbone of Sultanate administration is identical to the system the national Delhi Sultanate page discusses, but this table shows specifically how it operated across the Doab, Awadh, and Rohilkhand regions that made up the Sultanate's regional core.",
+          "points": [
+            "Centralised Sultanate with the Sultan at the head; Iqta System — land revenue assignments to nobles in exchange for military service; provinces (Iqtas) headed by Iqtadars; strong revenue administration especially under Alauddin Khalji",
+            "Qazi, Muhtasib, Barid — important officials; development of a police & intelligence system; urban administration in major towns & cities"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The description of a genuinely composite society — Turks, Afghans, and local Hindus interacting within the same urban economy — is the social backdrop against which the Sufi-driven cultural synthesis discussed in the next category actually took place.",
+          "points": [
+            "Composite society: interaction of Turks, Afghans and local Hindus; growth of urban middle class — artisans, traders, soldiers, officials; emergence of new occupational groups — weavers, dyers, metal workers; Sufism played a unifying role; social mobility through service, trade & religious movements",
+            "Agriculture — mainstay; revenue improvement under Khaljis & Tughlaqs; canal construction (especially under Firoz Shah Tughlaq); growth of towns and trade centres — Kannauj, Varanasi, Koil, Sambhal, Badaun; development of crafts — textile, metal, pottery, leather, arms; active internal & external trade via land routes"
+          ]
+        },
+        "Religion, Culture, Art & Architecture": {
+          "intro": "Note that Sufism is described here as playing a 'unifying role' rather than simply a religious one — this is a recurring theme across the whole Sultanate period in U.P., and it directly explains why so many of the architectural sites listed (Chunar Fort, Jaunpur's tombs) sit close to identifiable Sufi shrine networks.",
+          "points": [
+            "Islam became dominant among the ruling class; construction of mosques, madrasas, tombs, khanqahs; Sufis — Khwaja Muinuddin Chishti (Ajmer, connected with U.P. travel), Nizamuddin Auliya visits the region; Hindi language & literature saw growth; Indo-Islamic architecture developed; cultural synthesis and syncretic traditions",
+            "Mosques: Quwwat-ul-Islam Mosque (Sambhal), Adhai Din ka Jhonpra (influence in region); tombs: Tomb of Iltutmish (Delhi, influence), Sharqi & Lodi structures in Jaunpur; forts: Chunar Fort, Etawah, Kalpi; Persian was the official language; Hindi/Sanskrit literature continued; Amir Khusrau's cultural influence extended to the region"
+          ]
+        },
+        "Legacy & Impact": {
+          "intro": "This category's claim that the Sultanate 'prepared ground for emergence of independent kingdoms (Jaunpur) and later the Mughals' is the explicit bridge to the next several pages in this track, each of which picks up one thread of that legacy in turn.",
+          "points": [
+            "Delhi Sultanate laid the foundation of political unification in North India; development of administration, revenue system and law & order; growth of cities, trade, crafts and agriculture; Indo-Islamic culture flourished in U.P.; Sufism promoted social harmony; prepared the ground for emergence of independent kingdoms (Jaunpur) and later the Mughals"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -10973,23 +11141,38 @@
         }
       ],
       "aspects": {
-        "Administration": [
-          "Sultan was the supreme authority; kingdom divided into parganas and villages; Iqta system prevailed; efficient revenue system based on land revenue",
-          "Officials: Diwan (finance), Ariz (military), Qazi (judicial), Kotwal (police chief); strong emphasis on law and order and public works"
-        ],
-        "Military Power": [
-          "Maintained a strong army with cavalry and infantry; fortified the capital Jaunpur; built forts and defensive structures; often in conflict with the Delhi Sultanate, Gujarat Sultanate and other neighbours"
-        ],
-        "Society & Economy": [
-          "Society was multi-religious and composite; Hindus and Muslims lived together, cultural synthesis developed; agriculture was the main occupation; development of irrigation and canals; trade and crafts flourished, with Jaunpur an important trade centre on the Ganga"
-        ],
-        "Religion & Culture": [
-          "Islam was the state religion; Sufism flourished with the presence of many Sufi saints; promotion of religious tolerance and coexistence; Persian was the court language; development of literature, poetry and music; Jaunpur became a great centre of learning and scholarship"
-        ],
-        "Art & Architecture": [
-          "Jaunpur style of architecture is distinct and grand; use of red sandstone and bricks; arches, domes, minarets and strong fortifications; blend of Islamic and local (Hindu) architectural elements",
-          "Major monuments: Atala Masjid — one of the largest mosques in Jaunpur; Jami Masjid; Lal Darwaza — famous for its grand gateway; Shahi Bridge (over the Gomti River); Jhanjhari Masjid; Maqbara of Malik Sarwar; Rampur Fort"
-        ]
+        "Administration": {
+          "intro": "Compare this table's Diwan-Ariz-Qazi-Kotwal structure to the Delhi Sultanate's own administrative vocabulary on the previous page — the near-identical terminology shows that Jaunpur, despite its political independence, continued running on essentially the same Turkic-Persian administrative model it had inherited before declaring independence.",
+          "points": [
+            "Sultan was the supreme authority; kingdom divided into parganas and villages; Iqta system prevailed; efficient revenue system based on land revenue",
+            "Officials: Diwan (finance), Ariz (military), Qazi (judicial), Kotwal (police chief); strong emphasis on law and order and public works"
+          ]
+        },
+        "Military Power": {
+          "intro": "The description of frequent conflict with the Delhi Sultanate, Gujarat Sultanate, and other neighbours here underlines a point easy to miss: Jaunpur's eighty-five years of independence were not peaceful by default but had to be actively defended on multiple fronts simultaneously.",
+          "points": [
+            "Maintained a strong army with cavalry and infantry; fortified the capital Jaunpur; built forts and defensive structures; often in conflict with the Delhi Sultanate, Gujarat Sultanate and other neighbours"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The 'multi-religious and composite' society described here, with Hindus and Muslims living and trading together, is the same social pattern the previous Delhi Sultanate page documents at wider scale — Jaunpur's political independence did not translate into any distinct social model.",
+          "points": [
+            "Society was multi-religious and composite; Hindus and Muslims lived together, cultural synthesis developed; agriculture was the main occupation; development of irrigation and canals; trade and crafts flourished, with Jaunpur an important trade centre on the Ganga"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "This category's description of Jaunpur as a centre of learning and scholarship is precisely what earns it the 'Shiraz-i-Hind' title referenced on the earlier Foundation of Cities page — the connection between religious tolerance, Sufi presence, and genuine intellectual output is treated here as a single interconnected phenomenon rather than three separate facts.",
+          "points": [
+            "Islam was the state religion; Sufism flourished with the presence of many Sufi saints; promotion of religious tolerance and coexistence; Persian was the court language; development of literature, poetry and music; Jaunpur became a great centre of learning and scholarship"
+          ]
+        },
+        "Art & Architecture": {
+          "intro": "The Atala Masjid and Lal Darwaza described here represent a genuinely distinct 'Jaunpur style' rather than a simple provincial copy of Delhi's architecture — worth noting for any question that asks you to distinguish regional Sultanate-era architectural styles from one another.",
+          "points": [
+            "Jaunpur style of architecture is distinct and grand; use of red sandstone and bricks; arches, domes, minarets and strong fortifications; blend of Islamic and local (Hindu) architectural elements",
+            "Major monuments: Atala Masjid — one of the largest mosques in Jaunpur; Jami Masjid; Lal Darwaza — famous for its grand gateway; Shahi Bridge (over the Gomti River); Jhanjhari Masjid; Maqbara of Malik Sarwar; Rampur Fort"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -11110,25 +11293,40 @@
         }
       ],
       "aspects": {
-        "Important Rulers": [
-          "Sayyid Dynasty (1414–1451 CE): Khizr Khan (1414–1421) — consolidated Sayyid rule in Delhi and adjacent regions; Mubarak Shah (1421–1434) — coinage reforms, shift of capital within Delhi; Muhammad Shah (1434–1445); Alauddin Alam Shah (1445–1451)",
-          "Lodi Dynasty (1451–1526 CE): Bahlul Lodi (1451–1489) — centralised authority to a degree, laid foundation for stable administration; Sikandar Lodi (1489–1517) — effective administrator, promoted agriculture, built cities (Agra, Sikandra); Ibrahim Lodi (1517–1526) — alienated nobles, defeated by Babur"
-        ],
-        "Administration & Governance": [
-          "Central authority was weaker in the Sayyid period, improved under the Lodis; U.P. divided into Iqtas, governed by governors (muqtis); land revenue (kharaj) was the main source, with improved measurement under Sikandar Lodi",
-          "Army mainly Afghan cavalry with foot soldiers; Qazi courts and Sharia law, with Sikandar Lodi ensuring impartial justice; public works: construction of mosques, sarais, roads, tanks and gardens"
-        ],
-        "Society & Economy": [
-          "Afghans were the dominant nobility; agriculture was the backbone; use of iron plough, Persian wheel and better irrigation; growth of towns and markets; interaction between different communities continued; development of trade routes connecting Delhi–Agra–Jaunpur–Bengal; crafts like weaving, pottery, metal work flourished"
-        ],
-        "Religion & Culture": [
-          "Islam was the state religion; Sufism flourished, khanqahs established in many parts (Jaunpur, Delhi, Agra etc.); saints like Khwaja Moinuddin Chishti and Nizamuddin Auliya influenced the region",
-          "Use of Persian as the court language; development of literature, history writing and music; architecture saw continuance of Indo-Islamic style, including the development of Afghan-style architecture (arches, domes, thick walls, sloping buttresses)"
-        ],
-        "Art & Architecture in U.P.": [
-          "Important buildings: Tomb of Khizr Khan — Delhi (early Sayyid); Sikandra (Agra) — built by Sikandar Lodi; Atala Masjid — Jaunpur (Lodi period); sarai buildings and forts in various towns",
-          "Sources: Tarikh-i-Mubarak Shahi (by Mubarak Shah's court), Tabaqat-i-Akbari (important for the Lodi period); coins — silver Tanka and copper Jital were in circulation"
-        ]
+        "Important Rulers": {
+          "intro": "The stark contrast this table draws between the weak Sayyid rulers and the more effective Lodis, especially Sikandar Lodi, is the organising idea for this entire page — read the rest of the categories below with that contrast specifically in mind.",
+          "points": [
+            "Sayyid Dynasty (1414–1451 CE): Khizr Khan (1414–1421) — consolidated Sayyid rule in Delhi and adjacent regions; Mubarak Shah (1421–1434) — coinage reforms, shift of capital within Delhi; Muhammad Shah (1434–1445); Alauddin Alam Shah (1445–1451)",
+            "Lodi Dynasty (1451–1526 CE): Bahlul Lodi (1451–1489) — centralised authority to a degree, laid foundation for stable administration; Sikandar Lodi (1489–1517) — effective administrator, promoted agriculture, built cities (Agra, Sikandra); Ibrahim Lodi (1517–1526) — alienated nobles, defeated by Babur"
+          ]
+        },
+        "Administration & Governance": {
+          "intro": "Notice how explicitly this table states that central authority was 'weaker in the Sayyid period, improved under the Lodis' — this is a rare case in the source material of a direct, comparative judgement about relative dynastic competence rather than a neutral list of features.",
+          "points": [
+            "Central authority was weaker in the Sayyid period, improved under the Lodis; U.P. divided into Iqtas, governed by governors (muqtis); land revenue (kharaj) was the main source, with improved measurement under Sikandar Lodi",
+            "Army mainly Afghan cavalry with foot soldiers; Qazi courts and Sharia law, with Sikandar Lodi ensuring impartial justice; public works: construction of mosques, sarais, roads, tanks and gardens"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "The 'kharaj' land revenue described here as the main source of income, with improved measurement specifically credited to Sikandar Lodi, is the direct forerunner of the far more famous Mughal-era Zabt system the next-but-one page in this track will describe in detail.",
+          "points": [
+            "Afghans were the dominant nobility; agriculture was the backbone; use of iron plough, Persian wheel and better irrigation; growth of towns and markets; interaction between different communities continued; development of trade routes connecting Delhi–Agra–Jaunpur–Bengal; crafts like weaving, pottery, metal work flourished"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "Sufi khanqahs are described here as established 'in many parts' of the region — this continues the same pattern of Sufism as a social unifying force that the earlier Delhi Sultanate and Jaunpur pages already established, now specifically under Sayyid and Lodi patronage.",
+          "points": [
+            "Islam was the state religion; Sufism flourished, khanqahs established in many parts (Jaunpur, Delhi, Agra etc.); saints like Khwaja Moinuddin Chishti and Nizamuddin Auliya influenced the region",
+            "Use of Persian as the court language; development of literature, history writing and music; architecture saw continuance of Indo-Islamic style, including the development of Afghan-style architecture (arches, domes, thick walls, sloping buttresses)"
+          ]
+        },
+        "Art & Architecture in U.P.": {
+          "intro": "Sikandar Lodi's construction of Sikandra near Agra, noted here, is worth remembering specifically because Agra itself — founded by the same ruler — is about to become the setting for the entire next chapter of this track under the Mughals.",
+          "points": [
+            "Important buildings: Tomb of Khizr Khan — Delhi (early Sayyid); Sikandra (Agra) — built by Sikandar Lodi; Atala Masjid — Jaunpur (Lodi period); sarai buildings and forts in various towns",
+            "Sources: Tarikh-i-Mubarak Shahi (by Mubarak Shah's court), Tabaqat-i-Akbari (important for the Lodi period); coins — silver Tanka and copper Jital were in circulation"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -11275,28 +11473,43 @@
         }
       ],
       "aspects": {
-        "Administration & Governance": [
-          "Territorial system: province of Subah (Sarkar); U.P. was part of Subah Allahabad and Subah Awadh; revenue system: Zabt system under Akbar, land revenue assessment through measurement (Todar Mal)",
-          "Mansabdari System: nobility system based on rank (Mansab) and salary; local administration: Pargana and Mahal system, Qanungos, Patwaris, Amin were important officials; law & order: Qazi (judicial) and Kotwal (police chief) maintained order in towns; public works: construction of roads, sarais, bridges, gardens, tanks and canals"
-        ],
-        "Economy & Society": [
-          "Agriculture was the backbone of the economy; main crops — wheat, rice, sugarcane, indigo; development of irrigation, use of Persian wheel and tanks; growth of trade and crafts — textiles, metal work, carpets, jewellery, pottery",
-          "Major trade centres: Agra, Banaras, Allahabad, Lucknow, Jaunpur, Etawah, Kannauj; society was composite — Hindus, Muslims, Jains, Sikhs lived together; local zamindars and merchants played key roles"
-        ],
-        "Religion & Culture": [
-          "Religious policy: Akbar followed Sulh-i-Kul (universal peace) and respected all religions; Jahangir and Shah Jahan continued a policy of tolerance; Aurangzeb was orthodox but allowed Hindu practices in various contexts",
-          "Cultural developments: flourishing of music (Tansen — linked with Akbar's court); miniature painting, calligraphy, silk weaving, carpet making; composite culture and syncretism of Indo-Islamic traditions; growth of the Sufi tradition, influenced by the Khwaja Moinuddin Chishti (Ajmer) connection"
-        ],
-        "Art, Architecture & Literature": [
-          "Architecture: Agra Fort (Akbar), Fatehpur Sikri (Akbar), Taj Mahal (Shah Jahan), Itimad-ud-Daulah's Tomb (Agra), Jama Masjid (Agra), Shahi Bridge (Allahabad), Shahi Qila (Allahabad Fort), gardens — Ram Bagh (Agra), Shalimar Bagh (Allahabad)",
-          "Literature: Akbarnama (Abul Fazl), Ain-i-Akbari, Tuzuk-i-Jahangiri (Jahangir), Padshahnama (Abdul Hamid Lahori); Persian was the court language"
-        ],
-        "Important Mughal Rulers & Their Contribution to U.P.": [
-          "Akbar (1556–1605): conquered Awadh (1564), brought it under Mughal rule; founded Fatehpur Sikri (1571) near Agra; reorganised administration and revenue system",
-          "Jahangir (1605–1627): made Allahabad (Prayagraj) an important administrative centre; encouraged art and natural history",
-          "Shah Jahan (1628–1658): built the Taj Mahal, Jama Masjid (Agra), Moti Masjid; developed cities, gardens, sarais and roads",
-          "Aurangzeb (1658–1707): administered the empire from U.P. centres during Deccan campaigns; built many mosques and sarais"
-        ]
+        "Administration & Governance": {
+          "intro": "The Zabt revenue system and Mansabdari nobility structure described here are the same institutions the national Akbar the Great page discusses at empire-wide scale — this table's value is showing specifically how they were administered through the Subah Allahabad and Subah Awadh provinces that covered most of present-day U.P.",
+          "points": [
+            "Territorial system: province of Subah (Sarkar); U.P. was part of Subah Allahabad and Subah Awadh; revenue system: Zabt system under Akbar, land revenue assessment through measurement (Todar Mal)",
+            "Mansabdari System: nobility system based on rank (Mansab) and salary; local administration: Pargana and Mahal system, Qanungos, Patwaris, Amin were important officials; law & order: Qazi (judicial) and Kotwal (police chief) maintained order in towns; public works: construction of roads, sarais, bridges, gardens, tanks and canals"
+          ]
+        },
+        "Economy & Society": {
+          "intro": "The list of major trade centres here — Agra, Banaras, Allahabad, Lucknow, Jaunpur, Etawah, Kannauj — is essentially a roll call of cities this track has already introduced under earlier dynasties, showing a striking continuity of urban economic importance across nearly a millennium of political change.",
+          "points": [
+            "Agriculture was the backbone of the economy; main crops — wheat, rice, sugarcane, indigo; development of irrigation, use of Persian wheel and tanks; growth of trade and crafts — textiles, metal work, carpets, jewellery, pottery",
+            "Major trade centres: Agra, Banaras, Allahabad, Lucknow, Jaunpur, Etawah, Kannauj; society was composite — Hindus, Muslims, Jains, Sikhs lived together; local zamindars and merchants played key roles"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "Note the explicit contrast drawn here between Akbar's and Jahangir's tolerance, Shah Jahan's continued but less expansive tolerance, and Aurangzeb's more orthodox but still regionally variable practice — the same nuanced picture the national Aurangzeb page presents, now grounded in specifically U.P.-based examples.",
+          "points": [
+            "Religious policy: Akbar followed Sulh-i-Kul (universal peace) and respected all religions; Jahangir and Shah Jahan continued a policy of tolerance; Aurangzeb was orthodox but allowed Hindu practices in various contexts",
+            "Cultural developments: flourishing of music (Tansen — linked with Akbar's court); miniature painting, calligraphy, silk weaving, carpet making; composite culture and syncretism of Indo-Islamic traditions; growth of the Sufi tradition, influenced by the Khwaja Moinuddin Chishti (Ajmer) connection"
+          ]
+        },
+        "Art, Architecture & Literature": {
+          "intro": "The Taj Mahal listed here is this page's single most important entry — while the national Shah Jahan page discusses it as the era's defining monument, this table is a reminder that it is, quite literally, a U.P. building, standing in Agra rather than in any other Mughal city.",
+          "points": [
+            "Architecture: Agra Fort (Akbar), Fatehpur Sikri (Akbar), Taj Mahal (Shah Jahan), Itimad-ud-Daulah's Tomb (Agra), Jama Masjid (Agra), Shahi Bridge (Allahabad), Shahi Qila (Allahabad Fort), gardens — Ram Bagh (Agra), Shalimar Bagh (Allahabad)",
+            "Literature: Akbarnama (Abul Fazl), Ain-i-Akbari, Tuzuk-i-Jahangiri (Jahangir), Padshahnama (Abdul Hamid Lahori); Persian was the court language"
+          ]
+        },
+        "Important Mughal Rulers & Their Contribution to U.P.": {
+          "intro": "Use this ruler-by-ruler breakdown specifically to distinguish U.P.-focused achievements (Akbar's conquest of Awadh, Jahangir's development of Allahabad) from the same rulers' better-known empire-wide achievements covered on their own dedicated national pages elsewhere on this site.",
+          "points": [
+            "Akbar (1556–1605): conquered Awadh (1564), brought it under Mughal rule; founded Fatehpur Sikri (1571) near Agra; reorganised administration and revenue system",
+            "Jahangir (1605–1627): made Allahabad (Prayagraj) an important administrative centre; encouraged art and natural history",
+            "Shah Jahan (1628–1658): built the Taj Mahal, Jama Masjid (Agra), Moti Masjid; developed cities, gardens, sarais and roads",
+            "Aurangzeb (1658–1707): administered the empire from U.P. centres during Deccan campaigns; built many mosques and sarais"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -11429,29 +11642,44 @@
         }
       ],
       "aspects": {
-        "Administration & Governance": [
-          "Weak central authority: emperors were figureheads, real power was with nobles, wazirs and regional governors; Subah system — U.P. was part of Subah Awadh and Subah Allahabad",
-          "Revenue system: Zabt system continued but revenue farming increased, with the Ijara system becoming common; Nawabs of Awadh (Saadat Khan, Safdar Jang, Shuja-ud-Daula, Asaf-ud-Daula, Wajid Ali Shah) became the de facto rulers; law and order deteriorated, zamindars became powerful in rural areas; Mughal army weak and undisciplined, reliance on provincial forces"
-        ],
-        "Society & Economy": [
-          "Agriculture remained the main occupation; irrigation through canals and wells; growth of commercial crops — indigo, opium, sugarcane; trade centres — Agra, Allahabad, Banaras, Shahjahanpur, Moradabad",
-          "Crafts and industries — textiles, metal work, pottery, glass, carpets, arms; society: influence of Persian culture continued, composite culture flourished"
-        ],
-        "Religion & Culture": [
-          "Islam remained the state religion, but tolerance continued; growth of Sufi centres — Chishti, Qadri orders; development of Urdu language; patronage to literature, music, painting (Mughal miniature style declined but provincial styles developed)",
-          "Important scholars: Shah Waliullah (born in Delhi, influence in the Awadh & Banaras region)"
-        ],
-        "Art, Architecture & Literature": [
-          "Architecture: blend of Mughal and regional styles; important monuments — Imambara, Rumi Darwaza (Lucknow), Asafi Imambara (Lucknow), Chhota Imambara, Dilkusha Kothi (Constantia, later colonial influence)",
-          "Literature & arts: Urdu poetry by Wali Dakhini, Mir Taqi Mir (Banaras connection); Persian literature continued; music and dance patronised at the Awadh court; painting declined in imperial centres but provincial schools like Awadh style flourished"
-        ],
-        "Important Nawabs of Awadh (Impact on U.P.)": [
-          "Saadat Khan Burhan-ul-Mulk (1722–1739): founder of Awadh's autonomy",
-          "Safdar Jang (1739–1754): strengthened administration, controlled U.P., Bihar",
-          "Shuja-ud-Daula (1754–1775): defeated Mughals & Marathas; participated in the Battle of Buxar (1764)",
-          "Asaf-ud-Daula (1775–1797): shifted capital to Lucknow, built many monuments",
-          "Wajid Ali Shah (1797–1856): last Nawab, deposed by the British in 1856; Awadh became the most powerful state in U.P. during the Later Mughal period"
-        ]
+        "Administration & Governance": {
+          "intro": "The description here of emperors as 'figureheads' with real power resting with 'nobles, wazirs and regional governors' is the same structural collapse the national Later Mughal Empire page describes at empire-wide scale — this table's contribution is naming the specific U.P.-based nobles (the Nawabs of Awadh) who filled that vacuum locally.",
+          "points": [
+            "Weak central authority: emperors were figureheads, real power was with nobles, wazirs and regional governors; Subah system — U.P. was part of Subah Awadh and Subah Allahabad",
+            "Revenue system: Zabt system continued but revenue farming increased, with the Ijara system becoming common; Nawabs of Awadh (Saadat Khan, Safdar Jang, Shuja-ud-Daula, Asaf-ud-Daula, Wajid Ali Shah) became the de facto rulers; law and order deteriorated, zamindars became powerful in rural areas; Mughal army weak and undisciplined, reliance on provincial forces"
+          ]
+        },
+        "Society & Economy": {
+          "intro": "Notice the continuity of trade centres named here — Agra, Allahabad, Banaras, Shahjahanpur, Moradabad — with almost every previous page in this track; even as political authority fragmented and weakened, the same underlying urban economic geography persisted largely unchanged.",
+          "points": [
+            "Agriculture remained the main occupation; irrigation through canals and wells; growth of commercial crops — indigo, opium, sugarcane; trade centres — Agra, Allahabad, Banaras, Shahjahanpur, Moradabad",
+            "Crafts and industries — textiles, metal work, pottery, glass, carpets, arms; society: influence of Persian culture continued, composite culture flourished"
+          ]
+        },
+        "Religion & Culture": {
+          "intro": "Shah Waliullah's influence, noted here as extending into the Awadh and Banaras region, is a useful reminder that major religious-intellectual figures based elsewhere in India (in his case, Delhi) still shaped the specifically regional religious culture this track has been tracing throughout.",
+          "points": [
+            "Islam remained the state religion, but tolerance continued; growth of Sufi centres — Chishti, Qadri orders; development of Urdu language; patronage to literature, music, painting (Mughal miniature style declined but provincial styles developed)",
+            "Important scholars: Shah Waliullah (born in Delhi, influence in the Awadh & Banaras region)"
+          ]
+        },
+        "Art, Architecture & Literature": {
+          "intro": "The Lucknow-centred monuments listed here — the Rumi Darwaza, Asafi Imambara — mark a genuine stylistic departure from the Agra- and Delhi-centred Mughal architecture of the previous page, reflecting Awadh's real cultural and political independence even under nominal Mughal suzerainty.",
+          "points": [
+            "Architecture: blend of Mughal and regional styles; important monuments — Imambara, Rumi Darwaza (Lucknow), Asafi Imambara (Lucknow), Chhota Imambara, Dilkusha Kothi (Constantia, later colonial influence)",
+            "Literature & arts: Urdu poetry by Wali Dakhini, Mir Taqi Mir (Banaras connection); Persian literature continued; music and dance patronised at the Awadh court; painting declined in imperial centres but provincial schools like Awadh style flourished"
+          ]
+        },
+        "Important Nawabs of Awadh (Impact on U.P.)": {
+          "intro": "This is the page's most important table: the Nawabs listed here are not minor regional governors but the actual rulers of what had become, by this point, U.P.'s single most powerful and consequential political entity — worth remembering each name and reign in sequence.",
+          "points": [
+            "Saadat Khan Burhan-ul-Mulk (1722–1739): founder of Awadh's autonomy",
+            "Safdar Jang (1739–1754): strengthened administration, controlled U.P., Bihar",
+            "Shuja-ud-Daula (1754–1775): defeated Mughals & Marathas; participated in the Battle of Buxar (1764)",
+            "Asaf-ud-Daula (1775–1797): shifted capital to Lucknow, built many monuments",
+            "Wajid Ali Shah (1797–1856): last Nawab, deposed by the British in 1856; Awadh became the most powerful state in U.P. during the Later Mughal period"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -11581,26 +11809,41 @@
         }
       ],
       "aspects": {
-        "Administrative Structure": [
-          "Governor (Lieutenant Governor after 1858) — head of the province; Executive Council assisted the Governor; Commissioners headed divisions (Agra, Allahabad, Bareilly, Lucknow etc.)",
-          "District Collector — key officer, responsible for revenue, magisterial and administrative functions; Tehsil & Police System ensured law and order"
-        ],
-        "Land Revenue Systems": [
-          "Permanent Settlement: Western U.P. (Meerut, Saharanpur, parts of Muzaffarnagar); Mahalwari System: Rohilkhand, Agra, Bareilly, Allahabad etc.; Taluqdari System: Oudh region, where taluqdars collected revenue",
-          "Impact: heavy revenue demand, exploitation of peasants; rise of moneylenders and decline of the traditional rural economy; discontent among taluqdars, which played a role in the Revolt of 1857"
-        ],
-        "Law, Order & Judicial System": [
-          "Indian Penal Code (1860), Code of Criminal Procedure (1861) and Indian Evidence Act (1872) implemented; Police Act, 1861 introduced a modern police system; High Courts Act, 1861 — Allahabad High Court established (1866); Munsif Courts at the lower level for civil justice; British laws established a uniform system, but generally favoured colonial interests"
-        ],
-        "Public Works, Education & Economic Impact": [
-          "Development of roads, railways, canals, bridges, post and telegraph; first railway line in U.P. (1859, Allahabad to Kanpur); Grand Trunk Road improved; canals: Upper Ganga Canal (1842), Lower Ganga Canal (1854), Sharda Canal",
-          "English education promoted; schools & colleges established — Muir Central College Allahabad (1874), Agra College (1823), Isabella Thoburn College Lucknow (1870); universities — Allahabad University (1887), Agra College affiliated to it; emergence of social reform movements — Arya Samaj, Brahmo Samaj",
-          "Economic impact: expansion of commercial agriculture (indigo, opium, cotton, sugarcane); decline of handicrafts and traditional industries; drain of wealth — profits taken to Britain; famine and poverty (e.g. famines of 1837–38, 1860–61, 1873–74); rise of urban centres — Allahabad, Kanpur, Lucknow, Agra, Meerut"
-        ],
-        "Local Self-Government & Freedom Movement": [
-          "Local Boards Act, 1884 introduced local self-government — District Boards, Municipalities and Union Committees formed, though with limited powers and finances",
-          "U.P. was a major centre of nationalism — important leaders Pt. Madan Mohan Malaviya, Motilal Nehru, Jawaharlal Nehru, Chandra Shekhar Azad, Ram Prasad Bismil, Ashfaqulla Khan; participation in Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942); revolutionary activities in Kanpur, Kakori (1925), Banaras, Allahabad"
-        ]
+        "Administrative Structure": {
+          "intro": "The Governor–Commissioner–Collector–Tehsil hierarchy described here is the direct British successor to, and in some ways a more rigidly bureaucratic version of, the Subah–Sarkar–Pargana structure the Mughals used on earlier pages in this track — worth comparing the two systems directly.",
+          "points": [
+            "Governor (Lieutenant Governor after 1858) — head of the province; Executive Council assisted the Governor; Commissioners headed divisions (Agra, Allahabad, Bareilly, Lucknow etc.)",
+            "District Collector — key officer, responsible for revenue, magisterial and administrative functions; Tehsil & Police System ensured law and order"
+          ]
+        },
+        "Land Revenue Systems": {
+          "intro": "This table's three systems — Permanent Settlement, Mahalwari, Taluqdari — are not simply administrative trivia; the specific grievances they generated, especially under the Taluqdari system in Oudh, are a direct, documented cause of the 1857 Revolt covered on the very next page.",
+          "points": [
+            "Permanent Settlement: Western U.P. (Meerut, Saharanpur, parts of Muzaffarnagar); Mahalwari System: Rohilkhand, Agra, Bareilly, Allahabad etc.; Taluqdari System: Oudh region, where taluqdars collected revenue",
+            "Impact: heavy revenue demand, exploitation of peasants; rise of moneylenders and decline of the traditional rural economy; discontent among taluqdars, which played a role in the Revolt of 1857"
+          ]
+        },
+        "Law, Order & Judicial System": {
+          "intro": "The codified laws listed here (Indian Penal Code, Evidence Act) created a uniform legal system that, as the national British Administration page notes more broadly, was efficient in structure but designed first to serve colonial interests rather than Indian ones.",
+          "points": [
+            "Indian Penal Code (1860), Code of Criminal Procedure (1861) and Indian Evidence Act (1872) implemented; Police Act, 1861 introduced a modern police system; High Courts Act, 1861 — Allahabad High Court established (1866); Munsif Courts at the lower level for civil justice; British laws established a uniform system, but generally favoured colonial interests"
+          ]
+        },
+        "Public Works, Education & Economic Impact": {
+          "intro": "Reading the infrastructure achievements in this table (railways, canals, universities) alongside its own economic-impact entries (decline of handicrafts, recurring famine) makes visible the genuine double-edged character of colonial administration that this whole track's British-era pages keep returning to.",
+          "points": [
+            "Development of roads, railways, canals, bridges, post and telegraph; first railway line in U.P. (1859, Allahabad to Kanpur); Grand Trunk Road improved; canals: Upper Ganga Canal (1842), Lower Ganga Canal (1854), Sharda Canal",
+            "English education promoted; schools & colleges established — Muir Central College Allahabad (1874), Agra College (1823), Isabella Thoburn College Lucknow (1870); universities — Allahabad University (1887), Agra College affiliated to it; emergence of social reform movements — Arya Samaj, Brahmo Samaj",
+            "Economic impact: expansion of commercial agriculture (indigo, opium, cotton, sugarcane); decline of handicrafts and traditional industries; drain of wealth — profits taken to Britain; famine and poverty (e.g. famines of 1837–38, 1860–61, 1873–74); rise of urban centres — Allahabad, Kanpur, Lucknow, Agra, Meerut"
+          ]
+        },
+        "Local Self-Government & Freedom Movement": {
+          "intro": "The Local Boards Act of 1884, introducing limited local self-government, and the list of nationalist leaders in this category sit side by side deliberately — this is the same institutional space, however constrained, out of which the freedom struggle covered later in this track would eventually grow.",
+          "points": [
+            "Local Boards Act, 1884 introduced local self-government — District Boards, Municipalities and Union Committees formed, though with limited powers and finances",
+            "U.P. was a major centre of nationalism — important leaders Pt. Madan Mohan Malaviya, Motilal Nehru, Jawaharlal Nehru, Chandra Shekhar Azad, Ram Prasad Bismil, Ashfaqulla Khan; participation in Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942); revolutionary activities in Kanpur, Kakori (1925), Banaras, Allahabad"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -11739,30 +11982,45 @@
         }
       ],
       "aspects": {
-        "Leaders of the Revolt in U.P.": [
-          "Nana Sahib (Neelkanth Peshwa) — Kanpur; led the revolt in Kanpur, proclaimed Peshwa",
-          "Begum Hazrat Mahal — Lucknow; led the resistance in Awadh in the name of her son Birjis Qadr",
-          "Maulvi Ahmadullah Shah (Faizabad) — Awadh region; popular religious leader who mobilised people",
-          "Kunwar Singh — operated in the Azamgarh–Ballia region, with links to Bihar; supported the revolt",
-          "Raja Jai Lal Singh — Aligarh; led the revolt in Aligarh",
-          "Feroz Shah — Fatehpur; mobilised people",
-          "Khan Bahadur Khan — Bareilly; proclaimed himself ruler of Bareilly"
-        ],
-        "The Revolt in Awadh (Lucknow & Faizabad)": [
-          "Awadh was the heartland of the revolt; Begum Hazrat Mahal took charge in the name of her minor son Birjis Qadr; Maulvi Ahmadullah Shah became the spiritual and military leader; people from all sections — taluqdars, peasants, artisans, women — participated; the British Residency in Lucknow was besieged from July to November 1857"
-        ],
-        "Kanpur (Cawnpore) & Rohilkhand": [
-          "Kanpur: led by Nana Sahib, Tatya Tope and Azimullah Khan; the British garrison surrendered on 27 June 1857; the Satichaura Ghat incident and the subsequent Bibighar incident took place; Kanpur was recaptured by the British in July 1857",
-          "Rohilkhand: widespread participation in Bareilly, Shahjahanpur, Budaun, Pilibhit, Moradabad, Rampur etc.; Khan Bahadur Khan proclaimed ruler of Bareilly; strong anti-British sentiments among Rohilla Pathans and local zamindars; the British regained control after heavy fighting"
-        ],
-        "Nature, Significance & Reasons for Failure": [
-          "Mass character in Awadh — involvement of peasants, taluqdars, clerics, artisans and women; combination of sepoy mutiny and a people's revolt aimed at ending British rule and restoring traditional authority; showed Hindu-Muslim unity (composite culture)",
-          "Reasons for failure: lack of centralised leadership and coordination; limited modern arms and ammunition; some princes and zamindars remained loyal to the British; better organisation, resources and communication of the British; internal differences among leaders"
-        ],
-        "Consequences of the Revolt in U.P.": [
-          "End of East India Company rule; Government of India Act, 1858; direct British Crown rule in India; policy of reconciliation with landlords and princes",
-          "Reorganisation of the army — more British, fewer Indians; strengthening of police, intelligence and communication; land settlements relaxed in Awadh to win support of taluqdars; beginning of modern nationalism"
-        ]
+        "Leaders of the Revolt in U.P.": {
+          "intro": "This is the single most important reference table on this page — memorising which leader operated in which specific area (Nana Sahib at Kanpur, Begum Hazrat Mahal at Lucknow, Khan Bahadur Khan at Bareilly) is essential for correctly answering the location-based questions this topic frequently generates.",
+          "points": [
+            "Nana Sahib (Neelkanth Peshwa) — Kanpur; led the revolt in Kanpur, proclaimed Peshwa",
+            "Begum Hazrat Mahal — Lucknow; led the resistance in Awadh in the name of her son Birjis Qadr",
+            "Maulvi Ahmadullah Shah (Faizabad) — Awadh region; popular religious leader who mobilised people",
+            "Kunwar Singh — operated in the Azamgarh–Ballia region, with links to Bihar; supported the revolt",
+            "Raja Jai Lal Singh — Aligarh; led the revolt in Aligarh",
+            "Feroz Shah — Fatehpur; mobilised people",
+            "Khan Bahadur Khan — Bareilly; proclaimed himself ruler of Bareilly"
+          ]
+        },
+        "The Revolt in Awadh (Lucknow & Faizabad)": {
+          "intro": "Awadh's status as the revolt's genuine heartland, described in this category, connects directly back to the land revenue grievances (specifically the Taluqdari system) documented on the previous page — this was not simply a military mutiny but a revolt with deep, locally specific economic roots.",
+          "points": [
+            "Awadh was the heartland of the revolt; Begum Hazrat Mahal took charge in the name of her minor son Birjis Qadr; Maulvi Ahmadullah Shah became the spiritual and military leader; people from all sections — taluqdars, peasants, artisans, women — participated; the British Residency in Lucknow was besieged from July to November 1857"
+          ]
+        },
+        "Kanpur (Cawnpore) & Rohilkhand": {
+          "intro": "Treating these two very different centres in a single category is deliberate: Kanpur shows the revolt's more conventional military dimension under Nana Sahib, while Rohilkhand's Khan Bahadur Khan shows how quickly local rule could be re-established once British authority collapsed in a given district.",
+          "points": [
+            "Kanpur: led by Nana Sahib, Tatya Tope and Azimullah Khan; the British garrison surrendered on 27 June 1857; the Satichaura Ghat incident and the subsequent Bibighar incident took place; Kanpur was recaptured by the British in July 1857",
+            "Rohilkhand: widespread participation in Bareilly, Shahjahanpur, Budaun, Pilibhit, Moradabad, Rampur etc.; Khan Bahadur Khan proclaimed ruler of Bareilly; strong anti-British sentiments among Rohilla Pathans and local zamindars; the British regained control after heavy fighting"
+          ]
+        },
+        "Nature, Significance & Reasons for Failure": {
+          "intro": "The reasons for failure listed here — lack of centralised leadership, limited modern weapons, uneven loyalty among princes — are the same structural weaknesses that distinguish 1857 from the far more organised, Congress-led freedom struggle phases covered later in this track.",
+          "points": [
+            "Mass character in Awadh — involvement of peasants, taluqdars, clerics, artisans and women; combination of sepoy mutiny and a people's revolt aimed at ending British rule and restoring traditional authority; showed Hindu-Muslim unity (composite culture)",
+            "Reasons for failure: lack of centralised leadership and coordination; limited modern arms and ammunition; some princes and zamindars remained loyal to the British; better organisation, resources and communication of the British; internal differences among leaders"
+          ]
+        },
+        "Consequences of the Revolt in U.P.": {
+          "intro": "Note how directly these consequences (end of Company rule, revised land settlements for taluqdars) respond point-for-point to the specific grievances and administrative structures described on the previous British Rule and Administration page — cause and effect are unusually traceable in this particular sequence.",
+          "points": [
+            "End of East India Company rule; Government of India Act, 1858; direct British Crown rule in India; policy of reconciliation with landlords and princes",
+            "Reorganisation of the army — more British, fewer Indians; strengthening of police, intelligence and communication; land settlements relaxed in Awadh to win support of taluqdars; beginning of modern nationalism"
+          ]
+        }
       },
       "women": [
         {
@@ -11915,24 +12173,39 @@
         }
       ],
       "aspects": {
-        "Major Centres of the Freedom Struggle in U.P.": [
-          "Meerut — centre of the 1857 revolt; Kanpur — Nana Saheb, Tatya Tope; Lucknow — centre of politics, peasant movements; Allahabad (Prayagraj) — political activities, Congress sessions (1888, 1910, 1921); Ballia — 'first district to raise the tricolour', 1942"
-        ],
-        "Revolutionary Movement": [
-          "U.P. was a strong centre of revolutionary activities; important organisations — Hindustan Republican Association (HRA, founded by Ram Prasad Bismil and Sachindranath Sanyal) and Hindustan Socialist Republican Association (HSRA, Chandra Shekhar Azad)",
-          "Notable events: the Kakori Conspiracy (1925) — Ram Prasad Bismil, Ashfaqullah Khan, Rajendra Lahiri, Roshan Singh etc.; Chandra Shekhar Azad's active base in Allahabad (Anand Bhavan); martyrs — Ram Prasad Bismil (Gonda), Ashfaqullah Khan (Shahjahanpur), Roshan Singh (Pratapgarh), Chandrashekhar Azad (Allahabad)"
-        ],
-        "Peasant & Tribal Movements": [
-          "Awadh Kisan Sabha (1920) — led by Baba Ramchandra; Eka Movement (1921) — Pratapgarh, against high rents, begar (forced labour), illegal cesses; Kisan Movements in Rae Bareli, Sultanpur, Faizabad, Gorakhpur, Ballia",
-          "Main demands: reduction in land revenue, abolition of begar, security of tenure; drew on Bardoli and Champaran-style methods and influences"
-        ],
-        "Participation of Different Sections": [
-          "Students: boycott of government schools, national education, students' unions active; Women: participation in movements, picketing, spinning, promoting khadi; Peasants: Kisan Sabhas, no-tax campaigns, agrarian agitations",
-          "Workers: railway, textile and municipal workers took part in strikes and protests; Business & Middle Class: boycott of foreign goods, Swadeshi, financial support; Religious & Social Leaders: promoted unity, social reform and national awakening"
-        ],
-        "Important Institutions & Organisations": [
-          "Indian National Congress Sessions — 1888, 1910, 1921 (Allahabad); Servants of the People Society — 1911 (Allahabad; Gokhale, Malaviya); Kashi Vidyapith — 1921 (Varanasi); Gandhi Ashram — 1921 (Allahabad); Awadh Kisan Sabha — 1920 (Awadh Region); Congress Seva Dal — 1923 (U.P. units active); Hindustan Republican Association (HRA) — 1924 (Shahjahanpur, Kanpur, Allahabad)"
-        ]
+        "Major Centres of the Freedom Struggle in U.P.": {
+          "intro": "Ballia's claim to being the first district in India to raise the tricolour during Quit India, listed here, is a frequently tested specific fact — worth distinguishing clearly from Meerut's earlier and different claim to fame as the spark point of the 1857 Revolt covered on the previous page.",
+          "points": [
+            "Meerut — centre of the 1857 revolt; Kanpur — Nana Saheb, Tatya Tope; Lucknow — centre of politics, peasant movements; Allahabad (Prayagraj) — political activities, Congress sessions (1888, 1910, 1921); Ballia — 'first district to raise the tricolour', 1942"
+          ]
+        },
+        "Revolutionary Movement": {
+          "intro": "The Kakori Conspiracy detailed in this category deserves particular attention: it is one of the most frequently referenced events in U.P.-specific UPPSC questions, and the specific list of participants and martyrs given here is worth memorising in full.",
+          "points": [
+            "U.P. was a strong centre of revolutionary activities; important organisations — Hindustan Republican Association (HRA, founded by Ram Prasad Bismil and Sachindranath Sanyal) and Hindustan Socialist Republican Association (HSRA, Chandra Shekhar Azad)",
+            "Notable events: the Kakori Conspiracy (1925) — Ram Prasad Bismil, Ashfaqullah Khan, Rajendra Lahiri, Roshan Singh etc.; Chandra Shekhar Azad's active base in Allahabad (Anand Bhavan); martyrs — Ram Prasad Bismil (Gonda), Ashfaqullah Khan (Shahjahanpur), Roshan Singh (Pratapgarh), Chandrashekhar Azad (Allahabad)"
+          ]
+        },
+        "Peasant & Tribal Movements": {
+          "intro": "The Awadh Kisan Sabha and Eka Movement described here show that the freedom struggle in U.P. was never solely an urban, elite-led phenomenon — these agrarian movements had their own specific economic demands, distinct from (though often coordinated with) the Congress's broader political programme.",
+          "points": [
+            "Awadh Kisan Sabha (1920) — led by Baba Ramchandra; Eka Movement (1921) — Pratapgarh, against high rents, begar (forced labour), illegal cesses; Kisan Movements in Rae Bareli, Sultanpur, Faizabad, Gorakhpur, Ballia",
+            "Main demands: reduction in land revenue, abolition of begar, security of tenure; drew on Bardoli and Champaran-style methods and influences"
+          ]
+        },
+        "Participation of Different Sections": {
+          "intro": "This category's breakdown by social section — students, women, peasants, workers, business, religious leaders — is useful specifically because it shows the freedom struggle drawing simultaneously on every part of society rather than any single class or group.",
+          "points": [
+            "Students: boycott of government schools, national education, students' unions active; Women: participation in movements, picketing, spinning, promoting khadi; Peasants: Kisan Sabhas, no-tax campaigns, agrarian agitations",
+            "Workers: railway, textile and municipal workers took part in strikes and protests; Business & Middle Class: boycott of foreign goods, Swadeshi, financial support; Religious & Social Leaders: promoted unity, social reform and national awakening"
+          ]
+        },
+        "Important Institutions & Organisations": {
+          "intro": "Cross-reference this table against the Socio-Religious Movements page later in this track — several of the institutions listed here (Kashi Vidyapith, for instance) sit at the direct intersection of the two themes, being simultaneously educational-reform and freedom-struggle institutions.",
+          "points": [
+            "Indian National Congress Sessions — 1888, 1910, 1921 (Allahabad); Servants of the People Society — 1911 (Allahabad; Gokhale, Malaviya); Kashi Vidyapith — 1921 (Varanasi); Gandhi Ashram — 1921 (Allahabad); Awadh Kisan Sabha — 1920 (Awadh Region); Congress Seva Dal — 1923 (U.P. units active); Hindustan Republican Association (HRA) — 1924 (Shahjahanpur, Kanpur, Allahabad)"
+          ]
+        }
       },
       "women": [
         {
@@ -12089,33 +12362,45 @@
         }
       ],
       "aspects": {
-        "Major Social Reformers from U.P.": [
-          "Raja Ram Mohan Roy (associated with Varanasi) — social reform, Brahmo ideas, women's rights, against Sati",
-          "Raja Shiv Prasad 'Sitare Hind' (Varanasi) — founder of Brahmo Samaj in Kashi, promoted education and widow remarriage",
-          "Swami Dayanand Saraswati (Meerut) — founder of Arya Samaj, social reform, Vedic revival, Shuddhi movement",
-          "Annie Besant (Allahabad) — educationist, social reformer, women's empowerment, founder of Central Hindu College",
-          "Sir Syed Ahmad Khan (Aligarh) — modern education, upliftment of Muslims, social reform",
-          "Pandita Ramabai (associated with Banaras) — advocated women's education and social welfare"
-        ],
-        "Key Areas of Reform and Their Impact": [
-          "Women's upliftment: Sati, child marriage, purdah and the devadasi system opposed; widow remarriage and women's education promoted",
-          "Caste system: opposed untouchability and caste discrimination; emphasized equality of all human beings",
-          "Education: establishment of schools, colleges and universities — DAV institutions, MAO College (Aligarh), BHU etc.",
-          "Religious reform: monotheism, return to scriptures, ethical religion and rejection of superstitions",
-          "Social unity: promoted communal harmony, national unity and moral values"
-        ],
-        "Important Institutions Established": [
-          "DAV Colleges & Schools (Series, 1886 onwards) — Arya Samaj (Swami Dayanand); Meerut, Kanpur, Varanasi, Agra etc.",
-          "Muhammadan Anglo-Oriental College (1875) — Sir Syed Ahmad Khan; Aligarh",
-          "Central Hindu College (1898) — Annie Besant; Varanasi",
-          "Banaras Hindu University (BHU) (1916) — Madan Mohan Malaviya; Varanasi",
-          "Ramakrishna Mission Centres (1902 onwards) — Swami Vivekananda; Varanasi, Lucknow, Gorakhpur, Agra etc."
-        ],
-        "Significance, Connection with the Freedom Movement, and Limitations": [
-          "Laid the foundation for social reforms and the national movement; created awareness about rights, equality and education; built institutions that became centres of learning and nationalism; helped remove social evils and uplift marginalised sections",
-          "These movements awakened national political consciousness and a spirit of self-respect; leaders inspired by these reform movements actively participated in the freedom struggle; institutions like BHU, DAV colleges and the Aligarh Movement produced national leaders",
-          "Challenges: reforms were mainly urban and upper-caste centric; rural areas remained largely untouched; some movements were conservative in approach; women's participation was limited in the early phase"
-        ]
+        "Major Social Reformers from U.P.": {
+          "intro": "This table is best read as a companion to the national Socio-Religious Reforms page — every reformer listed here also appears, or is closely associated with a movement that appears, in that national account, but this table adds the specific U.P. city each was based in or associated with.",
+          "points": [
+            "Raja Ram Mohan Roy (associated with Varanasi) — social reform, Brahmo ideas, women's rights, against Sati",
+            "Raja Shiv Prasad 'Sitare Hind' (Varanasi) — founder of Brahmo Samaj in Kashi, promoted education and widow remarriage",
+            "Swami Dayanand Saraswati (Meerut) — founder of Arya Samaj, social reform, Vedic revival, Shuddhi movement",
+            "Annie Besant (Allahabad) — educationist, social reformer, women's empowerment, founder of Central Hindu College",
+            "Sir Syed Ahmad Khan (Aligarh) — modern education, upliftment of Muslims, social reform",
+            "Pandita Ramabai (associated with Banaras) — advocated women's education and social welfare"
+          ]
+        },
+        "Key Areas of Reform and Their Impact": {
+          "intro": "Notice that every reform area listed here (women's upliftment, caste, education, religious reform, social unity) maps onto a specific, traceable piece of national legislation — this is a useful structure for connecting a reform movement to its concrete legal outcome rather than treating the two as separate facts.",
+          "points": [
+            "Women's upliftment: Sati, child marriage, purdah and the devadasi system opposed; widow remarriage and women's education promoted",
+            "Caste system: opposed untouchability and caste discrimination; emphasized equality of all human beings",
+            "Education: establishment of schools, colleges and universities — DAV institutions, MAO College (Aligarh), BHU etc.",
+            "Religious reform: monotheism, return to scriptures, ethical religion and rejection of superstitions",
+            "Social unity: promoted communal harmony, national unity and moral values"
+          ]
+        },
+        "Important Institutions Established": {
+          "intro": "Banaras Hindu University, listed here as founded in 1916 by Madan Mohan Malaviya, deserves special attention: it directly connects this page to the freedom struggle covered on the previous page, since many of the leaders and institutions of both movements overlapped substantially.",
+          "points": [
+            "DAV Colleges & Schools (Series, 1886 onwards) — Arya Samaj (Swami Dayanand); Meerut, Kanpur, Varanasi, Agra etc.",
+            "Muhammadan Anglo-Oriental College (1875) — Sir Syed Ahmad Khan; Aligarh",
+            "Central Hindu College (1898) — Annie Besant; Varanasi",
+            "Banaras Hindu University (BHU) (1916) — Madan Mohan Malaviya; Varanasi",
+            "Ramakrishna Mission Centres (1902 onwards) — Swami Vivekananda; Varanasi, Lucknow, Gorakhpur, Agra etc."
+          ]
+        },
+        "Significance, Connection with the Freedom Movement, and Limitations": {
+          "intro": "The honest limitations noted here — that reforms were mainly urban and upper-caste centric, and rural areas remained largely untouched — are worth taking seriously; they are a useful corrective against overstating how comprehensively these movements actually transformed U.P. society.",
+          "points": [
+            "Laid the foundation for social reforms and the national movement; created awareness about rights, equality and education; built institutions that became centres of learning and nationalism; helped remove social evils and uplift marginalised sections",
+            "These movements awakened national political consciousness and a spirit of self-respect; leaders inspired by these reform movements actively participated in the freedom struggle; institutions like BHU, DAV colleges and the Aligarh Movement produced national leaders",
+            "Challenges: reforms were mainly urban and upper-caste centric; rural areas remained largely untouched; some movements were conservative in approach; women's participation was limited in the early phase"
+          ]
+        }
       },
       "women": [
         {
@@ -12262,25 +12547,40 @@
         }
       ],
       "aspects": {
-        "Administration of United Provinces": [
-          "Head of Province: Lieutenant Governor (appointed by the British Crown); Executive Council assisted the Lieutenant Governor; divisions (early 20th century) — Agra, Lucknow, Allahabad, Bareilly, Meerut, Benares, Gorakhpur etc.",
-          "District Administration: District Collector was the highest authority, responsible for revenue, magisterial and executive functions; Local Self Government: Municipalities (1884), District Boards (1884), Union Committees (1919 onwards); Judiciary: High Court established at Allahabad (1866), Munsif Courts for lower judiciary"
-        ],
-        "Economy & Society": [
-          "Agriculture was the main occupation; cash crops — indigo, sugarcane, opium; Land Revenue System — Mahalwari (majority), Taluqdari (in some Oudh areas); industries — handicrafts, textiles (Banaras silk), leather, sugar, glass (Firozabad), brass (Moradabad); railways expanded — Allahabad, Kanpur, Lucknow, Agra became major centres"
-        ],
-        "Education, Press & Social Reforms": [
-          "Education: Wood's Despatch (1854) impact continued; Universities Act (1904); Allahabad, Agra (now Dr. Bhimrao Ambedkar University), Banaras Hindu University (1916)",
-          "Press: rise of Hindi, Urdu, English newspapers — 'Leader' (Allahabad), 'Pratap' (Kanpur), 'Abhyudaya', 'Hindustan Times' (Delhi, impact in U.P.); Social Reforms: work of Arya Samaj, Brahmo Samaj, Theosophical Society, Ramakrishna Mission, Aligarh Movement (Muslim education)"
-        ],
-        "Role of U.P. in the National Movement & Contribution to All-India Politics": [
-          "Strong participation in all phases of the freedom struggle; leaders emerged from U.P. who played an all-India role; U.P. became a base for revolutionary activities, Kisan movements and Congress politics; Awadh Kisan Sabha, Pratapgarh Kisan movement, Eka Movement based in U.P.",
-          "Major source of Congress leaders and workers; high participation in elections (1919, 1923, 1937); formation of Provincial Congress Committee (UP) — active in mobilisation; U.P. Legislative Council since 1935 — a platform for political debate; strong traditions of public meetings, sabhas, processions, prabhat pheris"
-        ],
-        "Governance & Reforms (1919–1935)": [
-          "Government of India Act, 1919 — dyarchy introduced in U.P., limited self-government; Montagu-Chelmsford Reforms — transfer of some subjects (education, health, local self-government)",
-          "Government of India Act, 1935 — provincial autonomy, elections held in 1937 in U.P.; 1937 Elections — Congress formed government in U.P. (Pt. Govind Ballabh Pant, Premier)"
-        ]
+        "Administration of United Provinces": {
+          "intro": "The Lieutenant Governor–Executive Council–District Collector structure described here is a direct continuation of the British administrative system detailed on the earlier British Rule and Administration page, now specifically organised under the newly unified 1902 province rather than the separate NWP and Oudh administrations that preceded it.",
+          "points": [
+            "Head of Province: Lieutenant Governor (appointed by the British Crown); Executive Council assisted the Lieutenant Governor; divisions (early 20th century) — Agra, Lucknow, Allahabad, Bareilly, Meerut, Benares, Gorakhpur etc.",
+            "District Administration: District Collector was the highest authority, responsible for revenue, magisterial and executive functions; Local Self Government: Municipalities (1884), District Boards (1884), Union Committees (1919 onwards); Judiciary: High Court established at Allahabad (1866), Munsif Courts for lower judiciary"
+          ]
+        },
+        "Economy & Society": {
+          "intro": "The land revenue systems listed here (Mahalwari, Taluqdari) are identical to those already introduced two pages earlier — this table's contribution is showing how they continued functioning, largely unchanged, within the newly formed United Provinces administrative unit.",
+          "points": [
+            "Agriculture was the main occupation; cash crops — indigo, sugarcane, opium; Land Revenue System — Mahalwari (majority), Taluqdari (in some Oudh areas); industries — handicrafts, textiles (Banaras silk), leather, sugar, glass (Firozabad), brass (Moradabad); railways expanded — Allahabad, Kanpur, Lucknow, Agra became major centres"
+          ]
+        },
+        "Education, Press & Social Reforms": {
+          "intro": "Note how directly the press and social-reform entries in this category connect to the Socio-Religious Movements page elsewhere in this track — Hindi and Urdu newspapers like 'Pratap' and 'Abhyudaya' were frequently the same publications carrying reformist and nationalist ideas simultaneously.",
+          "points": [
+            "Education: Wood's Despatch (1854) impact continued; Universities Act (1904); Allahabad, Agra (now Dr. Bhimrao Ambedkar University), Banaras Hindu University (1916)",
+            "Press: rise of Hindi, Urdu, English newspapers — 'Leader' (Allahabad), 'Pratap' (Kanpur), 'Abhyudaya', 'Hindustan Times' (Delhi, impact in U.P.); Social Reforms: work of Arya Samaj, Brahmo Samaj, Theosophical Society, Ramakrishna Mission, Aligarh Movement (Muslim education)"
+          ]
+        },
+        "Role of U.P. in the National Movement & Contribution to All-India Politics": {
+          "intro": "This category's specific claim that U.P. became 'a major source of Congress leaders and workers' is the direct explanation for why so many all-India Congress figures covered on the national Indian Freedom Struggle page — the Nehrus, Malaviya, Tandon — are also central figures on this track's own Freedom Struggle page.",
+          "points": [
+            "Strong participation in all phases of the freedom struggle; leaders emerged from U.P. who played an all-India role; U.P. became a base for revolutionary activities, Kisan movements and Congress politics; Awadh Kisan Sabha, Pratapgarh Kisan movement, Eka Movement based in U.P.",
+            "Major source of Congress leaders and workers; high participation in elections (1919, 1923, 1937); formation of Provincial Congress Committee (UP) — active in mobilisation; U.P. Legislative Council since 1935 — a platform for political debate; strong traditions of public meetings, sabhas, processions, prabhat pheris"
+          ]
+        },
+        "Governance & Reforms (1919–1935)": {
+          "intro": "The dyarchy and provincial autonomy reforms described here are the same Government of India Acts covered on the national British Colonial Rule page, but this table shows their specific, concrete effect within U.P. — culminating in the 1937 Congress government under Govind Ballabh Pant.",
+          "points": [
+            "Government of India Act, 1919 — dyarchy introduced in U.P., limited self-government; Montagu-Chelmsford Reforms — transfer of some subjects (education, health, local self-government)",
+            "Government of India Act, 1935 — provincial autonomy, elections held in 1937 in U.P.; 1937 Elections — Congress formed government in U.P. (Pt. Govind Ballabh Pant, Premier)"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -12413,24 +12713,39 @@
         }
       ],
       "aspects": {
-        "Key Factors in Formation": [
-          "British administrative convenience and control; the need for efficient revenue collection and law & order; geographical contiguity and communication (roads, railways); socio-economic similarities of the regions; nationalist movements and the demand for self-governance"
-        ],
-        "Important Regions Included in U.P.": [
-          "Oudh: Lucknow, Faizabad, Sultanpur, Rae Bareli, Barabanki, Sitapur, Hardoi, Unnao etc.; Rohilkhand: Bareilly, Moradabad, Bijnor, Rampur, Pilibhit, Shahjahanpur etc.",
-          "Doab (Upper Ganga-Yamuna): Meerut, Muzaffarnagar, Baghpat, Bulandshahr, Aligarh, Etah, Mainpuri, Farrukhabad etc.; Central Doab: Agra, Mathura, Hathras, Etawah; Allahabad Division: Allahabad (Prayagraj), Mirzapur, Jaunpur, Ghazipur, Basti, Deoria, Azamgarh, Ballia etc.; Bundelkhand (later addition): Jhansi, Lalitpur, Hamirpur, Banda, Fatehpur, Mahoba etc."
-        ],
-        "Role of Allahabad": [
-          "Allahabad was the capital of the United Provinces (1902–1920); it was the political, administrative, educational and cultural centre; the Allahabad High Court of Judicature was established here in 1866; many important Congress sessions and political activities took place in Allahabad"
-        ],
-        "Importance in the Freedom Struggle": [
-          "U.P. was a hotbed of nationalist activities; many leaders like Pandit Madan Mohan Malaviya, Pt. Motilal Nehru, Jawaharlal Nehru, Purushottam Das Tandon and Govind Ballabh Pant emerged from the region",
-          "Centres of movements included Allahabad, Kanpur, Varanasi, Lucknow, Gorakhpur, Bareilly etc.; Kisan movements — Awadh Kisan Sabha, Eka Movement; participation in Non-Cooperation, Civil Disobedience and Quit India Movements"
-        ],
-        "From United Provinces to Uttar Pradesh": [
-          "Name till 1949: United Provinces of Agra and Oudh; the Government of India Act, 1935 provided for provincial autonomy; post-1947, U.P. remained a part of independent India as a Chief Commissioner's/Governor's Province",
-          "On 26 January 1950, with the Constitution of India coming into force, it became a full State of the Indian Union under the official name Uttar Pradesh (U.P.), following the United Provinces (Alteration of Name) Order, 1950"
-        ]
+        "Key Factors in Formation": {
+          "intro": "These five factors — administrative convenience, revenue efficiency, geographic contiguity, socio-economic similarity, and nationalist demand — explain why the specific administrative boundaries traced in the overview above (Oudh, NWP, United Provinces, Uttar Pradesh) took the shape they did rather than some other configuration.",
+          "points": [
+            "British administrative convenience and control; the need for efficient revenue collection and law & order; geographical contiguity and communication (roads, railways); socio-economic similarities of the regions; nationalist movements and the demand for self-governance"
+          ]
+        },
+        "Important Regions Included in U.P.": {
+          "intro": "This regional breakdown is worth reading alongside the Reorganisation page later in this track — several of the regions listed here, particularly Bundelkhand, are the same ones later formally recognised as distinct administrative divisions in 2011 precisely because of the historical and cultural distinctiveness this table already documents.",
+          "points": [
+            "Oudh: Lucknow, Faizabad, Sultanpur, Rae Bareli, Barabanki, Sitapur, Hardoi, Unnao etc.; Rohilkhand: Bareilly, Moradabad, Bijnor, Rampur, Pilibhit, Shahjahanpur etc.",
+            "Doab (Upper Ganga-Yamuna): Meerut, Muzaffarnagar, Baghpat, Bulandshahr, Aligarh, Etah, Mainpuri, Farrukhabad etc.; Central Doab: Agra, Mathura, Hathras, Etawah; Allahabad Division: Allahabad (Prayagraj), Mirzapur, Jaunpur, Ghazipur, Basti, Deoria, Azamgarh, Ballia etc.; Bundelkhand (later addition): Jhansi, Lalitpur, Hamirpur, Banda, Fatehpur, Mahoba etc."
+          ]
+        },
+        "Role of Allahabad": {
+          "intro": "Allahabad's status as capital until 1920, described here, is the same fact the previous United Provinces page covers from an administrative-history angle — this category adds the specifically political and educational dimension, including its role as a recurring venue for Congress sessions.",
+          "points": [
+            "Allahabad was the capital of the United Provinces (1902–1920); it was the political, administrative, educational and cultural centre; the Allahabad High Court of Judicature was established here in 1866; many important Congress sessions and political activities took place in Allahabad"
+          ]
+        },
+        "Importance in the Freedom Struggle": {
+          "intro": "This category functions as a compressed cross-reference to the fuller Freedom Struggle page elsewhere in this track — treat the leaders and movements named here as a preview rather than the complete picture.",
+          "points": [
+            "U.P. was a hotbed of nationalist activities; many leaders like Pandit Madan Mohan Malaviya, Pt. Motilal Nehru, Jawaharlal Nehru, Purushottam Das Tandon and Govind Ballabh Pant emerged from the region",
+            "Centres of movements included Allahabad, Kanpur, Varanasi, Lucknow, Gorakhpur, Bareilly etc.; Kisan movements — Awadh Kisan Sabha, Eka Movement; participation in Non-Cooperation, Civil Disobedience and Quit India Movements"
+          ]
+        },
+        "From United Provinces to Uttar Pradesh": {
+          "intro": "The specific date given here for the 1950 renaming — checked against independent sources rather than taken uncritically from a single figure in the original material — is one of the few places in this entire track where a small factual ambiguity required outside verification, flagged explicitly rather than silently resolved.",
+          "points": [
+            "Name till 1949: United Provinces of Agra and Oudh; the Government of India Act, 1935 provided for provincial autonomy; post-1947, U.P. remained a part of independent India as a Chief Commissioner's/Governor's Province",
+            "On 26 January 1950, with the Constitution of India coming into force, it became a full State of the Indian Union under the official name Uttar Pradesh (U.P.), following the United Provinces (Alteration of Name) Order, 1950"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -12576,25 +12891,40 @@
         }
       ],
       "aspects": {
-        "Political Developments During the Freedom Struggle": [
-          "U.P. was a stronghold of the Indian National Congress; important leaders — Motilal Nehru, Jawaharlal Nehru, Pt. Govind Ballabh Pant, Madan Mohan Malaviya, Purushottam Das Tandon, Acharya Narendra Dev; key movements — Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942)",
-          "Kisan movements — Awadh Kisan Sabha (Baba Ramchandra), Bardoli's influence, Eka Movement; active centres — Allahabad, Banaras, Lucknow, Kanpur, Gorakhpur, Faizabad; U.P. provided leadership, cadre and ideas for India's freedom struggle"
-        ],
-        "Political Developments After Independence": [
-          "Formation of Uttar Pradesh (1950) — integration of various regions and princely states; dominance of the Indian National Congress under leaders like Govind Ballabh Pant, Sampurnanand, C. B. Gupta",
-          "Implementation of land reforms, zamindari abolition, community development programmes; linguistic reorganisation — formation of Uttarakhand (2000), Purvanchal & Bundelkhand (2011); political stability till the mid-1960s, later a multi-party era"
-        ],
-        "Rise of Regional Parties & Political Social Engineering": [
-          "1967 — decline of Congress dominance, rise of the Samyukta Vidhayak Dal; 1980s onwards — rise of caste-based regional parties; Mandal Commission recommendations (1990) — politics of OBC assertion; Kamandal politics — mobilisation on religious identity",
-          "Emergence of Bahujan politics — BSP under Kanshi Ram and Mayawati; Samajwadi Party (SP) founded in 1992 by Mulayam Singh Yadav; major parties: Indian National Congress, Bahujan Samaj Party (BSP), Samajwadi Party (SP), Bharatiya Janata Party (BJP), Apna Dal (Soneylal)"
-        ],
-        "Major Political Movements & Election Trends": [
-          "Kisan Movements (1920s–1940s): Awadh Kisan Sabha, Eka Movement, Bardoli's influence; JP Movement (1974–75): Total Revolution movement led by Jayaprakash Narayan from U.P.; Anti-Emergency Movement (1975–77): U.P. was a major centre of opposition to the Emergency; Mandal Movement (1990): mobilisation for OBC reservation with major impact in U.P.; Dalit Movement (1980s–present): BSP's rise, focus on Dalit assertion & empowerment",
-          "Election trends: Congress dominance (1952–1962); Non-Congress wave and rise of SVD (1967); rise of BJP & regional parties (1989); caste-based politics dominates (1991–1996, SP-BSP rise); BJP strong phase (1998–2012); BJP landslide, clear majority (2017); BJP retains power (2022)"
-        ],
-        "Role of U.P. in National Politics": [
-          "U.P. has the highest number of Lok Sabha seats (80) — key to forming governments at the Centre; many national leaders have emerged from U.P. and shaped its politics; U.P. is a bellwether state, with political trends in U.P. influencing national outcomes; from nationalism to social justice to development — U.P.'s politics reflects India's changing priorities"
-        ]
+        "Political Developments During the Freedom Struggle": {
+          "intro": "This category compresses the fuller Freedom Struggle page's narrative into its political-leadership dimension specifically — read it as a quick-reference summary of which leaders and movements mattered most for U.P.'s specifically political (rather than social or economic) history during this period.",
+          "points": [
+            "U.P. was a stronghold of the Indian National Congress; important leaders — Motilal Nehru, Jawaharlal Nehru, Pt. Govind Ballabh Pant, Madan Mohan Malaviya, Purushottam Das Tandon, Acharya Narendra Dev; key movements — Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942)",
+            "Kisan movements — Awadh Kisan Sabha (Baba Ramchandra), Bardoli's influence, Eka Movement; active centres — Allahabad, Banaras, Lucknow, Kanpur, Gorakhpur, Faizabad; U.P. provided leadership, cadre and ideas for India's freedom struggle"
+          ]
+        },
+        "Political Developments After Independence": {
+          "intro": "The land reforms and community development programmes named here are U.P.'s specific regional implementation of the same broader nation-building agenda covered on the national India 1947–1964 page — worth reading the two pages together for the full national-and-regional picture.",
+          "points": [
+            "Formation of Uttar Pradesh (1950) — integration of various regions and princely states; dominance of the Indian National Congress under leaders like Govind Ballabh Pant, Sampurnanand, C. B. Gupta",
+            "Implementation of land reforms, zamindari abolition, community development programmes; linguistic reorganisation — formation of Uttarakhand (2000), Purvanchal & Bundelkhand (2011); political stability till the mid-1960s, later a multi-party era"
+          ]
+        },
+        "Rise of Regional Parties & Political Social Engineering": {
+          "intro": "This category traces a genuinely distinctive U.P. story: the shift from Congress dominance to caste-based regional party politics (BSP, SP) happened here earlier and more completely than in most other Indian states, which is exactly why U.P.'s political trends are so often treated as a bellwether for the rest of the country.",
+          "points": [
+            "1967 — decline of Congress dominance, rise of the Samyukta Vidhayak Dal; 1980s onwards — rise of caste-based regional parties; Mandal Commission recommendations (1990) — politics of OBC assertion; Kamandal politics — mobilisation on religious identity",
+            "Emergence of Bahujan politics — BSP under Kanshi Ram and Mayawati; Samajwadi Party (SP) founded in 1992 by Mulayam Singh Yadav; major parties: Indian National Congress, Bahujan Samaj Party (BSP), Samajwadi Party (SP), Bharatiya Janata Party (BJP), Apna Dal (Soneylal)"
+          ]
+        },
+        "Major Political Movements & Election Trends": {
+          "intro": "The election-trend table here is worth reading as a timeline in its own right — each row marks a genuine inflection point in U.P.'s political history, and several (1967's Non-Congress Wave, 1990's Mandal Movement) directly correspond to national-level turning points covered on this site's national India 1965–1980 and India 1981–1991 pages.",
+          "points": [
+            "Kisan Movements (1920s–1940s): Awadh Kisan Sabha, Eka Movement, Bardoli's influence; JP Movement (1974–75): Total Revolution movement led by Jayaprakash Narayan from U.P.; Anti-Emergency Movement (1975–77): U.P. was a major centre of opposition to the Emergency; Mandal Movement (1990): mobilisation for OBC reservation with major impact in U.P.; Dalit Movement (1980s–present): BSP's rise, focus on Dalit assertion & empowerment",
+            "Election trends: Congress dominance (1952–1962); Non-Congress wave and rise of SVD (1967); rise of BJP & regional parties (1989); caste-based politics dominates (1991–1996, SP-BSP rise); BJP strong phase (1998–2012); BJP landslide, clear majority (2017); BJP retains power (2022)"
+          ]
+        },
+        "Role of U.P. in National Politics": {
+          "intro": "The statistic given here — U.P. sends more Lok Sabha members (80) than any other state — is the single fact that most concretely explains why this entire category, and arguably this entire page, matters so much for understanding Indian politics at the national as well as the regional level.",
+          "points": [
+            "U.P. has the highest number of Lok Sabha seats (80) — key to forming governments at the Centre; many national leaders have emerged from U.P. and shaped its politics; U.P. is a bellwether state, with political trends in U.P. influencing national outcomes; from nationalism to social justice to development — U.P.'s politics reflects India's changing priorities"
+          ]
+        }
       },
       "women": [
         {
@@ -12748,23 +13078,38 @@
         }
       ],
       "aspects": {
-        "Formation of Uttarakhand (2000)": [
-          "Long-standing demand of the people of the hill regions; reasons: difficult terrain and inaccessibility, neglect in development, distinct cultural identity, administrative convenience; carved out of 13 districts of U.P. (now Uttarakhand) on 9 November 2000",
-          "Districts carved out to form Uttarakhand: Almora, Bageshwar, Chamoli, Champawat, Dehradun, Haridwar, Nainital, Pauri Garhwal, Pithoragarh, Rudraprayag, Tehri Garhwal, Udham Singh Nagar, Uttarkashi"
-        ],
-        "Creation of Purvanchal and Bundelkhand (2011)": [
-          "Announced on 20 August 2011 for balanced regional development; Purvanchal (Eastern U.P.): 21 districts; Bundelkhand (Southern U.P.): 7 districts; aimed at decentralised administration, faster development and better delivery of public services"
-        ],
-        "New Districts Created in U.P. (2013)": [
-          "Seven new districts: Shamli (carved from Muzaffarnagar), Sant Kabir Nagar (from Sant Ravidas Nagar), Ambedkar Nagar (from Faizabad), Bhadohi (from Sant Ravidas Nagar & Varanasi), Chandauli (from Varanasi), Shravasti (from Bahraich), Siddharthnagar (from Maharajganj); 18 new tehsils were also created for better administration"
-        ],
-        "Reasons for Reorganisation": [
-          "Administrative Efficiency — to ensure effective governance and easy access to administration; Balanced Regional Development — to reduce regional disparities and promote inclusive growth; Linguistic & Cultural Identity — recognition of distinct linguistic, cultural and regional identities; People's Aspirations — fulfilment of long-pending demands; Better Delivery of Services — decentralisation for faster and better public service delivery"
-        ],
-        "Impact of Reorganisation": [
-          "Improved administration and governance; focused development of backward regions; strengthened regional identity and cultural pride; better infrastructure and connectivity",
-          "However, challenges remain: regional disparities, resources sharing, and border issues between the reorganised units"
-        ]
+        "Formation of Uttarakhand (2000)": {
+          "intro": "The specific reasons listed here — difficult terrain, neglect in development, distinct cultural identity — are worth remembering as a general template, since very similar reasoning underlies the Purvanchal and Bundelkhand reorganisation described in the very next category, just applied to plains rather than hill districts.",
+          "points": [
+            "Long-standing demand of the people of the hill regions; reasons: difficult terrain and inaccessibility, neglect in development, distinct cultural identity, administrative convenience; carved out of 13 districts of U.P. (now Uttarakhand) on 9 November 2000",
+            "Districts carved out to form Uttarakhand: Almora, Bageshwar, Chamoli, Champawat, Dehradun, Haridwar, Nainital, Pauri Garhwal, Pithoragarh, Rudraprayag, Tehri Garhwal, Udham Singh Nagar, Uttarkashi"
+          ]
+        },
+        "Creation of Purvanchal and Bundelkhand (2011)": {
+          "intro": "Bundelkhand's inclusion here connects directly back to the Kalachuris & Chandellas page much earlier in this track — the same historically and culturally distinct region that produced Khajuraho's temple architecture centuries ago is the region whose continuing distinctiveness justified its formal administrative recognition in 2011.",
+          "points": [
+            "Announced on 20 August 2011 for balanced regional development; Purvanchal (Eastern U.P.): 21 districts; Bundelkhand (Southern U.P.): 7 districts; aimed at decentralised administration, faster development and better delivery of public services"
+          ]
+        },
+        "New Districts Created in U.P. (2013)": {
+          "intro": "This table of district splits is useful less for the individual names than for the pattern it reveals: nearly every new district here was carved from an existing one specifically to bring administration physically closer to underserved populations, the same 'administrative efficiency' rationale named in the next category.",
+          "points": [
+            "Seven new districts: Shamli (carved from Muzaffarnagar), Sant Kabir Nagar (from Sant Ravidas Nagar), Ambedkar Nagar (from Faizabad), Bhadohi (from Sant Ravidas Nagar & Varanasi), Chandauli (from Varanasi), Shravasti (from Bahraich), Siddharthnagar (from Maharajganj); 18 new tehsils were also created for better administration"
+          ]
+        },
+        "Reasons for Reorganisation": {
+          "intro": "These five reasons function as the general logic behind every specific reorganisation event covered on this page — worth using as an analytical framework if asked to explain why any particular boundary change happened, rather than memorising each event's justification separately.",
+          "points": [
+            "Administrative Efficiency — to ensure effective governance and easy access to administration; Balanced Regional Development — to reduce regional disparities and promote inclusive growth; Linguistic & Cultural Identity — recognition of distinct linguistic, cultural and regional identities; People's Aspirations — fulfilment of long-pending demands; Better Delivery of Services — decentralisation for faster and better public service delivery"
+          ]
+        },
+        "Impact of Reorganisation": {
+          "intro": "Note that this category honestly acknowledges continuing challenges (resource sharing, border issues) alongside the benefits — a useful, balanced note to end this page on, since it avoids treating reorganisation as a fully solved problem rather than an ongoing process.",
+          "points": [
+            "Improved administration and governance; focused development of backward regions; strengthened regional identity and cultural pride; better infrastructure and connectivity",
+            "However, challenges remain: regional disparities, resources sharing, and border issues between the reorganised units"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -12877,23 +13222,38 @@
         }
       ],
       "aspects": {
-        "Education and Human Development": [
-          "Expansion of basic education infrastructure — schools, colleges, universities; launch of Kanya Vidya Dhan, Mission Shakti, Beti Bachao Beti Padhao; new universities — BBAU, Central University of South Asia, Mahatma Gandhi Kashi Vidyapith (Central University); skill development through the Kaushal Vikas Mission; improvement in digital education and e-governance in schools"
-        ],
-        "Health and Nutrition": [
-          "Expansion of healthcare facilities — PHCs, CHCs, district hospitals, medical colleges; Ayushman Bharat covers a large number of beneficiaries; Mission Indradhanush, Nikshay Mitra, TB control programmes; nutritional support through ICDS, POSHAN Abhiyaan, mid-day meal scheme"
-        ],
-        "Social Welfare and Inclusion": [
-          "Reservation policies for SCs, STs, OBCs and EWS; welfare schemes — Old Age Pension, Widow Pension, Divyang Pension; Housing for All, Ujjwala Yojana, PM Awas Yojana; free ration under NFSA, health insurance; upliftment of weaker sections and empowerment of women through self-help groups; promotion of minority welfare and inclusive development"
-        ],
-        "Poverty Alleviation, Employment & Women's Empowerment": [
-          "Decline in the poverty ratio over the decades; MGNREGA — rural employment and asset creation; self-employment schemes — PMEGP, ODOP, MUDRA loans; growth in the service sector and urban employment",
-          "Mission Shakti — women's safety, security and empowerment; increase in women's SHGs and financial inclusion; 33% reservation in Panchayati Raj Institutions; Sukanya Samriddhi Yojana, Matru Vandana Yojana; more women's participation in education, workforce and entrepreneurship"
-        ],
-        "Culture, Tourism, Heritage & Challenges": [
-          "Rich cultural heritage — Varanasi, Ayodhya, Mathura, Sarnath, Kushinagar, Prayagraj, Dudhwa; promotion of spiritual, eco and heritage tourism; Kumbh Mela, Dev Deepawali, Ramayana Circuit boosting the economy; conservation of monuments and promotion of local arts and handicrafts",
-          "Challenges: regional imbalance — Purvanchal and Bundelkhand lag behind; low per capita income and industrialisation in some regions; unemployment and underemployment; low literacy and health indicators compared to the national average; population pressure, urban congestion, pollution and environmental degradation"
-        ]
+        "Education and Human Development": {
+          "intro": "The specific schemes named here (Kanya Vidya Dhan, Mission Shakti, Beti Bachao Beti Padhao) are worth distinguishing from the similarly named national schemes discussed on the national India 2011–2020 and India 2020–Present pages — several are U.P.-specific implementations or variants rather than identical national programmes.",
+          "points": [
+            "Expansion of basic education infrastructure — schools, colleges, universities; launch of Kanya Vidya Dhan, Mission Shakti, Beti Bachao Beti Padhao; new universities — BBAU, Central University of South Asia, Mahatma Gandhi Kashi Vidyapith (Central University); skill development through the Kaushal Vikas Mission; improvement in digital education and e-governance in schools"
+          ]
+        },
+        "Health and Nutrition": {
+          "intro": "Reading this category's list of expanding facilities (PHCs, CHCs, medical colleges) against the overview's NFHS-5 statistics above makes clear that infrastructure expansion and actual outcome improvement are two distinct things worth tracking separately — the state has been building capacity faster than health indicators have caught up to the national average.",
+          "points": [
+            "Expansion of healthcare facilities — PHCs, CHCs, district hospitals, medical colleges; Ayushman Bharat covers a large number of beneficiaries; Mission Indradhanush, Nikshay Mitra, TB control programmes; nutritional support through ICDS, POSHAN Abhiyaan, mid-day meal scheme"
+          ]
+        },
+        "Social Welfare and Inclusion": {
+          "intro": "This category's list of welfare schemes overlaps substantially with national programmes (PM Awas Yojana, NFSA) — the specific U.P. contribution worth noting here is less the scheme names themselves than the sheer scale at which they must operate, given the state's status as India's most populous.",
+          "points": [
+            "Reservation policies for SCs, STs, OBCs and EWS; welfare schemes — Old Age Pension, Widow Pension, Divyang Pension; Housing for All, Ujjwala Yojana, PM Awas Yojana; free ration under NFSA, health insurance; upliftment of weaker sections and empowerment of women through self-help groups; promotion of minority welfare and inclusive development"
+          ]
+        },
+        "Poverty Alleviation, Employment & Women's Empowerment": {
+          "intro": "The women's empowerment statistics here (33% Panchayati Raj reservation, growing SHG participation) are a useful point of comparison against the more historically distant women's status discussions on much earlier pages in this track, like the Vedic Age and Gupta Period pages — a way of tracking how the same basic question has evolved across the entire chronology.",
+          "points": [
+            "Decline in the poverty ratio over the decades; MGNREGA — rural employment and asset creation; self-employment schemes — PMEGP, ODOP, MUDRA loans; growth in the service sector and urban employment",
+            "Mission Shakti — women's safety, security and empowerment; increase in women's SHGs and financial inclusion; 33% reservation in Panchayati Raj Institutions; Sukanya Samriddhi Yojana, Matru Vandana Yojana; more women's participation in education, workforce and entrepreneurship"
+          ]
+        },
+        "Culture, Tourism, Heritage & Challenges": {
+          "intro": "The heritage sites listed here — Varanasi, Ayodhya, Mathura, Sarnath, Kushinagar — are, without exception, places this track has already covered in historical depth on much earlier pages; this category shows how directly ancient religious geography continues to drive present-day economic activity through tourism.",
+          "points": [
+            "Rich cultural heritage — Varanasi, Ayodhya, Mathura, Sarnath, Kushinagar, Prayagraj, Dudhwa; promotion of spiritual, eco and heritage tourism; Kumbh Mela, Dev Deepawali, Ramayana Circuit boosting the economy; conservation of monuments and promotion of local arts and handicrafts",
+            "Challenges: regional imbalance — Purvanchal and Bundelkhand lag behind; low per capita income and industrialisation in some regions; unemployment and underemployment; low literacy and health indicators compared to the national average; population pressure, urban congestion, pollution and environmental degradation"
+          ]
+        }
       },
       "women": [
         {
@@ -12988,21 +13348,33 @@
         }
       ],
       "aspects": {
-        "Social Development and Human Capital": [
-          "Education: improvement in enrolment, especially of girls, through 'Beti Bachao, Beti Padhao', Samagra Shiksha, Mission Prerna; Health: expansion of CHCs, PHCs, medical colleges, Ayushman Bharat, Jan Aushadhi Kendras",
-          "Skill Development: Kaushal Vikas Mission, ITIs modernisation, focus on youth employability; Digital Inclusion: BharatNet, Common Service Centres (CSCs), digital payments & DBT"
-        ],
-        "Urbanization, Environment & Sustainable Development": [
-          "Rapid urbanisation with planned development; Smart City Mission projects in Lucknow, Kanpur, Varanasi, Agra, Prayagraj; Metro Rail — Lucknow, Kanpur, Agra, Noida-Greater Noida; AMRUT, Housing for All, SBM-U 2.0",
-          "Afforestation and increase in green cover; Namami Gange Programme — Ganga rejuvenation; promotion of renewable energy (Solar Policy); waste management, solid & liquid waste handling; climate change adaptation — flood control, drought management, water conservation"
-        ],
-        "Major Challenges": [
-          "Unemployment and underemployment; regional disparities (Purvanchal, Bundelkhand); low per capita income; population pressure and urban congestion; farm distress, land fragmentation; environmental degradation and pollution; quality of education and health services; women's safety and social issues"
-        ],
-        "Way Forward": [
-          "Balanced regional development — Purvanchal & Bundelkhand; quality education, skill development and innovation; industrialisation with sustainability and green growth; agricultural diversification and value addition; strengthening health, nutrition and social protection",
-          "Good governance, digital transformation and citizen-centric services; inclusive growth ensuring 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas'"
-        ]
+        "Social Development and Human Capital": {
+          "intro": "This category's specific schemes (Samagra Shiksha, Kaushal Vikas Mission) should be read as this decade's version of the same human-development challenge the previous Economic & Social Progress page documents with NFHS-5 data — the two pages describe the same underlying issue from slightly different angles and time slices.",
+          "points": [
+            "Education: improvement in enrolment, especially of girls, through 'Beti Bachao, Beti Padhao', Samagra Shiksha, Mission Prerna; Health: expansion of CHCs, PHCs, medical colleges, Ayushman Bharat, Jan Aushadhi Kendras",
+            "Skill Development: Kaushal Vikas Mission, ITIs modernisation, focus on youth employability; Digital Inclusion: BharatNet, Common Service Centres (CSCs), digital payments & DBT"
+          ]
+        },
+        "Urbanization, Environment & Sustainable Development": {
+          "intro": "The Namami Gange Programme named here for Ganga rejuvenation deserves particular attention given how central the Ganga has been to this entire track — from the Vedic-age Doab settlements through Kashi's spiritual significance to the present-day environmental challenge of maintaining that same river system.",
+          "points": [
+            "Rapid urbanisation with planned development; Smart City Mission projects in Lucknow, Kanpur, Varanasi, Agra, Prayagraj; Metro Rail — Lucknow, Kanpur, Agra, Noida-Greater Noida; AMRUT, Housing for All, SBM-U 2.0",
+            "Afforestation and increase in green cover; Namami Gange Programme — Ganga rejuvenation; promotion of renewable energy (Solar Policy); waste management, solid & liquid waste handling; climate change adaptation — flood control, drought management, water conservation"
+          ]
+        },
+        "Major Challenges": {
+          "intro": "Compare this list of current challenges — regional disparity, urban congestion, farm distress — against the similar challenge list on the Economic & Social Progress page; the near-total overlap between the two pages' challenge sections is itself informative, showing these are persistent structural issues rather than one-off problems specific to a single year's data.",
+          "points": [
+            "Unemployment and underemployment; regional disparities (Purvanchal, Bundelkhand); low per capita income; population pressure and urban congestion; farm distress, land fragmentation; environmental degradation and pollution; quality of education and health services; women's safety and social issues"
+          ]
+        },
+        "Way Forward": {
+          "intro": "This category's closing framing, 'Viksit Uttar Pradesh is the foundation of Viksit Bharat', deliberately mirrors the national India 2020–Present page's own 'Viksit Bharat @2047' vision — worth reading the two pages' concluding sections together as a matched pair of regional and national aspiration.",
+          "points": [
+            "Balanced regional development — Purvanchal & Bundelkhand; quality education, skill development and innovation; industrialisation with sustainability and green growth; agricultural diversification and value addition; strengthening health, nutrition and social protection",
+            "Good governance, digital transformation and citizen-centric services; inclusive growth ensuring 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas'"
+          ]
+        }
       },
       "women": [],
       "events": [
@@ -13112,22 +13484,31 @@
         }
       ],
       "aspects": {
-        "Important Cities of U.P.": [
-          "Ayodhya — birthplace of Lord Ram, ancient cultural & religious centre; Varanasi — one of the world's oldest living cities, spiritual capital of India; Prayagraj (Allahabad) — confluence of Triveni, Kumbh Mela, centre of freedom struggle; Mathura — birthplace of Lord Krishna, important religious and cultural centre",
-          "Sarnath — the Buddha delivered his first sermon here, important Buddhist site; Kanpur — major industrial city, role in the freedom struggle, centre of leather & textiles; Lucknow — capital of Awadh, centre of culture, art, architecture & education; Agra — home to the Taj Mahal, major Mughal centre, tourism & industry hub; Jhansi — historical fort, symbol of resistance & valour in 1857; Meerut — birthplace of the 1857 revolt, major cantonment city"
-        ],
-        "Personalities — Sports, Literature, Art & Culture": [
-          "Sports: Major Dhyan Chand (Allahabad) — hockey wizard, Bharat Ratna; Vijay Singh (Ghazipur) — golfer; Saina Nehwal (associated with U.P.) — badminton champion",
-          "Literature: Munshi Premchand (Varanasi) — novelist, Godan, Nirmala; Harivansh Rai Bachchan (Prayagraj) — poet, Madhushala; Amritlal Nagar (Agra) — novelist, cultural chronicler; Mahadevi Verma (Farrukhabad) — poet, modern Hindi literature stalwart",
-          "Art & Music: Bismillah Khan (Dumraon, U.P.) — shehnai maestro, Bharat Ratna; Ravi Shankar (Varanasi) — sitar maestro, Bharat Ratna; Pt. Birju Maharaj (Lucknow) — Kathak exponent",
-          "Spiritual & Reformers: Swami Vivekananda (visited Kashi); Swami Ramanand (Varanasi) — Bhakti reformer; Saint Kabir (Varanasi) — Bhakti poet, social reformer; Saint Ravidas (Varanasi) — Bhakti saint, social equality",
-          "Science & Others: Dr. Har Gobind Khorana (Raipur, U.P. origin) — Nobel Laureate; Homi Bhabha (born in Mumbai, father from Allahabad) — Father of the Indian Nuclear Programme"
-        ],
-        "Freedom Struggle Heroes of U.P. at a Glance": [
-          "Leaders of the 1857 Revolt: Nana Saheb, Rani Lakshmibai, Begum Hazrat Mahal, Kunwar Singh (Bihar, associated with U.P. areas), Mangal Pandey",
-          "Revolutionaries: Chandra Shekhar Azad, Ram Prasad Bismil (Shahjahanpur), Ashfaqullah Khan, Roshan Singh, Sachindra Nath Sanyal",
-          "Kisan Leaders: Baba Ramchandra (Awadh Kisan Movement), Swami Sahajanand Saraswati (Kisan leader); Gandhian Leaders: Govind Ballabh Pant, Purushottam Das Tandon, Jawaharlal Nehru (associated with Allahabad), Brahm Dutt Dwivedi"
-        ]
+        "Important Cities of U.P.": {
+          "intro": "Every city in this table has already appeared, in far more historical depth, on an earlier page in this track — Ayodhya on the Vedic Age page, Sarnath on the Maurya Period page, Lucknow on the Later Mughals and Revolt of 1857 pages — so treat this table as an index pointing back to those fuller accounts rather than a standalone summary.",
+          "points": [
+            "Ayodhya — birthplace of Lord Ram, ancient cultural & religious centre; Varanasi — one of the world's oldest living cities, spiritual capital of India; Prayagraj (Allahabad) — confluence of Triveni, Kumbh Mela, centre of freedom struggle; Mathura — birthplace of Lord Krishna, important religious and cultural centre",
+            "Sarnath — the Buddha delivered his first sermon here, important Buddhist site; Kanpur — major industrial city, role in the freedom struggle, centre of leather & textiles; Lucknow — capital of Awadh, centre of culture, art, architecture & education; Agra — home to the Taj Mahal, major Mughal centre, tourism & industry hub; Jhansi — historical fort, symbol of resistance & valour in 1857; Meerut — birthplace of the 1857 revolt, major cantonment city"
+          ]
+        },
+        "Personalities — Sports, Literature, Art & Culture": {
+          "intro": "This category exists specifically to cover the figures who do not fit neatly into this track's political-dynastic chronology — a novelist, a musician, a Nobel laureate — but who are just as frequently tested in UPPSC's Art & Culture and Society sections as any king or freedom fighter.",
+          "points": [
+            "Sports: Major Dhyan Chand (Allahabad) — hockey wizard, Bharat Ratna; Vijay Singh (Ghazipur) — golfer; Saina Nehwal (associated with U.P.) — badminton champion",
+            "Literature: Munshi Premchand (Varanasi) — novelist, Godan, Nirmala; Harivansh Rai Bachchan (Prayagraj) — poet, Madhushala; Amritlal Nagar (Agra) — novelist, cultural chronicler; Mahadevi Verma (Farrukhabad) — poet, modern Hindi literature stalwart",
+            "Art & Music: Bismillah Khan (Dumraon, U.P.) — shehnai maestro, Bharat Ratna; Ravi Shankar (Varanasi) — sitar maestro, Bharat Ratna; Pt. Birju Maharaj (Lucknow) — Kathak exponent",
+            "Spiritual & Reformers: Swami Vivekananda (visited Kashi); Swami Ramanand (Varanasi) — Bhakti reformer; Saint Kabir (Varanasi) — Bhakti poet, social reformer; Saint Ravidas (Varanasi) — Bhakti saint, social equality",
+            "Science & Others: Dr. Har Gobind Khorana (Raipur, U.P. origin) — Nobel Laureate; Homi Bhabha (born in Mumbai, father from Allahabad) — Father of the Indian Nuclear Programme"
+          ]
+        },
+        "Freedom Struggle Heroes of U.P. at a Glance": {
+          "intro": "This 'at a glance' table is deliberately compressed; every name here has a fuller treatment on either the Revolt of 1857 or the Freedom Struggle page earlier in this track, and this category's real purpose is simply letting you quickly check which of those two pages a given name belongs to.",
+          "points": [
+            "Leaders of the 1857 Revolt: Nana Saheb, Rani Lakshmibai, Begum Hazrat Mahal, Kunwar Singh (Bihar, associated with U.P. areas), Mangal Pandey",
+            "Revolutionaries: Chandra Shekhar Azad, Ram Prasad Bismil (Shahjahanpur), Ashfaqullah Khan, Roshan Singh, Sachindra Nath Sanyal",
+            "Kisan Leaders: Baba Ramchandra (Awadh Kisan Movement), Swami Sahajanand Saraswati (Kisan leader); Gandhian Leaders: Govind Ballabh Pant, Purushottam Das Tandon, Jawaharlal Nehru (associated with Allahabad), Brahm Dutt Dwivedi"
+          ]
+        }
       },
       "women": [
         {

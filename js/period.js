@@ -116,13 +116,23 @@ async function renderPeriodPage(){
       <span class="theme-chip">${HistoryData.THEME_LABELS[e.theme] || e.theme}</span>
     </div>`).join('');
 
-  // Aspects (accordion)
+  // Aspects (accordion) — supports plain arrays (national track) and
+  // {intro, points} objects (UP track, adding a short explanatory lead-in
+  // before the bullet list without disturbing the bullets themselves)
   if (period.aspects){
-    document.getElementById('aspectBlocks').innerHTML = Object.entries(period.aspects).map(([k,v],i) => `
+    document.getElementById('aspectBlocks').innerHTML = Object.entries(period.aspects).map(([k,v],i) => {
+      const isElaborated = v && typeof v === 'object' && !Array.isArray(v) && v.points;
+      const intro = isElaborated ? v.intro : null;
+      const points = isElaborated ? v.points : v;
+      return `
       <details class="aspect-block" ${i===0?'open':''}>
         <summary>${k}</summary>
-        <div class="a-body"><ul>${(Array.isArray(v)?v:[v]).map(pt => `<li>${pt}</li>`).join('')}</ul></div>
-      </details>`).join('');
+        <div class="a-body">
+          ${intro ? `<p style="color:var(--ink-soft); margin-bottom:12px; font-size:.92rem;">${intro}</p>` : ''}
+          <ul>${(Array.isArray(points)?points:[points]).map(pt => `<li>${pt}</li>`).join('')}</ul>
+        </div>
+      </details>`;
+    }).join('');
   }
 
   // Women — with automatic cross-period links from the knowledge graph
