@@ -11,16 +11,6 @@
 <a href="#main" class="skip-link">Skip to content</a>
 <nav class="site-nav" id="siteNav"></nav>
 
-<div class="wrap" style="padding-top:14px;">
-  <div class="tablet" id="latestUpdateBanner" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:14px 20px; margin-bottom:0;">
-    <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-      <span class="badge" style="background:var(--gold-tint); color:#7d5a1c;">Latest Update</span>
-      <span style="font-size:.88rem; color:var(--ink-soft);" id="latestUpdateText">Loading…</span>
-    </div>
-    <a href="about.html#changelog" class="btn btn-ghost btn-sm">What's new →</a>
-  </div>
-</div>
-
 <main id="main">
 
   <header class="hero">
@@ -30,7 +20,7 @@
     <div class="wrap">
       <span class="eyebrow">Interactive Historical Atlas · Digital Museum · UPSC Companion</span>
       <h1>The <em>Complete History</em><br>of India</h1>
-      <p class="lede">One continuous, interconnected journey — from the Palaeolithic Age to the fall of the Delhi Sultanate — told through chronology, themes, people, women's contributions and exam-ready facts.</p>
+      <p class="lede">One continuous, interconnected journey — from the Palaeolithic Age to India's present day — told through chronology, themes, people, women's contributions and exam-ready facts, alongside a dedicated Uttar Pradesh (UPPSC) track and a computed knowledge graph.</p>
 
       <div class="quick-search" style="margin-bottom:30px;">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -50,7 +40,7 @@
         <div class="stat"><span class="num">—</span><span class="lab">Key Personalities</span></div>
         <div class="stat"><span class="num">—</span><span class="lab">Women Profiled</span></div>
         <div class="stat"><span class="num">2.5M BCE</span><span class="lab">Earliest Coverage</span></div>
-        <div class="stat"><span class="num">1526 CE</span><span class="lab">Coverage Ends</span></div>
+        <div class="stat"><span class="num">Present Day</span><span class="lab">Coverage Ends</span></div>
       </div>
     </div>
   </header>
@@ -60,7 +50,7 @@
       <div class="section-head">
         <div>
           <span class="kicker">The Continuous Journey</span>
-          <h2 class="mt0">One story, sixteen chapters</h2>
+          <h2 class="mt0" id="journeyHeading">One story, many chapters</h2>
         </div>
         <p class="section-desc">Every period connects to the one before and after it. Follow the rail below, or jump straight to any era.</p>
       </div>
@@ -101,7 +91,7 @@
         <div>
           <span class="t-cat cat-up" style="margin-bottom:10px;">For UPPSC Aspirants</span>
           <h3 style="margin-bottom:6px;">A dedicated Uttar Pradesh history track</h3>
-          <p class="t-tag" style="margin:0; max-width:56ch;">20 exam-focused pages — prehistoric U.P. through socio-religious reform movements — cross-linked with this atlas's national chronology and knowledge graph.</p>
+          <p class="t-tag" style="margin:0; max-width:56ch;" id="upTeaserText">Exam-focused pages — prehistoric U.P. through the 21st century — cross-linked with this atlas's national chronology and knowledge graph.</p>
         </div>
         <a href="up-history.html" class="btn btn-primary" style="flex-shrink:0;">Explore UP History (UPPSC) →</a>
       </div>
@@ -179,6 +169,11 @@ async function initHome(){
   stats[1].textContent = events.length + '+';
   stats[2].textContent = people.length + '+';
   stats[3].textContent = women.length + '+';
+  document.getElementById('journeyHeading').textContent = `One story, ${d.periods.length} chapters`;
+
+  const upCount = dAll.periods.filter(p => p.region === 'up').length;
+  document.getElementById('upTeaserText').textContent =
+    `${upCount} exam-focused pages — prehistoric U.P. through the 21st century — cross-linked with this atlas's national chronology and knowledge graph.`;
 
   // journey rail
   document.getElementById('journeyTrack').innerHTML = d.periods.map(p => `
@@ -222,12 +217,6 @@ async function initHome(){
   wireQuickSearch('qSearch', 'qSearchResults');
   renderFooter();
   initReveal();
-
-  // Latest update banner — computed from live data, not hardcoded
-  const upCount = dAll.periods.filter(p => p.region === 'up').length;
-  const natCount = dAll.periods.filter(p => !p.region).length;
-  document.getElementById('latestUpdateText').innerHTML =
-    `Rewrote all <a href="timeline.html" style="color:var(--seal); font-weight:600; text-decoration:none;">${natCount} national-track overviews</a> into longer, more explanatory narratives (~250 words each, up from ~70) — added causation, significance and connective context between eras. UP track elaboration is next; see the <a href="about.html#changelog" style="color:var(--accent); font-weight:600; text-decoration:none;">changelog</a> for details.`;
 }
 initHome();
 </script>
