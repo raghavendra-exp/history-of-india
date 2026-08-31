@@ -111,6 +111,17 @@ A parallel, self-contained regional track — **`up-history.html`** — covers U
 - `up-history.html` is a dedicated hub (journey rail + grid) scoped to `region: "up"`, in the same visual language as the rest of the site, with its own `up` category colour.
 - Nothing else was filtered: `themes.html`, `people.html`, `women.html`, `search.html` and the knowledge graph (`graph.html`) still include UP content alongside national content, because that's where the cross-region connections actually pay off — Akbar, Ashoka, Chandragupta Maurya, Samudragupta, Kanishka, Menander, Pushyamitra Shunga and dozens of other names recur in both tracks and are automatically cross-linked (84 shared names as of this build). Searching "Akbar" or opening his card on either page surfaces the other page too.
 
+## Primary-source research pass
+
+Six additional history textbooks were supplied directly (three editions of Rajiv Ahir's *A Brief History of Modern India* / Spectrum, Bipin Chandra et al.'s *India's Struggle for Independence*, Norman Lowe's *Mastering Modern World History*, and a general World History textbook). Given their combined length runs to several thousand pages, this pass extracted and paraphrased content from the highest-value, most exam-relevant sections first — a full page-by-page pass across all six is not something a single session can responsibly complete, and is a natural candidate for further follow-up rather than something to claim as finished:
+
+- **New page: Foundation of the Indian National Congress** (`foundation-of-indian-national-congress`, national track, positioned between Socio-Religious Reforms and Indian Freedom Struggle) — covers the "Safety Valve" theory of the Congress's 1885 founding and the historiographical case against it, drawn from Bipin Chandra et al.'s chapters on the myth and reality of the Congress's origins.
+- **Socio-Religious Reforms enriched** — added Jyotirao Phule, Narayana Guru, Lokahitwadi, and Ranade (previously missing from the reformer list), plus a new aspect category on the shared rationalist/universalist intellectual framework underlying the various reform movements.
+- **World War I enriched** — added a historiographical debate section (the Fischer Thesis vs. the "tragedy of miscalculation" view vs. more recent shared-responsibility scholarship) drawn from Norman Lowe's chapter on the war's causes.
+- **Independence of India enriched** — added a more specific, book-grounded account of why the Quit India Movement happened when it did (the Burma/Malaya retreat, Gandhi's Louis Fischer interview, wartime bank runs, the Wardha resolution and Gowalia Tank launch), drawn from Bipin Chandra et al.'s chapter on Quit India and the INA.
+
+All of the above was paraphrased into original prose rather than quoted from the source books, consistent with this project's general approach to copyrighted material throughout.
+
 ## Elaborated content
 
 Both the national and Uttar Pradesh tracks have been through an elaboration pass beyond the initial infographic extraction:
