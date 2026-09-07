@@ -5890,7 +5890,23 @@
         "Local Self-Government & Reforms": [
           "Lord Ripon's Resolution (1882) — the 'Magna Carta of Local Self-Government in India'; municipalities in towns, District Boards in rural areas; elected bodies with limited powers and financial dependence on government",
           "Key reforms: Cornwallis Code (1793) — civil service reforms; Macaulay's Minute (1835) — promoted English education; Wood's Despatch (1854) — blueprint of English education in India; Hunter Commission (1882) — expansion of primary education; Montagu Declaration (1917) — pledged gradual self-government in India"
-        ]
+        ],
+        "Constitutional Acts at a Glance": {
+          "intro": "Each of these Acts is discussed elsewhere on this site within its broader historical narrative; this table exists purely as a compressed, Act-by-Act quick reference, including how contemporaries themselves judged each one's significance.",
+          "points": [
+            "Regulating Act, 1773: began parliamentary oversight of the Company; made the Governor of Bengal the Governor-General over Bombay and Madras; established a Supreme Court at Fort William. Lord North described it as aimed at putting the Company's affairs on “a solid, clear and decisive establishment”, while Edmund Burke condemned it in Parliament as “an infringement of national right, national faith and national justice”",
+            "Pitt's India Act, 1784: reasserted Parliament's supremacy over the Company's administration; reduced the Governor-General's Council from four members to three; formally termed Company territories “the British possessions in India”; the jurist Sir C. Ilbert later judged that its system of checks and counter-checks remained substantially in force all the way up to 1858",
+            "Charter Act, 1813: ended the Company's monopoly over Indian trade, opening it to all British subjects, and permitted Christian missionaries to operate in India for the first time under Company sanction",
+            "Charter Act, 1833: redesignated the Governor-General of Bengal as Governor-General of India; created the first faint beginnings of a central legislature; formally promised fair and impartial treatment of Indians in selection for state service — an act the later Liberal statesman Lord Morley judged the most significant piece of Parliamentary legislation on India up to 1909",
+            "Charter Act, 1853: the last of the Charter Acts; opened the Indian Civil Service to competitive entry in principle; gave the legislature the right to frame its own rules of procedure for the first time",
+            "Government of India Act, 1858: transferred Indian administration directly from the Company to the Crown; created the office of Secretary of State for India and an advisory Council of India; the Governor-General now also carried the title of Viceroy",
+            "Indian Councils Act, 1861: established Legislative Councils at the centre and in the presidencies and provinces, for the first time including non-official members",
+            "Indian Councils Act, 1892: enlarged the size and functions of the central and provincial councils; allowed councils to discuss the budget under certain conditions and granted members the right to ask questions",
+            "Indian Councils Act, 1909 (Morley-Minto Reforms): the first genuine attempt at introducing a representative, popular element into the councils; introduced separate electorates for Muslims; allowed the beginning of non-official resolutions",
+            "Government of India Act, 1919 (Montagu-Chelmsford Reforms): introduced dyarchy in the provinces, relaxing central control; made the legislature more representative and bicameral, with a Legislative Assembly and a Council of State",
+            "Government of India Act, 1935: the most elaborate constitutional document of the colonial period, providing for provincial autonomy and proposing an All-India Federation that was never actually implemented — covered in more depth on this site's Independence of India and United Provinces During Modern India pages"
+          ]
+        }
       },
       "women": [
         {
@@ -6007,6 +6023,370 @@
         ]
       ],
       "order": 32
+    },
+    {
+      "id": "governors-general-and-viceroys",
+      "title": "Governors-General and Viceroys of India",
+      "dateRange": "1773 – 1948 CE",
+      "category": "colonial",
+      "tagline": "The Complete Ruler-by-Ruler Administrative Spine of British India",
+      "heroImg": "up_british_rule_and_administration.png",
+      "sourceImages": [
+        "up_british_rule_and_administration.png"
+      ],
+      "overview": "Almost every major event covered across this site's British-era pages — the Regulating Act, the Permanent Settlement, the Doctrine of Lapse, the 1857 Revolt, the Partition of Bengal, the Montagu-Chelmsford Reforms, the transfer of power itself — happened under the watch of one of only twenty men who held the top office of British India across 175 years, first as Governor-General (1773–1858) and then, after the Crown took over direct rule from the East India Company, as Viceroy (1858–1947). This page exists purely as a dense, ruler-by-ruler reference spine: rather than repeating the fuller narrative accounts of the Establishment of British Power, British Administration, and Later Mughal Empire pages elsewhere on this site, it lets you look up which specific administrator was in office when any particular act, war, or reform actually happened — the kind of precise who-was-in-charge-when detail that recurs constantly in UPSC's Prelims-style factual questions and that a purely thematic or narrative account rarely makes easy to check at a glance.",
+      "phases": [
+        {
+          "name": "Governors-General of Bengal / India (Company Rule)",
+          "range": "1773 – 1833",
+          "points": [
+            "Warren Hastings, Lord Cornwallis, Sir John Shore, Lord Wellesley, Sir George Barlow, Lord Minto, Lord Hastings, Lord Amherst, and Lord William Bentinck each held the title 'Governor-General of Bengal' with varying degrees of authority over the other Presidencies",
+            "The Charter Act of 1833 formally redesignated the office as 'Governor-General of India', reflecting the office's growing authority over the whole of British India rather than Bengal alone"
+          ]
+        },
+        {
+          "name": "Governors-General of India",
+          "range": "1833 – 1858",
+          "points": [
+            "Lord William Bentinck (continuing under the new title), Lord Metcalfe, Lord Auckland, Lord Ellenborough, Lord Hardinge, and Lord Dalhousie preside over the era of maximum territorial annexation, including the Doctrine of Lapse",
+            "Lord Canning, the final Governor-General, is in office when the 1857 Revolt breaks out and remains in post through the transition to Crown rule the following year"
+          ]
+        },
+        {
+          "name": "Viceroys of India (Crown Rule)",
+          "range": "1858 – 1947",
+          "points": [
+            "The Government of India Act, 1858 transferred administration from the East India Company directly to the British Crown, and the same officeholder (initially Lord Canning) now carried the additional, better-known title of Viceroy alongside Governor-General",
+            "The following nineteen Viceroys governed through the growth of organised nationalism, the two World Wars, and finally the negotiations that produced Independence and Partition, ending with Lord Mountbatten in 1947–48"
+          ]
+        }
+      ],
+      "aspects": {
+        "Governors-General of Bengal / India (1773–1858)": {
+          "intro": "Use this table to anchor any early-colonial event to the specific administrator in charge — several of the site's most-cited acts and wars (the Regulating Act, the Permanent Settlement, the Doctrine of Lapse) are named after or closely associated with the Governor-General who enacted them.",
+          "points": [
+            "Warren Hastings (1773–1785): Regulating Act (1773); Pitt's India Act (1784, passed near the end of his term); the Rohilla War (1774); First Maratha War (1775–82) and Treaty of Salbai (1782); Second Mysore War (1780–84); founded the Asiatic Society of Bengal (1784); later impeached in England over his conduct toward the Raja of Benaras",
+            "Lord Cornwallis (1786–1793): Third Mysore War (1790–92) and Treaty of Seringapatam; the Cornwallis Code (1793) separating revenue administration from civil jurisdiction; the Permanent Settlement of Bengal (1793); Europeanisation of the administrative machinery and introduction of the civil services",
+            "Sir John Shore (1793–1798): Charter Act of 1793; Battle of Kharda between the Nizam and the Marathas (1795)",
+            "Lord Wellesley (1798–1805): introduced the Subsidiary Alliance System (1798), starting with the Nizam of Hyderabad; Fourth Mysore War (1799); Second Maratha War (1803–05); annexed Tanjore, Surat, and the Carnatic; Treaty of Bassein (1802)",
+            "Sir George Barlow (1805–1807): the Vellore Mutiny (1806)",
+            "Lord Minto (1807–1813): Treaty of Amritsar with Maharaja Ranjit Singh (1809)",
+            "Lord Hastings (1813–1823): Anglo-Nepal War (1814–16) and Treaty of Sugauli; Third Maratha War (1817–19) and the dissolution of the Maratha Confederacy; creation of the Bombay Presidency (1818); conflict with the Pindaris; the Ryotwari System introduced by Thomas Munro in Madras (1820)",
+            "Lord Amherst (1823–1828): First Burmese War (1824–26); capture of Bharatpur (1826)",
+            "Lord William Bentinck (1828–1835): abolition of sati (1829); suppression of thagi; Charter Act of 1833; the 1835 Resolution introducing English as the medium of higher education; annexation of Mysore, Coorg, and Central Cachar",
+            "Lord Metcalfe (1835–1836): repealed restrictions on the press",
+            "Lord Auckland (1836–1842): First Afghan War (1838–42); death of Ranjit Singh (1839)",
+            "Lord Ellenborough (1842–1844): annexation of Sindh (1843); war with Gwalior (1843)",
+            "Lord Hardinge (1844–1848): First Anglo-Sikh War (1845–46) and Treaty of Lahore; social reforms including the abolition of female infanticide and human sacrifice in some regions",
+            "Lord Dalhousie (1848–1856): Second Anglo-Sikh War (1848–49) and annexation of Punjab; annexation of Lower Burma (Pegu, 1852); the Doctrine of Lapse, applied to Satara, Jaitpur, Sambalpur, Udaipur, Jhansi, Nagpur, and Awadh; Wood's Educational Despatch (1854); the first railway line (Bombay–Thane, 1853) and major telegraph and postal reforms; the Widow Remarriage Act (1856)",
+            "Lord Canning (1856–1858 as Governor-General): founding of the universities of Calcutta, Madras, and Bombay (1857); in office during the Revolt of 1857"
+          ]
+        },
+        "Viceroys of India (1858–1947)": {
+          "intro": "The same office continues here under the additional title of Viceroy after the 1858 transfer of power to the Crown — this table is the direct administrative counterpart to the freedom-struggle narrative told in more depth on this site's Indian Freedom Struggle, Mahatma Gandhi, and Independence of India pages.",
+          "points": [
+            "Lord Canning (1858–1862): formal transfer of control from the East India Company to the Crown under the Government of India Act, 1858; the 'White Mutiny' by European troops (1859)",
+            "Lord Lawrence, Lord Mayo, Lord Northbrook, and Lord Lytton govern through the 1860s and 1870s, a period covered in more administrative depth on this site's British Administration page",
+            "Lord Ripon (1880–1884): Local Self-Government Resolution (1882), often called the 'Magna Carta of Local Self-Government in India'; repeal of the Vernacular Press Act; the controversial Ilbert Bill",
+            "Lord Dufferin (1884–1888): in office when the Indian National Congress was founded (December 1885) — the same period this site's dedicated Foundation of the Indian National Congress page examines in detail, including the 'Safety Valve' theory of Congress's origins that names Dufferin specifically",
+            "Lord Lansdowne, Lord Elgin II, and Lord Curzon (1899–1905) follow, with Curzon's tenure most remembered for the deeply controversial Partition of Bengal (1905), which directly triggered the Swadeshi Movement covered on the Indian Freedom Struggle page",
+            "Lord Minto II (1905–1910): continued Swadeshi and Extremist agitation following the Bengal partition; the Morley-Minto Reforms (Indian Councils Act, 1909), introducing separate electorates for Muslims",
+            "Lord Hardinge II (1910–1916): annulment of the Partition of Bengal (1911); transfer of the capital from Calcutta to Delhi (1911); a bomb attack on Hardinge himself during the Delhi Durbar procession (1912)",
+            "Lord Chelmsford (1916–1921): the Montagu-Chelmsford Reforms and Government of India Act, 1919 introducing dyarchy in the provinces; the Rowlatt Act and the Jallianwala Bagh Massacre (1919); the launch of the Non-Cooperation Movement (1920)",
+            "Lord Reading (1921–1926): the Chauri Chaura incident and withdrawal of Non-Cooperation (1922); the Kakori Conspiracy (1925)",
+            "Lord Irwin (1926–1931): the Simon Commission's arrival and boycott (1928); the Purna Swaraj resolution and Dandi Salt March launching Civil Disobedience (1930); the Gandhi-Irwin Pact (1931)",
+            "Lord Willingdon (1931–1936): continuation and eventual suppression of Civil Disobedience; the Government of India Act, 1935 introducing provincial autonomy",
+            "Lord Linlithgow (1936–1944): 1937 provincial elections and formation of Congress ministries; India's entry into the Second World War without Indian consultation (1939) and the resulting resignation of Congress ministries; the Cripps Mission (1942) and its failure; the Quit India Movement (1942) and the mass arrest of the Congress leadership",
+            "Lord Wavell (1944–1947): the Wavell Plan and Simla Conference; the end of the Second World War (1945); the Cabinet Mission's proposals (1946) and their acceptance by Congress; the Muslim League's 'Direct Action Day' (16 August 1946); elections to the Constituent Assembly and formation of the Interim Government; Clement Attlee's announcement of the end of British rule (20 February 1947)",
+            "Lord Mountbatten (1947–1948): the June Third Plan (1947) announcing Partition; introduction of the Indian Independence Bill in the House of Commons; appointment of the Radcliffe boundary commissions for Bengal and Punjab; served briefly as independent India's first Governor-General after 15 August 1947"
+          ]
+        }
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1773",
+          "title": "Warren Hastings becomes the first Governor-General",
+          "theme": "polity",
+          "desc": "The Regulating Act formally creates the office that would run British India, in one title or another, for the next 175 years."
+        },
+        {
+          "year": "1833",
+          "title": "Office redesignated 'Governor-General of India'",
+          "theme": "polity",
+          "desc": "The Charter Act of 1833 recognises the office's authority over all of British India, not Bengal alone."
+        },
+        {
+          "year": "1858",
+          "title": "Office additionally carries the title 'Viceroy'",
+          "theme": "polity",
+          "desc": "Following the transfer of power from the East India Company to the Crown, Lord Canning becomes the first Viceroy as well as Governor-General."
+        },
+        {
+          "year": "1947–48",
+          "title": "Lord Mountbatten, the last Viceroy",
+          "theme": "polity",
+          "desc": "Oversees the transfer of power and Partition, then briefly serves as independent India's first Governor-General."
+        }
+      ],
+      "people": [
+        {
+          "name": "Warren Hastings",
+          "role": "First Governor-General of Bengal",
+          "note": "r. 1773–1785."
+        },
+        {
+          "name": "Lord Cornwallis",
+          "role": "Governor-General",
+          "note": "r. 1786–1793; architect of the Permanent Settlement and the Cornwallis Code."
+        },
+        {
+          "name": "Lord William Bentinck",
+          "role": "Governor-General",
+          "note": "r. 1828–1835; abolished sati; oversaw the 1833 Charter Act redesignation."
+        },
+        {
+          "name": "Lord Dalhousie",
+          "role": "Governor-General",
+          "note": "r. 1848–1856; the Doctrine of Lapse."
+        },
+        {
+          "name": "Lord Canning",
+          "role": "Last Governor-General, first Viceroy",
+          "note": "r. 1856–1862; presided over the transition through the 1857 Revolt."
+        },
+        {
+          "name": "Lord Curzon",
+          "role": "Viceroy",
+          "note": "r. 1899–1905; the Partition of Bengal."
+        },
+        {
+          "name": "Lord Chelmsford",
+          "role": "Viceroy",
+          "note": "r. 1916–1921; the Montagu-Chelmsford Reforms; Jallianwala Bagh."
+        },
+        {
+          "name": "Lord Irwin",
+          "role": "Viceroy",
+          "note": "r. 1926–1931; the Dandi March and the Gandhi-Irwin Pact."
+        },
+        {
+          "name": "Lord Mountbatten",
+          "role": "Last Viceroy",
+          "note": "r. 1947–48; oversaw the transfer of power and Partition."
+        }
+      ],
+      "themes": [
+        "polity",
+        "war",
+        "economy"
+      ],
+      "upsc": {
+        "prelims": [
+          "Warren Hastings (1773) is the first Governor-General; the title changes to 'Governor-General of India' under the Charter Act of 1833; Lord Canning is both the last Governor-General under Company rule and the first Viceroy under Crown rule (from 1858)",
+          "Match each landmark act, war, or reform to its Governor-General/Viceroy — this is one of the most common factual-recall question formats in Prelims-level Modern History"
+        ],
+        "mains": [
+          "Trace how the office's actual power evolved from a Company administrator answerable mainly to shareholders (Hastings, Cornwallis) to a Crown representative answerable to Parliament and the Secretary of State (Canning onward), and finally to a negotiator managing the transfer of power itself (Wavell, Mountbatten)",
+          "Assess how far individual Viceroys' personal decisions (Curzon's partition of Bengal, Irwin's response to civil disobedience, Mountbatten's compressed timeline for transfer of power) shaped the pace and character of Indian nationalism, versus how far they were simply administering policy set in London"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Total Officeholders",
+          "20, spanning 1773–1948"
+        ],
+        [
+          "First Governor-General",
+          "Warren Hastings (1773)"
+        ],
+        [
+          "Title Change to 'Governor-General of India'",
+          "1833 (Charter Act)"
+        ],
+        [
+          "Title Change to Include 'Viceroy'",
+          "1858 (transfer to Crown rule)"
+        ],
+        [
+          "Last Viceroy",
+          "Lord Mountbatten (1947–48)"
+        ]
+      ],
+      "order": 33
+    },
+    {
+      "id": "tribal-movements-colonial-india",
+      "title": "Tribal Revolts and Movements in Colonial India",
+      "dateRange": "1770s – 1940s CE",
+      "category": "colonial",
+      "tagline": "A Long, Continuous Current of Resistance the Mainstream Freedom-Struggle Narrative Often Under-Represents",
+      "heroImg": "up_revolt_of_1857.png",
+      "sourceImages": [
+        "up_revolt_of_1857.png"
+      ],
+      "overview": "Long before the Indian National Congress held its first session, and continuing well after Gandhi's mass movements had come to dominate the national narrative, India's tribal communities were engaged in a nearly continuous series of armed uprisings against the disruption colonial rule brought to their forests, land rights, and ways of life. These revolts are frequently under-represented in a freedom-struggle narrative built primarily around the Congress, the Muslim League, and elite urban politics — yet the grievances driving them were genuinely distinct and, in their own regions, no less significant: colonial forest laws that criminalised traditional shifting cultivation and access to forest produce, the intrusion of outside moneylenders and landlords (often enabled by new colonial land-revenue and property-rights systems that tribal communities had no prior experience of), missionary activity that some communities experienced as a further threat to their autonomy, and forced labour and taxation imposed by an administration with little understanding of or interest in existing tribal social structures. What emerges across nearly two centuries of these revolts — from the Pahariyas and Chuars in the 1770s, through the Kol, Ho, Munda, and Santhal uprisings of the early-to-mid 19th century, to the Bhil, Naikada, Koya, and Rampa movements of the later colonial period, and finally to explicitly religious-political movements like the Tana Bhagat movement and the North-East's tribal resistance — is a pattern of resistance rooted in the specific material and cultural disruption of colonial rule, sometimes running in parallel with, and sometimes almost entirely separate from, the mainstream nationalist movement covered in more depth elsewhere on this site.",
+      "phases": [
+        {
+          "name": "Early Revolts",
+          "range": "1770s – 1830s",
+          "points": [
+            "Pahariyas' Rebellion (from 1778) and the Chuar Uprisings (from 1776) in the Bengal-Bihar region are among the earliest recorded organised resistance to the East India Company's expanding land-revenue demands",
+            "Kol Uprising (1831–32), led by figures including Buddho Bhagat, resisted the growing presence of outside (mostly Bengali and Sikh) moneylenders and landlords in the Chota Nagpur region"
+          ]
+        },
+        {
+          "name": "The Great Mid-Century Uprisings",
+          "range": "1830s – 1850s",
+          "points": [
+            "Ho and Munda Uprisings, including Raja Parahat's revolt (1827) in Singhbhum against the extension of the colonial revenue system into tribal areas",
+            "The Santhal Rebellion (Santhal Hul, 1855–56), led by the brothers Sido and Kanhu, was one of the largest tribal uprisings in colonial history, directed against moneylenders, landlords, and the colonial state simultaneously, and led directly to the creation of a separate Santhal Pargana administrative area"
+          ]
+        },
+        {
+          "name": "Later 19th-Century Movements",
+          "range": "1860s – 1900",
+          "points": [
+            "The Kandh uprisings under Chakra Bisoi and the Naikada Movement in Gujarat resisted, respectively, colonial interference in traditional practices and outside economic penetration of tribal land",
+            "The Ulgulan ('Great Tumult'), led by Birsa Munda (1899–1900), combined agrarian grievance with an explicitly religious-reform movement and remains one of the most celebrated tribal uprisings in Indian nationalist memory"
+          ]
+        },
+        {
+          "name": "Early 20th-Century Movements",
+          "range": "1900s – 1930s",
+          "points": [
+            "Bhil Revolts (1913 and after), Koya Revolts, and the Bastar Revolt (1910) in central India continued the pattern of resistance to forest-law restrictions and outside economic intrusion",
+            "The Rampa Revolts in the Andhra region and a wave of Forest Satyagrahas across central India specifically targeted colonial restrictions on traditional forest use and access"
+          ]
+        },
+        {
+          "name": "Movements Merging with the National Struggle",
+          "range": "1910s – 1940s",
+          "points": [
+            "The Tana Bhagat Movement combined religious reform with direct participation in Gandhian civil disobedience, showing tribal resistance increasingly intersecting with mainstream nationalist politics by this period",
+            "In the North-East, a distinct and long-running current of tribal resistance — among the Ahoms, Khasis, Singphos, Kukis, and in Tripura, later including the Naga movement and the Heraka/Zeliangrong cultural-religious movement — continued largely on its own terms into the 1940s and beyond, only partially overlapping with the pan-Indian Congress-led movement"
+          ]
+        }
+      ],
+      "aspects": {
+        "Common Causes Across Movements": {
+          "intro": "Despite spanning nearly two centuries and every region of the subcontinent, these revolts show a remarkably consistent underlying grievance structure worth recognising as a pattern rather than treating each uprising as an isolated local event.",
+          "points": [
+            "Colonial forest laws restricting or criminalising traditional shifting cultivation, grazing, and the collection of forest produce that tribal economies had always depended on",
+            "The introduction of outside moneylenders and landlords into regions where land had previously been held under customary, often communal, tribal systems rather than the individual private property the colonial revenue system assumed and enforced",
+            "Forced labour (begar) and new forms of taxation imposed with little regard for existing tribal social and economic structures",
+            "In some regions, resentment of missionary activity and outside cultural or religious interference compounded the economic and land-related grievances"
+          ]
+        },
+        "North-East Frontier Tribal Movements": {
+          "intro": "The North-East's tribal resistance forms a genuinely distinct sub-current within this broader story, shaped by the region's particular colonial administrative history and its comparative geographic and political separation from the Congress-dominated politics of the Gangetic plains.",
+          "points": [
+            "Resistance among the Ahoms in Assam, the Khasis in the Khasi Hills, the Singphos, and the Kukis each responded to the specific pattern of British annexation and administrative control in their own territories",
+            "Tripura saw its own distinct tradition of resistance to colonial and outside encroachment on tribal land and autonomy",
+            "The later Naga movement and the Zeliangrong cultural-religious revival (including the Heraka faith movement) show tribal resistance in this region evolving into more explicitly political and cultural self-determination movements as the colonial period drew to a close, with consequences that would extend well beyond 1947"
+          ]
+        },
+        "Why This Topic Matters for a Complete Picture of the Freedom Struggle": {
+          "intro": "Reading this page alongside the site's Indian Freedom Struggle and Revolt of 1857 pages is useful precisely because it complicates the picture those pages present on their own.",
+          "points": [
+            "Tribal resistance was neither uniformly separate from nor uniformly part of the Congress-led national movement; some currents (like the Tana Bhagat movement) merged directly into Gandhian civil disobedience, while others (much of the North-East's resistance) remained largely independent throughout the colonial period",
+            "The specific grievances driving tribal revolts — forest law, land alienation to outside moneylenders, forced labour — were often only loosely connected to the constitutional and political demands (self-government, dominion status, complete independence) that dominated Congress politics, a reminder that 'the freedom struggle' was never a single, uniform movement with one shared grievance or one shared theory of what freedom should mean",
+            "Several of the specific administrative responses these revolts provoked — including the creation of separate tribal administrative areas like the Santhal Parganas — shaped the institutional and legal framework for tribal areas that independent India inherited and continues to build on"
+          ]
+        }
+      },
+      "women": [],
+      "events": [
+        {
+          "year": "1831–32",
+          "title": "Kol Uprising",
+          "theme": "society",
+          "desc": "Led by figures including Buddho Bhagat, resisting the growing presence of outside moneylenders and landlords in Chota Nagpur."
+        },
+        {
+          "year": "1855–56",
+          "title": "Santhal Rebellion (Santhal Hul)",
+          "theme": "society",
+          "desc": "Led by the brothers Sido and Kanhu, one of the largest tribal uprisings of the colonial period, leading to the creation of the Santhal Parganas."
+        },
+        {
+          "year": "1899–1900",
+          "title": "Ulgulan led by Birsa Munda",
+          "theme": "society",
+          "desc": "Combined agrarian resistance with religious reform; remains one of the most celebrated tribal movements in Indian nationalist memory."
+        },
+        {
+          "year": "1910",
+          "title": "Bastar Revolt",
+          "theme": "society",
+          "desc": "Central Indian tribal resistance to forest-law restrictions and outside economic intrusion."
+        },
+        {
+          "year": "1913 onward",
+          "title": "Bhil Revolts",
+          "theme": "society",
+          "desc": "Continued resistance among the Bhil community against colonial land and forest policy."
+        }
+      ],
+      "people": [
+        {
+          "name": "Birsa Munda",
+          "role": "Leader of the Ulgulan",
+          "note": "1899–1900; combined agrarian resistance with religious reform among the Munda community."
+        },
+        {
+          "name": "Sido and Kanhu Murmu",
+          "role": "Leaders of the Santhal Rebellion",
+          "note": "1855–56."
+        },
+        {
+          "name": "Buddho Bhagat",
+          "role": "Leader of the Kol Uprising",
+          "note": "1831–32."
+        },
+        {
+          "name": "Chakra Bisoi",
+          "role": "Leader of the Kandh uprisings",
+          "note": "Resisted colonial interference in traditional practices."
+        }
+      ],
+      "themes": [
+        "society",
+        "war",
+        "polity"
+      ],
+      "upsc": {
+        "prelims": [
+          "Match each tribal revolt to its region and leader — Santhal Rebellion (Sido and Kanhu, 1855–56), Ulgulan (Birsa Munda, 1899–1900), Kol Uprising (Buddho Bhagat, 1831–32); the Santhal Parganas were created as a direct administrative response to the Santhal Rebellion"
+        ],
+        "mains": [
+          "Tribal movements in colonial India had a distinct grievance structure — forest law, land alienation, forced labour — that only partially overlapped with the political demands of the Congress-led national movement; discuss with examples",
+          "Assess the extent to which tribal resistance movements should be considered part of India's freedom struggle, given their often localised aims and only partial connection to pan-Indian nationalist politics"
+        ]
+      },
+      "quickFacts": [
+        [
+          "Period Covered",
+          "1770s – 1940s"
+        ],
+        [
+          "Earliest Recorded Revolts",
+          "Chuar Uprisings (from 1776), Pahariyas' Rebellion (from 1778)"
+        ],
+        [
+          "Largest 19th-Century Uprising",
+          "Santhal Rebellion, 1855–56"
+        ],
+        [
+          "Most Celebrated Movement",
+          "The Ulgulan, led by Birsa Munda, 1899–1900"
+        ],
+        [
+          "Common Causes",
+          "Forest law, land alienation to moneylenders, forced labour, missionary intrusion"
+        ]
+      ],
+      "order": 34
     },
     {
       "id": "socio-religious-reforms",
@@ -6210,7 +6590,7 @@
           "Removed social evils, improved women's status, provided the ideological base for the freedom struggle"
         ]
       ],
-      "order": 33
+      "order": 35
     },
     {
       "id": "foundation-of-indian-national-congress",
@@ -6368,7 +6748,7 @@
           "Building the first genuinely all-India political institution and nationality out of a regionally and religiously divided society"
         ]
       ],
-      "order": 34
+      "order": 36
     },
     {
       "id": "indian-freedom-struggle",
@@ -6612,7 +6992,7 @@
           "Independence and Partition, 15 August 1947"
         ]
       ],
-      "order": 35
+      "order": 37
     },
     {
       "id": "mahatma-gandhi",
@@ -6776,7 +7156,7 @@
           "2 October observed as the International Day of Non-Violence"
         ]
       ],
-      "order": 36
+      "order": 38
     },
     {
       "id": "independence-of-india",
@@ -6971,7 +7351,7 @@
           "Independence & Partition of India, 15 August 1947"
         ]
       ],
-      "order": 37
+      "order": 39
     },
     {
       "id": "independent-india-overview",
@@ -7122,7 +7502,7 @@
           "Viksit Bharat @2047"
         ]
       ],
-      "order": 38
+      "order": 40
     },
     {
       "id": "india-1947-1964",
@@ -7323,7 +7703,7 @@
           "Death of Nehru (1964); Lal Bahadur Shastri becomes PM"
         ]
       ],
-      "order": 39
+      "order": 41
     },
     {
       "id": "india-1965-1980",
@@ -7526,7 +7906,7 @@
           "Pokhran-I Nuclear Test, 1974"
         ]
       ],
-      "order": 40
+      "order": 42
     },
     {
       "id": "india-1981-1991",
@@ -7698,7 +8078,7 @@
           "New Economic Policy, 24 July 1991"
         ]
       ],
-      "order": 41
+      "order": 43
     },
     {
       "id": "india-1992-2000",
@@ -7869,7 +8249,7 @@
           "Kargil War, 1999"
         ]
       ],
-      "order": 42
+      "order": 44
     },
     {
       "id": "india-2001-2010",
@@ -8028,7 +8408,7 @@
           "Commonwealth Games, Delhi 2010"
         ]
       ],
-      "order": 43
+      "order": 45
     },
     {
       "id": "india-2011-2020",
@@ -8192,7 +8572,7 @@
           "Onset of the COVID-19 pandemic, March 2020"
         ]
       ],
-      "order": 44
+      "order": 46
     },
     {
       "id": "india-2020-present",
@@ -8352,7 +8732,7 @@
           "Viksit Bharat @2047"
         ]
       ],
-      "order": 45
+      "order": 47
     },
     {
       "id": "world-history-context",
@@ -8508,7 +8888,7 @@
           "Background/context chart — not part of the main India chronology"
         ]
       ],
-      "order": 46
+      "order": 48
     },
     {
       "id": "french-revolution",
@@ -8674,7 +9054,7 @@
           "18 Brumaire coup (9 Nov 1799); Napoleon comes to power"
         ]
       ],
-      "order": 47
+      "order": 49
     },
     {
       "id": "world-war-1",
@@ -8843,7 +9223,7 @@
           "Treaty of Versailles (1919); League of Nations (1920)"
         ]
       ],
-      "order": 48
+      "order": 50
     },
     {
       "id": "russian-revolution",
@@ -9028,7 +9408,7 @@
           "Formation of the USSR, 30 December 1922"
         ]
       ],
-      "order": 49
+      "order": 51
     },
     {
       "id": "world-war-2",
@@ -9210,7 +9590,7 @@
           "United Nations (1945); beginning of the Cold War"
         ]
       ],
-      "order": 50
+      "order": 52
     },
     {
       "id": "up-history-overview",
@@ -9350,7 +9730,7 @@
           "Birthplace of Lord Ram (Ayodhya), Lord Krishna (Mathura), and home to Buddhism's and Jainism's earliest sites"
         ]
       ],
-      "order": 51
+      "order": 53
     },
     {
       "id": "up-prehistoric",
@@ -9478,7 +9858,7 @@
           "Vedic Age begins in Western U.P., c. 1500 BCE"
         ]
       ],
-      "order": 52
+      "order": 54
     },
     {
       "id": "up-vedic-age",
@@ -9652,7 +10032,7 @@
           "Ganga-Yamuna Doab"
         ]
       ],
-      "order": 53
+      "order": 55
     },
     {
       "id": "up-mahajanapadas",
@@ -9822,7 +10202,7 @@
           "Absorption into the Mauryan Empire, 322 BCE"
         ]
       ],
-      "order": 54
+      "order": 56
     },
     {
       "id": "up-maurya-period",
@@ -9983,7 +10363,7 @@
           "Administrative practices, urban centres and spread of Buddhism continued after Mauryan decline"
         ]
       ],
-      "order": 55
+      "order": 57
     },
     {
       "id": "up-post-maurya-period",
@@ -10149,7 +10529,7 @@
           "Brahmi, Kharoshthi / Punch-marked, Silver, Copper, Gold (die-struck)"
         ]
       ],
-      "order": 56
+      "order": 58
     },
     {
       "id": "up-gupta-period",
@@ -10321,7 +10701,7 @@
           "Culture, Art, Literature, Science — Golden Age of India"
         ]
       ],
-      "order": 57
+      "order": 59
     },
     {
       "id": "up-harsha-period",
@@ -10494,7 +10874,7 @@
           "Xuanzang's travelogue, 'Si-yu-ki'"
         ]
       ],
-      "order": 58
+      "order": 60
     },
     {
       "id": "up-gurjara-pratiharas",
@@ -10649,7 +11029,7 @@
           "10th–11th century, due to internal weakness and rise of regional powers"
         ]
       ],
-      "order": 59
+      "order": 61
     },
     {
       "id": "up-kalachuris-chandellas",
@@ -10802,7 +11182,7 @@
           "Internal conflicts, Ghaznavid/Ghurid attacks, rise of the Gahadavalas"
         ]
       ],
-      "order": 60
+      "order": 62
     },
     {
       "id": "up-gahadavalas",
@@ -10967,7 +11347,7 @@
           "Defeat of Jayachandra by Muhammad Ghori, 1194 CE (Battle of Chandawar)"
         ]
       ],
-      "order": 61
+      "order": 63
     },
     {
       "id": "up-foundation-of-cities-medieval",
@@ -11124,7 +11504,7 @@
           "Laid the foundation for later urban growth in the colonial period"
         ]
       ],
-      "order": 62
+      "order": 64
     },
     {
       "id": "up-delhi-sultanate",
@@ -11302,7 +11682,7 @@
           "Defeat of Ibrahim Lodi by Babur, 1526 CE"
         ]
       ],
-      "order": 63
+      "order": 65
     },
     {
       "id": "up-jaunpur-sultanate",
@@ -11454,7 +11834,7 @@
           "1479 CE, annexed by the Lodi Dynasty"
         ]
       ],
-      "order": 64
+      "order": 66
     },
     {
       "id": "up-sayyid-lodi-dynasty",
@@ -11620,7 +12000,7 @@
           "1526 CE (First Battle of Panipat)"
         ]
       ],
-      "order": 65
+      "order": 67
     },
     {
       "id": "up-mughal-period",
@@ -11803,7 +12183,7 @@
           "Sulh-i-Kul (Akbar)"
         ]
       ],
-      "order": 66
+      "order": 68
     },
     {
       "id": "up-later-mughals",
@@ -11963,7 +12343,7 @@
           "1764, Battle of Buxar"
         ]
       ],
-      "order": 67
+      "order": 69
     },
     {
       "id": "up-british-rule-administration",
@@ -12142,7 +12522,7 @@
           "United Provinces of Agra and Oudh"
         ]
       ],
-      "order": 68
+      "order": 70
     },
     {
       "id": "up-revolt-of-1857",
@@ -12320,7 +12700,7 @@
           "Suppressed by 1858; Government of India Act, 1858"
         ]
       ],
-      "order": 69
+      "order": 71
     },
     {
       "id": "up-freedom-struggle",
@@ -12514,7 +12894,7 @@
           "Ballia"
         ]
       ],
-      "order": 70
+      "order": 72
     },
     {
       "id": "up-socio-religious-movement",
@@ -12708,7 +13088,7 @@
           "Ideological foundation of nationalism and social change in U.P."
         ]
       ],
-      "order": 71
+      "order": 73
     },
     {
       "id": "up-united-provinces-modern",
@@ -12867,7 +13247,7 @@
           "Pt. Govind Ballabh Pant"
         ]
       ],
-      "order": 72
+      "order": 74
     },
     {
       "id": "up-formation",
@@ -13031,7 +13411,7 @@
           "24/26 January 1950"
         ]
       ],
-      "order": 73
+      "order": 75
     },
     {
       "id": "up-political-developments",
@@ -13232,7 +13612,7 @@
           "403"
         ]
       ],
-      "order": 74
+      "order": 76
     },
     {
       "id": "up-reorganisation",
@@ -13379,7 +13759,7 @@
           "7 new districts, 18 new tehsils created"
         ]
       ],
-      "order": 75
+      "order": 77
     },
     {
       "id": "up-economic-social-progress",
@@ -13513,7 +13893,7 @@
           "Regional imbalance — Purvanchal & Bundelkhand"
         ]
       ],
-      "order": 76
+      "order": 78
     },
     {
       "id": "up-21st-century",
@@ -13633,7 +14013,7 @@
           "Viksit Uttar Pradesh, foundation of Viksit Bharat"
         ]
       ],
-      "order": 77
+      "order": 79
     },
     {
       "id": "up-important-personalities",
@@ -13864,7 +14244,7 @@
           "Cross-cutting reference; most entries link to a fuller period or biography elsewhere on this site"
         ]
       ],
-      "order": 78
+      "order": 80
     }
   ]
 }
