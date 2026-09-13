@@ -1,4 +1,4 @@
-/* Client-side search across periods, events, people, themes — no backend. */
+/* Client-side search across periods, events, people, themes, sites, and practice questions — no backend. */
 
 const Search = (() => {
   let index = null;
@@ -7,32 +7,153 @@ const Search = (() => {
     if (index) return index;
     const d = await HistoryData.load();
     index = [];
+
+    // 1. Periods
     d.periods.forEach(p => {
-      index.push({ kind: 'Period', title: p.title, sub: p.dateRange, href: `period.html?id=${p.id}`, text: (p.title + ' ' + p.tagline + ' ' + p.overview).toLowerCase() });
+      index.push({
+        kind: 'Period',
+        title: p.title,
+        sub: p.dateRange,
+        href: `period.html?id=${p.id}`,
+        text: (p.title + ' ' + p.tagline + ' ' + (p.overview || '')).toLowerCase()
+      });
+
+      // 2. Events
       (p.events || []).forEach(e => {
-        index.push({ kind: 'Event', title: e.title, sub: `${e.year} · ${p.title}`, href: `period.html?id=${p.id}#event-${slug(e.title)}`, text: (e.title + ' ' + e.desc + ' ' + e.year + ' ' + p.title).toLowerCase() });
+        index.push({
+          kind: 'Event',
+          title: e.title,
+          sub: `${e.year} · ${p.title}`,
+          href: `period.html?id=${p.id}#event-${slug(e.title)}`,
+          text: (e.title + ' ' + (e.desc || '') + ' ' + e.year + ' ' + p.title).toLowerCase()
+        });
       });
+
+      // 3. People
       (p.people || []).forEach(pe => {
-        index.push({ kind: 'Person', title: pe.name, sub: `${pe.role || ''} · ${p.title}`, href: `period.html?id=${p.id}#people`, text: (pe.name + ' ' + (pe.role||'') + ' ' + (pe.note||'') + ' ' + p.title).toLowerCase() });
+        index.push({
+          kind: 'Person',
+          title: pe.name,
+          sub: `${pe.role || ''} · ${p.title}`,
+          href: `period.html?id=${p.id}#people`,
+          text: (pe.name + ' ' + (pe.role||'') + ' ' + (pe.note||'') + ' ' + p.title).toLowerCase()
+        });
       });
+
+      // 4. Women
       (p.women || []).forEach(w => {
-        index.push({ kind: 'Woman in History', title: w.name, sub: `${w.role || ''} · ${p.title}`, href: `period.html?id=${p.id}#women`, text: (w.name + ' ' + (w.note||'') + ' ' + p.title).toLowerCase() });
+        index.push({
+          kind: 'Woman in History',
+          title: w.name,
+          sub: `${w.role || ''} · ${p.title}`,
+          href: `period.html?id=${p.id}#women`,
+          text: (w.name + ' ' + (w.note||'') + ' ' + p.title).toLowerCase()
+        });
       });
+
+      // 5. Themes
       (p.themes || []).forEach(t => {
         const label = HistoryData.THEME_LABELS[t] || t;
-        index.push({ kind: 'Theme', title: label, sub: p.title, href: `themes.html#${t}`, text: (label + ' ' + p.title).toLowerCase() });
+        index.push({
+          kind: 'Theme',
+          title: label,
+          sub: p.title,
+          href: `themes.html#${t}`,
+          text: (label + ' ' + p.title).toLowerCase()
+        });
+      });
+
+      // 6. Sites inside period
+      (p.sites || []).forEach(s => {
+        const sName = typeof s === 'string' ? s : (s.name || s.title || '');
+        if (sName) {
+          index.push({
+            kind: 'Historical Site',
+            title: sName,
+            sub: `${p.title} (${p.dateRange})`,
+            href: `map.html?site=${slug(sName)}`,
+            text: (sName + ' archaeological site ' + p.title).toLowerCase()
+          });
+        }
       });
     });
+
+    // 7. Core Archaeological Map Sites
+    const coreSites = [
+      { name: 'Dholavira', layer: 'IVC (Harappan)', state: 'Gujarat' },
+      { name: 'Harappa', layer: 'IVC (Harappan)', state: 'Punjab' },
+      { name: 'Mohenjo-daro', layer: 'IVC (Harappan)', state: 'Sindh' },
+      { name: 'Lothal', layer: 'IVC (Harappan)', state: 'Gujarat' },
+      { name: 'Kalibangan', layer: 'IVC (Harappan)', state: 'Rajasthan' },
+      { name: 'Rakhigarhi', layer: 'IVC (Harappan)', state: 'Haryana' },
+      { name: 'Rajgriha', layer: '16 Mahajanapadas', state: 'Bihar' },
+      { name: 'Pataliputra', layer: '16 Mahajanapadas', state: 'Bihar' },
+      { name: 'Shravasti', layer: '16 Mahajanapadas', state: 'Uttar Pradesh' },
+      { name: 'Kaushambi', layer: '16 Mahajanapadas', state: 'Uttar Pradesh' },
+      { name: 'Ujjain', layer: '16 Mahajanapadas', state: 'Madhya Pradesh' },
+      { name: 'Taxila', layer: '16 Mahajanapadas', state: 'Gandhara' },
+      { name: 'Sarnath', layer: 'Ashokan Edict & Pillar', state: 'Uttar Pradesh' },
+      { name: 'Sanchi', layer: 'Ashokan Stupa & Edict', state: 'Madhya Pradesh' },
+      { name: 'Dhauli', layer: 'Ashokan Kalinga Edict', state: 'Odisha' },
+      { name: 'Girnar', layer: 'Ashokan & Rudradaman Edict', state: 'Gujarat' },
+      { name: 'Maski', layer: 'Ashokan Edict', state: 'Karnataka' },
+      { name: 'Ajanta Caves', layer: 'Classical Art & UNESCO', state: 'Maharashtra' },
+      { name: 'Ellora Caves', layer: 'Kailasha Temple & UNESCO', state: 'Maharashtra' },
+      { name: 'Khajuraho', layer: 'Nagara Temples & UNESCO', state: 'Madhya Pradesh' },
+      { name: 'Konark Sun Temple', layer: 'Kalinga Art & UNESCO', state: 'Odisha' },
+      { name: 'Brihadisvara Temple', layer: 'Chola Dravida & UNESCO', state: 'Tamil Nadu' },
+      { name: 'Mamallapuram', layer: 'Pallava Rathas & UNESCO', state: 'Tamil Nadu' },
+      { name: 'Panipat', layer: 'Historic Battleground', state: 'Haryana' },
+      { name: 'Tarain', layer: 'Historic Battleground', state: 'Haryana' },
+      { name: 'Talikota', layer: 'Deccan Battleground', state: 'Karnataka' },
+      { name: 'Haldighati', layer: 'Mewar Battleground', state: 'Rajasthan' },
+      { name: 'Plassey', layer: 'Freedom Struggle Landmark', state: 'West Bengal' },
+      { name: 'Buxar', layer: 'Freedom Struggle Landmark', state: 'Bihar' },
+      { name: 'Champaran', layer: 'First Satyagraha (1917)', state: 'Bihar' },
+      { name: 'Jallianwala Bagh', layer: 'Amritsar Massacre (1919)', state: 'Punjab' },
+      { name: 'Dandi', layer: 'Salt Satyagraha (1930)', state: 'Gujarat' }
+    ];
+
+    coreSites.forEach(cs => {
+      index.push({
+        kind: 'Map Site',
+        title: cs.name,
+        sub: `${cs.layer} · ${cs.state}`,
+        href: `map.html?site=${slug(cs.name)}`,
+        text: `${cs.name} ${cs.layer} ${cs.state} map site archaeological`.toLowerCase()
+      });
+    });
+
+    // 8. Practice Topics
+    const practiceTopics = [
+      { title: 'UPSC Prelims Practice Questions', sub: '50+ Statement-based drills', href: 'practice.html' },
+      { title: 'UPSC Mains GS-1 Frameworks', sub: 'Analytical model answer structures', href: 'practice.html' },
+      { title: 'Harappan Town Planning Drill', sub: 'UPSC Question & Model Framework', href: 'practice.html' },
+      { title: 'Bhakti Movement Integration Analysis', sub: 'UPSC Mains GS-1 Topic', href: 'practice.html' },
+      { title: 'Drain of Wealth Economic Critique', sub: 'UPSC Mains Analysis', href: 'practice.html' }
+    ];
+    practiceTopics.forEach(pt => {
+      index.push({
+        kind: 'UPSC Drill',
+        title: pt.title,
+        sub: pt.sub,
+        href: pt.href,
+        text: `${pt.title} ${pt.sub} upsc test prelims mains mcq question`.toLowerCase()
+      });
+    });
+
     return index;
   }
 
-  function slug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+  function slug(s){
+    return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+  }
 
   async function query(q){
     const idx = await build();
     const terms = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
     if (!terms.length) return [];
-    return idx.filter(item => terms.every(t => item.text.includes(t))).slice(0, 40);
+    return idx.filter(item => terms.every(t => item.text.includes(t))).slice(0, 45);
   }
 
   return { build, query, slug };

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPSC Prelims &amp; Mains Practice Hub — Complete History of India</title>
+<meta name="description" content="Master Indian History for UPSC CSE &amp; UPPSC with statement-based Prelims MCQs, instant elimination insights, score tracking, and Mains GS Paper-I model frameworks.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* Practice Hub Styles */
+.practice-scoreboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  margin: 24px 0 28px;
+}
+.practice-stat {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.practice-stat .p-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.1;
+  display: block;
+}
+.practice-stat .p-lab {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 4px;
+  display: block;
+}
+.practice-mode-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--line-soft);
+  padding-bottom: 12px;
+}
+.mode-tab {
+  background: none;
+  border: none;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+.mode-tab.active {
+  color: var(--seal);
+  background: var(--seal-tint);
+}
+.practice-q-card {
+  margin-bottom: 26px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-raised);
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s ease;
+}
+.practice-q-card.q-correct {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent-tint) 25%, var(--bg-raised));
+}
+.practice-q-card.q-incorrect {
+  border-color: var(--seal);
+  background: color-mix(in srgb, var(--seal-tint) 25%, var(--bg-raised));
+}
+.q-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.q-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.q-year {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+}
+.q-id {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+}
+.q-prompt {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+.q-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.opt-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+.opt-btn:hover:not(:disabled) {
+  border-color: var(--ink-soft);
+  background: var(--bg-raised);
+}
+.opt-label {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  min-width: 22px;
+}
+.opt-btn.opt-correct {
+  background: #e8f5ed;
+  border-color: #2b7a4b;
+  color: #1a4d2e;
+  font-weight: 600;
+}
+.opt-btn.opt-wrong {
+  background: #fdf0f0;
+  border-color: #c93b3b;
+  color: #7d1c1c;
+}
+.opt-btn.opt-disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+[data-theme="dark"] .opt-btn.opt-correct {
+  background: #172c1f;
+  border-color: #388e5a;
+  color: #8ce0aa;
+}
+[data-theme="dark"] .opt-btn.opt-wrong {
+  background: #2e1619;
+  border-color: #9e3636;
+  color: #f19a9a;
+}
+.q-explanation {
+  margin-top: 18px;
+  padding: 16px 20px;
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+}
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.exp-badge {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.badge-correct { background: #d2f0dd; color: #166534; }
+.badge-wrong { background: #fae2e2; color: #991b1b; }
+[data-theme="dark"] .badge-correct { background: #1c3926; color: #86efac; }
+[data-theme="dark"] .badge-wrong { background: #3c1a1e; color: #fca5a5; }
+.exp-correct-tag {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+.exp-text {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin: 8px 0;
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="section" style="padding-bottom:10px;">
+    <div class="wrap">
+      <span class="eyebrow">UPSC CSE (Prelims &amp; Mains) &bull; UPPSC GS-1 &bull; Active Revision</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">UPSC Prelims &amp; Mains Practice Hub</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:76ch; margin-bottom:24px;">
+        Test your analytical mastery with authentic statement-based questions, chronological tests, and pair-matching drills modeled after contemporary UPSC Civil Services Examination standards. Includes instant elimination tricks, comprehensive rationales, and GS-1 Mains structuring templates.
+      </p>
+
+      <div class="practice-scoreboard">
+        <div class="practice-stat">
+          <span class="p-num" id="statAttempted">0</span>
+          <span class="p-lab">Questions Attempted</span>
+        </div>
+        <div class="practice-stat">
+          <span class="p-num" id="statCorrect" style="color:var(--accent);">0</span>
+          <span class="p-lab">Correct Answers</span>
+        </div>
+        <div class="practice-stat">
+          <span class="p-num" id="statAccuracy" style="color:var(--gold);">0%</span>
+          <span class="p-lab">Accuracy Rate</span>
+        </div>
+        <div class="practice-stat" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+          <button class="btn btn-outline btn-sm" onclick="HistoryPractice.resetQuiz()" style="width:100%;">Reset Score</button>
+        </div>
+      </div>
+
+      <div class="practice-mode-tabs">
+        <button class="mode-tab active" id="tabPrelims" onclick="HistoryPractice.setMode('prelims'); this.classList.add('active'); document.getElementById('tabMains').classList.remove('active');">
+          🎯 Prelims Simulator (MCQs)
+        </button>
+        <button class="mode-tab" id="tabMains" onclick="HistoryPractice.setMode('mains'); this.classList.add('active'); document.getElementById('tabPrelims').classList.remove('active');">
+          ✍️ Mains Analytical Architect (GS-1)
+        </button>
+      </div>
+
+      <div class="filter-bar" id="practiceCategoryBar"></div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:14px;">
+    <div class="wrap" id="practiceContainer">
+      <p class="loading-note">Loading practice questions…</p>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/practice.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  HistoryPractice.init();
+});
+</script>
+</body>
+</html>

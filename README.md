@@ -8,6 +8,8 @@ A static, data-driven, interactive history site covering **Prehistory through th
 /
 ├── index.html          Home page (hero, journey rail, period grid, featured events/women)
 ├── timeline.html        Master interactive timeline (filterable, expandable, click-to-detail)
+├── map.html             Interactive Historical Atlas & Archaeological Map Lab (Calibrated SVG)
+├── practice.html        UPSC Prelims & Mains Practice Hub (50+ Statement MCQs & Mains Frameworks)
 ├── period.html           Single dynamic template — renders any period via ?id=<period-id>
 ├── themes.html           Thematic index (Polity, War, Religion, Economy, Society, Women, Art, Science...)
 ├── people.html           All personalities, filterable by period

@@ -1,27 +1,31 @@
-let TL_STATE = { filter: 'all', periods: [] };
+let TL_STATE = { 
+  themeFilter: 'all', 
+  eraFilter: 'all',
+  searchTerm: '',
+  allPeriods: [],
+  nationalPeriods: []
+};
+
+const ERA_FILTERS = [
+  { id: 'all', label: 'All Eras' },
+  { id: 'ancient', label: 'Ancient' },
+  { id: 'medieval', label: 'Early Medieval' },
+  { id: 'sultanate', label: 'Delhi Sultanate' },
+  { id: 'mughal', label: 'Mughal Empire' },
+  { id: 'colonial', label: 'Colonial & Freedom' },
+  { id: 'independent', label: 'Independent India' },
+  { id: 'up', label: 'UP History (UPPSC)' }
+];
 
 async function renderTimelinePage(){
   renderNav('timeline.html');
   renderBreadcrumb([{ label: 'Home', href: 'index.html' }, { label: 'Master Timeline' }]);
   const d = await HistoryData.load();
-  TL_STATE.periods = d.periods.filter(p => !p.region);
+  TL_STATE.allPeriods = d.periods;
+  TL_STATE.nationalPeriods = d.periods.filter(p => !p.region);
 
-  const themeSet = new Set();
-  TL_STATE.periods.forEach(p => (p.themes||[]).forEach(t => themeSet.add(t)));
-
-  document.getElementById('filterBar').innerHTML = ['all', ...themeSet].map(t => `
-    <button class="filter-chip ${t==='all'?'active':''}" data-filter="${t}">${t==='all' ? 'All' : (HistoryData.THEME_LABELS[t]||t)}</button>
-  `).join('');
-
-  document.querySelectorAll('.filter-chip').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      TL_STATE.filter = btn.dataset.filter;
-      draw();
-    });
-  });
-
+  renderFilterBar();
+  renderTimelineControls();
   draw();
   renderFooter();
 
@@ -30,23 +34,105 @@ async function renderTimelinePage(){
   });
 }
 
+function renderFilterBar(){
+  const wrap = document.getElementById('filterBar');
+  if (!wrap) return;
+
+  wrap.innerHTML = `
+    <div style="display:flex; flex-direction:column; gap:12px; width:100%;">
+      <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between;">
+        <div class="quick-search" style="flex:1; max-width:380px; margin:0;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" id="tlSearchInput" placeholder="Filter events by year, title, battle, act...">
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-outline btn-sm" onclick="expandAllPeriods(true)">Expand All</button>
+          <button class="btn btn-outline btn-sm" onclick="expandAllPeriods(false)">Collapse All</button>
+        </div>
+      </div>
+      <div class="filter-bar" style="margin:0;">
+        ${ERA_FILTERS.map(c => `
+          <button class="filter-chip ${TL_STATE.eraFilter === c.id ? 'active' : ''}" onclick="setEraFilter('${c.id}')">
+            ${c.label}
+          </button>
+        `).join('')}
+      </div>
+    </div>`;
+
+  const searchInput = document.getElementById('tlSearchInput');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      TL_STATE.searchTerm = e.target.value.toLowerCase().trim();
+      draw();
+    });
+  }
+}
+
+function setEraFilter(catId){
+  TL_STATE.eraFilter = catId;
+  renderFilterBar();
+  draw();
+}
+
+function expandAllPeriods(open){
+  document.querySelectorAll('.tl-period').forEach(row => {
+    if (open) row.classList.add('open');
+    else row.classList.remove('open');
+    const head = row.querySelector('.tl-period-head');
+    if (head) head.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+}
+
 function draw(){
   const wrap = document.getElementById('mtimeline');
-  const f = TL_STATE.filter;
-  const periods = TL_STATE.periods.filter(p => f==='all' || (p.themes||[]).includes(f));
+  const era = TL_STATE.eraFilter;
+  const search = TL_STATE.searchTerm;
 
-  wrap.innerHTML = periods.map((p, i) => {
-    const events = f==='all' ? (p.events||[]) : (p.events||[]).filter(e => e.theme === f);
-    if (f !== 'all' && events.length === 0) return '';
+  let basePeriods = era === 'up' 
+    ? TL_STATE.allPeriods.filter(p => p.region === 'up')
+    : TL_STATE.allPeriods.filter(p => !p.region);
+
+  if (era !== 'all' && era !== 'up') {
+    basePeriods = basePeriods.filter(p => p.category === era);
+  }
+
+  const matchingPeriods = basePeriods.filter(p => {
+    if (!search) return true;
+    const matchPeriodText = p.title.toLowerCase().includes(search) || p.dateRange.toLowerCase().includes(search);
+    const matchEvent = (p.events || []).some(e => 
+      e.title.toLowerCase().includes(search) || 
+      (e.desc && e.desc.toLowerCase().includes(search)) ||
+      String(e.year).toLowerCase().includes(search)
+    );
+    return matchPeriodText || matchEvent;
+  });
+
+  if (!matchingPeriods.length) {
+    wrap.innerHTML = `<p class="loading-note">No timeline events found matching "${search}".</p>`;
+    return;
+  }
+
+  wrap.innerHTML = matchingPeriods.map((p, i) => {
+    let events = p.events || [];
+    if (search) {
+      events = events.filter(e => 
+        e.title.toLowerCase().includes(search) || 
+        (e.desc && e.desc.toLowerCase().includes(search)) ||
+        String(e.year).toLowerCase().includes(search)
+      );
+    }
+    const isOpen = Boolean(search) || i === 0;
+
     return `
-    <div class="tl-period ${i===0?'open':''}" data-id="${p.id}">
-      <div class="tl-period-head" role="button" tabindex="0" aria-expanded="${i===0}">
+    <div class="tl-period ${isOpen ? 'open' : ''}" data-id="${p.id}">
+      <div class="tl-period-head" role="button" tabindex="0" aria-expanded="${isOpen}">
         <div class="tlh-left">
-          <h3>${p.title}</h3>
+          <span class="t-cat cat-${p.category}" style="margin-right:8px; font-size:0.68rem;">${p.category}</span>
+          <h3 style="display:inline-block; vertical-align:middle; margin:0 8px 0 0;">${p.title}</h3>
           <span class="t-range">${p.dateRange}</span>
         </div>
         <div style="display:flex; align-items:center; gap:14px;">
-          <a href="period.html?id=${p.id}" class="btn btn-ghost btn-sm" onclick="event.stopPropagation()">Open Period Page →</a>
+          <a href="period.html?id=${p.id}" class="btn btn-ghost btn-sm" onclick="event.stopPropagation()">Open Period →</a>
           <span class="tl-caret">▸</span>
         </div>
       </div>
@@ -55,11 +141,11 @@ function draw(){
           <button class="tl-event" data-title="${encodeURIComponent(e.title)}" data-period="${p.id}">
             <span class="ev-year">${e.year}</span>
             <div class="ev-title">${e.title}</div>
-            <span class="theme-chip">${HistoryData.THEME_LABELS[e.theme]||e.theme}</span>
-          </button>`).join('') || '<p style="color:var(--ink-faint); font-size:.85rem;">No events tagged for this filter in this period.</p>'}
+            <span class="theme-chip">${HistoryData.THEME_LABELS[e.theme] || e.theme || 'General'}</span>
+          </button>`).join('') || '<p style="color:var(--ink-faint); font-size:.85rem; padding:10px 0;">No specific events listed for this search filter.</p>'}
       </div>
     </div>`;
-  }).join('') || '<p class="loading-note">No periods match this filter.</p>';
+  }).join('');
 
   wrap.querySelectorAll('.tl-period-head').forEach(head => {
     head.addEventListener('click', () => {
@@ -72,12 +158,14 @@ function draw(){
 
   wrap.querySelectorAll('.tl-event').forEach(btn => {
     btn.addEventListener('click', async () => {
-      const p = TL_STATE.periods.find(x => x.id === btn.dataset.period);
-      const e = (p.events||[]).find(x => x.title === decodeURIComponent(btn.dataset.title));
-      await openEventModal(e, p);
+      const p = TL_STATE.allPeriods.find(x => x.id === btn.dataset.period);
+      const e = (p.events || []).find(x => x.title === decodeURIComponent(btn.dataset.title));
+      if (e && p) await openEventModal(e, p);
     });
   });
 }
+
+function renderTimelineControls(){}
 
 async function openEventModal(e, p){
   const modal = document.getElementById('modalBackdrop');
@@ -85,14 +173,18 @@ async function openEventModal(e, p){
     <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
     <span class="m-year">${e.year}</span>
     <h3>${e.title}</h3>
-    <span class="theme-chip">${HistoryData.THEME_LABELS[e.theme]||e.theme}</span>
-    <p style="margin-top:14px; color:var(--ink-soft);">${e.desc}</p>
-    <div class="m-related">
-      <a class="btn btn-outline btn-sm" href="period.html?id=${p.id}">Open Full Period: ${p.title} →</a>
+    <span class="theme-chip" style="margin-bottom:12px;">${HistoryData.THEME_LABELS[e.theme] || e.theme || 'General'}</span>
+    <p style="margin-top:14px; color:var(--ink-soft); font-size:1rem; line-height:1.6;">${e.desc}</p>
+    <div class="m-related" style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+      <a class="btn btn-primary btn-sm" href="period.html?id=${p.id}">Open Full Period: ${p.title} →</a>
+      <a class="btn btn-outline btn-sm" href="graph.html?q=${encodeURIComponent(e.title)}">View in Knowledge Graph →</a>
     </div>
   `;
   modal.classList.add('open');
 }
-function closeModal(){ document.getElementById('modalBackdrop').classList.remove('open'); }
+function closeModal(){ 
+  const modal = document.getElementById('modalBackdrop');
+  if (modal) modal.classList.remove('open'); 
+}
 
 document.addEventListener('DOMContentLoaded', renderTimelinePage);
