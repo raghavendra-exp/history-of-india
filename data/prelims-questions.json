@@ -11338,5 +11338,170 @@
     "explanation": "Exactly eight Mahajanapadas were located in modern Uttar Pradesh: 1. Kashi (Varanasi), 2. Kosala (Shravasti/Ayodhya), 3. Vatsa (Kaushambi), 4. Malla (Kushinagar & Pawa), 5. Panchala (Ahichchhatra & Kampilya), 6. Shurasena (Mathura), 7. Chedi (Shuktimati/Bundelkhand), and 8. Kuru (partially Western UP/Hastinapur).",
     "trap": "Half of all 16 Mahajanapadas were concentrated in Uttar Pradesh!",
     "topperTip": "8 Mahajanapadas in UP: Kashi, Kosala, Vatsa, Malla, Panchala, Shurasena, Chedi, Kuru."
+  },
+  {
+    "id": "prelims-culture-paintings-01",
+    "question": "With reference to the mural paintings of Ajanta, consider the following statements:\n1. The paintings were executed using pure fresco buono technique on wet lime plaster.\n2. The murals predominantly depict Jataka stories and episodes from the life of Gautama Buddha.\n3. The famous depiction of Bodhisattva Padmapani holding a blue lotus is located in Cave 1.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Statement 1 is incorrect: Ajanta paintings are not pure fresco buono; they were executed using tempera on a dry ground (fresco secco) prepared with a layer of clay, cow dung, and rice husk finished with a coat of lime. Statements 2 and 3 are correct: They depict Jataka tales, and the masterwork Bodhisattva Padmapani is in Cave 1.",
+    "category": "art-culture",
+    "difficulty": "hard",
+    "bookRef": "Nitin Singhania, Ch. 2; NCERT Class 11 Fine Arts Ch. 5"
+  },
+  {
+    "id": "prelims-culture-dance-01",
+    "question": "Consider the following pairs of Indian Classical Dance forms and their associated primary thematic or structural elements:\n1. Sattriya: Developed by Srimanta Sankaradeva and performed in Vaishnavite monastic Sattras\n2. Mohiniyattam: Known for dramatic facial makeup (Paccha, Kathi) and aggressive martial footwork\n3. Kuchipudi: Features the 'Tarangam' where the dancer balances on the brass rim of a plate\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pair 1 is correctly matched: Sattriya was introduced in the 15th century by Srimanta Sankaradeva in Assam. Pair 2 is incorrectly matched: Elaborate makeup with Paccha and Kathi belongs to Kathakali, whereas Mohiniyattam is characterized by graceful feminine Lasya movements and white-gold Kasavu attire. Pair 3 is correctly matched: Tarangam is a signature feature of Kuchipudi.",
+    "category": "art-culture",
+    "difficulty": "medium",
+    "bookRef": "Nitin Singhania, Ch. 3; CCRT Performing Arts"
+  },
+  {
+    "id": "prelims-culture-music-01",
+    "question": "With reference to traditional Indian musical instruments and their classification in the ancient Natyashastra, which of the following is an example of an 'Avanaddha Vadya'?",
+    "options": [
+      "Santoor and Sitar",
+      "Bansuri and Shehnai",
+      "Mridangam and Tabla",
+      "Manjira and Jaltarang"
+    ],
+    "correctIndex": 2,
+    "explanation": "According to the Natyashastra: Tata Vadya = Stringed instruments (Sitar, Veena); Sushira Vadya = Wind instruments (Bansuri, Shehnai); Avanaddha Vadya = Percussion instruments with animal hide membranes (Mridangam, Tabla, Pakhawaj); Ghana Vadya = Solid idiophones (Manjira, Ghatam).",
+    "category": "art-culture",
+    "difficulty": "medium",
+    "bookRef": "Nitin Singhania, Ch. 4; CCRT Music"
+  },
+  {
+    "id": "prelims-culture-arch-01",
+    "question": "With reference to Nagara temple architecture, the miniature towers or subsidiary turrets that cluster around the central main spire are known as:",
+    "options": [
+      "Amalaka",
+      "Urushringa",
+      "Antarala",
+      "Gopuram"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Nagara temple architecture, especially in the Khajuraho / Chandela style, the miniature subsidiary tower spires that cling to the central Shikhara to accentuate its height and cosmic mountain symbolism are called Urushringas. Amalaka is the stone crowning disc; Antarala is the vestibule; Gopuram belongs to Dravidian architecture.",
+    "category": "art-culture",
+    "difficulty": "medium",
+    "bookRef": "Nitin Singhania, Ch. 1; Percy Brown, Indian Architecture"
+  },
+  {
+    "id": "prelims-culture-pottery-01",
+    "question": "Which of the following represents the correct chronological sequence of archaeological pottery traditions in ancient India from earliest to latest?",
+    "options": [
+      "Northern Black Polished Ware (NBPW) -> Painted Grey Ware (PGW) -> Black and Red Ware (BRW) -> Ochre Coloured Pottery (OCP)",
+      "Ochre Coloured Pottery (OCP) -> Black and Red Ware (BRW) -> Painted Grey Ware (PGW) -> Northern Black Polished Ware (NBPW)",
+      "Painted Grey Ware (PGW) -> Ochre Coloured Pottery (OCP) -> Northern Black Polished Ware (NBPW) -> Black and Red Ware (BRW)",
+      "Black and Red Ware (BRW) -> Northern Black Polished Ware (NBPW) -> Ochre Coloured Pottery (OCP) -> Painted Grey Ware (PGW)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The correct chronological sequence established by Indian archaeology is: OCP (Late Harappan/Copper Hoard, c. 2000-1500 BCE) -> BRW (Chalcolithic/Early Iron) -> PGW (Later Vedic, c. 1100-600 BCE) -> NBPW (Mahajanapadas and Mauryan Urbanization, c. 600-200 BCE).",
+    "category": "ancient",
+    "difficulty": "hard",
+    "bookRef": "R.S. Sharma, Ch. 12; Upinder Singh, Ch. 6"
+  },
+  {
+    "id": "prelims-society-diversity-01",
+    "question": "With reference to the linguistic profile of India, consider the following statements:\n1. The Austroasiatic language family in India is primarily represented by the Munda and Khasi language branches.\n2. The Constitution of India under Article 343 declares Hindi in Devanagari script as the National Language of India.\n3. English was originally intended to be used for official purposes for a period of fifteen years from the commencement of the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Statement 1 is correct: Austroasiatic languages in India include Santhali, Mundari, Ho, and Khasi. Statement 2 is incorrect: Article 343 declares Hindi in Devanagari script as the 'Official Language of the Union', not the 'National Language' (the Indian Constitution has no national language). Statement 3 is correct: Article 343(2) provided that English would continue for 15 years (until 1965), which was later extended indefinitely by the Official Languages Act of 1963.",
+    "category": "modern",
+    "difficulty": "hard",
+    "bookRef": "Ram Ahuja, Ch. 2; NCERT Class 12 Indian Society Ch. 6"
+  },
+  {
+    "id": "prelims-society-poverty-01",
+    "question": "Which of the following Expert Committees on Poverty Estimation in India first departed from the traditional minimum calorie intake norm and adopted per capita consumption expenditure on private health, education, and clothing?",
+    "options": [
+      "Y.K. Alagh Committee (1979)",
+      "D.T. Lakdawala Committee (1993)",
+      "Suresh Tendulkar Committee (2009)",
+      "C. Rangarajan Committee (2014)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Suresh Tendulkar Committee (appointed in 2005, submitted report in 2009) formally moved away from the calorie-anchored poverty line and based the poverty line basket on actual private per capita consumer expenditure on health, education, clothing, and shelter, calculating poverty at Rs 27/day in rural areas and Rs 33/day in urban areas.",
+    "category": "modern",
+    "difficulty": "medium",
+    "bookRef": "Ram Ahuja, Ch. 3; NITI Aayog Poverty Reports"
+  },
+  {
+    "id": "prelims-society-secularism-01",
+    "question": "In which of the following landmark judgments did the Supreme Court of India hold that 'Secularism is a basic feature of the Constitution', empowering the President to dismiss any state government that acts against secular principles?",
+    "options": [
+      "Kesavananda Bharati v. State of Kerala (1973)",
+      "Minerva Mills v. Union of India (1980)",
+      "S.R. Bommai v. Union of India (1994)",
+      "Shayara Bano v. Union of India (2017)"
+    ],
+    "correctIndex": 2,
+    "explanation": "In S.R. Bommai v. Union of India (1994), a 9-judge Constitution bench explicitly affirmed that Secularism is an integral component of the Basic Structure of the Indian Constitution, and that state governments promoting communal polarization or violating secularism can be dissolved under Article 356.",
+    "category": "modern",
+    "difficulty": "medium",
+    "bookRef": "Ram Ahuja, Ch. 16; NCERT Class 11 Political Theory Ch. 8"
+  },
+  {
+    "id": "prelims-medieval-maratha-01",
+    "question": "In the Ashtapradhan administrative council of Chhatrapati Shivaji Maharaj, what was the primary portfolio of the minister designated as 'Amatya'?",
+    "options": [
+      "Prime Minister and general administration",
+      "Commander-in-Chief of military forces",
+      "Finance and Revenue Minister maintaining state accounts",
+      "Foreign Affairs and diplomatic relations"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Shivaji's Ashtapradhan council: Peshwa = Prime Minister; Amatya (or Mazumdar) = Finance and Revenue Minister; Senapati (Sari-Naubat) = Commander-in-Chief; Sumant (Dabir) = Foreign Affairs; Waqia-Navis (Mantri) = Intelligence and household records.",
+    "category": "medieval",
+    "difficulty": "medium",
+    "bookRef": "Satish Chandra, Ch. 19; Spectrum Modern India"
+  },
+  {
+    "id": "prelims-medieval-deccan-01",
+    "question": "Which ruler of the Deccan Sultanates composed the celebrated musical and poetic treatise 'Kitab-i-Navras' in Dakhani Urdu, and was venerated by his subjects as 'Jagadguru Badshah'?",
+    "options": [
+      "Muhammad Quli Qutb Shah of Golconda",
+      "Ibrahim Adil Shah II of Bijapur",
+      "Malik Ambar of Ahmednagar",
+      "Ali Adil Shah I of Bijapur"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ibrahim Adil Shah II (1580–1627) of the Bijapur Adil Shahi dynasty wrote the Kitab-i-Navras, an anthology of 59 songs and 17 couplets set to classical Indian ragas, paying reverent homage to Saraswati, Ganesha, and Hazrat Gesudaraz.",
+    "category": "medieval",
+    "difficulty": "medium",
+    "bookRef": "Satish Chandra, Ch. 13; Nitin Singhania, Ch. 4"
+  },
+  {
+    "id": "prelims-world-coldwar-01",
+    "question": "With reference to the Cold War and Asian-African geopolitical developments, the 10 Principles of Peaceful Coexistence and South-South cooperation were formulated at the:",
+    "options": [
+      "Yalta Conference (1945)",
+      "Potsdam Conference (1945)",
+      "Bandung Conference (1955)",
+      "Geneva Accords (1954)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Asian-African Conference held in Bandung, Indonesia in April 1955, brought together 29 newly independent nations and adopted the Ten Principles of Bandung (incorporating the Panchsheel principles), which served as the philosophical and diplomatic springboard for the formal establishment of the Non-Aligned Movement (NAM) in Belgrade in 1961.",
+    "category": "world",
+    "difficulty": "medium",
+    "bookRef": "Norman Lowe, Ch. 19; NCERT Class 12 Contemporary World Politics"
   }
 ]

@@ -8913,5 +8913,160 @@
       "diagramMapIdea": "Agrarian Transformation Spectrum: Pre-1950 Feudal Zamindars -> 1950 Zamindari Abolition Act -> Rise of Middle Peasant Landowners (Bhumidhars) -> Persistent Landlessness of Dalit Labourers.",
       "conclusion": "While the Act successfully dismantled the feudal landlord aristocracy, genuine agrarian equity remains an unfinished task demanding targeted support for landless agricultural labourers."
     }
+  },
+  {
+    "id": "mains-culture-architecture-01",
+    "question": "Trace the technological and aesthetic transition from early rock-cut cave architectures to structural free-standing temples in Ancient India, highlighting the landmark contributions of the Gupta and early Chalukyan periods.",
+    "marks": 15,
+    "wordLimit": 250,
+    "category": "art-culture",
+    "bookRef": "Nitin Singhania, Ch. 1; Percy Brown, Indian Architecture; Upinder Singh, Ch. 9",
+    "framework": {
+      "intro": "Indian sacred architecture underwent a seminal structural evolution from subterranean rock-cut excavations (3rd c. BCE to 5th c. CE) to free-standing monumental structural masonry temples, symbolizing the shift from monastic seclusion to vibrant public community devotionalism.",
+      "body": [
+        {
+          "heading": "Rock-Cut Foundations: The Subterranean Phase",
+          "points": [
+            "Mauryan Barabar caves (Lomas Rishi) introduced barrel-vaulted chaitya halls excavated directly into granite cliffs.",
+            "Western Ghats Buddhist chaityas (Karle, Bhaja, Ajanta) simulated wooden architecture in basalt rock, creating soaring ribs, stupas, and circumambulatory corridors."
+          ]
+        },
+        {
+          "heading": "The Gupta Genesis: Birth of the Free-Standing Structural Temple",
+          "points": [
+            "Stage 1 (Temple 17 at Sanchi): Flat-roofed, square sanctum (Garbhagriha) with a shallow four-pillared portico (Mandapa).",
+            "Stage 2 (Nachna Kuthara & Parvati Temple): Addition of an ambulatory pathway (Pradakshina Path) around the sanctum.",
+            "Stage 3 (Dashavatara Temple, Deogarh): Introduction of the early curvilinear Shikhara (superstructure) and the Panchayatan cruciform layout with 4 corner subsidiary shrines.",
+            "Brick Masonry Innovation: Bhitargaon Temple (Kanpur) utilizing molded terracotta and true arch engineering."
+          ]
+        },
+        {
+          "heading": "The Early Chalukyan Crucible at Aihole & Pattadakal",
+          "points": [
+            "Aihole ('Cradle of Indian Temple Architecture'): Experimentation across styles (Lad Khan flat-roofed temple, Durga Temple featuring an apsidal chaitya-type floor plan).",
+            "Pattadakal (UNESCO site): Co-existence and cross-pollination of Nagara (Papanatha) and Dravida (Virupaksha) orders, laying the bedrock for the hybrid Vesara style."
+          ]
+        }
+      ],
+      "conclusion": "This transition liberated Indian architecture from the geological limitations of rock cliffs, enabling vertical cosmic spires (Shikharas and Vimanas) that mirrored sacred cosmology and anchored urban socio-economic life.",
+      "diagramMapIdea": "Schematic structural evolution flowchart: Barabar Cave arch -> Sanchi Temple 17 flat roof -> Deogarh Panchayatan with Shikhara -> Pattadakal Virupaksha Vimana."
+    }
+  },
+  {
+    "id": "mains-society-urbanization-01",
+    "question": "Indian urbanization is paradoxically characterized by economic agglomeration on one hand and acute civic infrastructure collapse and slum proliferation on the other. Critically analyze the structural deficiencies of Urban Local Bodies (ULBs) in addressing this crisis.",
+    "marks": 15,
+    "wordLimit": 250,
+    "category": "modern",
+    "bookRef": "Ram Ahuja, Ch. 12; NCERT Class 12 Social Change Ch. 6; NITI Aayog Urban Reports",
+    "framework": {
+      "intro": "India's urban population (377 million in 2011, projected to exceed 600 million by 2036) drives over 65% of national GDP; however, this rapid economic agglomeration has outpaced municipal governance capacity, resulting in polluted, flood-prone cities and expanding informal settlements (slums).",
+      "body": [
+        {
+          "heading": "Manifestations of the Urban Civic Crisis",
+          "points": [
+            "Severe Service Delivery Deficits: Severe water stress ('Day Zero' threats in Bengaluru, Chennai), untreated sewage discharge into urban water bodies, and acute landfill crises (Ghazipur, Deonar).",
+            "Urban Flooding & Ecological Encroachment: Unchecked construction over natural wetlands, floodplains, and stormwater drains (e.g., Chennai 2015, Bengaluru 2022).",
+            "Informalization & Slum Proliferation: Over 17% of urban households residing in slums lacking tenure security, clean piped water, and private sanitation."
+          ]
+        },
+        {
+          "heading": "Structural Deficiencies of Urban Local Bodies (The 3Fs Crisis)",
+          "points": [
+            "Lack of Financial Autonomy (Funds): Municipal revenue accounts for less than 1% of GDP (compared to ~6% in South Africa and Brazil); chronic underutilization of property tax and extreme reliance on state grants.",
+            "Administrative Atrophy (Functionaries): Severe staff shortages, absence of dedicated municipal cadres, lack of trained urban planners and GIS specialists.",
+            "Withheld Devolution (Functions): State governments reluctant to devolve the 18 functions enumerated in the 12th Schedule; creation of parallel parastatal bodies (Development Authorities, Water Boards) that usurp municipal authority.",
+            "Weak Political Leadership: The position of the City Mayor remains largely ceremonial with short one-year tenures, while executive power is concentrated in the state-appointed Municipal Commissioner."
+          ]
+        },
+        {
+          "heading": "Strategic Policy Remedies",
+          "points": [
+            "Empower Mayors with directly elected 5-year terms and executive administrative powers.",
+            "Strengthen municipal municipal bond markets and credit rating of ULBs for self-sustaining capital mobilization.",
+            "Mandate GIS-based master spatial planning and Transit-Oriented Development (TOD) integrating Smart Cities and AMRUT missions."
+          ]
+        }
+      ],
+      "conclusion": "True urban sustainability requires transitioning from ad-hoc programmatic missions to structural fiscal and political decentralization, breathing real democratic life into the 74th Constitutional Amendment.",
+      "diagramMapIdea": "Vicious Cycle of Urban Governance Diagram: Low Fiscal Autonomy -> Poor Civic Delivery -> Low Citizen Tax Compliance -> Parastatal Encroachment -> Crippled ULBs."
+    }
+  },
+  {
+    "id": "mains-society-women-01",
+    "question": "Examine the evolution of women's organizations in India from elite-led social reform associations of the early 20th century to grassroots mass-based movements in contemporary times.",
+    "marks": 15,
+    "wordLimit": 250,
+    "category": "modern",
+    "bookRef": "Ram Ahuja, Ch. 5; NCERT Class 12 Social Change Ch. 8; Bipan Chandra",
+    "framework": {
+      "intro": "The Indian women's movement has transformed over a century from top-down, urban elite-led institutional petitions in the colonial era into decentralized, autonomous, intersectional grassroots struggles for socio-economic justice, bodily autonomy, and political representation.",
+      "body": [
+        {
+          "heading": "Early 20th Century: Elite-Led Institutional Pioneers",
+          "points": [
+            "Pioneered by upper-class, educated women: Bharat Stree Mahamandal (1910, Sarala Devi Chaudhurani), Women's Indian Association (1917, Annie Besant), All India Women's Conference (1927).",
+            "Primary Focus: Focused on legal rights, female education, child marriage abolition (Sarda Act 1929), and limited franchise within the colonial constitutional framework.",
+            "Limitations: Lacked deep agrarian penetration and remained largely detached from the daily realities of peasant, working-class, and lower-caste women."
+          ]
+        },
+        {
+          "heading": "Peasant Struggles & Mass Freedom Mobilization",
+          "points": [
+            "Radical Agrarian Mobilization: Tebhaga Nari Bahini in Bengal, active armed resistance by peasant women in the Telangana Armed Struggle against feudal landlords.",
+            "Mass Nationalist Upsurge: Tens of thousands of ordinary women participating in picketing, salt satyagrahas, underground radio networks (Usha Mehta), and military regiments (Rani of Jhansi Regiment in INA)."
+          ]
+        },
+        {
+          "heading": "Post-Independence Radicalism & Contemporary Grassroots Surge",
+          "points": [
+            "The 1970s Turning Point: CSWI 'Towards Equality' Report (1974) sparked autonomous feminist collectives (Saheli, Stree Shakti Sanghatana) targeting dowry murders, rape laws, and domestic violence.",
+            "Economic Unionization: Self-Employed Women's Association (SEWA by Ela Bhatt, 1972) organizing millions of informal street vendors, waste pickers, and home-based artisans.",
+            "Self-Help Group (SHG) Revolution: Kudumbashree (Kerala) and Mission Shakti (Odisha) mobilizing rural women into micro-enterprises and local governance, dismantling caste and gender barriers at the village level.",
+            "Legislative Milestone: Passage of the Nari Shakti Vandan Adhiniyam (106th CAA 2023) guaranteeing 33% representation in Lok Sabha and Assemblies."
+          ]
+        }
+      ],
+      "conclusion": "The contemporary Indian women's movement has achieved authentic democratization, transitioning from benevolence to rights, and from elite drawing rooms to the rural hinterland and democratic halls of power.",
+      "diagramMapIdea": "Timeline flowchart: 1910s Elite Reform (AIWC, WIA) -> 1940s Agrarian & Freedom Struggles (Tebhaga, INA) -> 1970s Autonomous Collectives & SEWA -> 2000s SHGs (Kudumbashree) & 106th CAA."
+    }
+  },
+  {
+    "id": "mains-world-philosophies-01",
+    "question": "The 20th century witnessed an ideological contest between Capitalism, Communism, and Democratic Socialism. Analyze their contrasting structural tenets and assess their respective impacts on human welfare and social equity.",
+    "marks": 15,
+    "wordLimit": 250,
+    "category": "world-history",
+    "bookRef": "Norman Lowe, Ch. 8, 14; NCERT Class 9 & 11 World History",
+    "framework": {
+      "intro": "The 20th century was defined by a titanic philosophical and economic conflict among three distinct modes of organizing human civilization: free-market Capitalism, state-monopolized Marxist Communism, and redistributive Democratic Socialism.",
+      "body": [
+        {
+          "heading": "Comparative Structural Tenets",
+          "points": [
+            "Capitalism (Adam Smith, Hayek): Private ownership of capital, profit motive, market price discovery, competition, and minimal state interference (laissez-faire).",
+            "Communism (Marx, Lenin): Elimination of private property, collective state ownership of all means of production, central command planning, and vanguard party dictatorship.",
+            "Democratic Socialism / Social Democracy (Fabians, Nordic Model): Synthesis of democratic political liberty with state regulation of commanding heights, progressive taxation, and universal social safety nets."
+          ]
+        },
+        {
+          "heading": "Impact on Human Welfare & Economic Efficiency",
+          "points": [
+            "Capitalism: Unleashed unprecedented technological innovation, industrial efficiency, global trade, and consumer prosperity; however, produced acute wealth inequality (Oxfam data), environmental degradation, and cyclical market crashes (Great Depression 1929).",
+            "Communism: Rapidly industrialized agrarian nations (USSR, China), eradicated extreme illiteracy, and guaranteed basic employment; however, caused totalitarian terror (Stalinist purges, Gulags), suppressed civil liberties, and collapsed under bureaucratic inefficiencies and shortages by 1991.",
+            "Democratic Socialism: Successfully institutionalized universal healthcare, public education, labor dignity, and low Gini coefficients in Western Europe (Nordic countries), proving that economic dynamism can co-exist with egalitarian social justice."
+          ]
+        },
+        {
+          "heading": "Relevance to India's Developmental Path",
+          "points": [
+            "Post-1947 India consciously adopted a 'Mixed Economy' model guided by Nehruvian democratic socialism, building core public infrastructure while preserving private enterprise and constitutional democracy.",
+            "Post-1991 LPG reforms infused capitalist market efficiency while maintaining massive direct welfare transfers (MGNREGA, NFSA, Ayushman Bharat)."
+          ]
+        }
+      ],
+      "conclusion": "The 21st-century global consensus has gravitated toward a calibrated synthesis: harnessing the productive power of competitive markets while embedding robust social-democratic public investments to protect human dignity and planetary boundaries.",
+      "diagramMapIdea": "Comparative triangle diagram linking Capitalism (Market Efficiency), Communism (State Equality), and Democratic Socialism (Balance of Liberty & Welfare)."
+    }
   }
 ]

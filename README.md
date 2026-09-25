@@ -1,25 +1,30 @@
-# Complete History of India — Interactive Atlas
+# Complete History of India — Interactive Atlas & UPSC GS-1 Study Hub
 
-A static, data-driven, interactive history site covering **Prehistory through the Delhi Sultanate (Khalji Dynasty, 1320 CE)**, built entirely from a supplied set of revision-sheet infographics. Pure HTML/CSS/vanilla JS — no build step, no backend, works on GitHub Pages.
+A comprehensive, static, data-driven, interactive historical atlas and UPSC GS-1 study ecosystem covering **Ancient, Medieval, Modern, Post-Independence, Art & Culture, Indian Society, and World History**, alongside a dedicated Uttar Pradesh (UPPSC) track. Pure HTML/CSS/vanilla JS — no build step, no backend, works natively on GitHub Pages.
 
 ## What's inside
 
 ```
 /
-├── index.html          Home page (hero, journey rail, period grid, featured events/women)
+├── index.html          Home page (hero, journey rail, period grid, featured events/women, module showcases)
 ├── timeline.html        Master interactive timeline (filterable, expandable, click-to-detail)
-├── map.html             Interactive Historical Atlas & Archaeological Map Lab (Calibrated SVG)
-├── practice.html        UPSC Prelims & Mains Practice Hub (50+ Statement MCQs & Mains Frameworks)
-├── period.html           Single dynamic template — renders any period via ?id=<period-id>
-├── themes.html           Thematic index (Polity, War, Religion, Economy, Society, Women, Art, Science...)
-├── people.html           All personalities, filterable by period
-├── women.html            Dedicated "Women in History" section
-├── search.html           Full-page client-side search
-├── about.html            Sources & method
-├── css/style.css         Design system ("Stone & Ink" theme, light + dark)
+├── map.html             Interactive Historical Atlas & Archaeological Map Lab (Calibrated Google Maps Engine)
+├── practice.html        UPSC Prelims & Mains Practice Hub (551 MCQs & 219 Mains Model Frameworks)
+├── art-culture.html     Indian Heritage & Culture Hub (Art Forms, Literature, Architecture & Comparisons)
+├── society.html         Indian Society Hub (Diversity, Women, Demography, Poverty, Urbanization, Globalization)
+├── books.html           The 15 Canonical Textbooks Study Hub (NCERT, RS Sharma, Satish Chandra, Spectrum, Ahuja)
+├── up-history.html      Dedicated Uttar Pradesh Track (UPPSC GS-5 & 6)
+├── period.html          Single dynamic template — renders any of 85 periods via ?id=<period-id>
+├── themes.html          Thematic index (Polity, War, Religion, Economy, Society, Women, Art, Science, Foreign)
+├── people.html          All personalities, filterable by period
+├── women.html           Dedicated "Women in History" section
+├── graph.html           Interactive computed Knowledge Graph
+├── search.html          Full-page client-side spotlight search
+├── about.html           Sources & method
+├── css/style.css        Design system ("Stone & Ink" theme, light + dark mode)
 ├── js/
-│   ├── data.js            Loads & caches data/history.json + external-links.json
-│   ├── app.js              Nav, footer, breadcrumbs, dark mode, UPSC mode, lightbox, external-link renderer
+│   ├── data.js          Loads & caches data/history.json + external-links.json
+│   ├── app.js           Nav, mobile drawer, footer, dark mode, UPSC mode, era calculator, spotlight search
 │   ├── search.js           Client-side search index + live search wiring
 │   ├── timeline.js         Master timeline rendering & filtering
 │   └── period.js           Renders period.html from JSON data

@@ -130,7 +130,23 @@ const Search = (() => {
       { title: 'UPSC Mains GS-1 Frameworks', sub: 'Analytical model answer structures', href: 'practice.html' },
       { title: 'Harappan Town Planning Drill', sub: 'UPSC Question & Model Framework', href: 'practice.html' },
       { title: 'Bhakti Movement Integration Analysis', sub: 'UPSC Mains GS-1 Topic', href: 'practice.html' },
-      { title: 'Drain of Wealth Economic Critique', sub: 'UPSC Mains Analysis', href: 'practice.html' }
+      { title: 'Drain of Wealth Economic Critique', sub: 'UPSC Mains Analysis', href: 'practice.html' },
+      // 9. Art & Culture Hub
+      { title: 'Indian Heritage & Culture Hub', sub: 'Art Forms, Literature & Architecture', href: 'art-culture.html', text: 'art forms literature architecture paintings dances classical music puppetry theatre martial arts temple nagara dravida vesara caves ajanta ellora stupa harappan nitin singhania fine arts ccrt percy brown' },
+      { title: 'Temple Architecture: Nagara, Dravida & Vesara', sub: 'Comparative Architectural Study', href: 'art-culture.html#cultureComparisonsSection', text: 'temple architecture nagara dravida vesara shikhara vimana gopuram mandapa chola khajuraho hoysala kailash ellora' },
+      { title: 'Classical Dance Forms of India', sub: '8 Sangeet Natak Akademi Dances', href: 'art-culture.html#classical-dances', text: 'classical dance bharatanatyam kathak kathakali kuchipudi odissi manipuri mohiniyattam sattriya natyashastra' },
+      { title: 'Indian Mural & Miniature Paintings', sub: 'Ajanta to Mughal & Rajput Schools', href: 'art-culture.html#paintings-mural', text: 'paintings mural miniature ajanta mughal rajput pahari kangra kishangarh bani thani' },
+      // 10. Indian Society Hub
+      { title: 'Indian Society & Social Issues Hub', sub: 'Diversity, Women, Demography, Poverty, Urbanization', href: 'society.html', text: 'indian society diversity salient features varna jati linguistic religious pluralism ram ahuja ncert sociology' },
+      { title: 'Role of Women and Women\'s Organizations', sub: 'Reforms, Freedom Struggle, SHGs & 106th CAA', href: 'society.html#society-women-organizations', text: 'women organizations shg self help groups kudumbashree sewa aidwa nari shakti vandan 106th amendment' },
+      { title: 'Population & Demographic Dividend in India', sub: 'NFHS-5, TFR, Ageing & Delimitation', href: 'society.html#society-population-demographics', text: 'population demography total fertility rate tfr replacement level 2.0 demographic dividend aging geriatric care nfhs-5' },
+      { title: 'Poverty & Developmental Issues', sub: 'Measurement, Lines, MPI & Pro-Poor Shifts', href: 'society.html#society-poverty-development', text: 'poverty lines alagh lakdawala tendulkar rangarajan niti aayog mpi multidimensional poverty inclusive growth dbt' },
+      { title: 'Urbanization & Problems of Slums', sub: '74th CAA, Civic Deficits & Smart Cities', href: 'society.html#society-urbanization-slums', text: 'urbanization slums dharavi 74th caa urban local bodies ulbs smart cities amrut push pull census towns' },
+      { title: 'Effects of Globalization on Indian Society', sub: 'Glocalization, Agrarian Sector & Women', href: 'society.html#society-globalization-impact', text: 'globalization glocalization homogenization mcdonaldization bpo mnc agrarian distress hybridity' },
+      { title: 'Social Empowerment of Disadvantaged Groups', sub: 'Constitutional Rights & Affirmative Action', href: 'society.html#society-social-empowerment', text: 'social empowerment scheduled castes tribes sc st obc divyangjan transgender articles 14 15 16 17 21 poa act' },
+      { title: 'Communalism, Regionalism & Secularism', sub: 'Sons of Soil, Bommai Ruling & UCC Debate', href: 'society.html#society-communalism-antidote', text: 'communalism regionalism sons of soil secularism principled distance sarva dharma sambhava uniform civil code ucc article 44 bommai' },
+      // 11. Canonical Textbooks Hub
+      { title: 'The 15 Canonical Textbooks Study Hub', sub: 'Complete Exam Books Synthesis', href: 'books.html', text: '15 canonical textbooks books ncert rs sharma upinder singh satish chandra spectrum bipan chandra nitin singhania norman lowe ram ahuja guha bandyopadhyay' }
     ];
     practiceTopics.forEach(pt => {
       index.push({

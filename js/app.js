@@ -58,6 +58,8 @@ function renderNav(active){
     ['timeline.html', 'Timeline'],
     ['map.html', 'Map Lab'],
     ['practice.html', 'UPSC Hub'],
+    ['art-culture.html', 'Art & Culture'],
+    ['society.html', 'Indian Society'],
     ['books.html', 'Textbooks'],
     ['up-history.html', 'UP Track'],
     ['themes.html', 'Themes'],
@@ -116,12 +118,14 @@ function renderMobileDrawer(active){
   const navItems = [
     { href: 'index.html', label: 'Home', icon: '🏠' },
     { href: 'timeline.html', label: 'Master Timeline', icon: '⏱️' },
+    { href: 'art-culture.html', label: 'Indian Heritage & Culture', icon: '🎨', badge: 'New' },
+    { href: 'society.html', label: 'Indian Society & Issues', icon: '👥', badge: 'New' },
     { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'New' },
     { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '540+ Qs' },
-    { href: 'books.html', label: '10 Canonical Textbooks', icon: '📚', badge: 'New' },
+    { href: 'books.html', label: '15 Canonical Textbooks', icon: '📚', badge: 'Expanded' },
     { href: 'up-history.html', label: 'Uttar Pradesh (UPPSC)', icon: '🏛️' },
-    { href: 'themes.html', label: 'Themes Explorer', icon: '🎨' },
-    { href: 'people.html', label: 'Key Personalities', icon: '👥' },
+    { href: 'themes.html', label: 'Themes Explorer', icon: '🏷️' },
+    { href: 'people.html', label: 'Key Personalities', icon: '👤' },
     { href: 'women.html', label: 'Women in History', icon: '👑' },
     { href: 'graph.html', label: 'Knowledge Graph', icon: '🕸️' },
     { href: 'search.html', label: 'Search Atlas', icon: '🔍' },
@@ -224,9 +228,11 @@ function renderFooter(){
           <p style="color:var(--ink-soft); font-size:.88rem; max-width:34ch;">An interactive historical atlas and UPSC study companion, built from a curated set of revision-sheet infographics spanning Prehistory to the Delhi Sultanate and modern India.</p>
         </div>
         <div>
-          <h5>Explore</h5>
+          <h5>Explore &amp; Modules</h5>
           <a href="timeline.html">Master Timeline</a>
-          <a href="map.html">Historical Map Lab (New)</a>
+          <a href="art-culture.html">Indian Heritage &amp; Culture (New)</a>
+          <a href="society.html">Indian Society &amp; Issues (New)</a>
+          <a href="map.html">Historical Map Lab</a>
           <a href="up-history.html">Uttar Pradesh History (UPPSC)</a>
           <a href="themes.html">Themes</a>
           <a href="people.html">People</a>
@@ -234,7 +240,8 @@ function renderFooter(){
         </div>
         <div>
           <h5>Study &amp; Practice</h5>
-          <a href="practice.html">UPSC Prelims &amp; Mains Hub (New)</a>
+          <a href="practice.html">UPSC Prelims &amp; Mains Hub</a>
+          <a href="books.html">15 Canonical Textbooks Hub</a>
           <a href="search.html">Search Atlas</a>
           <a href="graph.html">Knowledge Graph</a>
           <a href="index.html#periods">All Periods</a>

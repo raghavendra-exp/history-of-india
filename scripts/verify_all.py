@@ -43,6 +43,8 @@ PAGES = [
     'timeline.html',
     'map.html',
     'practice.html',
+    'art-culture.html',
+    'society.html',
     'books.html',
     'up-history.html',
     'themes.html',
