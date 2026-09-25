@@ -9,28 +9,62 @@ let TL_STATE = {
 const ERA_FILTERS = [
   { id: 'all', label: 'All Eras' },
   { id: 'ancient', label: 'Ancient' },
-  { id: 'medieval', label: 'Early Medieval' },
+  { id: 'medieval', label: 'Medieval' },
   { id: 'sultanate', label: 'Delhi Sultanate' },
   { id: 'mughal', label: 'Mughal Empire' },
-  { id: 'colonial', label: 'Colonial & Freedom' },
-  { id: 'independent', label: 'Independent India' },
+  { id: 'colonial', label: 'Modern & Freedom' },
+  { id: 'independent', label: 'Post-Independence' },
+  { id: 'world', label: 'World History' },
   { id: 'up', label: 'UP History (UPPSC)' }
 ];
 
 async function renderTimelinePage(){
   renderNav('timeline.html');
-  renderBreadcrumb([{ label: 'Home', href: 'index.html' }, { label: 'Master Timeline' }]);
   const d = await HistoryData.load();
   TL_STATE.allPeriods = d.periods;
   TL_STATE.nationalPeriods = d.periods.filter(p => !p.region);
 
+  const params = new URLSearchParams(window.location.search);
+  const eraParam = params.get('era') || params.get('category');
+  if (eraParam) {
+    if (eraParam === 'modern') TL_STATE.eraFilter = 'colonial';
+    else if (eraParam === 'post' || eraParam === 'post-independence') TL_STATE.eraFilter = 'independent';
+    else if (eraParam === 'world') TL_STATE.eraFilter = 'world';
+    else if (ERA_FILTERS.some(e => e.id === eraParam)) TL_STATE.eraFilter = eraParam;
+  }
+
+  updateTimelineBreadcrumb();
   renderFilterBar();
   renderTimelineControls();
   draw();
+  wireSubjectTabs();
   renderFooter();
 
   document.getElementById('modalBackdrop').addEventListener('click', e => {
     if (e.target.id === 'modalBackdrop') closeModal();
+  });
+}
+
+function updateTimelineBreadcrumb(){
+  const eraObj = ERA_FILTERS.find(e => e.id === TL_STATE.eraFilter);
+  const label = (eraObj && eraObj.id !== 'all') ? eraObj.label : 'All Eras';
+  renderBreadcrumb([
+    { label: 'Home', href: 'index.html' },
+    { label: label, href: TL_STATE.eraFilter !== 'all' ? `timeline.html?era=${TL_STATE.eraFilter}` : 'timeline.html' },
+    { label: 'Master Timeline' }
+  ]);
+}
+
+function wireSubjectTabs(){
+  document.querySelectorAll('.bc-subject-tab').forEach(tab => {
+    const href = tab.getAttribute('href') || '';
+    if (href.startsWith('timeline.html?era=')) {
+      tab.addEventListener('click', (e) => {
+        e.preventDefault();
+        const era = href.split('era=')[1];
+        setEraFilter(era);
+      });
+    }
   });
 }
 
@@ -70,8 +104,13 @@ function renderFilterBar(){
 
 function setEraFilter(catId){
   TL_STATE.eraFilter = catId;
+  try {
+    const newUrl = catId === 'all' ? 'timeline.html' : `timeline.html?era=${catId}`;
+    history.replaceState(null, '', newUrl);
+  } catch(e) {}
   renderFilterBar();
   draw();
+  updateTimelineBreadcrumb();
 }
 
 function expandAllPeriods(open){
@@ -93,7 +132,11 @@ function draw(){
     : TL_STATE.allPeriods.filter(p => !p.region);
 
   if (era !== 'all' && era !== 'up') {
-    basePeriods = basePeriods.filter(p => p.category === era);
+    if (era === 'medieval') {
+      basePeriods = basePeriods.filter(p => p.category === 'medieval' || p.category === 'sultanate' || p.category === 'mughal');
+    } else {
+      basePeriods = basePeriods.filter(p => p.category === era);
+    }
   }
 
   const matchingPeriods = basePeriods.filter(p => {

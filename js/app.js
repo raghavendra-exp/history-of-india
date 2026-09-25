@@ -50,33 +50,63 @@ function currentPage(){
   return p;
 }
 
+const SUBJECT_TABS = [
+  { id: 'ancient', label: 'Ancient India', icon: '🏛️', href: 'timeline.html?era=ancient' },
+  { id: 'medieval', label: 'Medieval India', icon: '⚔️', href: 'timeline.html?era=medieval' },
+  { id: 'colonial', altIds: ['modern'], label: 'Modern & Freedom', icon: '🇮🇳', href: 'timeline.html?era=colonial' },
+  { id: 'independent', altIds: ['post', 'post-independence'], label: 'Post-Independence', icon: '🕊️', href: 'timeline.html?era=independent' },
+  { id: 'world', label: 'World History', icon: '🌍', href: 'timeline.html?era=world' },
+  { id: 'art-culture', label: 'Art & Culture', icon: '🎨', href: 'art-culture.html', badge: 'New' },
+  { id: 'society', label: 'Indian Society', icon: '👥', href: 'society.html', badge: 'New' },
+  { id: 'up', label: 'UP History', icon: '🏛️', href: 'up-history.html' },
+  { id: 'map', label: 'Map Lab', icon: '🗺️', href: 'map.html' },
+  { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '551 Qs' },
+  { id: 'books', label: '15 Textbooks', icon: '📚', href: 'books.html', badge: 'Expanded' },
+  { id: 'themes', label: 'Themes', icon: '🏷️', href: 'themes.html' },
+  { id: 'people', label: 'People', icon: '👤', href: 'people.html' },
+  { id: 'women', label: 'Women', icon: '👑', href: 'women.html' },
+  { id: 'graph', label: 'Graph', icon: '🕸️', href: 'graph.html' }
+];
+
+const PAGE_TITLE_MAP = {
+  'index.html': 'Home',
+  'timeline.html': 'Timeline',
+  'map.html': 'Map Lab',
+  'practice.html': 'UPSC Hub',
+  'art-culture.html': 'Art & Culture',
+  'society.html': 'Indian Society',
+  'books.html': '15 Textbooks',
+  'up-history.html': 'UP History',
+  'themes.html': 'Themes',
+  'people.html': 'People',
+  'women.html': 'Women in History',
+  'graph.html': 'Knowledge Graph',
+  'about.html': 'About',
+  'search.html': 'Search',
+  'period.html': 'Period Detail'
+};
+
 function renderNav(active){
   const el = document.getElementById('siteNav');
   if (!el) return;
-  const links = [
-    ['index.html', 'Home'],
-    ['timeline.html', 'Timeline'],
-    ['map.html', 'Map Lab'],
-    ['practice.html', 'UPSC Hub'],
-    ['art-culture.html', 'Art & Culture'],
-    ['society.html', 'Indian Society'],
-    ['books.html', 'Textbooks'],
-    ['up-history.html', 'UP Track'],
-    ['themes.html', 'Themes'],
-    ['people.html', 'People'],
-    ['women.html', 'Women'],
-    ['graph.html', 'Graph']
-  ];
+
+  const currentLabel = PAGE_TITLE_MAP[active] || 'Overview';
 
   el.innerHTML = `
     <div class="wrap nav-inner">
-      <a href="index.html" class="brand">
-        <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M16 6v20M8 12h16M8 20h16" stroke="currentColor" stroke-width="1.4" opacity=".6"/></svg>
-        <span>Complete History of India<small>Interactive Atlas &amp; UPSC Companion</small></span>
-      </a>
+      <div class="nav-left-cluster">
+        <a href="index.html" class="brand" title="Complete History of India — Home">
+          <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M16 6v20M8 12h16M8 20h16" stroke="currentColor" stroke-width="1.4" opacity=".6"/></svg>
+          <span class="brand-title">History of India</span>
+        </a>
 
-      <div class="nav-links">
-        ${links.map(([href,label]) => `<a href="${href}" class="${active===href?'active':''}">${label}</a>`).join('')}
+        <!-- Breadcrumb in Top Header -->
+        <nav class="header-breadcrumb" id="headerBreadcrumb" aria-label="Breadcrumb">
+          <span class="hbc-sep">/</span>
+          <a href="index.html" class="hbc-item hbc-home" title="Go to Atlas Home">Home</a>
+          <span class="hbc-sep">/</span>
+          <span class="hbc-item hbc-current" id="hbcCurrent">${currentLabel}</span>
+        </nav>
       </div>
 
       <div class="nav-tools">
@@ -96,10 +126,36 @@ function renderNav(active){
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
       </div>
+    </div>
+
+    <!-- Breadcrumb Subject Bar: Subject Tabs in the Header -->
+    <div class="nav-breadcrumb-bar" id="navBreadcrumbBar">
+      <div class="wrap nav-breadcrumb-inner">
+        <div class="bc-lead" title="Academic Subjects &amp; Syllabus Modules">
+          <span class="bc-lead-icon">📂</span>
+          <span class="bc-lead-text">Subjects</span>
+          <span class="bc-lead-sep">›</span>
+        </div>
+        <div class="bc-subject-tabs" id="bcSubjectTabs" role="tablist">
+          ${SUBJECT_TABS.map(tab => `
+            <a href="${tab.href}" 
+               class="bc-subject-tab" 
+               data-id="${tab.id}" 
+               data-alt="${(tab.altIds||[]).join(',')}" 
+               role="tab"
+               title="${tab.label}">
+              <span class="bc-tab-icon">${tab.icon}</span>
+              <span class="bc-tab-label">${tab.label}</span>
+              ${tab.badge ? `<span class="bc-tab-badge">${tab.badge}</span>` : ''}
+            </a>
+          `).join('')}
+        </div>
+      </div>
     </div>`;
 
   renderMobileDrawer(active);
   renderBottomNav(active);
+  highlightActiveSubjectTab();
   initSpotlight();
   initCalculator();
   updateThemeIcon();
@@ -118,10 +174,15 @@ function renderMobileDrawer(active){
   const navItems = [
     { href: 'index.html', label: 'Home', icon: '🏠' },
     { href: 'timeline.html', label: 'Master Timeline', icon: '⏱️' },
+    { href: 'timeline.html?era=ancient', label: 'Ancient India', icon: '🏛️' },
+    { href: 'timeline.html?era=medieval', label: 'Medieval India', icon: '⚔️' },
+    { href: 'timeline.html?era=colonial', label: 'Modern & Freedom', icon: '🇮🇳' },
+    { href: 'timeline.html?era=independent', label: 'Post-Independence', icon: '🕊️' },
+    { href: 'timeline.html?era=world', label: 'World History', icon: '🌍' },
     { href: 'art-culture.html', label: 'Indian Heritage & Culture', icon: '🎨', badge: 'New' },
     { href: 'society.html', label: 'Indian Society & Issues', icon: '👥', badge: 'New' },
-    { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'New' },
-    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '540+ Qs' },
+    { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'Atlas' },
+    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '551 Qs' },
     { href: 'books.html', label: '15 Canonical Textbooks', icon: '📚', badge: 'Expanded' },
     { href: 'up-history.html', label: 'Uttar Pradesh (UPPSC)', icon: '🏛️' },
     { href: 'themes.html', label: 'Themes Explorer', icon: '🏷️' },
@@ -260,13 +321,101 @@ function renderFooter(){
     </div>`;
 }
 
+function highlightActiveSubjectTab(trail){
+  const p = location.pathname.split('/').pop() || 'index.html';
+  const urlParams = new URLSearchParams(location.search);
+  const eraParam = urlParams.get('era');
+  const catParam = urlParams.get('category');
+  let era = eraParam || catParam;
+
+  let activeId = '';
+
+  if (p === 'timeline.html') {
+    if (era) {
+      if (era === 'modern') activeId = 'colonial';
+      else if (era === 'post' || era === 'post-independence') activeId = 'independent';
+      else activeId = era;
+    } else {
+      activeId = 'ancient';
+    }
+  } else if (p === 'art-culture.html') {
+    activeId = 'art-culture';
+  } else if (p === 'society.html') {
+    activeId = 'society';
+  } else if (p === 'up-history.html') {
+    activeId = 'up';
+  } else if (p === 'map.html') {
+    activeId = 'map';
+  } else if (p === 'practice.html') {
+    activeId = 'practice';
+  } else if (p === 'books.html') {
+    activeId = 'books';
+  } else if (p === 'themes.html') {
+    activeId = 'themes';
+  } else if (p === 'people.html') {
+    activeId = 'people';
+  } else if (p === 'women.html') {
+    activeId = 'women';
+  } else if (p === 'graph.html') {
+    activeId = 'graph';
+  } else if (p === 'period.html') {
+    if (trail && trail.length > 1) {
+      const catText = (trail[1].label || '').toLowerCase();
+      if (catText.includes('ancient')) activeId = 'ancient';
+      else if (catText.includes('medieval') || catText.includes('sultanate') || catText.includes('mughal')) activeId = 'medieval';
+      else if (catText.includes('colonial') || catText.includes('modern') || catText.includes('freedom')) activeId = 'colonial';
+      else if (catText.includes('independent') || catText.includes('post')) activeId = 'independent';
+      else if (catText.includes('world')) activeId = 'world';
+      else if (catText.includes('up')) activeId = 'up';
+    }
+  }
+
+  const tabs = document.querySelectorAll('.bc-subject-tab');
+  tabs.forEach(tab => {
+    const tid = tab.getAttribute('data-id');
+    const alts = (tab.getAttribute('data-alt') || '').split(',').filter(Boolean);
+    if (tid === activeId || alts.includes(activeId)) {
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      try {
+        tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      } catch(e){}
+    } else {
+      tab.classList.remove('active');
+      tab.setAttribute('aria-selected', 'false');
+    }
+  });
+}
+
 function renderBreadcrumb(trail){
-  const el = document.getElementById('breadcrumb');
-  if (!el) return;
-  el.innerHTML = trail.map((t,i) => {
-    const isLast = i === trail.length - 1;
-    return (i>0 ? '<span class="sep">/</span>' : '') + (isLast || !t.href ? `<span>${t.label}</span>` : `<a href="${t.href}">${t.label}</a>`);
-  }).join('');
+  // 1. Update In-Header Breadcrumb Trail
+  const headerBc = document.getElementById('headerBreadcrumb');
+  if (headerBc && Array.isArray(trail) && trail.length > 0) {
+    headerBc.innerHTML = trail.map((t, i) => {
+      const isLast = i === trail.length - 1;
+      const isFirst = i === 0;
+      let sep = (i > 0) ? '<span class="hbc-sep">/</span>' : '';
+      let item = '';
+      if (isLast || !t.href) {
+        item = `<span class="hbc-item hbc-current" title="${t.label}">${t.label}</span>`;
+      } else {
+        item = `<a href="${t.href}" class="hbc-item ${isFirst ? 'hbc-home' : 'hbc-link'}" title="${t.label}">${t.label}</a>`;
+      }
+      return sep + item;
+    }).join('');
+  }
+
+  // 2. Highlight matching Subject Tab in Header Breadcrumb bar
+  highlightActiveSubjectTab(trail);
+
+  // 3. Keep updating page-level #breadcrumb if present
+  const pageBc = document.getElementById('breadcrumb');
+  if (pageBc && Array.isArray(trail)) {
+    pageBc.innerHTML = trail.map((t,i) => {
+      const isLast = i === trail.length - 1;
+      return (i>0 ? '<span class="sep">/</span>' : '') + (isLast || !t.href ? `<span>${t.label}</span>` : `<a href="${t.href}">${t.label}</a>`);
+    }).join('');
+  }
 }
 
 /* ---------- External link helper ---------- */

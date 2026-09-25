@@ -269,6 +269,7 @@ async function initHome(){
     </a>`).join('');
 
   wireQuickSearch('qSearch', 'qSearchResults');
+  renderBreadcrumb([{ label: 'Home', href: 'index.html' }, { label: 'All Subjects' }, { label: 'Atlas Overview' }]);
   renderFooter();
   initReveal();
 }

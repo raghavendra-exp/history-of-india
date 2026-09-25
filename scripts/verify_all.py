@@ -71,10 +71,21 @@ assert 'google.com/maps/search' in map_js
 assert 'earth.google.com/web/search' in map_js
 print("Map.js Google Maps integration verified!")
 
+# 5. Check breadcrumb header and subject tabs
+import subprocess
+res_nav = subprocess.run(["node", "scripts/test_nav.js"], capture_output=True, text=True)
+assert res_nav.returncode == 0, f"test_nav.js failed: {res_nav.stderr}"
+print("Breadcrumb Top Header and Subject Tabs verified!")
+
+res_tl = subprocess.run(["node", "scripts/test_timeline_nav.js"], capture_output=True, text=True)
+assert res_tl.returncode == 0, f"test_timeline_nav.js failed: {res_tl.stderr}"
+print("Timeline Breadcrumbs and Era Filtering verified!")
+
 print("\n========================================================")
-print("SUCCESS: ALL 4 BENCHMARKS STRICTLY MET AND VERIFIED!")
+print("SUCCESS: ALL BENCHMARKS STRICTLY MET AND VERIFIED!")
 print(f"  - Prelims MCQs: {len(prelims)} (Required: >500)")
 print(f"  - Mains Questions: {len(mains)} (Required: 200+)")
 print(f"  - 10 Canonical Textbooks: Fully integrated into books.html, practice questions, and filters")
 print(f"  - Google Maps Engine: Real GPS coordinates, Satellite/Terrain/Roadmap tiles & 3D links")
+print(f"  - Breadcrumb Style Top Header & Subject Tabs: Verified across all pages and eras")
 print("========================================================")
