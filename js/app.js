@@ -174,6 +174,13 @@ function renderSidebar(active){
     </div>
 
     <div class="sidebar-scrollable">
+      <!-- Topic & Subject Instant Search Box -->
+      <div class="sidebar-search-box">
+        <svg class="sb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="sidebarTopicSearch" placeholder="Filter topics &amp; subjects..." oninput="filterSidebarTopics(this.value)" autocomplete="off">
+        <button id="sbSearchClear" class="sb-search-clear" onclick="clearSidebarTopicFilter()" aria-label="Clear filter" style="display:none;">&times;</button>
+      </div>
+
       <!-- 1. Vertical Breadcrumb Component -->
       <div class="vertical-breadcrumb-card" id="verticalBreadcrumbCard">
         <div class="vbc-head">
@@ -206,7 +213,7 @@ function renderSidebar(active){
             <span class="sb-icon">⚔️</span>
             <span class="sb-text">Medieval India</span>
           </a>
-          <a href="timeline.html?era=colonial" class="sb-nav-item" data-id="colonial" data-alt="modern" role="tab" onclick="onSidebarNavClick(event, 'colonial')">
+          <a href="timeline.html?era=colonial" class="sb-nav-item" data-id="colonial" data-alt="modern,freedom" role="tab" onclick="onSidebarNavClick(event, 'colonial')">
             <span class="sb-icon">🇮🇳</span>
             <span class="sb-text">Modern &amp; Freedom</span>
           </a>
@@ -214,7 +221,7 @@ function renderSidebar(active){
             <span class="sb-icon">🕊️</span>
             <span class="sb-text">Post-Independence</span>
           </a>
-          <a href="timeline.html?era=world" class="sb-nav-item" data-id="world" role="tab" onclick="onSidebarNavClick(event, 'world')">
+          <a href="timeline.html?era=world" class="sb-nav-item" data-id="world" data-alt="world-history" role="tab" onclick="onSidebarNavClick(event, 'world')">
             <span class="sb-icon">🌍</span>
             <span class="sb-text">World History</span>
           </a>
@@ -242,7 +249,90 @@ function renderSidebar(active){
         </nav>
       </div>
 
-      <!-- 4. UPSC Study & Companions -->
+      <!-- 4. UPSC GS-1 Core Syllabus Topics -->
+      <div class="sidebar-section">
+        <div class="sidebar-sec-title">UPSC GS-1 Syllabus Topics</div>
+        <nav class="sidebar-nav-list" role="tablist">
+          <a href="art-culture.html#art-forms" class="sb-nav-item sb-subtopic" data-id="art-forms" data-alt="art,paintings,dance,music" role="tab">
+            <span class="sb-icon">🎨</span>
+            <span class="sb-text">Visual &amp; Performing Arts</span>
+          </a>
+          <a href="art-culture.html#architecture" class="sb-nav-item sb-subtopic" data-id="architecture" data-alt="temple,caves,stupa" role="tab">
+            <span class="sb-icon">🏛️</span>
+            <span class="sb-text">Temple &amp; Cave Architecture</span>
+          </a>
+          <a href="art-culture.html#literature" class="sb-nav-item sb-subtopic" data-id="literature" data-alt="vedic,sangam,literature" role="tab">
+            <span class="sb-icon">📜</span>
+            <span class="sb-text">Classical Literature</span>
+          </a>
+          <a href="timeline.html?era=colonial" class="sb-nav-item sb-subtopic" data-id="colonial" data-alt="modern,freedom,british,1857" role="tab" onclick="onSidebarNavClick(event, 'colonial')">
+            <span class="sb-icon">⚔️</span>
+            <span class="sb-text">Modern History (Mid-18th C.)</span>
+          </a>
+          <a href="timeline.html?era=colonial" class="sb-nav-item sb-subtopic" data-id="colonial" data-alt="freedom,congress,gandhi,ina" role="tab" onclick="onSidebarNavClick(event, 'colonial')">
+            <span class="sb-icon">🇮🇳</span>
+            <span class="sb-text">Freedom Struggle &amp; Stages</span>
+          </a>
+          <a href="women.html" class="sb-nav-item sb-subtopic" data-id="women" data-alt="women,freedom,reformers" role="tab">
+            <span class="sb-icon">👑</span>
+            <span class="sb-text">Women Freedom Contributors</span>
+          </a>
+          <a href="timeline.html?era=independent" class="sb-nav-item sb-subtopic" data-id="independent" data-alt="post,integration,states" role="tab" onclick="onSidebarNavClick(event, 'independent')">
+            <span class="sb-icon">🕊️</span>
+            <span class="sb-text">Post-Independence Consolidation</span>
+          </a>
+          <a href="timeline.html?era=independent" class="sb-nav-item sb-subtopic" data-id="independent" data-alt="post,reorganization,linguistic" role="tab" onclick="onSidebarNavClick(event, 'independent')">
+            <span class="sb-icon">🗺️</span>
+            <span class="sb-text">Linguistic Reorganization</span>
+          </a>
+          <a href="timeline.html?era=world" class="sb-nav-item sb-subtopic" data-id="world" data-alt="world,revolution,wars" role="tab" onclick="onSidebarNavClick(event, 'world')">
+            <span class="sb-icon">🌍</span>
+            <span class="sb-text">World History (18th C. Onward)</span>
+          </a>
+          <a href="timeline.html?era=world" class="sb-nav-item sb-subtopic" data-id="world" data-alt="industrial,revolution,world war" role="tab" onclick="onSidebarNavClick(event, 'world')">
+            <span class="sb-icon">⚙️</span>
+            <span class="sb-text">Industrial Revolution &amp; Wars</span>
+          </a>
+          <a href="timeline.html?era=world" class="sb-nav-item sb-subtopic" data-id="world" data-alt="communism,capitalism,socialism" role="tab" onclick="onSidebarNavClick(event, 'world')">
+            <span class="sb-icon">📖</span>
+            <span class="sb-text">Political Philosophies</span>
+          </a>
+          <a href="society.html#diversity" class="sb-nav-item sb-subtopic" data-id="society" data-alt="diversity,society,culture" role="tab">
+            <span class="sb-icon">🇮🇳</span>
+            <span class="sb-text">Diversity &amp; Salient Features</span>
+          </a>
+          <a href="society.html#women" class="sb-nav-item sb-subtopic" data-id="society" data-alt="women,organizations,shg" role="tab">
+            <span class="sb-icon">👩</span>
+            <span class="sb-text">Women &amp; Women's Orgs</span>
+          </a>
+          <a href="society.html#demography" class="sb-nav-item sb-subtopic" data-id="society" data-alt="population,demography,census" role="tab">
+            <span class="sb-icon">👥</span>
+            <span class="sb-text">Population &amp; Demographics</span>
+          </a>
+          <a href="society.html#poverty" class="sb-nav-item sb-subtopic" data-id="society" data-alt="poverty,development,hunger" role="tab">
+            <span class="sb-icon">📉</span>
+            <span class="sb-text">Poverty &amp; Development</span>
+          </a>
+          <a href="society.html#urbanization" class="sb-nav-item sb-subtopic" data-id="society" data-alt="urbanization,slums,smart cities" role="tab">
+            <span class="sb-icon">🏙️</span>
+            <span class="sb-text">Urbanization &amp; Remedies</span>
+          </a>
+          <a href="society.html#globalization" class="sb-nav-item sb-subtopic" data-id="society" data-alt="globalization,culture,economy" role="tab">
+            <span class="sb-icon">🌐</span>
+            <span class="sb-text">Effects of Globalization</span>
+          </a>
+          <a href="society.html#empowerment" class="sb-nav-item sb-subtopic" data-id="society" data-alt="empowerment,sc,st,obc" role="tab">
+            <span class="sb-icon">✊</span>
+            <span class="sb-text">Social Empowerment</span>
+          </a>
+          <a href="society.html#communalism" class="sb-nav-item sb-subtopic" data-id="society" data-alt="communalism,secularism,regionalism" role="tab">
+            <span class="sb-icon">🕊️</span>
+            <span class="sb-text">Communalism &amp; Secularism</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- 5. UPSC Study & Companions -->
       <div class="sidebar-section">
         <div class="sidebar-sec-title">UPSC Study &amp; Companions</div>
         <nav class="sidebar-nav-list" role="tablist">
@@ -264,7 +354,7 @@ function renderSidebar(active){
         </nav>
       </div>
 
-      <!-- 5. Perspectives & Tools -->
+      <!-- 6. Perspectives & Tools -->
       <div class="sidebar-section">
         <div class="sidebar-sec-title">Perspectives &amp; Tools</div>
         <nav class="sidebar-nav-list" role="tablist">
@@ -315,6 +405,64 @@ function renderSidebar(active){
   initSidebar();
 }
 
+function filterSidebarTopics(val){
+  const q = (val || '').toLowerCase().trim();
+  const clearBtn = document.getElementById('sbSearchClear');
+  if (clearBtn) clearBtn.style.display = q ? 'block' : 'none';
+
+  const sections = document.querySelectorAll('.site-sidebar .sidebar-section');
+  let matchedCount = 0;
+
+  sections.forEach(sec => {
+    const items = sec.querySelectorAll('.sb-nav-item');
+    let secHasMatch = false;
+    items.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      const id = (item.getAttribute('data-id') || '').toLowerCase();
+      const alt = (item.getAttribute('data-alt') || '').toLowerCase();
+      const match = !q || text.includes(q) || id.includes(q) || alt.includes(q);
+      item.style.display = match ? 'flex' : 'none';
+      if (match) {
+        secHasMatch = true;
+        matchedCount++;
+      }
+    });
+    sec.style.display = secHasMatch ? 'block' : 'none';
+  });
+
+  const scrollable = document.querySelector('.sidebar-scrollable');
+  let emptyMsg = document.getElementById('sbEmptyMsg');
+  if (!matchedCount && q) {
+    if (!emptyMsg && scrollable) {
+      emptyMsg = document.createElement('div');
+      emptyMsg.id = 'sbEmptyMsg';
+      emptyMsg.className = 'sb-empty-msg';
+      scrollable.appendChild(emptyMsg);
+    }
+    if (emptyMsg) {
+      emptyMsg.style.display = 'flex';
+      emptyMsg.innerHTML = `<span style="font-size:1.1rem;">🔍</span><span>No topics match "<b>${escapeHtml(q)}</b>"</span>`;
+    }
+  } else if (emptyMsg) {
+    emptyMsg.style.display = 'none';
+  }
+}
+
+function clearSidebarTopicFilter(){
+  const input = document.getElementById('sidebarTopicSearch');
+  if (input) {
+    input.value = '';
+    filterSidebarTopics('');
+    input.focus();
+  }
+}
+
+function escapeHtml(s){
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
 function onSidebarNavClick(e, era){
   const p = location.pathname.split('/').pop() || 'index.html';
   if (p === 'timeline.html' && typeof setEraFilter === 'function') {
@@ -336,6 +484,25 @@ function initSidebar(){
     document.body.classList.remove('sidebar-collapsed');
   }
   updateSidebarAria(shouldOpen);
+
+  const sidebarEl = document.getElementById('siteSidebar');
+  if (sidebarEl && !sidebarEl._wheelBound && typeof sidebarEl.addEventListener === 'function') {
+    sidebarEl._wheelBound = true;
+    sidebarEl.addEventListener('wheel', (e) => {
+      const scrollable = sidebarEl.querySelector ? sidebarEl.querySelector('.sidebar-scrollable') : null;
+      if (scrollable && e.target !== scrollable && (!scrollable.contains || !scrollable.contains(e.target))) {
+        scrollable.scrollTop += e.deltaY;
+      }
+    }, { passive: true });
+
+    // Auto-close sidebar on mobile when navigating
+    sidebarEl.addEventListener('click', (e) => {
+      const link = e.target && e.target.closest ? e.target.closest('.sb-nav-item, .vbc-link') : null;
+      if (link && window.innerWidth < 1100) {
+        toggleSidebar(false);
+      }
+    });
+  }
 }
 
 function toggleSidebar(forceState){

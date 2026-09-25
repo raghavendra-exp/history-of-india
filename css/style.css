@@ -224,12 +224,15 @@ body.upsc-on .upsc-only { display: block !important; }
 .site-sidebar {
   position: fixed; top: 0; bottom: 0; left: 0;
   width: var(--sidebar-w);
+  height: 100vh; height: 100dvh; max-height: 100vh; max-height: 100dvh;
   background: var(--bg-raised);
   border-right: 1px solid var(--line-soft);
   z-index: 90;
   display: flex; flex-direction: column;
+  overflow: hidden;
   transition: transform .22s cubic-bezier(0.2, 0, 0, 1);
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.04);
+  pointer-events: auto;
 }
 [data-theme="dark"] .site-sidebar {
   background: color-mix(in srgb, var(--bg-raised) 96%, #000);
@@ -247,6 +250,7 @@ body.upsc-on .upsc-only { display: block !important; }
   .site-sidebar {
     transform: translateX(-100%);
     box-shadow: none;
+    width: min(var(--sidebar-w), 86vw);
   }
   body.sidebar-open .site-sidebar {
     transform: translateX(0);
@@ -261,7 +265,7 @@ body.upsc-on .upsc-only { display: block !important; }
 .sidebar-backdrop {
   position: fixed; inset: 0;
   background: rgba(18, 20, 31, 0.55);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
   z-index: 85;
   opacity: 0; pointer-events: none;
   transition: opacity .22s ease;
@@ -276,6 +280,7 @@ body.upsc-on .upsc-only { display: block !important; }
 .sidebar-header {
   height: 52px; display: flex; align-items: center; justify-content: space-between;
   padding: 0 14px; border-bottom: 1px solid var(--line-soft); flex-shrink: 0;
+  background: var(--bg-raised); z-index: 2;
 }
 .sidebar-brand {
   display: flex; align-items: center; gap: 10px;
@@ -302,11 +307,60 @@ body.upsc-on .upsc-only { display: block !important; }
 
 /* Sidebar Scrollable Body */
 .sidebar-scrollable {
-  flex: 1; overflow-y: auto; overflow-x: hidden;
-  padding: 12px 10px; scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  flex: 1 1 0%; min-height: 0; max-height: 100%;
+  overflow-y: auto !important; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
+  padding: 12px 10px 80px 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
 }
-.sidebar-scrollable::-webkit-scrollbar { width: 5px; }
-.sidebar-scrollable::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+.sidebar-scrollable::-webkit-scrollbar { width: 6px; }
+.sidebar-scrollable::-webkit-scrollbar-track { background: transparent; }
+.sidebar-scrollable::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 4px;
+}
+.sidebar-scrollable::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-faint);
+}
+
+/* Sidebar Instant Topic Search Filter */
+.sidebar-search-box {
+  position: relative; margin-bottom: 12px;
+}
+.sidebar-search-box input {
+  width: 100%; padding: 7px 28px 7px 30px;
+  background: var(--bg); border: 1px solid var(--line);
+  border-radius: var(--radius); font-family: var(--font-body);
+  font-size: .8rem; color: var(--ink);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.sidebar-search-box input:focus {
+  outline: none; border-color: var(--seal);
+  box-shadow: 0 0 0 2px var(--seal-tint);
+}
+.sidebar-search-box input::placeholder {
+  color: var(--ink-faint); font-size: .76rem;
+}
+.sb-search-icon {
+  position: absolute; left: 9px; top: 50%;
+  transform: translateY(-50%); width: 14px; height: 14px;
+  color: var(--ink-faint); pointer-events: none;
+}
+.sb-search-clear {
+  position: absolute; right: 6px; top: 50%;
+  transform: translateY(-50%); background: none; border: none;
+  font-size: 1.15rem; line-height: 1; color: var(--ink-faint);
+  cursor: pointer; padding: 2px 5px; border-radius: var(--radius);
+}
+.sb-search-clear:hover { color: var(--seal); }
+.sb-empty-msg {
+  padding: 16px 10px; text-align: center; color: var(--ink-faint);
+  font-size: .78rem; display: flex; flex-direction: column;
+  align-items: center; gap: 6px;
+}
 
 /* 1. Vertical Breadcrumb Component */
 .vertical-breadcrumb-card {
@@ -377,6 +431,12 @@ body.upsc-on .upsc-only { display: block !important; }
 [data-theme="dark"] .sb-nav-item.active {
   background: color-mix(in srgb, var(--seal-tint) 15%, transparent) !important;
 }
+.sb-nav-item.sb-subtopic {
+  padding: 5px 10px 5px 14px; font-size: .78rem; opacity: .92;
+}
+.sb-nav-item.sb-subtopic .sb-icon {
+  font-size: .85rem; width: 16px;
+}
 .sb-icon { font-size: .95rem; line-height: 1; width: 18px; text-align: center; flex-shrink: 0; }
 .sb-text { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sb-badge {
@@ -392,6 +452,7 @@ body.upsc-on .upsc-only { display: block !important; }
 .sidebar-footer {
   padding: 10px 12px; border-top: 1px solid var(--line-soft);
   display: flex; gap: 8px; flex-shrink: 0;
+  background: var(--bg-raised); z-index: 2;
 }
 .sb-tool-btn {
   flex: 1; display: inline-flex; align-items: center; justify-content: center;
@@ -479,7 +540,15 @@ body.upsc-on .upsc-only { display: block !important; }
 .section-desc{color:var(--ink-soft); max-width:60ch;}
 
 /* ============ TIMELINE SPINE (journey nav) ============ */
-.journey-rail{position:relative; padding:34px 0 8px; overflow-x:auto;}
+.journey-rail{
+  position:relative; padding:34px 0 14px; overflow-x:auto;
+  -webkit-overflow-scrolling:touch; overscroll-behavior-x:contain;
+  scrollbar-width:thin; scrollbar-color:var(--line) transparent;
+}
+.journey-rail::-webkit-scrollbar{height:6px;}
+.journey-rail::-webkit-scrollbar-track{background:transparent;}
+.journey-rail::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px;}
+.journey-rail::-webkit-scrollbar-thumb:hover{background:var(--ink-faint);}
 .journey-track{display:flex; align-items:center; min-width:max-content; position:relative; padding:0 4px;}
 .journey-track::before{content:""; position:absolute; left:0; right:0; top:50%; height:2px; background:var(--line); z-index:0;}
 .j-node{
@@ -544,6 +613,18 @@ body.upsc-on .upsc-only { display: block !important; }
 }
 .filter-chip:hover{border-color:var(--seal); color:var(--seal);}
 .filter-chip.active{background:var(--ink); color:var(--bg-raised); border-color:var(--ink);}
+
+@media (max-width: 640px) {
+  .filter-bar {
+    flex-wrap: nowrap; overflow-x: auto;
+    -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+    padding-bottom: 8px; margin-bottom: 16px;
+    scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  }
+  .filter-chip {
+    white-space: nowrap; flex-shrink: 0;
+  }
+}
 
 /* ============ MASTER TIMELINE (vertical) ============ */
 .mtimeline{position:relative; max-width:900px; margin:0 auto; padding-left:36px;}

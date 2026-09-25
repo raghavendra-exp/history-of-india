@@ -20,6 +20,18 @@
   flex-wrap: wrap;
   margin: 22px 0 10px;
 }
+@media (max-width: 640px) {
+  .society-nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
+}
 .society-tab-btn {
   background: var(--bg-raised);
   border: 1px solid var(--line);
@@ -737,7 +749,14 @@ document.addEventListener('DOMContentLoaded', () => {
     { label: 'Home', href: 'index.html' },
     { label: 'Indian Society' }
   ]);
-  renderSocietyCards('all', '');
+
+  const hash = (location.hash || '').replace('#', '');
+  if (hash && ['diversity', 'women', 'demography', 'poverty', 'urbanization', 'globalization', 'empowerment', 'communalism', 'regionalism', 'mains-models'].includes(hash)) {
+    const btn = document.querySelector(`#societyNavPills button[onclick*="${hash}"]`);
+    switchSocietyTab(hash, btn);
+  } else {
+    renderSocietyCards('all', '');
+  }
   renderFooter();
 });
 </script>

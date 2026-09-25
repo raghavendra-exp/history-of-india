@@ -20,6 +20,18 @@
   flex-wrap: wrap;
   margin: 22px 0 10px;
 }
+@media (max-width: 640px) {
+  .culture-nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
+}
 .culture-tab-btn {
   background: var(--bg-raised);
   border: 1px solid var(--line);
@@ -933,7 +945,14 @@ document.addEventListener('DOMContentLoaded', () => {
     { label: 'Home', href: 'index.html' },
     { label: 'Indian Heritage & Culture' }
   ]);
-  renderCultureCards('all', '');
+
+  const hash = (location.hash || '').replace('#', '');
+  if (hash && ['art-forms', 'literature', 'architecture', 'comparisons', 'mains-frameworks'].includes(hash)) {
+    const btn = document.querySelector(`#cultureNavPills button[onclick*="${hash}"]`);
+    switchCultureTab(hash, btn);
+  } else {
+    renderCultureCards('all', '');
+  }
   renderFooter();
 });
 </script>
