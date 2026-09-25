@@ -93,14 +93,21 @@ function renderNav(active){
   const currentLabel = PAGE_TITLE_MAP[active] || 'Overview';
 
   el.innerHTML = `
-    <div class="wrap nav-inner">
+    <div class="nav-inner">
       <div class="nav-left-cluster">
+        <button class="sidebar-toggle-btn" id="sidebarToggle" onclick="toggleSidebar()" aria-label="Toggle vertical navigation sidebar" title="Toggle Sidebar (Ctrl+B)">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <line x1="9" y1="3" x2="9" y2="21"/>
+          </svg>
+        </button>
+
         <a href="index.html" class="brand" title="Complete History of India — Home">
           <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M16 6v20M8 12h16M8 20h16" stroke="currentColor" stroke-width="1.4" opacity=".6"/></svg>
           <span class="brand-title">History of India</span>
         </a>
 
-        <!-- Breadcrumb in Top Header -->
+        <!-- Header Breadcrumb Trail -->
         <nav class="header-breadcrumb" id="headerBreadcrumb" aria-label="Breadcrumb">
           <span class="hbc-sep">/</span>
           <a href="index.html" class="hbc-item hbc-home" title="Go to Atlas Home">Home</a>
@@ -122,44 +129,255 @@ function renderNav(active){
           <span class="dot"></span> UPSC Mode
         </button>
         <button class="icon-btn" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode"></button>
-        <button class="icon-btn hamburger-btn" id="mobileMenuBtn" onclick="toggleMobileDrawer()" aria-label="Open navigation menu">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Breadcrumb Subject Bar: Subject Tabs in the Header -->
-    <div class="nav-breadcrumb-bar" id="navBreadcrumbBar">
-      <div class="wrap nav-breadcrumb-inner">
-        <div class="bc-lead" title="Academic Subjects &amp; Syllabus Modules">
-          <span class="bc-lead-icon">📂</span>
-          <span class="bc-lead-text">Subjects</span>
-          <span class="bc-lead-sep">›</span>
-        </div>
-        <div class="bc-subject-tabs" id="bcSubjectTabs" role="tablist">
-          ${SUBJECT_TABS.map(tab => `
-            <a href="${tab.href}" 
-               class="bc-subject-tab" 
-               data-id="${tab.id}" 
-               data-alt="${(tab.altIds||[]).join(',')}" 
-               role="tab"
-               title="${tab.label}">
-              <span class="bc-tab-icon">${tab.icon}</span>
-              <span class="bc-tab-label">${tab.label}</span>
-              ${tab.badge ? `<span class="bc-tab-badge">${tab.badge}</span>` : ''}
-            </a>
-          `).join('')}
-        </div>
       </div>
     </div>`;
 
-  renderMobileDrawer(active);
+  renderSidebar(active);
   renderBottomNav(active);
   highlightActiveSubjectTab();
   initSpotlight();
   initCalculator();
   updateThemeIcon();
 }
+
+function renderSidebar(active){
+  let sidebar = document.getElementById('siteSidebar');
+  if (!sidebar) {
+    sidebar = document.createElement('aside');
+    sidebar.id = 'siteSidebar';
+    sidebar.className = 'site-sidebar';
+    sidebar.setAttribute('aria-label', 'Vertical navigation and syllabus breadcrumbs');
+    document.body.appendChild(sidebar);
+  }
+
+  let backdrop = document.getElementById('sidebarBackdrop');
+  if (!backdrop) {
+    backdrop = document.createElement('div');
+    backdrop.id = 'sidebarBackdrop';
+    backdrop.className = 'sidebar-backdrop';
+    backdrop.onclick = () => toggleSidebar(false);
+    document.body.appendChild(backdrop);
+  }
+
+  const currentLabel = PAGE_TITLE_MAP[active] || 'Overview';
+
+  sidebar.innerHTML = `
+    <div class="sidebar-header">
+      <a href="index.html" class="sidebar-brand" title="Complete History of India">
+        <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M16 6v20M8 12h16M8 20h16" stroke="currentColor" stroke-width="1.4" opacity=".6"/></svg>
+        <div>
+          <b class="sb-title">History of India</b>
+          <span class="sb-sub">Atlas &amp; UPSC Companion</span>
+        </div>
+      </a>
+      <button class="sidebar-close-btn" onclick="toggleSidebar(false)" aria-label="Close sidebar">&times;</button>
+    </div>
+
+    <div class="sidebar-scrollable">
+      <!-- 1. Vertical Breadcrumb Component -->
+      <div class="vertical-breadcrumb-card" id="verticalBreadcrumbCard">
+        <div class="vbc-head">
+          <span class="vbc-head-icon">🧭</span>
+          <span class="vbc-head-title">Breadcrumb Path</span>
+        </div>
+        <div class="vbc-tree" id="verticalBreadcrumb">
+          <div class="vbc-node is-root">
+            <span class="vbc-rail"></span>
+            <span class="vbc-bullet"></span>
+            <span class="vbc-content"><a href="index.html" class="vbc-link">🏠 Home</a></span>
+          </div>
+          <div class="vbc-node is-current">
+            <span class="vbc-rail"></span>
+            <span class="vbc-bullet"></span>
+            <span class="vbc-content"><span class="vbc-label">${currentLabel}</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Core Eras (Chronology) -->
+      <div class="sidebar-section">
+        <div class="sidebar-sec-title">Core Eras (Chronology)</div>
+        <nav class="sidebar-nav-list" role="tablist">
+          <a href="timeline.html?era=ancient" class="sb-nav-item" data-id="ancient" role="tab" onclick="onSidebarNavClick(event, 'ancient')">
+            <span class="sb-icon">🏛️</span>
+            <span class="sb-text">Ancient India</span>
+          </a>
+          <a href="timeline.html?era=medieval" class="sb-nav-item" data-id="medieval" role="tab" onclick="onSidebarNavClick(event, 'medieval')">
+            <span class="sb-icon">⚔️</span>
+            <span class="sb-text">Medieval India</span>
+          </a>
+          <a href="timeline.html?era=colonial" class="sb-nav-item" data-id="colonial" data-alt="modern" role="tab" onclick="onSidebarNavClick(event, 'colonial')">
+            <span class="sb-icon">🇮🇳</span>
+            <span class="sb-text">Modern &amp; Freedom</span>
+          </a>
+          <a href="timeline.html?era=independent" class="sb-nav-item" data-id="independent" data-alt="post,post-independence" role="tab" onclick="onSidebarNavClick(event, 'independent')">
+            <span class="sb-icon">🕊️</span>
+            <span class="sb-text">Post-Independence</span>
+          </a>
+          <a href="timeline.html?era=world" class="sb-nav-item" data-id="world" role="tab" onclick="onSidebarNavClick(event, 'world')">
+            <span class="sb-icon">🌍</span>
+            <span class="sb-text">World History</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- 3. Flagship Modules -->
+      <div class="sidebar-section">
+        <div class="sidebar-sec-title">Flagship Modules</div>
+        <nav class="sidebar-nav-list" role="tablist">
+          <a href="art-culture.html" class="sb-nav-item" data-id="art-culture" role="tab">
+            <span class="sb-icon">🎨</span>
+            <span class="sb-text">Art &amp; Culture</span>
+            <span class="sb-badge badge-new">New</span>
+          </a>
+          <a href="society.html" class="sb-nav-item" data-id="society" role="tab">
+            <span class="sb-icon">👥</span>
+            <span class="sb-text">Indian Society</span>
+            <span class="sb-badge badge-new">New</span>
+          </a>
+          <a href="up-history.html" class="sb-nav-item" data-id="up" role="tab">
+            <span class="sb-icon">🏛️</span>
+            <span class="sb-text">UP History (UPPSC)</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- 4. UPSC Study & Companions -->
+      <div class="sidebar-section">
+        <div class="sidebar-sec-title">UPSC Study &amp; Companions</div>
+        <nav class="sidebar-nav-list" role="tablist">
+          <a href="practice.html" class="sb-nav-item" data-id="practice" role="tab">
+            <span class="sb-icon">🎯</span>
+            <span class="sb-text">UPSC Practice Hub</span>
+            <span class="sb-badge badge-count">551 Qs</span>
+          </a>
+          <a href="books.html" class="sb-nav-item" data-id="books" role="tab">
+            <span class="sb-icon">📚</span>
+            <span class="sb-text">15 Textbooks Hub</span>
+            <span class="sb-badge badge-count">15 Books</span>
+          </a>
+          <a href="map.html" class="sb-nav-item" data-id="map" role="tab">
+            <span class="sb-icon">🗺️</span>
+            <span class="sb-text">Historical Map Lab</span>
+            <span class="sb-badge badge-atlas">Atlas</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- 5. Perspectives & Tools -->
+      <div class="sidebar-section">
+        <div class="sidebar-sec-title">Perspectives &amp; Tools</div>
+        <nav class="sidebar-nav-list" role="tablist">
+          <a href="timeline.html" class="sb-nav-item" data-id="timeline" role="tab">
+            <span class="sb-icon">⏱️</span>
+            <span class="sb-text">Master Timeline</span>
+          </a>
+          <a href="themes.html" class="sb-nav-item" data-id="themes" role="tab">
+            <span class="sb-icon">🏷️</span>
+            <span class="sb-text">Themes Explorer</span>
+          </a>
+          <a href="people.html" class="sb-nav-item" data-id="people" role="tab">
+            <span class="sb-icon">👤</span>
+            <span class="sb-text">Key Personalities</span>
+          </a>
+          <a href="women.html" class="sb-nav-item" data-id="women" role="tab">
+            <span class="sb-icon">👑</span>
+            <span class="sb-text">Women in History</span>
+          </a>
+          <a href="graph.html" class="sb-nav-item" data-id="graph" role="tab">
+            <span class="sb-icon">🕸️</span>
+            <span class="sb-text">Knowledge Graph</span>
+          </a>
+          <a href="search.html" class="sb-nav-item" data-id="search" role="tab">
+            <span class="sb-icon">🔍</span>
+            <span class="sb-text">Search Atlas</span>
+          </a>
+          <a href="about.html" class="sb-nav-item" data-id="about" role="tab">
+            <span class="sb-icon">ℹ️</span>
+            <span class="sb-text">Sources &amp; Method</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <button class="sb-tool-btn" onclick="openSpotlight()" title="Search anything (⌘K)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <span>Search (⌘K)</span>
+      </button>
+      <button class="sb-tool-btn" onclick="openCalculator()" title="Era &amp; Number Calculator">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/></svg>
+        <span>Calculator</span>
+      </button>
+    </div>
+  `;
+
+  initSidebar();
+}
+
+function onSidebarNavClick(e, era){
+  const p = location.pathname.split('/').pop() || 'index.html';
+  if (p === 'timeline.html' && typeof setEraFilter === 'function') {
+    e.preventDefault();
+    setEraFilter(era);
+    if (window.innerWidth < 1100) toggleSidebar(false);
+  } else if (window.innerWidth < 1100) {
+    toggleSidebar(false);
+  }
+}
+
+function initSidebar(){
+  const saved = localStorage.getItem('chi-sidebar');
+  const isDesktop = window.innerWidth >= 1100;
+  const shouldOpen = saved !== null ? saved === 'open' : isDesktop;
+  if (!shouldOpen) {
+    document.body.classList.add('sidebar-collapsed');
+  } else {
+    document.body.classList.remove('sidebar-collapsed');
+  }
+  updateSidebarAria(shouldOpen);
+}
+
+function toggleSidebar(forceState){
+  const isCollapsed = document.body.classList.contains('sidebar-collapsed');
+  const isMobileOpen = document.body.classList.contains('sidebar-open');
+  const isDesktop = window.innerWidth >= 1100;
+
+  if (isDesktop) {
+    const willOpen = forceState !== undefined ? forceState : isCollapsed;
+    if (willOpen) {
+      document.body.classList.remove('sidebar-collapsed');
+      localStorage.setItem('chi-sidebar', 'open');
+    } else {
+      document.body.classList.add('sidebar-collapsed');
+      localStorage.setItem('chi-sidebar', 'closed');
+    }
+    updateSidebarAria(willOpen);
+  } else {
+    const willOpen = forceState !== undefined ? forceState : !isMobileOpen;
+    if (willOpen) {
+      document.body.classList.add('sidebar-open');
+    } else {
+      document.body.classList.remove('sidebar-open');
+    }
+    updateSidebarAria(willOpen);
+  }
+}
+
+function updateSidebarAria(isOpen){
+  const btn = document.getElementById('sidebarToggle');
+  const sidebar = document.getElementById('siteSidebar');
+  if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  if (sidebar) sidebar.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+}
+
+// Global shortcut to toggle sidebar (Ctrl+B / ⌘B)
+document.addEventListener('keydown', (e) => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'b') {
+    e.preventDefault();
+    toggleSidebar();
+  }
+});
 
 /* Mobile Slide-out Drawer */
 function renderMobileDrawer(active){
@@ -370,15 +588,15 @@ function highlightActiveSubjectTab(trail){
     }
   }
 
-  const tabs = document.querySelectorAll('.bc-subject-tab');
-  tabs.forEach(tab => {
+  const navItems = document.querySelectorAll('.sb-nav-item, .bc-subject-tab');
+  navItems.forEach(tab => {
     const tid = tab.getAttribute('data-id');
     const alts = (tab.getAttribute('data-alt') || '').split(',').filter(Boolean);
     if (tid === activeId || alts.includes(activeId)) {
       tab.classList.add('active');
       tab.setAttribute('aria-selected', 'true');
       try {
-        tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        tab.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       } catch(e){}
     } else {
       tab.classList.remove('active');
@@ -405,10 +623,29 @@ function renderBreadcrumb(trail){
     }).join('');
   }
 
-  // 2. Highlight matching Subject Tab in Header Breadcrumb bar
+  // 2. Update Vertical Breadcrumb Tree in the Left Sidebar
+  const verticalBc = document.getElementById('verticalBreadcrumb');
+  if (verticalBc && Array.isArray(trail) && trail.length > 0) {
+    verticalBc.innerHTML = trail.map((t, i) => {
+      const isLast = i === trail.length - 1;
+      const isFirst = i === 0;
+      const nodeClass = isFirst ? 'is-root' : (isLast ? 'is-current' : 'is-subject');
+      const content = (isLast || !t.href)
+        ? `<span class="vbc-label" title="${t.label}">${t.label}</span>`
+        : `<a href="${t.href}" class="vbc-link" title="${t.label}">${t.label}</a>`;
+      return `
+        <div class="vbc-node ${nodeClass}">
+          <span class="vbc-rail"></span>
+          <span class="vbc-bullet"></span>
+          <span class="vbc-content">${content}</span>
+        </div>`;
+    }).join('');
+  }
+
+  // 3. Highlight matching Subject Tab in Sidebar
   highlightActiveSubjectTab(trail);
 
-  // 3. Keep updating page-level #breadcrumb if present
+  // 4. Keep updating page-level #breadcrumb if present
   const pageBc = document.getElementById('breadcrumb');
   if (pageBc && Array.isArray(trail)) {
     pageBc.innerHTML = trail.map((t,i) => {

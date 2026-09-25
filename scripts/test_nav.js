@@ -2,16 +2,35 @@ const fs = require('fs');
 const vm = require('vm');
 
 global.location = { pathname: '/art-culture.html', search: '' };
-global.localStorage = { getItem: () => null, setItem: () => {} };
-global.window = { matchMedia: () => ({ matches: false }) };
+global.localStorage = { 
+  store: {},
+  getItem: (k) => global.localStorage.store[k] || null, 
+  setItem: (k, v) => { global.localStorage.store[k] = v; } 
+};
+global.window = { matchMedia: () => ({ matches: false }), innerWidth: 1200 };
 
 const elements = {};
+const bodyClasses = new Set();
+
 const documentMock = {
   documentElement: { setAttribute: () => {}, removeAttribute: () => {}, getAttribute: () => null },
-  body: { classList: { add: () => {}, toggle: () => false, contains: () => false }, appendChild: () => {} },
+  body: { 
+    classList: { 
+      add: (c) => bodyClasses.add(c), 
+      remove: (c) => bodyClasses.delete(c), 
+      toggle: (c) => { 
+        if (bodyClasses.has(c)) { bodyClasses.delete(c); return false; }
+        else { bodyClasses.add(c); return true; }
+      }, 
+      contains: (c) => bodyClasses.has(c) 
+    }, 
+    appendChild: (el) => {
+      if (el.id) elements[el.id] = el;
+    } 
+  },
   getElementById: (id) => {
     if (!elements[id]) {
-      elements[id] = { innerHTML: '', setAttribute: () => {}, classList: { add: () => {}, remove: () => {} } };
+      elements[id] = { innerHTML: '', setAttribute: () => {}, classList: { add: () => {}, remove: () => {} }, querySelectorAll: () => [] };
     }
     return elements[id];
   },
@@ -25,7 +44,7 @@ const documentMock = {
       }
     ];
   },
-  createElement: () => ({ setAttribute: () => {}, classList: { add: () => {} }, appendChild: () => {} }),
+  createElement: (tag) => ({ id: '', className: '', innerHTML: '', setAttribute: () => {}, classList: { add: () => {} } }),
   addEventListener: () => {}
 };
 global.document = documentMock;
@@ -35,14 +54,22 @@ global.URLSearchParams = URLSearchParams;
 const code = fs.readFileSync('js/app.js', 'utf8');
 vm.runInThisContext(code);
 
-console.log('--- Testing Breadcrumb Nav and Subject Tabs ---');
+console.log('--- Testing Vertical Left Sidebar & Breadcrumbs ---');
 renderNav('art-culture.html');
 const siteNavContent = elements['siteNav'] ? elements['siteNav'].innerHTML : '';
+const siteSidebarContent = elements['siteSidebar'] ? elements['siteSidebar'].innerHTML : '';
 
-if (siteNavContent.includes('header-breadcrumb') && siteNavContent.includes('nav-breadcrumb-bar') && siteNavContent.includes('bc-subject-tab')) {
-  console.log('SUCCESS: siteNav contains header-breadcrumb and bc-subject-tab!');
+if (siteNavContent.includes('header-breadcrumb') && siteNavContent.includes('sidebarToggle')) {
+  console.log('SUCCESS: siteNav contains header-breadcrumb and sidebar toggle!');
 } else {
-  console.error('FAILURE: siteNav does not contain expected breadcrumb elements.');
+  console.error('FAILURE: siteNav does not contain expected header elements.');
+  process.exit(1);
+}
+
+if (siteSidebarContent.includes('verticalBreadcrumb') && siteSidebarContent.includes('sb-nav-item') && siteSidebarContent.includes('Flagship Modules')) {
+  console.log('SUCCESS: siteSidebar contains verticalBreadcrumb and categorized sb-nav-items!');
+} else {
+  console.error('FAILURE: siteSidebar does not contain expected sidebar elements.');
   process.exit(1);
 }
 
@@ -53,7 +80,10 @@ renderBreadcrumb([
 ]);
 
 const headerBcContent = elements['headerBreadcrumb'] ? elements['headerBreadcrumb'].innerHTML : '';
+const verticalBcContent = elements['verticalBreadcrumb'] ? elements['verticalBreadcrumb'].innerHTML : '';
+
 console.log('Header Breadcrumb Output:', headerBcContent);
+console.log('Vertical Breadcrumb Output:', verticalBcContent);
 
 if (headerBcContent.includes('Art and Culture') && headerBcContent.includes('Temple Architecture')) {
   console.log('SUCCESS: headerBreadcrumb updated correctly!');
@@ -62,4 +92,29 @@ if (headerBcContent.includes('Art and Culture') && headerBcContent.includes('Tem
   process.exit(1);
 }
 
-console.log('ALL NAV TESTS PASSED PERFECTLY!');
+if (verticalBcContent.includes('vbc-rail') && verticalBcContent.includes('vbc-bullet') && verticalBcContent.includes('Temple Architecture')) {
+  console.log('SUCCESS: verticalBreadcrumb tree updated correctly with rails & bullets!');
+} else {
+  console.error('FAILURE: verticalBreadcrumb tree was not updated correctly.');
+  process.exit(1);
+}
+
+// Test Toggle Sidebar
+console.log('Initial collapsed state:', bodyClasses.has('sidebar-collapsed'));
+toggleSidebar(false); // collapse
+if (bodyClasses.has('sidebar-collapsed')) {
+  console.log('SUCCESS: toggleSidebar collapsed correctly!');
+} else {
+  console.error('FAILURE: toggleSidebar did not collapse sidebar.');
+  process.exit(1);
+}
+
+toggleSidebar(true); // open
+if (!bodyClasses.has('sidebar-collapsed')) {
+  console.log('SUCCESS: toggleSidebar opened correctly!');
+} else {
+  console.error('FAILURE: toggleSidebar did not open sidebar.');
+  process.exit(1);
+}
+
+console.log('ALL VERTICAL SIDEBAR TESTS PASSED PERFECTLY!');
