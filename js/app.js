@@ -341,10 +341,15 @@ function renderSidebar(active){
             <span class="sb-text">UPSC Practice Hub</span>
             <span class="sb-badge badge-count">551 Qs</span>
           </a>
-          <a href="books.html" class="sb-nav-item" data-id="books" role="tab">
+          <a href="books.html" class="sb-nav-item" data-id="books" data-alt="textbooks,ncert,books,standard" role="tab">
             <span class="sb-icon">📚</span>
             <span class="sb-text">15 Textbooks Hub</span>
             <span class="sb-badge badge-count">15 Books</span>
+          </a>
+          <a href="books.html#pdf-vault" class="sb-nav-item sb-subtopic" data-id="pdf-vault" data-alt="pdf,download,ncert,epathshala,books,free" role="tab">
+            <span class="sb-icon">📥</span>
+            <span class="sb-text">Direct PDF Vault (NCERT)</span>
+            <span class="sb-badge badge-new">Free</span>
           </a>
           <a href="map.html" class="sb-nav-item" data-id="map" role="tab">
             <span class="sb-icon">🗺️</span>

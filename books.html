@@ -120,6 +120,96 @@
   font-size: 0.82rem;
   padding: 7px 10px;
 }
+.book-pdf-box {
+  background: color-mix(in srgb, var(--seal-tint) 28%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--seal) 25%, var(--line));
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+.pdf-box-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.pdf-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--seal);
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.pdf-source {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+.pdf-links-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.btn-pdf {
+  background: var(--seal);
+  color: #fff !important;
+  font-size: 0.8rem;
+  padding: 7px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  border: 1px solid var(--seal-strong);
+}
+.btn-pdf:hover {
+  background: var(--seal-strong);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+.btn-pdf-sub {
+  background: var(--bg-raised);
+  color: var(--ink);
+  font-size: 0.76rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+.btn-pdf-sub:hover {
+  border-color: var(--seal);
+  color: var(--seal);
+  background: var(--bg-sunken);
+}
+[data-theme="dark"] .btn-pdf {
+  background: #b94444;
+  color: #fff !important;
+  border-color: #d96a6a;
+}
+[data-theme="dark"] .btn-pdf:hover {
+  background: #c95555;
+}
+.pdf-vault-banner {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--seal);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  margin: 18px 0 24px;
+}
 </style>
   <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
@@ -144,9 +234,38 @@
     <div class="wrap">
       <span class="eyebrow">UPSC CSE &bull; UPPSC GS-1, 5, 6 &bull; Canonical Textbooks Synthesis</span>
       <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">The Canonical Textbooks Study Hub (15 Master Books)</h1>
-      <p class="section-desc" style="font-size:1.05rem; max-width:80ch; margin-bottom:24px;">
-        Every single concept, chronological period, art tradition, sociological dimension, and practice question across this platform is rigorously mapped to the 15 canonical standard textbooks recommended by toppers and faculty for UPSC Civil Services and State Public Service examinations. Explore chapter summaries, high-yield thematic nodes, and launch targeted Prelims MCQs and Mains answer writing drills directly by book.
+      <p class="section-desc" style="font-size:1.05rem; max-width:80ch; margin-bottom:20px;">
+        Every single concept, chronological period, art tradition, sociological dimension, and practice question across this platform is rigorously mapped to the 15 canonical standard textbooks recommended by toppers and faculty for UPSC Civil Services and State Public Service examinations. Explore chapter summaries, high-yield thematic nodes, direct open-access PDF downloads, and launch targeted Prelims MCQs and Mains answer writing drills directly by book.
       </p>
+
+      <!-- PDF Download & Digital Vault Banner -->
+      <div class="pdf-vault-banner" id="pdf-vault">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+          <div>
+            <h3 style="margin:0 0 4px; font-size:1.15rem; display:flex; align-items:center; gap:8px;">
+              <span>📥</span> Direct PDF Books &amp; Open-Access Digital Vault
+            </h3>
+            <p style="margin:0; font-size:.9rem; color:var(--ink-soft);">
+              Instant 1-click access to official NCERT e-Textbooks (Class 6–12), Ministry of Culture CCRT compendiums, and verified open-access digitized editions preserved on the Internet Archive and National Digital Library.
+            </p>
+          </div>
+          <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="background:var(--seal); border-color:var(--seal-strong);">
+            🌐 Official NCERT e-Textbook Portal ↗
+          </a>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem;">
+          <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 NCERT ePathshala Portal ↗</a>
+          <a href="https://archive.org/details/dli.ernet.4087" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏺 R.S. Sharma Ancient India PDF ↗</a>
+          <a href="https://archive.org/details/dli.ernet.4039" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">⚔️ Satish Chandra Medieval India PDF ↗</a>
+          <a href="https://archive.org/details/indias-struggle-for-independence_202106" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🇮🇳 Bipan Chandra Struggle for Independence PDF ↗</a>
+          <a href="https://archive.org/search?query=%22A+Brief+History+of+Modern+India%22+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Spectrum Modern India Reader ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🎨 NCERT Class 11 Fine Arts PDF ↗</a>
+          <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ CCRT Cultural Compendiums ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">👥 NCERT Indian Society PDF ↗</a>
+          <a href="https://archive.org/search?query=%22Mastering+Modern+World+History%22+Norman+Lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🌍 Norman Lowe World History PDF ↗</a>
+          <a href="https://archive.org/search?query=%22India+After+Gandhi%22+Ramachandra+Guha" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🕊️ India After Gandhi Reader ↗</a>
+        </div>
+      </div>
 
       <div class="filter-bar" id="booksFilterBar">
         <button class="filter-chip active" onclick="filterBooks('all', this)">All 15 Books (15)</button>
@@ -186,6 +305,18 @@
               <li><strong>Class 8:</strong> Battle of Plassey &amp; Buxar, 1857 Revolt epicenters, De-industrialization of traditional handlooms, Wood's Despatch.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?fess1=0-10" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 6: Our Pasts I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?gess1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 7: Our Pasts II PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?hess1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 8: Our Pasts III PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Our+Pasts%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="practice.html?book=ncert" class="btn btn-primary">🎯 Prelims MCQs</a>
             <a href="practice.html?mode=mains&book=ncert" class="btn btn-outline">✍️ Mains Qs</a>
@@ -212,6 +343,17 @@
               <li><strong>Class 9:</strong> Three Estates of Ancien Régime, Jacobin Club &amp; Robespierre, Bolshevik April Theses, Weimar hyperinflation, Nuremberg laws.</li>
               <li><strong>Class 10:</strong> Mazzini &amp; Cavour in Italian Unification, Bismarck's Blood &amp; Iron, Swadeshi &amp; Non-Cooperation, Gutenberg press impact.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?iess1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Class 9: World History I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?jess1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Class 10: World History II PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22India+and+the+Contemporary+World%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=norman-lowe" class="btn btn-primary">🎯 Prelims MCQs</a>
@@ -240,6 +382,18 @@
               <li><strong>Theme 5–9:</strong> Al-Biruni's Kitab-ul-Hind, Ibn Battuta's Rihla, Bhakti-Sufi traditions (Alvars, Nayanars, Virashaivas), Vijayanagara urban core &amp; Mahanavami Dibba, Ain-i-Akbari.</li>
               <li><strong>Theme 10–15:</strong> Permanent Settlement &amp; Fifth Report, Santhal Hool, 1857 proclamations, Mahatma Gandhi &amp; mass civil disobedience, Constituent Assembly debates.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?lehs1=0-4" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part I (Ancient) PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lehs2=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part II (Medieval) PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lehs3=0-6" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part III (Modern) PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Themes+in+Indian+History%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=ncert" class="btn btn-primary">🎯 Prelims MCQs</a>
@@ -270,6 +424,17 @@
               <li>Gupta classical golden age, land grant economy (Agraharas), and early Indian feudalism.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Digital Editions</span>
+              <span class="pdf-source">Internet Archive &bull; DLI National Preservation</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/dli.ernet.4087" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏺 Old NCERT: Ancient India PDF ↗</a>
+              <a href="https://archive.org/details/in.ernet.dli.2015.445969" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 India's Ancient Past (Oxford) PDF ↗</a>
+              <a href="https://archive.org/search?query=%22R.S.+Sharma%22+Ancient+India" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Complete R.S. Sharma Archive ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="practice.html?book=rs-sharma" class="btn btn-primary">🎯 Prelims MCQs</a>
             <a href="practice.html?mode=mains&book=rs-sharma" class="btn btn-outline">✍️ Mains Qs</a>
@@ -298,6 +463,16 @@
               <li>Architectural evolution of rock-cut caves (Barabar, Karle, Kanheri, Ajanta, Ellora).</li>
               <li>Peninsular dynasties: Pallavas of Kanchi, Early Chalukyas of Badami, Rashtrakutas, and Imperial Chola administrative agrarian institutions.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic &amp; Library Preservation</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Upinder+Singh%22+Ancient+Early+Medieval" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏛️ Upinder Singh Digital Archive Reader ↗</a>
+              <a href="https://archive.org/details/ahistoryofancientandearlymedievalindiafromthestoneagettothe12thcenturyupindersingh_202003_121_R" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Digital Research Copy ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=upinder-singh" class="btn btn-primary">🎯 Prelims MCQs</a>
@@ -328,6 +503,17 @@
               <li>Chhatrapati Shivaji's Ashtapradhan council, Chauth &amp; Sardeshmukhi levies.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Digital Editions</span>
+              <span class="pdf-source">Old NCERT Class 11 &bull; DLI Archive</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/dli.ernet.4039" target="_blank" rel="noopener noreferrer" class="btn-pdf">⚔️ Old NCERT: Medieval India PDF ↗</a>
+              <a href="https://archive.org/details/in.ernet.dli.2015.447529" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 Medieval India (812-1526) DLI PDF ↗</a>
+              <a href="https://archive.org/search?query=%22Satish+Chandra%22+Medieval+India" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Satish Chandra Digital Archive ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="practice.html?book=satish-chandra" class="btn btn-primary">🎯 Prelims MCQs</a>
             <a href="practice.html?mode=mains&book=satish-chandra" class="btn btn-outline">✍️ Mains Qs</a>
@@ -356,6 +542,16 @@
               <li>Constitutional development: Regulating Act 1773, Charter Acts, Indian Councils Acts 1861/1892, Morley-Minto 1909, Montagu-Chelmsford 1919, GoI Act 1935.</li>
               <li>Swadeshi movement, Non-Cooperation, Civil Disobedience, Cripps Mission, Quit India, Cabinet Mission 1946.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Digital Reference &amp; Study Readers</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22A+Brief+History+of+Modern+India%22+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 Spectrum Modern India Archive Reader ↗</a>
+              <a href="https://archive.org/search?query=Spectrum+Modern+India+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Spectrum Editions Archive ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=spectrum" class="btn btn-primary">🎯 Prelims MCQs</a>
@@ -386,6 +582,17 @@
               <li>Revolutionary socialism (HRA, HSRA, Kakori, Bhagat Singh) and the socio-economic radicalization of the 1930s.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Full-Text PDF</span>
+              <span class="pdf-source">Internet Archive Public Domain / Library Loan</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/indias-struggle-for-independence_202106" target="_blank" rel="noopener noreferrer" class="btn-pdf">🇮🇳 Full Text Struggle for Independence PDF ↗</a>
+              <a href="https://archive.org/details/indiasstrugglefo0000unse" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+              <a href="https://archive.org/search?query=%22Modern+India%22+Bipan+Chandra" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 Old NCERT Modern India Archive ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="practice.html?book=bipan-chandra" class="btn btn-primary">🎯 Prelims MCQs</a>
             <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Qs</a>
@@ -414,6 +621,17 @@
               <li>Performing Arts: 8 Sangeet Natak Akademi classical dances, Natyashastra instrument classification (Tata, Sushira, Avanaddha, Ghana), Puppetry, and martial arts (Kalaripayattu, Thang-Ta).</li>
               <li>Indian Philosophy: Six Astika schools (Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa, Vedanta) &amp; Shramanic traditions.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official Portals &amp; Library Preservation</span>
+              <span class="pdf-source">Ministry of Culture CCRT &bull; Internet Archive</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏛️ CCRT Official Heritage Compendiums ↗</a>
+              <a href="https://archive.org/search?query=%22Indian+Art+and+Culture%22+Nitin+Singhania" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🎨 Singhania Digital Archive Reader ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏺 NCERT Class 11 Fine Arts PDF ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=nitin-singhania" class="btn btn-primary">🎯 Prelims MCQs</a>
@@ -444,6 +662,16 @@
               <li>Post-1945 Geopolitics: United Nations formation, Cold War (Containment, Cuban Missile Crisis 1962), Decolonization in Asia/Africa, Bandung Conference &amp; NAM, Collapse of the USSR 1991.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open Library &amp; Academic Preservation</span>
+              <span class="pdf-source">Internet Archive World History Collections</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Mastering+Modern+World+History%22+Norman+Lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Norman Lowe World History Archive Reader ↗</a>
+              <a href="https://archive.org/details/masteringmodernw0000lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Edition ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="practice.html?book=norman-lowe" class="btn btn-primary">🎯 Prelims MCQs</a>
             <a href="practice.html?mode=mains&book=norman-lowe" class="btn btn-outline">✍️ Mains Qs</a>
@@ -473,6 +701,16 @@
               <li><strong>Modern Transformations:</strong> Secularism in India vs Western models, social deviance, youth unrest, and drug abuse problems.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Digital Preservation</span>
+              <span class="pdf-source">Internet Archive Sociology Repository</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Society+in+India%22+OR+%22Social+Problems+in+India%22+Ram+Ahuja" target="_blank" rel="noopener noreferrer" class="btn-pdf">👥 Ram Ahuja Society &amp; Problems Reader ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 NCERT Class 12 Indian Society PDF ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="society.html" class="btn btn-primary">🏛️ Indian Society Hub</a>
             <a href="practice.html?category=modern" class="btn btn-outline">🎯 Practice Qs</a>
@@ -499,6 +737,18 @@
               <li><strong>Class 12 Indian Society:</strong> Demographic structure of India (TFR, Ageing, Dividend), Caste &amp; Tribe institutions, Patterns of social inequality &amp; exclusion (Dalits, Adivasis, Women, Disabled), Challenges of Cultural Diversity.</li>
               <li><strong>Class 12 Social Change:</strong> Structural Change (Colonialism &amp; Urbanization), Cultural Change (Sanskritization, Modernization), Agrarian Structure, Globalization &amp; Social Change, Social Movements (Peasant, Dalit, Women, Environmental).</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?kesy1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">📊 Class 11: Introducing Sociology PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf">👥 Class 12: Indian Society PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy2=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">🔄 Class 12: Social Change in India PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Indian+Society%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="society.html" class="btn btn-primary">🏛️ Society Module</a>
@@ -529,6 +779,18 @@
               <li><strong>Temple Forms:</strong> Deogarh Dashavatara Gupta temple, Khajuraho Kandariya Mahadeva, Thanjavur Brihadisvara Vimana, Konark Sun Temple.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official Fine Arts e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal &bull; Ministry of Culture</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏺 Class 11 Fine Arts Part I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lefa1=0-6" target="_blank" rel="noopener noreferrer" class="btn-pdf">🎨 Class 12 Fine Arts Part II PDF ↗</a>
+              <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ CCRT Cultural Modules ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Introduction+to+Indian+Art%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Archive Editions ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="art-culture.html" class="btn btn-primary">🎨 Art &amp; Culture Hub</a>
             <a href="practice.html?category=art-culture" class="btn btn-outline">🎯 Culture MCQs</a>
@@ -558,6 +820,17 @@
               <li><strong>Polity &amp; Crises:</strong> 1975-77 Internal Emergency, JP Total Revolution, Rise of Regional Parties, Coalition Era (1989-2014), Naxalbari uprising.</li>
             </ul>
           </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Preservation &amp; Library Readers</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22India+After+Gandhi%22+Ramachandra+Guha" target="_blank" rel="noopener noreferrer" class="btn-pdf">🕊️ India After Gandhi Archive Reader ↗</a>
+              <a href="https://archive.org/search?query=%22India+Since+Independence%22+Bipan+Chandra" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🇮🇳 India Since Independence Reader ↗</a>
+              <a href="https://archive.org/details/indiaaftergandhi0000guha" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+            </div>
+          </div>
           <div class="book-actions">
             <a href="timeline.html#independent-india-overview" class="btn btn-primary">⏱️ Post-1947 Timeline</a>
             <a href="practice.html?category=modern" class="btn btn-outline">🎯 Practice MCQs</a>
@@ -586,6 +859,16 @@
               <li><strong>Nationalism Dynamics:</strong> Limitations of elite politics, Gramscian hegemonic nature of colonial rule, Subaltern autonomous peasant consciousness.</li>
               <li><strong>Partition &amp; Independence:</strong> Cabinet Mission negotiations, Mountbatten 3rd June Plan, communal mobilization, Radcliffe boundary drawing and human cost.</li>
             </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Digital Preservation</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22From+Plassey+to+Partition%22+Sekhar+Bandyopadhyay" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 From Plassey to Partition Archive Reader ↗</a>
+              <a href="https://archive.org/details/fromplasseyparti00band" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+            </div>
           </div>
           <div class="book-actions">
             <a href="practice.html?book=spectrum" class="btn btn-primary">🎯 Modern MCQs</a>
