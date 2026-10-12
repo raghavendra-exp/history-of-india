@@ -60,8 +60,8 @@ const SUBJECT_TABS = [
   { id: 'society', label: 'Indian Society', icon: '👥', href: 'society.html', badge: 'New' },
   { id: 'up', label: 'UP History', icon: '🏛️', href: 'up-history.html' },
   { id: 'map', label: 'Map Lab', icon: '🗺️', href: 'map.html' },
-  { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '551 Qs' },
-  { id: 'books', label: '15 Textbooks', icon: '📚', href: 'books.html', badge: 'Expanded' },
+  { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '5k+ Qs' },
+  { id: 'books', label: '27 Books', icon: '📚', href: 'books.html', badge: '27 Books' },
   { id: 'themes', label: 'Themes', icon: '🏷️', href: 'themes.html' },
   { id: 'people', label: 'People', icon: '👤', href: 'people.html' },
   { id: 'women', label: 'Women', icon: '👑', href: 'women.html' },
@@ -75,7 +75,7 @@ const PAGE_TITLE_MAP = {
   'practice.html': 'UPSC Hub',
   'art-culture.html': 'Art & Culture',
   'society.html': 'Indian Society',
-  'books.html': '15 Textbooks',
+  'books.html': '27 Books',
   'up-history.html': 'UP History',
   'themes.html': 'Themes',
   'people.html': 'People',
@@ -91,6 +91,29 @@ function renderNav(active){
   if (!el) return;
 
   const currentLabel = PAGE_TITLE_MAP[active] || 'Overview';
+
+  // Primary hubs
+  const primaryLinks = [
+    { href: 'timeline.html', label: 'Timeline' },
+    { href: 'art-culture.html', label: 'Art & Culture', badge: 'New' },
+    { href: 'society.html', label: 'Society', badge: 'New' },
+    { href: 'map.html', label: 'Map Lab' },
+    { href: 'practice.html', label: 'UPSC Hub', badge: '5k+ Qs' },
+    { href: 'books.html', label: '27 Books' },
+    { href: 'up-history.html', label: 'UP History' }
+  ];
+
+  // Secondary hubs for "More ▾" dropdown
+  const moreItems = [
+    { href: 'themes.html', label: 'Themes Explorer', desc: '12 thematic cross-cutting threads', icon: '🏷️' },
+    { href: 'people.html', label: 'Key Personalities', desc: 'Rulers, scholars & philosophers', icon: '👤' },
+    { href: 'women.html', label: 'Women in History', desc: 'Rulers, scholars & freedom fighters', icon: '👑' },
+    { href: 'graph.html', label: 'Knowledge Graph', desc: 'Computed graph of people & events', icon: '🕸️' },
+    { href: 'search.html', label: 'Search Atlas', desc: 'Full-text index & era filters', icon: '🔍' },
+    { href: 'about.html', label: 'Sources & Method', desc: '27 Canonical books & methodology', icon: 'ℹ️' }
+  ];
+
+  const isMoreActive = moreItems.some(item => item.href === active);
 
   el.innerHTML = `
     <div class="nav-inner">
@@ -116,6 +139,34 @@ function renderNav(active){
         </nav>
       </div>
 
+      <!-- Main Navigation Hubs & More Dropdown -->
+      <nav class="nav-main-links" id="navMainLinks" aria-label="Main Navigation">
+        ${primaryLinks.map(l => `
+          <a href="${l.href}" class="nav-item ${active === l.href ? 'active' : ''}">
+            <span>${l.label}</span>
+            ${l.badge ? `<span class="nav-badge ${l.badge.includes('5k') ? 'nav-badge-count' : 'nav-badge-new'}">${l.badge}</span>` : ''}
+          </a>
+        `).join('')}
+
+        <div class="nav-dropdown" id="navMoreDropdownWrap">
+          <button class="nav-dropdown-btn ${isMoreActive ? 'active' : ''}" id="navMoreBtn" onclick="toggleNavDropdown(event)" aria-expanded="false" aria-haspopup="true">
+            <span>More</span>
+            <svg class="dropdown-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" id="navMoreDropdown" role="menu">
+            ${moreItems.map(item => `
+              <a href="${item.href}" class="nav-dropdown-item ${active === item.href ? 'active' : ''}" role="menuitem">
+                <span class="ndi-icon">${item.icon}</span>
+                <div class="ndi-text">
+                  <span class="ndi-title">${item.label}</span>
+                  <span class="ndi-desc">${item.desc}</span>
+                </div>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      </nav>
+
       <div class="nav-tools">
         <button class="spotlight-btn" onclick="openSpotlight()" title="Search anything (Ctrl+K)">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -138,6 +189,51 @@ function renderNav(active){
   initSpotlight();
   initCalculator();
   updateThemeIcon();
+}
+
+function toggleNavDropdown(e){
+  if (e) {
+    if (typeof e.preventDefault === 'function') e.preventDefault();
+    if (typeof e.stopPropagation === 'function') e.stopPropagation();
+  }
+  const wrap = document.getElementById('navMoreDropdownWrap');
+  const btn = document.getElementById('navMoreBtn');
+  if (!wrap || !btn) return;
+  const willOpen = !wrap.classList.contains('open');
+  if (willOpen) {
+    wrap.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  } else {
+    wrap.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+}
+
+function closeNavDropdown(){
+  const wrap = document.getElementById('navMoreDropdownWrap');
+  const btn = document.getElementById('navMoreBtn');
+  if (wrap && wrap.classList.contains('open')) {
+    wrap.classList.remove('open');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  }
+}
+
+// Global outside-click and escape key listeners for nav dropdown
+if (typeof document !== 'undefined' && typeof document.addEventListener === 'function') {
+  document.addEventListener('click', (e) => {
+    const wrap = document.getElementById('navMoreDropdownWrap');
+    if (wrap && wrap.classList.contains('open')) {
+      if (e && e.target && typeof wrap.contains === 'function' && !wrap.contains(e.target)) {
+        closeNavDropdown();
+      }
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e && e.key === 'Escape') {
+      closeNavDropdown();
+    }
+  });
 }
 
 function renderSidebar(active){
@@ -339,12 +435,12 @@ function renderSidebar(active){
           <a href="practice.html" class="sb-nav-item" data-id="practice" role="tab">
             <span class="sb-icon">🎯</span>
             <span class="sb-text">UPSC Practice Hub</span>
-            <span class="sb-badge badge-count">551 Qs</span>
+            <span class="sb-badge badge-count">5,060+ Qs</span>
           </a>
           <a href="books.html" class="sb-nav-item" data-id="books" data-alt="textbooks,ncert,books,standard" role="tab">
             <span class="sb-icon">📚</span>
-            <span class="sb-text">15 Textbooks Hub</span>
-            <span class="sb-badge badge-count">15 Books</span>
+            <span class="sb-text">27 Textbooks Hub</span>
+            <span class="sb-badge badge-count">27 Books</span>
           </a>
           <a href="books.html#pdf-vault" class="sb-nav-item sb-subtopic" data-id="pdf-vault" data-alt="pdf,download,ncert,epathshala,books,free" role="tab">
             <span class="sb-icon">📥</span>
@@ -572,8 +668,8 @@ function renderMobileDrawer(active){
     { href: 'art-culture.html', label: 'Indian Heritage & Culture', icon: '🎨', badge: 'New' },
     { href: 'society.html', label: 'Indian Society & Issues', icon: '👥', badge: 'New' },
     { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'Atlas' },
-    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '551 Qs' },
-    { href: 'books.html', label: '15 Canonical Textbooks', icon: '📚', badge: 'Expanded' },
+    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '5k+ Qs' },
+    { href: 'books.html', label: '27 Textbooks & Compendiums', icon: '📚', badge: '27 Books' },
     { href: 'up-history.html', label: 'Uttar Pradesh (UPPSC)', icon: '🏛️' },
     { href: 'themes.html', label: 'Themes Explorer', icon: '🏷️' },
     { href: 'people.html', label: 'Key Personalities', icon: '👤' },
