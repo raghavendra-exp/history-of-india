@@ -25,7 +25,7 @@ eval(appJs);
 const pages = [
   'index.html', 'timeline.html', 'map.html', 'practice.html', 'art-culture.html',
   'society.html', 'books.html', 'up-history.html', 'themes.html', 'people.html',
-  'women.html', 'graph.html', 'about.html', 'search.html', 'period.html'
+  'women.html', 'graph.html', 'about.html', 'search.html', 'period.html', 'syllabus.html'
 ];
 
 for (const p of pages) {

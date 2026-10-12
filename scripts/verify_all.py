@@ -52,7 +52,8 @@ PAGES = [
     'women.html',
     'graph.html',
     'search.html',
-    'about.html'
+    'about.html',
+    'syllabus.html'
 ]
 for p in PAGES:
     assert os.path.exists(p), f"Missing page {p}"

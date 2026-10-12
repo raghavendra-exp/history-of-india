@@ -83,6 +83,7 @@ const PAGE_TITLE_MAP = {
   'graph.html': 'Knowledge Graph',
   'about.html': 'About',
   'search.html': 'Search',
+  'syllabus.html': 'Exam Syllabus',
   'period.html': 'Period Detail'
 };
 
@@ -105,6 +106,7 @@ function renderNav(active){
 
   // Secondary hubs for "More ▾" dropdown
   const moreItems = [
+    { href: 'syllabus.html', label: 'Exam Syllabus Hub', desc: 'UPSC, UPPSC, RO/ARO & RRB tracks', icon: '📋' },
     { href: 'themes.html', label: 'Themes Explorer', desc: '12 thematic cross-cutting threads', icon: '🏷️' },
     { href: 'people.html', label: 'Key Personalities', desc: 'Rulers, scholars & philosophers', icon: '👤' },
     { href: 'women.html', label: 'Women in History', desc: 'Rulers, scholars & freedom fighters', icon: '👑' },
@@ -670,6 +672,7 @@ function renderMobileDrawer(active){
     { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'Atlas' },
     { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '8k+ Qs' },
     { href: 'books.html', label: '27 Textbooks & Compendiums', icon: '📚', badge: '27 Books' },
+    { href: 'syllabus.html', label: 'Exam Syllabus Hub', icon: '📋', badge: 'All Exams' },
     { href: 'up-history.html', label: 'Uttar Pradesh (UPPSC)', icon: '🏛️' },
     { href: 'themes.html', label: 'Themes Explorer', icon: '🏷️' },
     { href: 'people.html', label: 'Key Personalities', icon: '👤' },
