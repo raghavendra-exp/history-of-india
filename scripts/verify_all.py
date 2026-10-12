@@ -7,7 +7,7 @@ import glob
 with open('data/prelims-questions.json', 'r', encoding='utf-8') as f:
     prelims = json.load(f)
 print(f"Prelims MCQs Count: {len(prelims)}")
-assert len(prelims) >= 500, "Prelims questions under 500"
+assert len(prelims) >= 5000, "Prelims questions under 5000"
 
 # Verify structure of Prelims
 for q in prelims:
@@ -83,9 +83,9 @@ print("Timeline Breadcrumbs and Era Filtering verified!")
 
 print("\n========================================================")
 print("SUCCESS: ALL BENCHMARKS STRICTLY MET AND VERIFIED!")
-print(f"  - Prelims MCQs: {len(prelims)} (Required: >500)")
+print(f"  - Prelims MCQs: {len(prelims)} (Required: >=5000)")
 print(f"  - Mains Questions: {len(mains)} (Required: 200+)")
-print(f"  - 23 Canonical Textbooks & Compendiums: Fully integrated into books.html, practice questions, and filters")
+print(f"  - 27 Canonical Textbooks & Compendiums: Fully integrated into books.html, practice questions, and filters")
 print(f"  - Google Maps Engine: Real GPS coordinates, Satellite/Terrain/Roadmap tiles & 3D links")
 print(f"  - Breadcrumb Style Top Header & Subject Tabs: Verified across all pages and eras")
 print("========================================================")
