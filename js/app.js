@@ -97,16 +97,16 @@ function renderNav(active){
   const primaryLinks = [
     { href: 'timeline.html', label: 'Timeline' },
     { href: 'art-culture.html', label: 'Art & Culture', badge: 'New' },
-    { href: 'society.html', label: 'Society', badge: 'New' },
     { href: 'map.html', label: 'Map Lab' },
-    { href: 'practice.html', label: 'UPSC Hub', badge: '8k+ Qs' },
-    { href: 'books.html', label: '27 Books' },
-    { href: 'up-history.html', label: 'UP History' }
+    { href: 'practice.html', label: 'UPSC Hub', badge: '8k+' },
+    { href: 'books.html', label: '27 Books' }
   ];
 
   // Secondary hubs for "More ▾" dropdown
   const moreItems = [
     { href: 'syllabus.html', label: 'Exam Syllabus Hub', desc: 'UPSC, UPPSC, RO/ARO & RRB tracks', icon: '📋' },
+    { href: 'society.html', label: 'Indian Society', desc: 'Salient features, diversity & issues', icon: '👥' },
+    { href: 'up-history.html', label: 'UP History (UPPSC)', desc: 'Uttar Pradesh history, art & heritage', icon: '🏛️' },
     { href: 'themes.html', label: 'Themes Explorer', desc: '12 thematic cross-cutting threads', icon: '🏷️' },
     { href: 'people.html', label: 'Key Personalities', desc: 'Rulers, scholars & philosophers', icon: '👤' },
     { href: 'women.html', label: 'Women in History', desc: 'Rulers, scholars & freedom fighters', icon: '👑' },
@@ -179,7 +179,7 @@ function renderNav(active){
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M8 18h.01M12 18h.01"/></svg>
         </button>
         <button class="upsc-toggle" id="upscToggle" aria-pressed="${document.body.classList.contains('upsc-on')}" onclick="toggleUpsc()" title="Toggle UPSC revision mode">
-          <span class="dot"></span> UPSC Mode
+          <span class="dot"></span> <span class="upsc-toggle-text">UPSC Mode</span>
         </button>
         <button class="icon-btn" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode"></button>
       </div>

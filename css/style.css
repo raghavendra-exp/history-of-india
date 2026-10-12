@@ -151,10 +151,11 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{
 
 .nav-inner {
   display: flex; align-items: center; justify-content: space-between;
-  gap: 14px; height: 52px; padding: 0 24px;
+  gap: 12px; height: 52px; padding: 0 20px;
+  max-width: 100%; box-sizing: border-box;
 }
 @media (max-width: 640px) {
-  .nav-inner { padding: 0 14px; height: 48px; }
+  .nav-inner { padding: 0 12px; height: 48px; gap: 8px; }
 }
 
 .nav-left-cluster {
@@ -181,22 +182,24 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{
 
 /* Breadcrumb in Top Header */
 .header-breadcrumb {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-family: var(--font-mono); font-size: .78rem; letter-spacing: .02em;
-  min-width: 0; overflow: hidden; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--font-mono); font-size: .75rem; letter-spacing: .02em;
+  min-width: 0; max-width: 220px; overflow: hidden; white-space: nowrap;
+  flex-shrink: 1;
 }
 .hbc-sep {
-  color: var(--ink-faint); opacity: .45; font-size: .76rem; user-select: none;
+  color: var(--ink-faint); opacity: .45; font-size: .74rem; user-select: none; flex-shrink: 0;
 }
 .hbc-item {
   color: var(--ink-soft); text-decoration: none; transition: color .15s ease;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .hbc-item:hover { color: var(--seal); }
-.hbc-home { font-weight: 600; color: var(--ink-soft); }
-.hbc-link { font-weight: 600; color: var(--accent); }
+.hbc-home { font-weight: 600; color: var(--ink-soft); flex-shrink: 0; }
+.hbc-link { font-weight: 600; color: var(--accent); max-width: 90px; }
 .hbc-current {
   color: var(--seal); font-weight: 700; text-overflow: ellipsis;
-  overflow: hidden; max-width: 260px; display: inline-block; vertical-align: bottom;
+  overflow: hidden; max-width: 130px; display: inline-block; vertical-align: bottom;
 }
 
 /* ============ MAIN HEADER NAVIGATION LINKS & DROPDOWN ============ */
@@ -207,8 +210,8 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{
   gap: 3px;
   list-style: none;
   margin: 0;
-  padding: 0;
-  flex: 1;
+  padding: 0 4px;
+  flex: 0 1 auto;
   min-width: 0;
 }
 
@@ -216,16 +219,17 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 6px 10px;
+  padding: 6px 9px;
   border-radius: var(--radius);
   font-family: var(--font-body);
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   font-weight: 500;
   color: var(--ink-soft);
   text-decoration: none;
   white-space: nowrap;
   transition: all 0.15s ease;
   position: relative;
+  flex-shrink: 0;
 }
 
 .nav-item:hover {
@@ -422,34 +426,74 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{
 }
 
 /* Responsive navigation breakpoints */
-@media (max-width: 1320px) {
+@media (max-width: 1540px) {
   .header-breadcrumb { display: none !important; }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1320px) {
+  .spotlight-kbd { display: none !important; }
   .nav-item .nav-badge { display: none !important; }
+  .nav-item, .nav-dropdown-btn {
+    padding: 5px 8px;
+    font-size: 0.81rem;
+    gap: 4px;
+  }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1180px) {
+  .spotlight-btn .spotlight-label { display: none !important; }
+  .spotlight-btn {
+    padding: 8px !important;
+    border-radius: 50% !important;
+    min-width: 36px; height: 36px;
+    justify-content: center;
+  }
+  .upsc-toggle {
+    padding: 5px 8px;
+    font-size: 0.64rem;
+  }
+  .nav-item, .nav-dropdown-btn {
+    padding: 5px 6px;
+    font-size: 0.79rem;
+    gap: 3px;
+  }
+  .nav-main-links {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 1040px) {
   .nav-main-links { display: none !important; }
 }
 
+@media (max-width: 720px) {
+  .upsc-toggle .upsc-toggle-text { display: none; }
+  .upsc-toggle { padding: 6px 8px; }
+}
+
+@media (max-width: 600px) {
+  .brand-title { display: none; }
+  .brand { gap: 4px; }
+  .upsc-toggle { display: none !important; }
+}
+
 /* Nav Tools & Action buttons */
-.nav-tools { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.nav-tools { display: flex; align-items: center; gap: 8px; flex-shrink: 0; min-width: 0; }
 .icon-btn {
   width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line);
   background: var(--bg-raised); color: var(--ink); display: flex; align-items: center; justify-content: center;
-  cursor: pointer; transition: .15s;
+  cursor: pointer; transition: .15s; flex-shrink: 0;
 }
 .icon-btn:hover { border-color: var(--seal); color: var(--seal); transform: translateY(-1px); }
 .upsc-toggle {
   display: flex; align-items: center; gap: 6px; font-family: var(--font-mono); font-size: .68rem; letter-spacing: .08em;
   border: 1px solid var(--line); background: var(--bg-raised); border-radius: 20px; padding: 6px 12px; cursor: pointer;
-  color: var(--ink-soft); text-transform: uppercase; font-weight: 600;
+  color: var(--ink-soft); text-transform: uppercase; font-weight: 600; white-space: nowrap; flex-shrink: 0;
+  transition: all .15s ease;
 }
 .upsc-toggle[aria-pressed="true"] { background: var(--gold-tint); border-color: var(--gold); color: var(--gold-strong,#8a611f); }
 [data-theme="dark"] .upsc-toggle[aria-pressed="true"] { color: var(--gold); }
-.upsc-toggle .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
+.upsc-toggle .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--line); flex-shrink: 0; }
 .upsc-toggle[aria-pressed="true"] .dot { background: var(--gold); }
 
 body.upsc-on .upsc-only { display: block !important; }
@@ -1046,15 +1090,6 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:34px 0;}
   .spotlight-btn .spotlight-label,
   .spotlight-btn .spotlight-kbd { display: none; }
   .spotlight-btn { padding: 8px; border-radius: 50%; }
-  .header-breadcrumb { max-width: 240px; }
-  .hbc-current { max-width: 140px; }
-}
-@media (max-width: 600px) {
-  .brand-title { display: none; }
-  .brand { gap: 4px; }
-  .header-breadcrumb { max-width: 140px; font-size: 0.72rem; }
-  .hbc-current { max-width: 90px; }
-  .upsc-toggle { display: none; }
 }
 
 /* ============ SPOTLIGHT MODAL (Ctrl+K) ============ */

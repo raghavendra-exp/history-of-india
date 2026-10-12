@@ -90,7 +90,8 @@ additional_tests = [
     ("test_books_dom.js", "27 Canonical Textbooks"),
     ("test_map_dom.js", "Historical Map GPS Coordinates"),
     ("test_history_data_integrity.js", "85 Period Chapters Data Integrity"),
-    ("comprehensive_site_audit.js", "Cross-Page Assets & Links Integrity")
+    ("comprehensive_site_audit.js", "Cross-Page Assets & Links Integrity"),
+    ("audit_header_layout.js", "Header Layout & Overlap-Free Responsive Boundaries")
 ]
 
 for script_name, desc in additional_tests:
