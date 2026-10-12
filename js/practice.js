@@ -34,7 +34,9 @@ const HistoryPractice = (() => {
     { id: 'modern', label: 'Modern India' },
     { id: 'art-culture', label: 'Art & Culture' },
     { id: 'world-history', label: 'World History' },
-    { id: 'up-history', label: 'UP Special' }
+    { id: 'up-history', label: 'UP Special' },
+    { id: 'ro-hindi', label: 'RO/ARO General Hindi' },
+    { id: 'science-tech', label: 'General Science & Tech' }
   ];
 
   // Load saved state
@@ -139,7 +141,7 @@ const HistoryPractice = (() => {
       case 'uppsc':
         return tag === 'uppsc' || yr.includes('uppsc') || yr.includes('pcs');
       case 'ro-aro':
-        return tag === 'ro-aro' || yr.includes('ro/aro') || yr.includes('ro-aro') || yr.includes('samiksha');
+        return tag === 'ro-aro' || tag === 'roaro' || yr.includes('ro/aro') || yr.includes('ro-aro') || yr.includes('samiksha');
       case 'bank':
         return tag === 'bank' || yr.includes('bank') || yr.includes('ibps') || yr.includes('sbi') || yr.includes('rbi');
       case 'rrb':
@@ -151,7 +153,14 @@ const HistoryPractice = (() => {
 
   function getFilteredPrelims() {
     return prelimsData.filter(q => {
-      if (activeCategory !== 'all' && q.category !== activeCategory) return false;
+      if (activeCategory !== 'all') {
+        const cat = q.category || q.periodId || '';
+        if (cat !== activeCategory && 
+            !(activeCategory === 'up-history' && (cat === 'up-special' || cat === 'ro-hindi')) && 
+            !(activeCategory === 'world-history' && cat === 'world')) {
+          return false;
+        }
+      }
       if (pyqOnly && !q.isPyq) return false;
       if (!matchesBook(q.bookRef, activeBook)) return false;
       if (!matchesExam(q, activeExam)) return false;
@@ -165,7 +174,14 @@ const HistoryPractice = (() => {
 
   function getFilteredMains() {
     return mainsData.filter(m => {
-      if (activeCategory !== 'all' && m.category !== activeCategory) return false;
+      if (activeCategory !== 'all') {
+        const cat = m.category || m.periodId || '';
+        if (cat !== activeCategory && 
+            !(activeCategory === 'up-history' && cat === 'up-special') && 
+            !(activeCategory === 'world-history' && cat === 'world')) {
+          return false;
+        }
+      }
       if (pyqOnly && !m.isPyq) return false;
       if (!matchesBook(m.bookRef, activeBook)) return false;
       if (!matchesExam(m, activeExam)) return false;

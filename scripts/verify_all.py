@@ -7,7 +7,7 @@ import glob
 with open('data/prelims-questions.json', 'r', encoding='utf-8') as f:
     prelims = json.load(f)
 print(f"Prelims MCQs Count: {len(prelims)}")
-assert len(prelims) >= 5000, "Prelims questions under 5000"
+assert len(prelims) >= 8000, "Prelims questions under 8000"
 
 # Verify structure of Prelims
 for q in prelims:
@@ -22,7 +22,7 @@ for q in prelims:
 with open('data/mains-questions.json', 'r', encoding='utf-8') as f:
     mains = json.load(f)
 print(f"Mains Questions Count: {len(mains)}")
-assert len(mains) >= 200, "Mains questions under 200"
+assert len(mains) >= 250, "Mains questions under 250"
 
 # Verify structure of Mains
 for m in mains:

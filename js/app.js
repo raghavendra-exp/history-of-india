@@ -60,7 +60,7 @@ const SUBJECT_TABS = [
   { id: 'society', label: 'Indian Society', icon: '👥', href: 'society.html', badge: 'New' },
   { id: 'up', label: 'UP History', icon: '🏛️', href: 'up-history.html' },
   { id: 'map', label: 'Map Lab', icon: '🗺️', href: 'map.html' },
-  { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '5k+ Qs' },
+  { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '8k+ Qs' },
   { id: 'books', label: '27 Books', icon: '📚', href: 'books.html', badge: '27 Books' },
   { id: 'themes', label: 'Themes', icon: '🏷️', href: 'themes.html' },
   { id: 'people', label: 'People', icon: '👤', href: 'people.html' },
@@ -98,7 +98,7 @@ function renderNav(active){
     { href: 'art-culture.html', label: 'Art & Culture', badge: 'New' },
     { href: 'society.html', label: 'Society', badge: 'New' },
     { href: 'map.html', label: 'Map Lab' },
-    { href: 'practice.html', label: 'UPSC Hub', badge: '5k+ Qs' },
+    { href: 'practice.html', label: 'UPSC Hub', badge: '8k+ Qs' },
     { href: 'books.html', label: '27 Books' },
     { href: 'up-history.html', label: 'UP History' }
   ];
@@ -435,7 +435,7 @@ function renderSidebar(active){
           <a href="practice.html" class="sb-nav-item" data-id="practice" role="tab">
             <span class="sb-icon">🎯</span>
             <span class="sb-text">UPSC Practice Hub</span>
-            <span class="sb-badge badge-count">5,060+ Qs</span>
+            <span class="sb-badge badge-count">8,160+ Qs</span>
           </a>
           <a href="books.html" class="sb-nav-item" data-id="books" data-alt="textbooks,ncert,books,standard" role="tab">
             <span class="sb-icon">📚</span>
@@ -668,7 +668,7 @@ function renderMobileDrawer(active){
     { href: 'art-culture.html', label: 'Indian Heritage & Culture', icon: '🎨', badge: 'New' },
     { href: 'society.html', label: 'Indian Society & Issues', icon: '👥', badge: 'New' },
     { href: 'map.html', label: 'Historical Map Lab', icon: '🗺️', badge: 'Atlas' },
-    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '5k+ Qs' },
+    { href: 'practice.html', label: 'UPSC Practice Hub', icon: '🎯', badge: '8k+ Qs' },
     { href: 'books.html', label: '27 Textbooks & Compendiums', icon: '📚', badge: '27 Books' },
     { href: 'up-history.html', label: 'Uttar Pradesh (UPPSC)', icon: '🏛️' },
     { href: 'themes.html', label: 'Themes Explorer', icon: '🏷️' },
