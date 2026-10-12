@@ -266,7 +266,8 @@
           • <strong>CCRT Compendiums</strong> (Centre for Cultural Resources &amp; Training) &bull;
           • <strong>Percy Brown</strong> (Indian Architecture: Buddhist &amp; Hindu, Islamic Periods) &bull;
           • <strong>A.L. Basham</strong> (The Wonder That Was India) &bull;
-          • <strong>Kapila Vatsyayan</strong> (Classical Indian Dance in Literature &amp; the Arts)
+          • <strong>Kapila Vatsyayan</strong> (Classical Indian Dance in Literature &amp; the Arts) &bull;
+          • <strong>Ishani Pandya</strong> (Visual Art, Architecture, Paintings &amp; Performing Arts Compendiums)
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem; padding-top:10px; border-top:1px dashed var(--line-soft);">
           <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--accent); border-color:var(--accent-strong);">🏺 NCERT Class 11 Fine Arts Part I PDF ↗</a>
@@ -520,6 +521,81 @@
 <script>
 // Master Data Store for Indian Heritage & Culture Module
 const CULTURE_DATA = [
+  {
+    id: 'sculptural-schools',
+    category: 'art-forms',
+    type: 'Sculpture',
+    title: 'Ancient Sculptural Schools: Gandhara, Mathura & Amaravati',
+    era: '1st c. BCE – 4th c. CE (Kushana & Satavahana Periods)',
+    subtitle: 'Greco-Roman Synthesis vs. Indigenous Spiritual Realism & Narrative Reliefs',
+    desc: 'The Post-Mauryan and Kushana period witnessed the revolutionary anthropomorphic depiction of the Buddha across three great sculptural schools, each distinguished by local stones, aesthetic philosophies, drapery treatments, and patron dynasties.',
+    features: [
+      'Gandhara School (NW Frontier, Taxila, Bamiyan): Greco-Roman Hellenistic synthesis; grey/bluish schist stone and stucco; Apollo-like realistic facial anatomy, wavy curly hair, sharp nose, muscular torso, heavy toga-like drapery with realistic deep folds, Buddha shown in yogic dhyana with gentle calm.',
+      'Mathura School (Uttar Pradesh): Purely indigenous Indian style; spotted red sandstone; Buddha depicted with shaved head, right hand in Abhaya Mudra, broad masculine shoulders, transparent light drapery clinging to body, smiling tranquil countenance; pioneered simultaneous iconography of Hindu deities (Vishnu, Shiva, Surya) and Jain Ayagapatas.',
+      'Amaravati School (Andhra Pradesh, Krishna-Godavari Basin): White crystalline marble/limestone; patronized by Satavahanas and Ikshvakus; master of dynamic narrative relief panels on stupas rather than isolated icons; figures depicted in lively, ecstatic movement, elongated limbs, and dramatic Tribhanga postures capturing Jataka stories.'
+    ],
+    upscFact: 'UPSC Elimination Trap: Gandhara art was heavily influenced by foreign Hellenistic techniques, but its theme was almost exclusively Buddhist; Mathura art was fully indigenous and secularly pan-religious (Buddhist, Jain, and Brahmanical).',
+    timelineRef: 'post-mauryan-period',
+    bookRef: 'Ishani Pandya L1; Nitin Singhania, Ch. 1; NCERT Fine Arts Ch. 3'
+  },
+  {
+    id: 'cave-architecture',
+    category: 'architecture',
+    type: 'Cave Architecture',
+    title: 'Cave Architecture of India: Chaityas, Viharas & Monolithic Excavations',
+    era: '3rd c. BCE – 10th c. CE',
+    subtitle: 'From Barabar Rock-Cut Caves to the Grandeur of Ellora Kailash Temple',
+    desc: 'Indian rock-cut architecture evolved from simple excavated retreats for heterodox ascetics into colossal multi-storeyed prayer halls (Chaityas) with barrel-vaulted apses, residential monastic cloisters (Viharas), and the pinnacle of monolithic subterranean carving at Kailashnath.',
+    features: [
+      'Barabar Caves (Bihar, 3rd c. BCE): Excavated by Emperor Ashoka and grandson Dasharatha for Ajivika ascetics; celebrated for mirror-like interior wall polish; Lomas Rishi cave showcases the earliest ornamental horseshoe Chaitya arch carved in live rock.',
+      'Western Ghats Buddhist Caves (Maharashtra): Karle (largest rock-cut Chaitya hall with 37-meter depth, soaring wooden vault ribs, and Mithuna sculpted couples), Bhaja, Kanheri (over 100 caves near Mumbai), Bedsa, and Nasik Pandavleni.',
+      'Ajanta Caves (Maharashtra): 29 Buddhist rock-cut caves spanning Hinayana and Mahayana phases; combines rock carving with breathtaking tempera mural paintings illustrating Jataka narratives.',
+      'Ellora Caves (Maharashtra): 34 caves representing religious harmony (12 Buddhist, 17 Hindu, 5 Jain); zenith represented by Cave 16: The Kailash Temple (carved top-to-bottom from a single basaltic cliff under Rashtrakuta King Krishna I, excavating 200,000 tonnes of rock without mortar or pillars).',
+      'Elephanta Caves (Mumbai Harbor): 6th-8th c. Shaivite monolithic caves featuring the colossal 20-foot high Trimurti (Sadashiva) depicting the three faces of the Divine: Creator (Vamadeva/Uma), Preserver (Tatpurusha), and Destroyer (Aghora/Bhairava).'
+    ],
+    upscFact: 'UPSC Trap: Chaityas are congregational prayer halls containing a stupa at the rear apse; Viharas are residential quadrangular dwelling cells for monks with a central hall and verandah.',
+    timelineRef: 'gupta-age',
+    bookRef: 'Ishani Pandya L2; Percy Brown; NCERT Class 11 Fine Arts Ch. 4'
+  },
+  {
+    id: 'folk-tribal-paintings',
+    category: 'art-forms',
+    type: 'Paintings',
+    title: 'Folk & Tribal Painting Traditions of India',
+    era: 'Traditional Indigenous Heritage',
+    subtitle: 'Madhubani, Warli, Pattachitra, Kalamkari, Phad, Pithora & Thangka',
+    desc: 'Beyond classical imperial courts, Indian rural and tribal communities preserved extraordinary visual art forms passed down across generations, utilizing natural mineral and vegetable dyes, organic pastes, and handmade surfaces celebrating fertility, deities, and communal cosmos.',
+    features: [
+      'Madhubani / Mithila (Bihar): Practiced by women on mud walls and paper; distinct styles (Bharni, Katchni, Godna, Kohbar bridal chambers); natural pigments (lampblack, turmeric, flowers); bold double-line borders with fish, peacocks, and lotus flowers.',
+      'Warli Painting (Maharashtra): Indigenous art of the Warli tribe; painted with white rice-paste and water/gum on red ochre mud walls; uses fundamental geometric symbols (circle representing sun/moon, triangle representing mountains/trees, square representing sacred space); iconic Tarpa dance spiral.',
+      'Pattachitra (Odisha & Bengal): Traditional cloth-based scroll painting; depicted on treated cotton cloth using tamarind seed gum and mineral colors; celebrated for intricate borders and depictions of Lord Jagannath, Subhadra, and Balabhadra.',
+      'Kalamkari (Andhra Pradesh): Pen-drawn textile art using bamboo reed (Kalam) and natural vegetable dyes; two famous sub-schools: Srikalahasti (temple hangings depicting mythological epics) and Machilipatnam (block-printed floral designs patronized by Golconda Sultans).',
+      'Phad Painting (Rajasthan): Giant 30-foot scroll paintings on khadi cloth depicting the martial legends and folk miracles of local deities Pabuji and Devnarayan, recited at night by itinerant priest-singers (Bhopas) accompanied by the Ravanahatha musical instrument.',
+      'Pithora (Gujarat & MP): Ritual wall painting of the Rathwa and Bhil tribes dedicated to Baba Pithora to invoke prosperity, characterized by sacred horses and vibrant animal motifs.',
+      'Thangka Painting (Ladakh, Sikkim, Tibet): Buddhist scroll paintings on silk or cotton depicting Mandalas, Tara, and Arhats used as meditation aids in monasteries.'
+    ],
+    upscFact: 'UPSC Insight: Kalamkari uses purely organic vegetable dyes and milk mordants; in 2021, Karuppur Kalamkari paintings from Tamil Nadu also received the prestigious Geographical Indication (GI) tag.',
+    timelineRef: 'kingdoms-of-south',
+    bookRef: 'Ishani Pandya L3; Nitin Singhania, Ch. 2; CCRT Visual Arts'
+  },
+  {
+    id: 'puppetry-traditions',
+    category: 'art-forms',
+    type: 'Puppetry',
+    title: 'Traditional Puppetry Forms of India (4 Canonical Categories)',
+    era: 'Ancient Natyashastra to Present Day',
+    subtitle: 'String, Shadow, Rod & Glove Puppets Preserving Epic Oral Traditions',
+    desc: 'Puppetry (Natya-Rupa) is one of India's most ancient folk performance mediums, mentioned in the Tamil epic Silappadikaram and Ashokan inscriptions. It synthesizes sculpture, painting, music, and oral storytelling across four distinct technical traditions.',
+    features: [
+      '1. String Puppets (Marionettes): Controlled by strings attached to puppet limbs. Kathputli of Rajasthan (carved from wood, dressed in vibrant ghagras, operated by Bhatt puppeteers with whistle sound); Kundhei of Odisha; Gombeyatta of Karnataka; Bommalattam of Tamil Nadu (unique hybrid combining strings and rods).',
+      '2. Shadow Puppets: Flat leather puppets projected onto a backlit translucent screen. Togalu Gombeyaata of Karnataka (leather figures showing epic episodes); Tholu Bommalata of Andhra Pradesh (large colorful translucent deer/goat skin puppets); Ravanachhaya of Odisha (opaque deer-skin puppets creating silhouette shadows without joints).',
+      '3. Rod Puppets: Operated by wooden rods from beneath the stage. Putul Nach of West Bengal (large, heavy marionettes on bamboo rods used in Jatra folk theatre); Yampuri of Bihar (wooden rod puppets portraying Yama and judgments in the underworld).',
+      '4. Glove Puppets (Hand/Palm Puppets): Operated directly by fingers and thumbs. Pavakoothu of Kerala (carved wooden head with painted faces influenced by Kathakali makeup and headgear, performing episodes from Ramayana and Mahabharata).'
+    ],
+    upscFact: 'UPSC Prelims Match: Ravanachhaya (Odisha shadow puppet) uses uncolored, non-jointed skin puppets creating dramatic pure silhouettes, symbolizing the shadow of the demon king Ravana.',
+    timelineRef: 'kingdoms-of-north',
+    bookRef: 'Ishani Pandya L3; Nitin Singhania, Ch. 4; CCRT Performing Arts'
+  },
   // --- ART FORMS: PAINTINGS ---
   {
     id: 'paintings-mural',

@@ -9527,5 +9527,487 @@
       "conclusion": "The American Constitution prioritized individual liberty and strict separation of powers for a pioneer society, while the Indian Constitution prioritized responsible parliamentary governance and social transformation for a newly emerging republic.",
       "diagramMapIdea": "Comparative 3-Column Table: Dimension (Executive, Judicial Review, Federal Nature), USA Model, and Indian Model."
     }
+  },
+  {
+    "id": "mains-cult-001",
+    "question": "Trace the architectural and ideological evolution of rock-cut cave shrines in ancient India from the simple ascetic cells of Barabar to the elaborate multi-storeyed complexes of Ajanta and Ellora.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L1 & L2; A.L. Basham, Ch. 8; Upinder Singh, Ch. 7 & 9",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Indian rock-cut architecture represents a thousand-year journey of lithic mastery, evolving from the austere 3rd-century BCE Ajivika hermitages at Barabar into the grand Buddhist, Brahmanical, and Jain cavernous marvels of Ajanta and Ellora.",
+      "body": [
+        {
+          "heading": "Phase 1: Mauryan Origins & Wood-Imitative Lithic Architecture (3rd Century BCE)",
+          "points": [
+            "Barabar and Nagarjuni Caves (Bihar): Commissioned by Ashoka and Dasharatha for Ajivika ascetics; feature single rectangular chambers with circular domed sanctums (e.g., Sudama Cave).",
+            "Lomas Rishi Cave façade: Earliest imitation of timber vaulted architecture in stone, featuring an ogee Chaitya horseshoe arch and decorative elephant friezes with mirror-like Mauryan polish."
+          ]
+        },
+        {
+          "heading": "Phase 2: Early Hinayana Buddhist Shrines (2nd Century BCE – 2nd Century CE)",
+          "points": [
+            "Western Ghats (Bhaja, Karle, Bedse, early Ajanta): Monks adapted Western Deccan basalt cliffs along trade routes into Chaitya-grihas (pillared congregational halls with barrel vaults) and Viharas (residential cells surrounding a central court).",
+            "Aniconic symbolism: Central object of veneration was an unadorned rock-hewn Stupa symbolizing the Mahaparinirvana of Gautama Buddha."
+          ]
+        },
+        {
+          "heading": "Phase 3: Mahayana Transformation & Ajanta Murals (5th Century CE)",
+          "points": [
+            "Iconic shift: Under Vakataka patronage (Harishena), the Stupa integrated a colossal seated image of Buddha in the sanctum (e.g., Ajanta Cave 19 and 26).",
+            "Synthesis of Architecture and Painting: Caves became artistic showcases with Tempera murals depicting Jataka tales, Bodhisattvas (Padmapani, Vajrapani), and court life."
+          ]
+        },
+        {
+          "heading": "Phase 4: Climax of Multi-Religious Monoliths at Ellora (6th – 10th Century CE)",
+          "points": [
+            "Pluralistic ecumenism: 34 caves encompassing Buddhist (1–12), Hindu (13–29), and Jain (30–34) shrines carved side-by-side along the Charanandri hills.",
+            "Kailash Temple (Cave 16): Zenith of rock-cut architecture under Rashtrakuta Krishna I; a complete two-storeyed Dravidian temple carved vertically from top to bottom out of a single basalt cliff face."
+          ]
+        }
+      ],
+      "conclusion": "Rock-cut architecture transformed raw cliff faces into sacred civilizational landscapes, transitioning from imitating perishable timber prototypes to commanding monumental freestanding structural expression in living stone.",
+      "diagramMapIdea": "Evolutionary Flowchart: Barabar (Ascetic Cell) -> Karle (Hinayana Stupa Chaitya) -> Ajanta (Mahayana Buddha Icon + Murals) -> Ellora Kailash (Monolithic Dravida Temple)."
+    }
+  },
+  {
+    "id": "mains-cult-002",
+    "question": "Critically analyze the stylistic, ideological, and material distinctions among the Gandhara, Mathura, and Amaravati schools of sculpture. How did they reflect the regional cultural milieus of post-Mauryan India?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L1; Nitin Singhania, Ch. 2; Upinder Singh, Ch. 8",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The post-Mauryan era (c. 2nd century BCE – 3rd century CE) witnessed an unprecedented sculptural renaissance, as Gandhara, Mathura, and Amaravati pioneered the visual anthropomorphic transition from aniconic symbols to magnificent divine iconographies.",
+      "body": [
+        {
+          "heading": "Materiality & Geographic Settings",
+          "points": [
+            "Gandhara (Peshawar, Taxila, Swat): Utilized grey-blue schist stone, green phyllite, and later stucco, situated at the crossroads of the Silk Route.",
+            "Mathura (Yamuna basin, UP): Sculpted purely from indigenous spotted red sandstone from Sikri.",
+            "Amaravati (Krishna-Godavari delta, AP): Used gleaming white crystalline limestone (Palnad marble) along fertile maritime trade arteries."
+          ]
+        },
+        {
+          "heading": "Aesthetic Style & Foreign Influences",
+          "points": [
+            "Gandhara (Greco-Roman Synthesis): Apollo-like facial idealism, heavy drapery folds resembling Roman togas, wavy curly hair, sharp facial contours, and anatomically precise musculature.",
+            "Mathura (Indigenous Sensibility): Earthy, robust masculinity, clinging transparent muslin drapery, round energetic face with smiling expression, raised right hand in Abhaya Mudra, and seated on a lion throne.",
+            "Amaravati (Dynamic Narrative Vitality): Emphasized narrative panels filled with lively crowd scenes, ecstatic postures, graceful Tribhanga curves, and deep psychological emotion rather than isolated iconic statues."
+          ]
+        },
+        {
+          "heading": "Religious Ideology & Patronage",
+          "points": [
+            "Gandhara: Exclusively Mahayana Buddhist, patronized primarily by Kushana rulers (Kanishka) and wealthy Silk Route merchants.",
+            "Mathura: Eclectic and pluralistic; pioneered images of the Buddha, Jinas (Ayagapatas), and Hindu deities (Vishnu, Shiva lingas, Surya, Kartikeya) under Kushana patronage.",
+            "Amaravati: Predominantly Hinayana and Mahayana Buddhist stupa reliefs, patronized by Satavahana and Ikshvaku rulers, royal ladies, and merchant guilds (Nigamas)."
+          ]
+        }
+      ],
+      "conclusion": "While Gandhara mirrored the cosmopolitan Indo-Greek frontier and Amaravati expressed the sensuous maritime ethos of the Deccan, Mathura served as the indigenous fountainhead that defined the pan-Indian classical aesthetic of the Gupta golden age.",
+      "diagramMapIdea": "Comparative 4-Column Table: Dimension, Gandhara School, Mathura School, Amaravati School."
+    }
+  },
+  {
+    "id": "mains-cult-003",
+    "question": "Examine the developmental trajectory of South Indian temple architecture from the rock-cut monolithic rathas of the Pallavas to the architectural grandeur of the Imperial Cholas and Vijayanagara rayagopurams.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L2; A.L. Basham, Ch. 8; Satish Chandra, Ch. 2",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Dravidian temple architecture embodies a spectacular thousand-year evolutionary continuity, progressing from early Pallava rock-cut experiments to the soaring imperial Vimanas of the Cholas and the colossal fortified urban temple complexes of Vijayanagara.",
+      "body": [
+        {
+          "heading": "The Pallava Foundation: Rock-cut to Structural Transition (600–900 CE)",
+          "points": [
+            "Mahendra Style: Excavated pillared rock-cut mandapas with simple dwarapala guardians.",
+            "Mamalla Style: Monolithic freestanding Pancha Pandava Rathas at Mahabalipuram, showcasing varied roof designs (Dharmaraja ratha's stepped pyramid, Bhima ratha's wagon vault).",
+            "Rajasimha Style: Birth of structural masonry temples, exemplified by the Shore Temple at Mahabalipuram and Kailasanathar Temple at Kanchipuram with nascent enclosure walls."
+          ]
+        },
+        {
+          "heading": "The Imperial Chola Zenith: The Monumental Vimana (900–1200 CE)",
+          "points": [
+            "Brihadisvara Temple, Thanjavur (1010 CE): Rajaraja I elevated the Dravida style to unprecedented heights with a 66-meter high pyramidal Vimana dominating the complex, crowned by an 80-tonne monolithic granite cupola.",
+            "Architectural features: Focus remained exclusively on the sanctum Vimana; entry gopurams were subordinate in height; temples functioned as multi-functional economic centers owning land, hiring artisans, and maintaining devadasis."
+          ]
+        },
+        {
+          "heading": "Pandya Shift to Gopurams (1150–1350 CE)",
+          "points": [
+            "Inversion of scale: As temples were repeatedly expanded with concentric enclosure walls (prakaras), the outer entrance gateways (Gopurams) grew taller than the interior Vimana."
+          ]
+        },
+        {
+          "heading": "Vijayanagara Imperial Grandeur (1336–1646 CE)",
+          "points": [
+            "Colossal Rayagopurams: Towering entrance gateways rising up to 11 storeys with terracotta stucco figures, visible across miles.",
+            "Kalyana Mandapa & Yali Pillars: Ornate marriage pavilions featuring monolithic granite pillars carved with rearing mythical hippogryphs (Yalis) and rider warriors (e.g., Vittala Temple at Hampi).",
+            "Unique shrines: Monolithic stone chariot shrines, sacred water tanks, and musical pillars."
+          ]
+        }
+      ],
+      "conclusion": "The evolution of Dravidian architecture mirrors the shift in political authority: the temple evolved from a quiet royal sanctuary under the Pallavas into a colossal cosmos of sacred civic authority under the Cholas and Vijayanagara emperors.",
+      "diagramMapIdea": "Schematic Section of Dravidian Temple Evolution: Pallava Ratha -> Chola High Vimana (Brihadisvara) -> Vijayanagara Towering Raya-Gopuram & Kalyana Mandapa."
+    }
+  },
+  {
+    "id": "mains-cult-004",
+    "question": "Analyze how Mughal miniature painting synthesized Persian artistic traditions with indigenous Indian sensibilities, and examine how its thematic focus shifted under Akbar, Jahangir, and Shah Jahan.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L3; Satish Chandra, Ch. 13; Nitin Singhania, Ch. 5",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Mughal miniature painting was not a mere provincial transplant of Persian art, but a vibrant cultural synthesis that harmonized Safavid Persian two-dimensional decorative refinement with the dynamic realism, rich palette, and emotional warmth of indigenous Indian traditions.",
+      "body": [
+        {
+          "heading": "The Indo-Persian Synthesis",
+          "points": [
+            "Humayun's initiative: Brought Persian masters Mir Sayyid Ali and Abdus Samad from Shah Tahmasp's Safavid court to Delhi.",
+            "Indianization in Akbar's Tasvir Khana: Over 80% of royal painters (Daswanth, Basawan, Kesu) were indigenous Hindus from Gujarat, Gwalior, and Kashmir. They infused Persian arabesque with Indian flora/fauna, dynamic movement, and realistic Indian skin tones.",
+            "Collaborative manuscript enterprise: Monumental projects like the Hamzanama (cloth folios) and Razmnama (Persian Mahabharata) synthesized epic narrative action with vibrant Indian ochres, lapis lazuli, and peacocks."
+          ]
+        },
+        {
+          "heading": "Shift Under Akbar (1556–1605): Epic Dynamism & Statecraft",
+          "points": [
+            "Multi-figured battle scenes, court pageantry, hunting expeditions, and historical chronicles (Akbarnama).",
+            "High physical energy, crowded compositions, and bird's-eye perspective depicting imperial vitality."
+          ]
+        },
+        {
+          "heading": "Shift Under Jahangir (1605–1627): Scientific Naturalism & Portraiture",
+          "points": [
+            "Dissolution of mass workshops in favor of individual master artists (Ustad Mansur, Abul Hasan, Bishandas).",
+            "Keen scientific observation: Detailed biological studies of exotic birds (Siberian crane, dodo) and flora.",
+            "Western contact: Introduction of European perspective, cherubs, and golden halos around the Emperor."
+          ]
+        },
+        {
+          "heading": "Shift Under Shah Jahan (1628–1658): Imperial Formalism & Grandeur",
+          "points": [
+            "Shift from emotional naturalism to static ceremonial grandeur and symmetrical court durbars.",
+            "Extensive use of burnished gold leaf, luminous lapis borders, and jewel-like refinement, mirroring the aesthetic of the Taj Mahal."
+          ]
+        }
+      ],
+      "conclusion": "Mughal painting served as a visual manifestation of composite culture (Ganga-Jamuni Tehzeeb), whose techniques subsequently cross-fertilized regional Rajasthani and Pahari schools across northern India.",
+      "diagramMapIdea": "Comparative Timeline: Akbar (Narrative Action & Hamzanama) -> Jahangir (Naturalism & Ustad Mansur) -> Shah Jahan (Imperial Durbar & Gold Burnish)."
+    }
+  },
+  {
+    "id": "mains-cult-005",
+    "question": "Indian puppetry is not merely an ancient theatrical art but a profound medium of oral historiography and community moral education. Elucidate the four primary puppetry traditions of India and discuss the modern threats to their survival.",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 8",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Mentioned in the Mahabharata and the 2nd-century CE Tamil epic Silappadikaram, puppetry (Kattabommalattam) is one of India's oldest performing arts, synthesizing storytelling, sculpture, music, and community philosophy.",
+      "body": [
+        {
+          "heading": "The Four Primary Typologies of Indian Puppetry",
+          "points": [
+            "String Puppets: Kathputli (Rajasthan) — legless wooden figures with pleated skirts and boli reeds; Kundhei (Odisha); Gombeyatta (Karnataka) mimicking Yakshagana costumes.",
+            "Shadow Puppets: Togalu Gombeyaatta (Karnataka); Tholu Bommalata (Andhra Pradesh) using large translucent leather figures; Ravanachhaya (Odisha) casting uncolored deer skin silhouettes.",
+            "Rod Puppets: Putul Nach (West Bengal) using jointed wooden arms operated by bamboo rods; Yampuri (Bihar) depicting Yama's court.",
+            "Glove Puppets: Pavakoothu (Kerala) featuring miniature Kathakali costumes and character types."
+          ]
+        },
+        {
+          "heading": "Contemporary Threats & Preservation Imperatives",
+          "points": [
+            "Digital diversion: Competition from digital television, cinema, and social media eroding rural audiences.",
+            "Economic precariousness: Traditional puppeteer families (like Rajasthan's Bhat community) facing loss of royal/temple patronage and acute livelihood distress.",
+            "Policy needs: National integration into school curricula, modern puppet festivals, and creative deployment in development communication (e.g., health awareness, literacy drives)."
+          ]
+        }
+      ],
+      "conclusion": "Safeguarding puppetry requires elevating it from endangered folklore to an active, remunerative performing art that bridges timeless civilizational wisdom with modern social communication.",
+      "diagramMapIdea": "Mind Map: Indian Puppetry Typologies (String, Shadow, Rod, Glove) with Regional Representatives."
+    }
+  },
+  {
+    "id": "mains-cult-006",
+    "question": "Discuss the spiritual and philosophical foundations of Indian Classical Dance as codified in Bharata's Natya Shastra. How do these traditions bridge the sacred and the secular in Indian artistic consciousness?",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 7",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Indian classical dance originated as 'Natya Veda' (the Fifth Veda), synthesized by Brahma from the Rigveda (words), Samaveda (music), Yajurveda (gestures/abhinaya), and Atharvaveda (rasa/emotions) to elevate human consciousness.",
+      "body": [
+        {
+          "heading": "Philosophical Foundations in the Natya Shastra",
+          "points": [
+            "Tandava and Lasya duality: Represents the cosmic dance of Shiva (vigorous masculine cosmic rhythm) and Parvati (graceful feminine lyrical beauty).",
+            "Tripartite Structure: Nritta (pure rhythmic abstract movement without narrative), Nritya (interpretative expressive dance using facial bhava and mudras), and Natya (dramatic storytelling).",
+            "Rasa Theory: Transmuting everyday human emotions (bhavas) into transcendent, universal aesthetic bliss (Rasa) across the Nine Rasas (Navarasas)."
+          ]
+        },
+        {
+          "heading": "Bridging Sacred Devotion and Secular Aesthetics",
+          "points": [
+            "Temple Sanctum (Sacred): Began as divine seva by Devadasis in Bharatanatyam (Tamil Nadu) and Maharis in Odissi, symbolizing the human soul's longing for union with the Paramatma (Madhura Bhakti).",
+            "Royal Court & Public Stage (Secular): Kathak in northern courts absorbed secular nazakat and technical jugalbandi with tabla, while modern adaptations address contemporary social issues like ecology and gender justice."
+          ]
+        }
+      ],
+      "conclusion": "Indian classical dance dissolves the dichotomy between the physical body and spiritual devotion, transforming somatic movement into a living prayer and an enduring symbol of cultural unity.",
+      "diagramMapIdea": "Triangular Diagram: Natya Veda components (Nritta, Nritya, Natya) culminating in Universal Rasa."
+    }
+  },
+  {
+    "id": "mains-cult-007",
+    "question": "Examine how Indian folk and tribal painting traditions (such as Warli, Madhubani, Pattachitra, and Kalamkari) encapsulate ecological harmony, sacred rituals, and community identity.",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 6",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Unlike court miniatures commissioned by monarchs, Indian folk and tribal paintings are living communal expressions rooted in agrarian cycles, ecological reverence, and sacred rites of passage.",
+      "body": [
+        {
+          "heading": "Ecological Reverence and Sacred Rituals",
+          "points": [
+            "Warli (Maharashtra): Uses basic geometric motifs (circles for sun/moon, triangles for sacred mountains/trees) on mud walls using rice paste; celebrates the Mother of Fertility (Palghat) and the communal Tarpa dance without hierarchical gods.",
+            "Madhubani (Bihar): Women paint fertility murals (Kohbar) and courtyards (Aripan) using bamboo twigs and plant pigments, portraying sacred lotus ponds, bamboo stalks, and birds as symbols of abundance."
+          ]
+        },
+        {
+          "heading": "Textile Storytelling & Sacred Transmission",
+          "points": [
+            "Pattachitra (Odisha): Sacred cloth scrolls prepared with tamarind seed glue and chalk, narrating the Dashavatara and Jagannath lore with fluid lines and mineral colors.",
+            "Kalamkari (Andhra Pradesh): Natural vegetable dyed storytelling cloths from Srikalahasti (temple hangings drawn with bamboo pens) and Machilipatnam (block prints) depicting epics."
+          ]
+        }
+      ],
+      "conclusion": "These folk traditions embody indigenous ecological wisdom and egalitarian community heritage, demonstrating that art in India has always been an organic dimension of everyday life.",
+      "diagramMapIdea": "Concept Matrix: Painting Tradition, Ecological Motif, Ritual Context, Geographic Core."
+    }
+  },
+  {
+    "id": "mains-cult-008",
+    "question": "Critically examine the colonial myth of the Indian village as an 'isolated, self-sufficient little republic' in light of Prof. S.C. Dube's sociological findings. How do caste, jajmani, and factionalism structure village social reality?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Prof. S.C. Dube, Indian Village (1955) & Indian Society; Sociology Dube",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Colonial administrators like Charles Metcalfe portrayed the Indian village as an unchanging, self-sufficient 'little republic.' Pioneering Indian sociologists, particularly Prof. S.C. Dube in his landmark study 'Indian Village' (1955), systematically deconstructed this romanticized fiction.",
+      "body": [
+        {
+          "heading": "Deconstructing the 'Little Republic' Myth",
+          "points": [
+            "Regional Interdependence: Shamirpet village (Dube's study) demonstrated that no village was economically, culturally, or politically self-sufficient.",
+            "Exogamous matrimonial networks: Village exogamy compelled families to forge marital and kinship alliances across dozens of surrounding settlements.",
+            "Economic and religious links: Periodic weekly markets (haats), pilgrimage circuits, revenue payments to state authorities, and regional caste councils (Jati Panchayats) continually tied the village into broader supra-local structures."
+          ]
+        },
+        {
+          "heading": "Internal Structural Axes of Village Reality",
+          "points": [
+            "Caste (Jati) Hierarchy: Social organization was sharply stratified based on purity and pollution, determining occupational specialization, residential segregation, and unequal land ownership.",
+            "Jajmani System of Reciprocity: An institutionalized network of reciprocal obligations where service and artisan castes (Kamins) served landowning patrons (Jajmans) for grain shares, combining functional interdependence with structural exploitation.",
+            "Dual Axis of Solidarity & Factionalism: The village exhibited both collective identity during crises/temple festivals and bitter factional rivalries (dharas) centered around dominant landowning lineage groups."
+          ]
+        },
+        {
+          "heading": "Post-Independence Transformations",
+          "points": [
+            "Impact of land reforms, the Green Revolution, and statutory Panchayati Raj weakened traditional Jajmani ties and monetized the rural economy.",
+            "Shift from ritual deference to active electoral political competition among intermediate backward classes and Dalits."
+          ]
+        }
+      ],
+      "conclusion": "Prof. S.C. Dube proved that the Indian village was never an isolated museum of the past, but an open, dynamic social system shaped by constant interactions between tradition, power, and state interventions.",
+      "diagramMapIdea": "S.C. Dube Village Model: Dual Axis Diagram showing Vertical Inter-caste Jajmani ties vs Horizontal Intra-caste Supra-village Kinship networks."
+    }
+  },
+  {
+    "id": "mains-cult-009",
+    "question": "Evaluate the ideological debate between 'Isolation', 'Assimilation', and 'Integration' regarding tribal communities in India (Verrier Elwin vs. G.S. Ghurye). How did the 'Tribal Panchsheel' seek to harmonize tribal autonomy with national development?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Prof. S.C. Dube, Indian Society; Verrier Elwin; G.S. Ghurye; Bipan Chandra",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The tribal question in modern India revolves around a fundamental policy dilemma: how to bring socioeconomic advancement to indigenous communities (Adivasis) without obliterating their distinctive cultural heritage, customary institutions, and ecological autonomy.",
+      "body": [
+        {
+          "heading": "The Competing Ideological Paradigms",
+          "points": [
+            "The Isolationist Approach (Verrier Elwin's early thesis): Advocated establishing 'National Parks' for tribals, keeping them sheltered from predatory moneylenders, timber contractors, and Hindu caste society to prevent cultural demoralization.",
+            "The Assimilationist Approach (G.S. Ghurye): Termed tribals 'backward Hindus' and argued for their rapid assimilation into the mainstream socioeconomic hierarchy, viewing isolation as an imperialist divide-and-rule strategy."
+          ]
+        },
+        {
+          "heading": "Nehru-Elwin's 'Tribal Panchsheel' (1958) as the Integrational Golden Mean",
+          "points": [
+            "Development along own genius: Tribals should develop along lines of their own genius, avoiding the imposition of alien values or lifestyles.",
+            "Respect for Land & Forests: Absolute protection of tribal customary rights in ancestral land and forest resources.",
+            "Building Local Cadres: Train and build up a team of their own people to administer governance and development work.",
+            "Avoiding Over-Administration: Administer through their own traditional social and cultural institutions rather than overwhelming them with outside bureaucratic schemes.",
+            "Human Quality as Metric: Judge success not by money spent or statistical targets, but by the quality of human character and freedom evolved."
+          ]
+        },
+        {
+          "heading": "Contemporary Realities & Unfinished Agendas",
+          "points": [
+            "Developmental displacement: Mining, dams, and industrial projects have disproportionately displaced tribal populations.",
+            "Constitutional safeguards: Fifth and Sixth Schedules, PESA Act (1996), and Forest Rights Act (2006) provide legal instruments for self-governance, but effective implementation remains hindered by administrative apathy."
+          ]
+        }
+      ],
+      "conclusion": "The Tribal Panchsheel remains a visionary compass, proving that genuine national integration is achieved not by erasing diversity through forced assimilation, but by empowering tribal communities as equal partners in India's plural democracy.",
+      "diagramMapIdea": "Tribal Policy Trilemma Triangle: Isolation (Elwin 1930s) vs Assimilation (Ghurye) -> Integration via Tribal Panchsheel (Nehru-Elwin 1958)."
+    }
+  },
+  {
+    "id": "mains-cult-010",
+    "question": "Examine the socio-economic mechanisms of the traditional Jajmani system in rural India. What factors have led to its gradual breakdown in contemporary times?",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Prof. S.C. Dube, Indian Society; William Wiser",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The Jajmani system was a hereditary institutional framework of reciprocal goods and service relationships between patron landowning families (Jajmans) and occupational service/artisan castes (Kamins).",
+      "body": [
+        {
+          "heading": "Socio-Economic Mechanisms",
+          "points": [
+            "Non-monetary reciprocity: Services (blacksmithing, carpentry, barbering, leatherwork) were compensated with grain shares at harvest, free housing sites, and customary gifts during weddings and rites of passage.",
+            "Power asymmetry: While functionalists emphasized mutual interdependence, critical sociologists highlighted that it institutionalized hereditary subordination and prevented upward mobility for lower castes."
+          ]
+        },
+        {
+          "heading": "Key Drivers of its Breakdown",
+          "points": [
+            "Monetization & Market Economy: Cash wages and commercial retail markets replaced customized hereditary barter arrangements.",
+            "Agricultural Mechanization: Tractors, combine harvesters, and factory-made tools rendered traditional artisans redundant.",
+            "Democratic Consciousness & Migration: Constitutional equality, education, reservations, and rural-urban migration provided alternative livelihoods, freeing Kamins from servitude."
+          ]
+        }
+      ],
+      "conclusion": "The erosion of the Jajmani system marks a fundamental transition in rural India from pre-modern feudal status relationships toward contractual, monetized, and democratic citizenship ties.",
+      "diagramMapIdea": "Flowchart: Jajmani Network -> Modern Forces (Monetization + Mechanization + Education) -> Contractual Agrarian Economy."
+    }
+  },
+  {
+    "id": "mains-cult-011",
+    "question": "'The civilization of India has not remained static; rather, its greatest virtue has been its immense power of synthesis.' Discuss this assertion of A.L. Basham with reference to India's cultural evolution across historical eras.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "A.L. Basham, The Wonder That Was India & A Cultural History of India",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "In his seminal works, British Indologist A.L. Basham highlighted that Indian civilization survived and flourished across millennia not through rigid isolation or dogmatic resistance, but through an extraordinary capacity for cultural assimilation, continuous synthesis, and harmonious pluralism.",
+      "body": [
+        {
+          "heading": "Ancient Synthesis: Vedic, Shramanic & Tribal Absorption",
+          "points": [
+            "Indo-Aryan and Indigenous Synthesis: Absorption of indigenous Harappan and non-Aryan deities (Pashupati/Shiva, Mother Goddess, sacred trees) into the evolving Vedic pantheon.",
+            "Shramana Dialogues: Buddhism and Jainism challenged sacrificial orthodoxy, yet their core values of Ahimsa (non-violence) and ethical self-discipline were absorbed directly into classical Hinduism.",
+            "Greco-Roman and Central Asian Incursions: Indo-Greeks, Sakas, and Kushanas were assimilated into Indian society through marriage and conversion (e.g., Heliodorus pillar at Vidisha, Menander's Milinda Panha)."
+          ]
+        },
+        {
+          "heading": "Medieval Synthesis: The Ganga-Jamuni Tehzeeb",
+          "points": [
+            "Bhakti and Sufi Convergence: Kabir, Guru Nanak, and Chaitanya rejected caste orthodoxies and dogmatism, emphasizing personal devotion to a formless supreme reality (Nirguna) alongside Sufi pirs.",
+            "Language and Literature: Emergence of Urdu and Hindustani as bridges between Persian, Arabic, and regional Prakrit/Bhasha idioms.",
+            "Artistic & Architectural Syncretism: Indo-Islamic architecture harmonized Persian domes and arches with Rajasthani jali lattices, chhatris, and lotus finials; Hindustani music absorbed Khayal and Qawwali through Amir Khusrau."
+          ]
+        },
+        {
+          "heading": "Modern Synthesis: Colonial Encounter to Democratic Republic",
+          "points": [
+            "Socio-Religious Reformers: Raja Ram Mohan Roy, Swami Vivekananda, and Rabindranath Tagore synthesized Western rational science and enlightenment humanism with timeless Vedantic universalism.",
+            "Constitutional Synthesis: The Indian Constitution integrated Westminster parliamentary democracy with American fundamental rights and indigenous panchayati traditions."
+          ]
+        }
+      ],
+      "conclusion": "As A.L. Basham observed, India's cultural continuity is not an inert relic, but a flowing river that renews itself by assimilating every tributary it encounters without ever losing its core civilizational direction.",
+      "diagramMapIdea": "Synthesis Flow Diagram: Ancient (Vedic + Shramanic) -> Medieval (Bhakti + Sufi) -> Modern (Universalist Reform + Constitution)."
+    }
+  },
+  {
+    "id": "mains-cult-012",
+    "question": "Assess the nature and legacy of Indian cultural and commercial diffusion across Southeast Asia ('Suvarnabhumi') during the ancient and early medieval periods. Why did historians term this phenomenon 'cultural transmission without colonization'?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "A.L. Basham, A Cultural History of India, Ch. 29; Upinder Singh, Ch. 10",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Between the early centuries of the Common Era and the 13th century, South Asia and Southeast Asia were bound in an expansive cultural and commercial matrix, giving rise to what George Coedès termed the 'Indianized States of Southeast Asia.'",
+      "body": [
+        {
+          "heading": "Distinctive Modalities: Diffusion Without Military Conquest",
+          "points": [
+            "No Imperial Annexation: Unlike European colonial conquest or Roman imperialism, Indianization was completely peaceful and non-exploitative, driven by monsoon maritime trade networks.",
+            "Key Agents of Transmission: Indian merchant guilds (Manigramam, Nanadesi, Ayyavole), Buddhist monks, and Brahmin scholars invited by indigenous Southeast Asian rulers to legitimize royal statecraft.",
+            "Indigenous Agency: Local elites voluntarily adopted Sanskrit titles, epics, and cosmic statecraft (Devaraja concept) while retaining their own languages, customs, and matrilineal kinship structures."
+          ]
+        },
+        {
+          "heading": "Enduring Monumental & Epigraphic Legacies",
+          "points": [
+            "Epigraphy and Scripts: Sanskrit inscriptions using Pallava Grantha script found across Funan (Cambodia), Champa (Vietnam), and Java (Indonesia).",
+            "Architectural Wonders: Borobudur (Java, Indonesia) — the world's largest Mahayana Buddhist stupa mandala built by the Sailendra dynasty; Angkor Wat (Cambodia) — the colossal Vishnu temple built by Suryavarman II, depicting Mahabharata and Ramayana friezes.",
+            "Prambanan (Java): Dedicated to the Hindu Trimurti (Brahma, Vishnu, Shiva), representing the zenith of Indonesian temple sculpture."
+          ]
+        },
+        {
+          "heading": "Living Cultural Continuities",
+          "points": [
+            "Epic Traditions: The Ramayana remains a living performance tradition (e.g., Wayang Kulit shadow puppetry in Indonesia, Ramakien royal ballet in Thailand).",
+            "State Symbols: Garuda is the national emblem of Indonesia and Thailand; Sanskrit vocabulary heavily influences Bahasa Indonesia, Thai, and Khmer.",
+            "Chola Maritime Excursion: The only military naval expedition was Rajendra Chola I's raid on Srivijaya (1025 CE) to protect free trade routes, which established no territorial colony."
+          ]
+        }
+      ],
+      "conclusion": "The Indianization of Southeast Asia stands as one of world history's finest examples of cultural diffusion based on commerce, intellectual sharing, and artistic admiration rather than military coercion.",
+      "diagramMapIdea": "Maritime Map Concept: Coromandel & Kalinga Ports -> Bay of Bengal -> Malacca Strait -> Funan (Angkor), Champa, Srivijaya & Majapahit (Borobudur)."
+    }
   }
 ]

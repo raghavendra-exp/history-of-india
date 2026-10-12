@@ -117,6 +117,9 @@ const HistoryPractice = (() => {
       case 'pratik-nayak': return ref.includes('pratik') || ref.includes('nayak');
       case 'nitin-singhania': return ref.includes('singhania');
       case 'norman-lowe': return ref.includes('norman') || ref.includes('lowe');
+      case 'basham': return ref.includes('basham');
+      case 'dube': return ref.includes('dube');
+      case 'ishani-pandya': return ref.includes('ishani') || ref.includes('pandya');
       default: return true;
     }
   }
