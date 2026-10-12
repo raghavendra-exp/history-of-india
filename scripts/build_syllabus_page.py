@@ -881,8 +881,8 @@ content = '''<!DOCTYPE html>
             </li>
             <li><strong>General Science for RRB NTPC:</strong>
               <ul>
-                <li><strong>Physics:</strong> Newton's Laws of Motion, work, power, energy, gravitational acceleration ($g = 9.8\text{ m/s}^2$), sound waves (ultrasonic/infrasonic), reflection and refraction of light, lenses, Ohm's Law ($V = IR$), electrical power.</li>
-                <li><strong>Chemistry:</strong> Periodic Table trends, atomic structure, acids/bases/salts (pH scale), everyday chemicals (Baking soda: $\text{NaHCO}_3$, Washing soda: $\text{Na}_2\text{CO}_3\cdot10\text{H}_2\text{O}$, Bleaching powder: $\text{CaOCl}_2$, Plaster of Paris: $\text{CaSO}_4\cdot\frac{1}{2}\text{H}_2\text{O}$), metals and metallurgy (alloys like brass, bronze, stainless steel).</li>
+                <li><strong>Physics:</strong> Newton's Laws of Motion, work, power, energy, gravitational acceleration (g = 9.8 m/s²), sound waves (ultrasonic/infrasonic), reflection and refraction of light, lenses, Ohm's Law (V = IR), electrical power.</li>
+                <li><strong>Chemistry:</strong> Periodic Table trends, atomic structure, acids/bases/salts (pH scale), everyday chemicals (Baking soda: NaHCO<sub>3</sub>, Washing soda: Na<sub>2</sub>CO<sub>3</sub>·10H<sub>2</sub>O, Bleaching powder: CaOCl<sub>2</sub>, Plaster of Paris: CaSO<sub>4</sub>·½H<sub>2</sub>O), metals and metallurgy (alloys like brass, bronze, stainless steel).</li>
                 <li><strong>Biology:</strong> Human digestive and circulatory systems, blood groups (AB+ universal recipient, O- universal donor), vitamins and deficiency diseases (Vitamin A - night blindness, Vitamin B1 - beriberi, Vitamin C - scurvy, Vitamin D - rickets), infectious diseases caused by bacteria/viruses/protozoa.</li>
               </ul>
             </li>
@@ -912,7 +912,7 @@ content = '''<!DOCTYPE html>
                 <li><strong>Second Wave (15 April 1980):</strong> 6 commercial banks having deposits over ₹200 crore nationalized.</li>
               </ul>
             </li>
-            <li><strong>Monetary Policy Instruments:</strong> Quantitative tools: Cash Reserve Ratio (CRR), Statutory Liquidity Ratio (SLR), Repo Rate (policy interest rate), Standing Deposit Facility (SDF), Marginal Standing Facility (MSF), Open Market Operations (OMO). Monetary Policy Committee (MPC) established in 2016 under Section 45ZB of RBI Act: 6 members (3 from RBI, 3 appointed by Central Government) chaired by RBI Governor, targeting retail inflation (CPI) at $4\% \pm 2\%$.</li>
+            <li><strong>Monetary Policy Instruments:</strong> Quantitative tools: Cash Reserve Ratio (CRR), Statutory Liquidity Ratio (SLR), Repo Rate (policy interest rate), Standing Deposit Facility (SDF), Marginal Standing Facility (MSF), Open Market Operations (OMO). Monetary Policy Committee (MPC) established in 2016 under Section 45ZB of RBI Act: 6 members (3 from RBI, 3 appointed by Central Government) chaired by RBI Governor, targeting retail inflation (CPI) at 4% ± 2%.</li>
           </ul>
           <div class="syl-action-bar">
             <a href="practice.html?category=science-tech" class="btn btn-outline btn-sm">Practice General Science MCQs →</a>

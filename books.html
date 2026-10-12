@@ -1363,12 +1363,23 @@ document.addEventListener('DOMContentLoaded', () => {
     { label: 'Home', href: 'index.html' },
     { label: 'Canonical Textbooks Hub' }
   ]);
+
+  const hash = (location.hash || '').replace('#', '');
+  if (hash && ['ancient', 'medieval', 'modern', 'culture', 'world', 'society'].includes(hash)) {
+    filterBooks(hash);
+  }
+
   renderFooter();
 });
 
 function filterBooks(cat, btn) {
   document.querySelectorAll('#booksFilterBar .filter-chip').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    const matching = document.querySelector(`#booksFilterBar .filter-chip[onclick*="${cat}"]`);
+    if (matching) matching.classList.add('active');
+  }
 
   const cards = document.querySelectorAll('.book-card');
   cards.forEach(card => {

@@ -146,7 +146,7 @@ function renderNav(active){
         ${primaryLinks.map(l => `
           <a href="${l.href}" class="nav-item ${active === l.href ? 'active' : ''}">
             <span>${l.label}</span>
-            ${l.badge ? `<span class="nav-badge ${l.badge.includes('5k') ? 'nav-badge-count' : 'nav-badge-new'}">${l.badge}</span>` : ''}
+            ${l.badge ? `<span class="nav-badge ${l.badge.includes('k') || l.badge.includes('Qs') || l.badge.includes('Books') ? 'nav-badge-count' : 'nav-badge-new'}">${l.badge}</span>` : ''}
           </a>
         `).join('')}
 

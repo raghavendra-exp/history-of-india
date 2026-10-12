@@ -2801,7 +2801,36 @@
           "Overthrown by",
           "Jalal-ud-din Khalji (1290 CE)"
         ]
-      ]
+      ],
+      "aspects": {
+        "Political Administration": [
+          "Turkan-i-Chahalgani (The Forty): Powerful council of forty Turkish slave-officers created by Iltutmish to consolidate sultanate authority, later ruthlessly liquidated by Balban.",
+          "Iqta System: Institutionalized revenue assignment system where provincial governors (Iqtadars/Muqtis) collected taxes, maintained troops, and remitted surplus (Fawazil) to the central treasury.",
+          "Balban's Theory of Kingship: Absolute monarchical prestige claiming descent from mythical hero Afrasiyab; proclaimed kingship as Niyabat-i-Khudai (vice-regency of God) and monarch as Zill-i-Ilahi (shadow of God).",
+          "Court Protocol & Rigour: Instituted Persian court ceremonial of Sijda (prostration) and Paibos (kissing the monarch's feet); introduced the Persian spring festival of Nauroz; excluded non-Turks and low-born from high state offices."
+        ],
+        "Military": [
+          "Diwan-i-Arz: Established as a separate military department by Balban under an independent minister (Ariz-i-Mamalik) to end corruption and enforce strict muster-roll inspections.",
+          "Mongol Frontier Defence: Iron curtain policy of fortresses along the North-West frontier (Lahore, Multan, Sunam, Samana) commanded by veteran generals like Sher Khan and Prince Muhammad.",
+          "Blood and Iron Policy: Severe military suppression of Mewati bandits, Katehr rebels, and Doab insurgents to secure trade corridors around Delhi."
+        ],
+        "Economy & Currency": [
+          "Standardized Currency: Iltutmish introduced the standard silver Tanka (175 grains) and copper Jital, providing the monetary backbone of Delhi Sultanate trade for centuries.",
+          "Urbanization & Agrarian Inflow: Concentration of agricultural revenue in urban administrative centers stimulated specialized craft manufacture, metalworking, and paper usage.",
+          "Trade Corridors: Secured Overland Silk Route feeder tracks linking Lahore and Delhi with Central Asian and Persian merchant caravans (Karwanis)."
+        ],
+        "Art & Architecture": [
+          "Quwwat-ul-Islam Mosque (Delhi): Earliest surviving congregational mosque of Delhi Sultanate, built by Qutb-ud-din Aibak using spolia from dismantled temples with corbelled arches.",
+          "Qutub Minar: 72.5m sandstone minaret commenced by Aibak (1199 CE) and completed by Iltutmish with Arabic calligraphy and fluted balconies.",
+          "Adhai Din Ka Jhopra (Ajmer): Early Indo-Islamic mosque built by Aibak featuring an ornate multi-arched screen.",
+          "Structural Innovations: Tomb of Iltutmish pioneered the squinch arch in India; Balban's Tomb (Mehrauli) represents the earliest true radiating arch (voussoirs) in Indian monumental architecture."
+        ],
+        "Literature & Culture": [
+          "Tabaqat-i-Nasiri: Landmark Persian political history and court chronicle authored by Qazi Minhaj-us-Siraj, dedicated to Sultan Nasiruddin Mahmud.",
+          "Taj-ul-Ma'asir: Elaborate rhyming Persian prose chronicle of early Turkish conquests written by Hasan Nizami under Aibak and Iltutmish.",
+          "Sufi Confluence: Flourishing of Chishti Sufi order under Khwaja Qutbuddin Bakhtiyar Kaki and Baba Farid, establishing Delhi as a premier spiritual hub of Islam in South Asia."
+        ]
+      }
     },
     {
       "id": "khilji-dynasty",

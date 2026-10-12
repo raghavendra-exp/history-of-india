@@ -1673,7 +1673,7 @@ function renderCultureCards(categoryFilter = 'all', searchQuery = '') {
         <img src="${item.image || 'assets/culture/' + item.id + '.jpg'}" 
              alt="${item.title}" 
              loading="lazy"
-             onerror="this.onerror=null; this.src='assets/culture/${item.id}.jpg';">
+             onerror="this.onerror=null; this.src='assets/culture/${item.id}.jpg'; this.onerror=function(){this.style.display='none';};">
         <div class="card-img-caption">
           <span>${item.imgCaption || item.title}</span>
           <span>${item.imgCredit || 'ASI / CCRT / National Archives'}</span>

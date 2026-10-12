@@ -82,6 +82,22 @@ res_tl = subprocess.run(["node", "scripts/test_timeline_nav.js"], capture_output
 assert res_tl.returncode == 0, f"test_timeline_nav.js failed: {res_tl.stderr}"
 print("Timeline Breadcrumbs and Era Filtering verified!")
 
+# 6. Execute comprehensive DOM and integrity test suites
+additional_tests = [
+    ("test_art_culture_dom.js", "Art & Culture DOM Interactions"),
+    ("test_society_dom.js", "Indian Society DOM & Filtering"),
+    ("test_up_and_syllabus_tabs.js", "UP History & Syllabus Tabs"),
+    ("test_books_dom.js", "27 Canonical Textbooks"),
+    ("test_map_dom.js", "Historical Map GPS Coordinates"),
+    ("test_history_data_integrity.js", "85 Period Chapters Data Integrity"),
+    ("comprehensive_site_audit.js", "Cross-Page Assets & Links Integrity")
+]
+
+for script_name, desc in additional_tests:
+    res = subprocess.run(["node", f"scripts/{script_name}"], capture_output=True, text=True)
+    assert res.returncode == 0, f"{script_name} failed: {res.stderr or res.stdout}"
+    print(f"Verified: {desc} (via scripts/{script_name})")
+
 print("\n========================================================")
 print("SUCCESS: ALL BENCHMARKS STRICTLY MET AND VERIFIED!")
 print(f"  - Prelims MCQs: {len(prelims)} (Required: >=5000)")
