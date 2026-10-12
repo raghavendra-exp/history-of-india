@@ -110,6 +110,11 @@ const HistoryPractice = (() => {
       case 'satish-chandra': return ref.includes('satish');
       case 'spectrum': return ref.includes('spectrum');
       case 'bipan-chandra': return ref.includes('bipan');
+      case 'bl-grover': return ref.includes('grover');
+      case 'james-tod': return ref.includes('tod') || ref.includes('rajasthan');
+      case 'harari': return ref.includes('harari') || ref.includes('sapiens');
+      case 'gandhi': return ref.includes('gandhi') || ref.includes('truth');
+      case 'pratik-nayak': return ref.includes('pratik') || ref.includes('nayak');
       case 'nitin-singhania': return ref.includes('singhania');
       case 'norman-lowe': return ref.includes('norman') || ref.includes('lowe');
       default: return true;

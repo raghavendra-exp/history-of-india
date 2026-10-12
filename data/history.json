@@ -129,11 +129,13 @@
         "prelims": [
           "Order of Ages: Palaeolithic → Mesolithic → Neolithic → Chalcolithic",
           "Mehrgarh – earliest Neolithic site in South Asia",
-          "Bhimbetka – rock paintings"
+          "Bhimbetka – rock paintings",
+          "Sapiens Historiographical Paradigm: The shift from hunting-gathering to Neolithic farming at Mehrgarh represented an irreversible metabolic and social transformation towards state formation."
         ],
         "mains": [
           "Way-of-life transition across the four ages (nomadic → semi-nomadic → settled village → settled village + trade)",
-          "Regional distribution of prehistoric sites across North, Central, West, South India"
+          "Regional distribution of prehistoric sites across North, Central, West, South India",
+          "Critically evaluate the Neolithic transition in the Indian subcontinent. Was the 'Agricultural Revolution' an unambiguous leap forward in human welfare, or did it introduce structural vulnerabilities and inequality?"
         ]
       },
       "quickFacts": [
@@ -149,7 +151,15 @@
           "Next phase",
           "Early Historic Age (with writing), from c. 1000 BCE onwards"
         ]
-      ]
+      ],
+      "aspects": {
+        "Cognitive & Agricultural Revolutions (Sapiens Insights)": [
+          "The Cognitive Revolution (c. 70,000 BCE): Genetic mutations enabled Homo sapiens to communicate abstract fictions, collective myths (gods, laws, money, and imagined communities), allowing cooperative hunting and social cohesion in bands far exceeding Dunbar's number (150 individuals).",
+          "Paleolithic Foraging Economy: Hunter-gatherers in the Indian subcontinent (Bhimbetka rock shelters, Attirampakkam, Hunsgi) led physically diverse lifestyles with broad-spectrum wild diets, superior micronutrient profiles compared to early agriculturalists, and animistic belief systems reflected in cave paintings.",
+          "The Agricultural Revolution (c. 10,000–7,000 BCE): Described by modern anthropologists as 'history's biggest fraud' — rather than humans domesticating crops, wheat, barley, and rice domesticated humans, tying nomadic bands to permanent mud-brick hamlets (demonstrated at Mehrgarh in the Bolan Pass).",
+          "Demographic Explosion vs. Nutritional Stress: Sedentary agriculture caused exponential population growth and permanent settlements, but at the cost of repetitive back-breaking labor (slipped discs, arthritis), infectious epidemics from zoonotic livestock contact, vulnerability to famines, and emerging socio-economic stratification."
+        ]
+      }
     },
     {
       "id": "indus-valley-civilization",
@@ -2140,6 +2150,11 @@
           "name": "Prithviraj Chauhan (Prithviraj III)",
           "role": "Chahamana ruler",
           "note": "Defeated Ghori at Tarain I (1191); defeated at Tarain II (1192)."
+        },
+        {
+          "name": "Col. James Tod",
+          "role": "British Political Agent & Chronicler of Rajasthan",
+          "note": "Author of 'Annals and Antiquities of Rajasthan' (1829-32), the foundational monumental historical chronicle of Rajput genealogies, feudal chivalry, and regional resistance."
         }
       ],
       "themes": [
@@ -2172,7 +2187,15 @@
           "Outcome",
           "Cultural flourishing but political fragmentation; defeat of Prithviraj Chauhan (1192) opened the way for the Delhi Sultanate"
         ]
-      ]
+      ],
+      "aspects": {
+        "Rajput Polity & Chivalry (James Tod: Annals of Rajasthan)": [
+          "Agnikula vs. Solar-Lunar Dynastic Origins: Col. James Tod recorded the classic Agnikula fire-pit legend on Mount Abu, where the sage Vashistha created four warrior clans (Pratiharas, Paramaras, Chalukyas/Solankis, and Chauhans) to protect dharma; alongside the solar (Suryavanshi: Guhilas/Sisodias of Mewar, Rathores of Marwar, Kachwahas of Amber) and lunar (Chandravanshi: Bhattis of Jaisalmer) lineages.",
+          "Mewar's Unbroken Chivalric Ethos: The Guhila-Sisodia dynasty of Mewar established by Bappa Rawal maintained stubborn independence against Delhi. Rana Kumbha erected 32 formidable hill fortresses across Mewar, including the iconic Kumbhalgarh and the victory tower Vijay Stambha at Chittor.",
+          "Feudal Hierarchy & Military Tenure: Rajput states operated on clan-based feudal ties (Patta and Jagir tenures) where feudal thakurs and sardars owed hereditary military allegiance (Chhatri chivalric code) rather than bureaucratic submission to the monarch.",
+          "Jauhar and Saka Traditions: In moments of inevitable defeat against overwhelming imperial armies, Rajput fortresses enacted the supreme sacrifice — women and children performed Jauhar (collective self-immolation into ritual pyres to protect honor), while warriors donned saffron robes (Kesariya) and rode out in Saka (death-charge) to fight to the last man (exemplified in the sieges of Chittorgarh in 1303, 1535, and 1568)."
+        ]
+      }
     },
     {
       "id": "kingdoms-of-south",
@@ -5643,6 +5666,12 @@
         "Administrative Steps After Gaining Power": [
           "Dual System in Bengal (1765–72): Diwani (Revenue) — EIC; Nizamat (Administration) — Nawab",
           "Appointment of Company officials as Collectors; gradual control over civil, criminal & military administration; establishment of Courts; reorganisation of revenue collection; the British became the real rulers behind the name of the Nawab"
+        ],
+        "Stages of Colonial Penetration & Diplomatic Treaties (B.L. Grover & Pratik Nayak)": [
+          "Mercantile Conquest & Elimination of Rivals: The British East India Company methodically eliminated European competitors — defeating the Portuguese (Battle of Swally 1612), the Dutch (Battle of Bedara/Chinsurah 1759), and the French in three Carnatic Wars (culminating in the Battle of Wandiwash 1760 and Treaty of Paris 1763).",
+          "The Bengal Lever & Treaty of Allahabad (1765): Following Plassey (1757) and Buxar (1764), Robert Clive secured the Diwani (civil and revenue administration) of Bengal, Bihar, and Orissa from Mughal Emperor Shah Alam II for an annual tribute of 26 lakh rupees, introducing the predatory Dual System of Government (1765-1772) where the Company wielded power without responsibility.",
+          "The Ring Fence Policy (Warren Hastings, 1772-1785): Created buffer zones around Company territories to defend frontiers against Marathas and Afghans, famously turning Awadh into a dependent buffer state whose defense costs were borne by the Nawab.",
+          "Subsidiary Alliance Framework (Lord Wellesley, 1798-1805): Codified Dupleix's pioneer mercenary mechanism into a four-stage imperial subjugation tool: Company promised troops -> Stationed permanent subsidiary force inside native territory -> Demanded territorial cessions or cash subsidies -> Controlled external relations and stationed a British Resident, stripping native rulers of external sovereignty (Hyderabad 1798, Mysore 1799, Tanjore 1799, Awadh 1801, Peshwa Baji Rao II Treaty of Bassein 1802)."
         ]
       },
       "women": [
@@ -6006,6 +6035,16 @@
           "Early resistance: Sannyasi & Fakir Rebellion (18th c.), Poligar Rebellions (South India), Vellore Mutiny (1806), Paika Rebellion (1817), tribal revolts (Kittur, Kol, Bhil, Santhal, Munda revolts)",
           "1857 Revolt — First War of Independence (soldiers, peasants, zamindars, rulers united); tribal revolts continued (Santhal 1855, Munda 1899, Bhil, Rampa, etc.)",
           "Rise of nationalism in three phases: Moderate (1885–1905), Extremist (1905–1919), Gandhian Mass Phase (1919–1947); formation of the Indian National Congress (1885); ideologies of Swadeshi, Boycott, National Education, Swaraj"
+        ],
+        "Marxist Paradigm: 3 Stages of Colonialism (R. Palme Dutt)": [
+          "Stage I: Mercantile Capitalist Phase (1757–1813): Direct plunder and monopolistic trade. The Company used territorial land revenues of Bengal to buy Indian textiles and spices ('investment') for export to Europe without any inflow of bullion into India, draining raw wealth at the point of origin.",
+          "Stage II: Industrial Capitalist Phase (1813–1858): Post-Charter Act of 1813, the Company's trade monopoly was abolished. India was systematically converted into an agrarian appendage of the British metropolis — an exporter of raw materials (cotton, jute, indigo, opium, tea) and an open market for Manchester machine-made cotton goods, precipitating catastrophic deindustrialization and the collapse of urban artisan guild centers (Dhaka, Murshidabad, Surat).",
+          "Stage III: Financial Capitalist Phase (Post-1858): Export of British surplus capital into India under state-guaranteed returns. British capitalists invested in Indian railways (with a guaranteed 5% return paid from Indian tax revenues, termed 'private enterprise at public risk'), public debt, tea plantations, mining, and managing agency houses."
+        ],
+        "The Drain of Wealth & Famine Policy Matrix": [
+          "Mechanisms of Economic Drain: Conceptualized by Dadabhai Naoroji ('Poverty and Un-British Rule in India'), Romesh Chunder Dutt ('Economic History of India'), and M.G. Ranade. The drain comprised Home Charges (pensions and salaries of India Office officials, interest on Indian public debt, guaranteed railway interest, military procurement abroad) and unrequited commodity exports.",
+          "Commercialization of Agriculture: Forced shift from subsistence foodgrains to cash crops (indigo, cotton, opium, sugarcane) driven by rigid, monetized land revenue demands. This severed the traditional village famine cushion, rendering the peasantry defenseless during monsoonal droughts.",
+          "Evolution of Famine Policy & Commissions: Campbell Commission (1866 Orissa Famine - recommended government responsibility for famine relief); Strachey Commission (1880 - formulated the Provisional Famine Code, creation of Famine Insurance Fund); Lyall Commission (1897); MacDonnell Commission (1901 - recommended 'moral strategy' of advance loans, agricultural banks, and irrigation development)."
         ]
       },
       "women": [
@@ -6253,7 +6292,17 @@
             "Government of India Act, 1919 (Montagu-Chelmsford Reforms): introduced dyarchy in the provinces, relaxing central control; made the legislature more representative and bicameral, with a Legislative Assembly and a Council of State",
             "Government of India Act, 1935: the most elaborate constitutional document of the colonial period, providing for provincial autonomy and proposing an All-India Federation that was never actually implemented — covered in more depth on this site's Independence of India and United Provinces During Modern India pages"
           ]
-        }
+        },
+        "Land Revenue Systems Matrix (Pratik Nayak Compendium)": [
+          "Permanent Settlement / Zamindari System (1793): Introduced by Lord Cornwallis and John Shore across Bengal, Bihar, Orissa, Northern Carnatic (covering ~19% of British India). Zamindars recognized as absolute proprietors of land with hereditary rights. State demand fixed permanently at 10/11th for the Company and 1/11th for the Zamindar. Sunset Law dictated auction of estates if revenue was not deposited by sunset of the specified day. Resulted in rampant absentee landlordism, sub-infeudation, and pauperization of the ryots.",
+          "Ryotwari System (1820): Devised by Thomas Munro and Alexander Read across Madras, Bombay Presidency, parts of Assam and Coorg (~51% of British India). Direct settlement with the individual peasant (ryot). Land surveyed and classified; revenue demand revised periodically (every 20–30 years), often reaching 45%–55% of gross produce. Led to direct state extortion and widespread indebtedness to moneylenders.",
+          "Mahalwari System (1822/1833): Formulated by Holt Mackenzie (Regulation VII of 1822) and reformed by Merttins Bird and James Thomason (1833) across North-Western Provinces, Central Provinces, and Punjab (~30% of British India). Revenue settled with the village community or estate (Mahal) collectively through the village headman (Lambardar). Revenue demand initially set at 66% (later reduced to 50% under William Bentinck)."
+        ],
+        "Civil Services, Police & Judiciary Evolution": [
+          "Civil Services: Lord Cornwallis ('Father of Civil Services in India') separated revenue collection from commercial functions, established high European salaries to combat corruption, and instituted the Cornwallis Code (1793). Charter Act of 1853 introduced open competitive exams. Satyendranath Tagore became the first Indian to qualify for the ICS (1863). Aitchison Commission (1886) classified services into Imperial, Provincial, and Subordinate. Lee Commission (1924) recommended establishing a Public Service Commission (created 1926).",
+          "Press Policy Chronology: Censorship of Press Act 1799 (Wellesley); Licensing Regulations 1823 (John Adams, forced closure of Raja Rammohan Roy's Mirat-ul-Akhbar); Press Act of 1835 (Charles Metcalfe - 'Liberator of the Indian Press', repealed 1823 regulations); Vernacular Press Act 1878 (Lord Lytton - 'The Gagging Act', discriminated against vernacular papers, repealed by Lord Ripon in 1882); Newspaper (Incitement to Offences) Act 1908 and Indian Press Act 1910.",
+          "Educational Commissions Pipeline: Charter Act 1813 (1 lakh education grant); Orientalist-Anglicist Controversy (H.T. Prinsep vs Macaulay); Macaulay's Minute 1835 (Infiltration Theory - creating 'a class of persons Indian in blood and colour, but English in taste, in opinions, in morals and in intellect'); Wood's Despatch 1854 ('Magna Carta of English Education in India', recommended female education, vernacular primary schools, Anglo-vernacular high schools, and affiliating universities in Calcutta, Bombay, Madras 1857); Hunter Commission 1882 (primary & secondary education); Raleigh Commission & Indian Universities Act 1904 (Curzon); Sadler Commission 1917 (Calcutta University, secondary board reforms); Hartog Committee 1929 (consolidation against hasty expansion); Wardha Scheme of Basic Education 1937 (Zakir Husain Committee, learning through craft); Sargent Plan of Education 1944."
+        ]
       },
       "women": [
         {
@@ -7013,7 +7062,20 @@
             "The moderate, constitutional methods the early Congress relied on — petitions, resolutions, reasoned argument — reflected a deliberate strategic choice about how a fledgling, un-armed political movement could most effectively build legitimacy, not evidence of weakness or co-option",
             "The institutional and organisational habits the Congress developed in its first two decades — disciplined annual sessions, a rotating provincial leadership, a growing culture of political argument in the vernacular press — became the direct infrastructure on which the far more assertive Swadeshi, Extremist, and Gandhian phases of the freedom struggle were later built"
           ]
-        }
+        },
+        "Pre-Congress Political Organizations (1836–1885 Chronology)": [
+          "Bangabhasha Prakasika Sabha (1836): Early association in Bengal formed by associates of Raja Rammohan Roy to discuss government policies.",
+          "Landholders' Society / Zamindari Association (1838): Founded by Dwarkanath Tagore and Radhakanta Deb to protect landlord interests through constitutional agitation.",
+          "Bengal British India Society (1843) and British Indian Association (1851): Amalgamation under Radhakanta Deb and Debendranath Tagore, petitioning the British Parliament for separate legislatures and reduction of salt duties.",
+          "East India Association (1866, London): Founded by Dadabhai Naoroji to lobby British Parliament and educate the British public on Indian grievances.",
+          "Poona Sarvajanik Sabha (1870): Founded by M.G. Ranade, G.V. Joshi, and S.H. Chiplunkar to serve as a bridge between the government and the rural public, vigorously mobilizing famine relief.",
+          "Indian Association of Calcutta (1876): Founded by Surendranath Banerjea and Ananda Mohan Bose; organized the nationwide Civil Service agitation and convened the Indian National Conference (1883 & 1885), the direct dress-rehearsal for the Congress.",
+          "Madras Mahajana Sabha (1884) & Bombay Presidency Association (1885): Founded by M. Veeraraghavachariar, G. Subramania Iyer, P. Anandacharlu; and Pherozeshah Mehta, K.T. Telang, Badruddin Tyabji, providing nationwide political momentum."
+        ],
+        "Foundational Historiographical Debates: Safety Valve vs. Lightning Conductor": [
+          "The 'Safety Valve' Myth: Propounded by Extremist leader Lala Lajpat Rai (in 'Young India', 1916) and Marxist historian R. Palme Dutt ('India Today'), alleging that retired civil servant Allan Octavian Hume founded the Congress with Viceroy Dufferin's blessings to provide a safe, harmless outlet for boiling peasant discontent following seven secret CID volume reports.",
+          "The 'Lightning Conductor' Historiographical Reality: Bipan Chandra and modern historians established that early nationalist leaders (Gokhale, W.C. Bonnerjee) consciously used A.O. Hume as a 'lightning conductor' to prevent the colonial state from crushing the infant all-India political organization at its inception; Dufferin soon grew fiercely hostile, deriding the Congress as a 'microscopic minority'."
+        ]
       },
       "women": [],
       "events": [
@@ -7175,6 +7237,16 @@
         "Indian National Army (INA)": [
           "Formed by Netaji Subhas Chandra Bose; first formed in 1942 in Southeast Asia with the help of Indian POWs; reorganized in 1943, slogan 'Chalo Dilli'",
           "Women's Regiment — Rani Jhansi Regiment (Captain Lakshmi Sahgal); hoisted the tricolour in Andaman & Nicobar; INA trials (1945–46) united Indians and demoralized British rule"
+        ],
+        "Revolutionary Movement: Phase I vs Phase II Comparative Matrix (Pratik Nayak)": [
+          "Phase I (1907–1917) Characteristics: Individual heroic action, secret societies (Anushilan Samiti, Yugantar, Abhinav Bharat), assassination of unpopular British officials (Kingsford, Curzon Wyllie, Jackson), religious oaths (Gita, Kali worship), overseas networks (Ghadar Party in San Francisco, Berlin Committee, Komagata Maru incident 1914), aimed at striking terror into British bureaucracy.",
+          "Phase II (1920s–1930s) Characteristics: Ideological shift towards scientific socialism and Marxism, mass mobilization of workers and peasants (Kirti Kisan Party, Naujawan Bharat Sabha), rejection of religious revivalism. HRA (Kanpur 1924: Bismil, Sachindranath Sanyal, Ashfaqulla Khan) evolved into HSRA (Feroz Shah Kotla 1928: Bhagat Singh, Chandrashekhar Azad), declaring the goal of establishing the Federal Republic of the United States of India.",
+          "Iconic Landmark Actions: Kakori Train Action (1925), Saunders Assassination (1928 to avenge Lala Lajpat Rai), Central Legislative Assembly Bombing (8 April 1929 - Bhagat Singh & Batukeshwar Dutt threw leaflets stating 'to make the deaf hear' protesting Public Safety & Trade Disputes Bills), Lahore Conspiracy Case (Jatin Das 63-day hunger strike martyrdom), Chittagong Armoury Raid (1930 - Surya Sen / Masterda, Pritilata Waddedar, Kalpana Datta)."
+        ],
+        "Home Rule Movement & Lucknow Entente (1916)": [
+          "Tilak's Home Rule League (April 1916): Launched at Belgaum, operated across Maharashtra (excluding Bombay city), Karnataka, Central Provinces, and Berar with 6 branches; newspapers Mahratta (English) and Kesari (Marathi); slogan 'Swaraj is my birthright and I shall have it'.",
+          "Annie Besant's Home Rule League (September 1916): Headquartered at Adyar (Madras), covered rest of India with 200 branches; newspapers New India and Commonweal; organized by George Arundale and B.P. Wadia.",
+          "Lucknow Session (1916, A.C. Majumdar): Readmission of Extremists into Congress; signing of the landmark Lucknow Pact between Congress and the Muslim League (joint demands for self-government, mutual acceptance of separate electorates)."
         ]
       },
       "women": [
@@ -7412,6 +7484,12 @@
           "Fought against untouchability; called Dalits 'Harijans' (children of God); worked for their upliftment through the Harijan Sevak Sangh",
           "Promoted communal harmony; worked with all religions; advocated basic education (Nai Talim); emphasized cleanliness, hygiene, prohibition",
           "Encouraged simple living, removal of caste barriers, women's upliftment; started journals: Young India, Harijan, Navajivan"
+        ],
+        "South African Crucible & Philosophical Foundations (Experiments with Truth)": [
+          "South African Crucible (1893–1914): Evolved non-violent passive resistance through the Natal Indian Congress (1894), Indian Opinion journal (1903), Phoenix Settlement (1904 - communal manual labor inspired by Ruskin's 'Unto This Last'), and Tolstoy Farm (1910 - funded by Hermann Kallenbach for satyagrahis). Fought against the Asiatic Registration Act (Black Act), poll tax on ex-indentured laborers, and invalidation of Indian marriages.",
+          "Intellectual Mentors & Influences: Leo Tolstoy ('The Kingdom of God Is Within You' - doctrine of non-resistance to evil through violence), John Ruskin ('Unto This Last' - Sarvodaya, welfare of all), Henry David Thoreau ('Civil Disobedience' - moral duty to resist unjust state laws), and Shrimad Rajchandra (spiritual guide on Jain principles of Ahimsa and Aparigraha).",
+          "The Satyagraha Paradigm: Fundamental distinction between Passive Resistance (a weapon of the weak, allowing tactical hatred and practical violence if opportunity permits) and Satyagraha (a weapon of the morally courageous, based on love, non-hatred, self-suffering, and aiming to convert the conscience of the adversary rather than defeating him).",
+          "The Constructive Programme: Non-political pillars essential for Swaraj — Khadi and Village Industries (economic decentralization and self-reliance), removal of Untouchability (Harijan Sevak Sangh), Hindu-Muslim unity, prohibition of alcohol, Basic Education (Nai Talim), and Trusteeship (capitalists acting as moral trustees of wealth for the community)."
         ]
       },
       "women": [
@@ -7577,7 +7655,19 @@
             "Wartime economic strain had already produced visible signs of public anxiety and loss of confidence in British rule before the movement was even launched — including runs on banks and hoarding of gold and silver — that Congress leaders read as evidence the population was ready for a decisive confrontation",
             "The Congress Working Committee's Wardha meeting on 14 July 1942 formally adopted the 'Quit India' resolution, and the movement was publicly launched at the Gowalia Tank Maidan session in Bombay on 8 August 1942, where Gandhi's speech invoked the famous 'Do or Die' call and the entire senior Congress leadership was arrested within hours, before the movement's grassroots phase — strikes, sabotage of communication lines, and in some areas genuinely parallel local governments — had even fully begun"
           ]
-        }
+        },
+        "The Interwar Political Pipeline: Swarajists to Poona Pact (1922–1935)": [
+          "Swarajists vs. No-Changers (1922–1924): Following Non-Cooperation's withdrawal, C.R. Das and Motilal Nehru formed the Congress-Khilafat Swarajya Party (Gaya Session 1922) to enter legislative councils and 'end or mend' the 1919 Montford reforms from within; No-Changers (Patel, Rajagopalachari, Rajendra Prasad) focused on grassroots constructive work. Gandhi mediated unity at Belgaum (1924).",
+          "Simon Commission & Nehru Report (1927–1928): Appointment of all-white Indian Statutory Commission sparked universal boycott ('Simon Go Back'). Birkenhead's challenge yielded the Nehru Report (Motilal Nehru) advocating Dominion Status, Fundamental Rights (universal adult suffrage), joint electorates, and linguistic provinces; countered by Jinnah's 14 Points.",
+          "Civil Disobedience & Round Table Conferences (1930–1934): Dandi March (12 March – 6 April 1930, 240 miles to break Salt Law); nationwide mobilization at Vedaranyam (Rajagopalachari), Payyanur (K. Kelappan), Peshawar (Frontier Gandhi & Khudai Khidmatgars), and Dharsana Salt Works (Sarojini Naidu). First RTC boycotted; Gandhi-Irwin Pact (March 1931); Karachi Session (1931 - resolution on Fundamental Rights & National Economic Programme drafted by Nehru); Second RTC deadlock; Ramsay MacDonald's Communal Award (1932); Poona Pact (Sept 1932 - Ambedkar and Gandhi agreement in Yerwada Jail increasing reserved seats for Depressed Classes from 71 to 147 in joint electorates).",
+          "Government of India Act 1935: Provided for an All-India Federation (never materialized), Provincial Autonomy with responsible ministries, abolition of dyarchy in provinces and its introduction at the Centre, bicameral legislatures in 6 provinces, and establishment of the Federal Court and Reserve Bank of India. Led to Congress forming ministries in 8 provinces in 1937."
+        ],
+        "The Final Surge: Quit India, INA, RIN Mutiny & Transfer of Power (1942–1947)": [
+          "Quit India Movement (August Kranti 1942): Cripps Mission failure led to Gowalia Tank resolution (8 August 1942) with Gandhi's call 'Do or Die'. Operation Zero Hour arrested the entire top leadership overnight. Unprecedented mass uprising ensued with underground radio (Usha Mehta), underground networks (Aruna Asaf Ali, Ram Manohar Lohia, JP), and parallel governments (Ballia under Chittu Pandey, Tamluk Jatiya Sarkar, Satara Prati Sarkar under Nana Patil).",
+          "Indian National Army (Azad Hind Fauj): Reorganized by Netaji Subhash Chandra Bose in Singapore (1943), establishing the Provisional Government of Free India (Arzi Hukumat-e-Azad Hind) and Rani of Jhansi Regiment under Captain Lakshmi Sahgal. Red Fort INA Trials (Nov 1945 - Prem Sahgal, Gurbaksh Dhillon, Shah Nawaz Khan defended by Bhulabhai Desai, Sapru, Nehru) created unmatched anti-imperialist public fury.",
+          "Royal Indian Navy (RIN) Mutiny (Feb 1946): Ratings of HMIS Talwar struck in Bombay over racial discrimination, substandard food, and INA trials. Spread across 78 ships, 20 shore establishments, and 20,000 ratings in Bombay, Karachi, and Calcutta, shattering the British military pillar of control.",
+          "Constitutional Endgame (1946–1947): Cabinet Mission Plan (May 1946 - grouping of provinces, rejected Pakistan, Constituent Assembly election); Direct Action Day (16 August 1946 - communal carnage); Interim Government formed (September 1946); Attlee's Declaration (20 February 1947); Mountbatten Plan (3 June 1947); Indian Independence Act (passed July 1947); partition, partition refugee crisis, and historic integration of 565 Princely States orchestrated by Sardar Vallabhbhai Patel and V.P. Menon."
+        ]
       },
       "women": [
         {
@@ -9458,6 +9548,12 @@
           "Demonstrated the hyper-vulnerability of Indian colonial agriculture to distant global geopolitical shocks.",
           "Commercialization of agriculture without institutional credit forced ryots into hereditary debt bondage.",
           "Catalyzed early Indian nationalist economic thinking (Dadabhai Naoroji, M.G. Ranade) on rural indebtedness and market distortion."
+        ],
+        "Causes, Constitutional Synthesis & US-India Comparative Matrix": [
+          "Colonial Mercantilism & Escalation: Navigation Acts restricted colonial manufacturing; Seven Years' War left Britain in debt, prompting the Sugar Act (1764), Stamp Act (1765 - sparking James Otis's cry 'No taxation without representation!'), Townshend Acts, Boston Massacre (1770), and Boston Tea Party (1773). Lord North's Intolerable/Coercive Acts (1774) galvanized the First Continental Congress.",
+          "Declaration of Independence (4 July 1776): Drafted by Thomas Jefferson, grounding revolution in John Locke's social contract and inalienable natural rights (Life, Liberty, and the pursuit of Happiness); military victory secured at Saratoga (1777 - bringing French alliance) and Yorktown (1781) leading to the Treaty of Paris (1783).",
+          "American Civil War (1861–1865): Rooted in irreconcilable economic models and the moral crisis of slavery. Agrarian Southern plantation slave economy vs. Northern industrial wage economy; Missouri Compromise (1820), Compromise of 1850, and Dred Scott decision (1857); Abraham Lincoln's election (1860) triggered Southern secession; Emancipation Proclamation (1863) transformed the war into a crusade for human liberty; culminated in Union victory, 13th Amendment abolishing slavery, and preservation of the Union.",
+          "Comparative Constitutional Law (USA vs. India Matrix): Federalism: USA is an 'indestructible union of indestructible states', whereas India is an 'indestructible union of destructible states' (Article 3 allows territorial reorganisation without state consent); Executive: US has a rigid Presidential system with strict Separation of Powers, India has a Parliamentary system with executive responsibility to the legislature; Judicial Review: US Constitution follows 'Due Process of Law' (5th & 14th Amendments), whereas India originally instituted 'Procedure Established by Law' (Article 21), later expanding towards substantive due process via the Maneka Gandhi case (1978)."
         ]
       },
       "events": [
@@ -9610,6 +9706,12 @@
           "Social: abolition of feudalism; equality before law; end of the privileges of Church & Nobility; rise of the middle class",
           "Economic: abolition of feudal dues; redistribution of Church lands; encouraged capitalism and free trade",
           "Ideological & Cultural: spread of ideas of Liberty, Equality, Fraternity; inspired nationalist movements in Europe; secularism and rational thinking; birth of modern citizenship and democracy"
+        ],
+        "Philosophical & Socio-Fiscal Catalyst (Pratik Nayak World History)": [
+          "The Three Estates & Tax Inequality: The Ancien Régime was fractured into the First Estate (Clergy, 0.5% population, owning 10% land, exempt from taxes, collecting the Tithe), the Second Estate (Nobility, 1.5% population, exempt from direct taxes, collecting feudal dues), and the Third Estate (Commoners, 98% population - peasantry, urban workers, and bourgeoisie), who bore the entire tax burden (Taille direct land tax, Tithe church tax, Gabelle salt monopoly tax, and Corvée forced labor).",
+          "Enlightenment Thinkers: Voltaire exposed ecclesiastical corruption and bigotry; Montesquieu argued for the Separation of Powers ('The Spirit of the Laws'); Jean-Jacques Rousseau conceptualized Popular Sovereignty and the General Will ('The Social Contract'), declaring 'Man is born free, and everywhere he is in chains.'",
+          "The Revolutionary Escalation Pipeline: Fiscal bankruptcy from Seven Years' War and funding the American Revolution -> Assembly of Notables deadlock -> Estates-General convened at Versailles (May 1789) -> Third Estate declared the National Assembly -> Tennis Court Oath (20 June 1789) -> Storming of the Bastille (14 July 1789) -> Abolition of Feudalism & Declaration of the Rights of Man and of the Citizen (August 1789).",
+          "Radicalization & Terror: Flight to Varennes (1791) discredited the monarchy; French Revolutionary Wars began (Declaration of Pillnitz); National Convention proclaimed the Republic and executed Louis XVI (January 1793); Jacobin Dictatorship under Maximilien Robespierre instituted the Reign of Terror (1793-94) via the Committee of Public Safety and Revolutionary Tribunal, until the Thermidorian Reaction and the eventual rise of Napoleon Bonaparte (1799)."
         ]
       },
       "women": [],
@@ -9959,6 +10061,12 @@
           "Social: equality in theory; women gained rights; education expanded; class distinctions challenged",
           "Economic: nationalisation of industries; land redistributed; a planned economy; industrialisation later under Five-Year Plans",
           "International: inspired revolutions worldwide; founding of the Communist International (Comintern) in 1919; led to ideological conflicts of Capitalism vs Communism that shaped the 20th century, including the Cold War"
+        ],
+        "From Tsarist Autocracy to Soviet State (Pratik Nayak World History)": [
+          "Pre-1917 Structural Crises: Emancipation of Serfs (1861) left peasants laden with redemption dues; rapid industrialization created an impoverished urban proletariat concentrated in giant factories (Putilov works); political autocracy of Tsar Nicholas II; defeat in the Russo-Japanese War (1904-05) triggered Bloody Sunday (January 1905) and the 1905 Revolution, forcing the creation of the State Duma.",
+          "The Double Revolution of 1917: February Revolution (March 1917) arose from bread shortages and mutiny in Petrograd, forcing the abdication of Nicholas II and establishing the Dual Power (Provisional Government under Prince Lvov / Alexander Kerensky vs Petrograd Soviet of Workers' and Soldiers' Deputies).",
+          "Lenin's April Theses & October Coup: Vladimir Lenin returned from Zurich exile and issued his April Theses: 'All Power to the Soviets', immediate end to the imperialist war, confiscation of landed estates, nationalization of banks. In October (November) 1917, Bolshevik Red Guards led by Leon Trotsky seized key government installations and the Winter Palace with virtually no bloodshed.",
+          "Civil War, War Communism & NEP: Bolsheviks signed the punitive Treaty of Brest-Litovsk (March 1918) to exit WWI; fought brutal Russian Civil War (1918-1921, Reds vs Whites and foreign intervention); War Communism (grain requisitioning, nationalization) caused peasant resistance and famine; Lenin pragmatically pivoted to the New Economic Policy (NEP, 1921), reintroducing limited private trade and market mechanisms to resurrect the collapsed economy."
         ]
       },
       "women": [

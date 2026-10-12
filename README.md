@@ -9,10 +9,10 @@ A comprehensive, static, data-driven, interactive historical atlas and UPSC GS-1
 ├── index.html          Home page (hero, journey rail, period grid, featured events/women, module showcases)
 ├── timeline.html        Master interactive timeline (filterable, expandable, click-to-detail)
 ├── map.html             Interactive Historical Atlas & Archaeological Map Lab (Calibrated Google Maps Engine)
-├── practice.html        UPSC Prelims & Mains Practice Hub (551 MCQs & 219 Mains Model Frameworks)
+├── practice.html        UPSC Prelims & Mains Practice Hub (604 MCQs & 233 Mains Model Frameworks)
 ├── art-culture.html     Indian Heritage & Culture Hub (Art Forms, Literature, Architecture & Comparisons)
 ├── society.html         Indian Society Hub (Diversity, Women, Demography, Poverty, Urbanization, Globalization)
-├── books.html           The 15 Canonical Textbooks Study Hub (NCERT, RS Sharma, Satish Chandra, Spectrum, Ahuja)
+├── books.html           The 20 Canonical Textbooks & Compendiums Study Hub (NCERT, RS Sharma, Satish Chandra, Spectrum, Ahuja, BL Grover, James Tod, Harari, Gandhi, Pratik Nayak)
 ├── up-history.html      Dedicated Uttar Pradesh Track (UPPSC GS-5 & 6)
 ├── period.html          Single dynamic template — renders any of 85 periods via ?id=<period-id>
 ├── themes.html          Thematic index (Polity, War, Religion, Economy, Society, Women, Art, Science, Foreign)
@@ -173,4 +173,24 @@ This matches every supplied infographic image across all upload batches; alterna
 
 A small number of dates that were not fully unambiguous in the source sheets (chiefly the exact day Uttar Pradesh was renamed from the United Provinces in January 1950) were checked against independent reference sources; the period page notes this rather than silently picking one date.
 
-**Not yet included** because no source infographic has been supplied for it: nothing currently outstanding — every uploaded sheet has a corresponding page. Future periods, deeper sub-pages, or other state-specific tracks (in the style of the Uttar Pradesh track) can be added the same way — the data model, navigation, search index, knowledge graph, and region-aware prev/next chain all extend automatically from a new entry in `data/history.json`.
+## Deep Synthesis: Exam Notes & Master Lecture Compendiums Integration
+
+The platform integrates deep, exhaustive knowledge extracted from the canonical exam repository (`D:\My notes for exams\History`), synthesizing:
+
+1. **Pratik Nayak's Modern Indian History & Freedom Struggle Compendiums (21 PPTX presentations)**:
+   - Full cause-and-effect pipelines covering European Entry, British Doctrines (Subsidiary Alliance, Ring Fence, Subordinate Isolation, Doctrine of Lapse), Constitutional Acts (1773 to 1935), Educational Policies (Macaulay, Wood's, Hunter, Sadler, Wardha, Sargent), Press Policies (1799 Censorship to 1910 Press Act), Civil Services Evolution (Cornwallis Code to Lee Commission 1924), Land Revenue Tenures (Zamindari ~19%, Ryotwari ~51%, Mahalwari ~30%), Drain of Wealth & Deindustrialisation (R. Palme Dutt's 3 stages of colonialism, Dadabhai Naoroji, R.C. Dutt), 1857 Revolt, Pre-Congress Political Associations, Swadeshi & Bengal Partition, Surat Split 1907, Revolutionary Phases I & II, Home Rule Leagues, Gandhian Mass Movements, Swarajists vs. No-Changers, Simon Commission & Nehru Report, Civil Disobedience Movement, 1931 Karachi Resolution, Poona Pact, GoI Act 1935, Quit India parallel governments (Ballia, Tamluk, Satara), INA Trials, RIN Mutiny 1946, and Partition & Integration of States.
+2. **Pratik Nayak's World History Compendiums**:
+   - French Revolution (Three Estates, fiscal crisis, Enlightenment thinkers, Bastille, Rights of Man, Reign of Terror, Directory, Napoleon).
+   - American Revolution & American Civil War (mercantilism, taxation without representation, Declaration of Independence, Lincoln, Emancipation Proclamation, 13th-15th Amendments) alongside a comparative constitutional matrix contrasting US and Indian federalism, executive, and judicial review.
+   - Unifications of Italy (Mazzini, Cavour, Garibaldi) and Germany (Bismarck, Realpolitik, 3 Wars of Unification).
+   - Russian Revolution (1905, February 1917, Lenin's April Theses, October Revolution, Civil War, War Communism, NEP).
+3. **B.L. Grover & Alka Mehta (*A New Look at Modern Indian History*)**:
+   - Diplomatic treaties, administrative statecraft, famine commissions (Campbell 1866, Strachey 1880, Lyall 1897, MacDonnell 1901), and historiographical debates.
+4. **Lieut.-Col. James Tod (*Annals and Antiquities of Rajasthan*)**:
+   - Classical account of Rajput clans, Agnikula origin myth of Mount Abu, Mewar's unbroken resistance under Bappa Rawal, Rana Kumbha (Vijay Stambha, 32 forts), Rana Sanga, Maharana Pratap at Haldighati and Chavand, feudal Patta tenures, and Jauhar/Saka rituals of Chittorgarh.
+5. **Prof. Yuval Noah Harari (*Sapiens: A Brief History of Humankind*)**:
+   - The Cognitive Revolution (70,000 BCE, fiction-based language, stranger cooperation beyond Dunbar's number 150), Paleolithic foragers at Bhimbetka, Agricultural Revolution (10,000 BCE) as 'history's biggest fraud', Mehrgarh Neolithic transition, and the three universal imagined orders (money, empires, religions).
+6. **Mahatma Gandhi (*The Story of My Experiments with Truth*)**:
+   - Primary account of Satyagraha vs. Passive Resistance, spiritual mentors (Tolstoy, Ruskin, Thoreau), South African campaigns (Phoenix, Tolstoy Farm), Indian experiments (Champaran, Ahmedabad, Kheda), and the Constructive Programme.
+
+This synthesis expands the practice repository to **604 statement-based Prelims MCQs** and **233 analytical Mains model answer frameworks**, alongside **20 Canonical Master Textbooks and Compendiums** in `books.html`.
