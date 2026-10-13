@@ -133,11 +133,11 @@ const HistoryPractice = (() => {
   function matchesExam(item, selectedExam) {
     if (selectedExam === 'all') return true;
     const tag = (item.examTag || '').toLowerCase();
-    const yr = (item.yearRef || '').toLowerCase();
+    const yr = ((item.yearRef || '') + ' ' + (item.source || '') + ' ' + (item.year || '')).toLowerCase();
     
     switch (selectedExam) {
       case 'upsc':
-        return tag === 'upsc' || yr.includes('upsc') || (!tag && !yr.includes('uppsc') && !yr.includes('ro/aro') && !yr.includes('bank') && !yr.includes('rrb'));
+        return tag === 'upsc' || yr.includes('upsc') || yr.includes('cse') || (!tag && !yr.includes('uppsc') && !yr.includes('ro/aro') && !yr.includes('bank') && !yr.includes('rrb'));
       case 'uppsc':
         return tag === 'uppsc' || yr.includes('uppsc') || yr.includes('pcs');
       case 'ro-aro':
@@ -309,7 +309,7 @@ const HistoryPractice = (() => {
             <span class="badge badge-site badge-${q.category}">${q.categoryLabel || q.category}</span>
             ${q.examLabel ? `<span class="badge" style="background:#0284c7; color:#f0f9ff; font-weight:700;">🏷️ ${q.examLabel}</span>` : ''}
             ${q.isPyq ? `<span class="badge" style="background:#854d0e; color:#fef08a; font-weight:700;">🏆 Authentic PYQ</span>` : ''}
-            <span class="q-year">${q.yearRef || 'Competitive Exam Pattern'}</span>
+            <span class="q-year">${q.source || q.yearRef || (q.year ? 'Year ' + q.year : 'Competitive Exam Pattern')}</span>
             ${q.bookRef ? `<span class="q-book">📚 ${q.bookRef}</span>` : ''}
           </div>
           <span class="q-id">#${q.id.toUpperCase()}</span>
