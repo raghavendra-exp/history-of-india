@@ -12,9 +12,9 @@ const elements = {
   cultureGrid: { innerHTML: '' },
   cultureNavPills: {
     buttons: [
-      { textContent: 'All Culture Topics (43)', getAttribute: () => 'all', classList: { add: () => {}, remove: () => {} } },
-      { textContent: '🎨 Indian Art Forms (22)', getAttribute: () => 'art-forms', classList: { add: () => {}, remove: () => {} } },
-      { textContent: '📜 Literature (8)', getAttribute: () => 'literature', classList: { add: () => {}, remove: () => {} } },
+      { textContent: 'All Culture Topics (47)', getAttribute: () => 'all', classList: { add: () => {}, remove: () => {} } },
+      { textContent: '🎨 Art Forms & Textiles (24)', getAttribute: () => 'art-forms', classList: { add: () => {}, remove: () => {} } },
+      { textContent: '📜 Literature & Scripts (10)', getAttribute: () => 'literature', classList: { add: () => {}, remove: () => {} } },
       { textContent: '🏛️ Architecture (13)', getAttribute: () => 'architecture', classList: { add: () => {}, remove: () => {} } },
       { textContent: '⚖️ Core Comparative Tables', getAttribute: () => 'comparisons', classList: { add: () => {}, remove: () => {} } },
       { textContent: '✍️ Mains Model Answers', getAttribute: () => 'mains-frameworks', classList: { add: () => {}, remove: () => {} } }
@@ -57,28 +57,28 @@ eval(modifiedScript);
 
 console.log("=== RUNNING CULTURE INTERACTION TESTS ===");
 console.log("Total CULTURE_DATA items loaded:", CULTURE_DATA.length);
-if (CULTURE_DATA.length !== 45) {
-  console.error("FAIL: Expected 45 items, got", CULTURE_DATA.length);
+if (CULTURE_DATA.length !== 47) {
+  console.error("FAIL: Expected 47 items, got", CULTURE_DATA.length);
   process.exit(1);
 }
 
 // Test 1: Render All
 renderCultureCards('all', '');
 const allMatches = (elements.cultureGrid.innerHTML.match(/<article class="culture-card"/g) || []).length;
-console.log("Test 1 (render 'all'):", allMatches, "cards rendered (expected 45)");
-if (allMatches !== 45) process.exit(1);
+console.log("Test 1 (render 'all'):", allMatches, "cards rendered (expected 47)");
+if (allMatches !== 47) process.exit(1);
 
 // Test 2: Filter Art Forms
 renderCultureCards('art-forms', '');
 const artMatches = (elements.cultureGrid.innerHTML.match(/<article class="culture-card"/g) || []).length;
-console.log("Test 2 (render 'art-forms'):", artMatches, "cards rendered (expected 23)");
-if (artMatches !== 23) process.exit(1);
+console.log("Test 2 (render 'art-forms'):", artMatches, "cards rendered (expected 24)");
+if (artMatches !== 24) process.exit(1);
 
 // Test 3: Filter Literature
 renderCultureCards('literature', '');
 const litMatches = (elements.cultureGrid.innerHTML.match(/<article class="culture-card"/g) || []).length;
-console.log("Test 3 (render 'literature'):", litMatches, "cards rendered (expected 9)");
-if (litMatches !== 9) process.exit(1);
+console.log("Test 3 (render 'literature'):", litMatches, "cards rendered (expected 10)");
+if (litMatches !== 10) process.exit(1);
 
 // Test 4: Filter Architecture
 renderCultureCards('architecture', '');
