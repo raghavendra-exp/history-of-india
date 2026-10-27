@@ -2679,7 +2679,19 @@
           "Lost-wax bronze casting zenith: World-renowned Chola bronzes depicting Nataraja (Shiva as Cosmic Dancer: upper right hand holding Damaru drum of creation, upper left holding Agni fire of destruction, lower right in Abhayaprada gesture of protection, lower left pointing to uplifted foot representing grace/liberation, trampling Apasmara Purusha demon of ignorance within a circle of flames Prabhamandala).",
           "Temple as socio-economic hub: Temples operated as major landowners, employers, banking institutions lending capital at interest, patrons of classical music, Bharatnatyam (Devadasi institution), education (Ghatikas), and grain storehouses during famine."
         ]
-      }
+      },
+      "prelimsFacts": [
+        "Uttiramerur Inscription (919 & 921 CE under Parantaka I Chola): Invaluable epigraphic record detailing Chola local self-government, village assemblies (Sabha), qualifications for ward election (35–70 age, land ownership, Vedic knowledge), disqualifications, and the Kudavolai (lottery/pot-ticket) balloting system across 30 wards (Kudumbus).",
+        "Dravidian Structural Architecture & Upapitha: Chola monumental temples (Brihadisvara at Thanjavur and Gangaikonda Cholapuram) elevated the central Vimana (66m) above all structures, resting upon an Adhisthana (moulded plinth) often reinforced by a colossal Upapitha (sub-base/pedestal), housing the Garbhagriha, Antarala, and pillared Mukhamandapa.",
+        "Chola Maritime Hegemony: Rajaraja I and Rajendra I Chola established a dominant blue-water navy, conquering Anuradhapura (Sri Lanka), Maldives, and launching an expedition against the Srivijaya Empire (Sumatra/Malaya) in 1025 CE to protect maritime trading rights with Song Dynasty China."
+      ],
+      "mainsThemes": [
+        {
+          "theme": "Chola Democratic Grassroots Administration & The Kudavolai System",
+          "question": "Examine the operational mechanics and institutional significance of the Uttiramerur Inscription in understanding early medieval Indian local self-government, community auditing, and democratic village governance.",
+          "framework": "Introduce Parantaka I's Uttiramerur inscriptions (919 & 921 CE). Outline the structure of the Sabha, its executive committees (Variyams like Eri-Variyam for tanks, Thotta-Variyam for gardens, Pon-Variyam for gold). Analyze the Kudavolai balloting process and eligibility/exclusion filters. Evaluate its legacy for participatory governance."
+        }
+      ]
     },
     {
       "id": "delhi-sultanate",
@@ -7559,7 +7571,19 @@
           "Forest law, land alienation to moneylenders, forced labour, missionary intrusion"
         ]
       ],
-      "order": 36
+      "order": 36,
+      "prelimsFacts": [
+        "Kol Insurrection (1831–1832): Formidable tribal uprising led by Buddho Bhagat, Joa Bhagat, and Madara Mahato across Chhotanagpur (Ranchi, Singhbhum, Hazaribagh) against the transfer of tribal ancestral lands to outsider merchant-contractors (Thikadars), colonial excise duties on rice beer (Haria), and forced labour.",
+        "Santhal Hool (1855–1856): Massive tribal rebellion in the Damin-i-Koh region led by brothers Sidhu, Kanhu, Chand, and Bhairav Murmu against colonial zamindars and Mahajans (moneylenders); led to the creation of the separate Santhal Parganas district.",
+        "Munda Ulgulan (1899–1900): Great Tumult led by Birsa Munda (Dharti Aba) in the Chhotanagpur highlands demanding the restoration of the traditional collective land tenure system (Khuntkatti) and establishing a sovereign Munda Raj."
+      ],
+      "mainsThemes": [
+        {
+          "theme": "The Kol Insurrection (1831–32) and Structural Causes of Tribal Resistance",
+          "question": "Analyze the socioeconomic and institutional causes behind the Kol Insurrection in Chhotanagpur and evaluate its impact on British administrative reorganization in tribal areas.",
+          "framework": "Contextualize British penetration into Chhotanagpur. Detail specific grievances: introduction of Thikadars, loss of tribal rights, extortionate rents, and taxation on Haria. Highlight the leadership of Buddho Bhagat. Discuss military suppression and the subsequent administrative outcome: creation of the South-West Frontier Agency (SWFA) under Regulation XIII of 1833."
+        }
+      ]
     },
     {
       "id": "socio-religious-reforms",
@@ -10352,7 +10376,11 @@
           "Background/context chart — not part of the main India chronology"
         ]
       ],
-      "order": 50
+      "order": 50,
+      "prelimsFacts": [
+        "Opium Wars & The Carving of China (1839–1860): The First Opium War (1839–42) sparked by Commissioner Lin Zexu's confiscation of British opium in Canton culminated in the Treaty of Nanking (1842), ceding Hong Kong to Britain and opening 5 treaty ports. The Second Opium War (1856–60) enforced the Treaty of Tientsin, legalizing opium and partitioning China into foreign 'Spheres of Influence'.",
+        "Boxer Rebellion (1899–1901): Violent anti-foreign, anti-colonial, and anti-Christian uprising in Qing China led by the Society of Righteous and Harmonious Fists (Militia United in Righteousness), suppressed by an Eight-Nation Imperial Alliance."
+      ]
     },
     {
       "id": "industrial-revolution-and-capitalism",
@@ -10517,7 +10545,11 @@
           "Systematic De-industrialization & Conversion into Raw Material Exporter"
         ]
       ],
-      "order": 51
+      "order": 51,
+      "prelimsFacts": [
+        "Opium Wars & The Carving of China (1839–1860): The First Opium War (1839–42) sparked by Commissioner Lin Zexu's confiscation of British opium in Canton culminated in the Treaty of Nanking (1842), ceding Hong Kong to Britain and opening 5 treaty ports. The Second Opium War (1856–60) enforced the Treaty of Tientsin, legalizing opium and partitioning China into foreign 'Spheres of Influence'.",
+        "Boxer Rebellion (1899–1901): Violent anti-foreign, anti-colonial, and anti-Christian uprising in Qing China led by the Society of Righteous and Harmonious Fists (Militia United in Righteousness), suppressed by an Eight-Nation Imperial Alliance."
+      ]
     },
     {
       "id": "american-revolution-and-civil-war",
@@ -15602,7 +15634,12 @@
           "1764, Battle of Buxar"
         ]
       ],
-      "order": 80
+      "order": 80,
+      "prelimsFacts": [
+        "Bara Imambara & Bhool Bhulaiya (1784, Lucknow): Architectural masterpiece commissioned by Nawab Asaf-ud-Daula as a royal food-for-work famine relief project; features a colossal 50-meter unsupported central vaulted hall built without timber or iron columns, enveloped by the world-famous Bhool Bhulaiya (labyrinthine maze of 489 identical interlocking arched doorways) and flanked by the monumental Rumi Darwaza.",
+        "Sharqi Architectural Propylon Screens of Jaunpur: The Atala Masjid (1408 CE) and Lal Darwaza Masjid constructed by the Sharqi rulers of Jaunpur featured massive sloping propylon archways concealing the rear domes, symbolizing Jaunpur's status as 'Shiraz of the East' (Shiraz-i-Hind).",
+        "Kalinjar Fort & Death of Sher Shah Suri (1545 CE, Banda district): Historic Bundelkhand stronghold where Sher Shah Suri suffered fatal burns from an exploding artillery rocket (Ukka) during a military siege."
+      ]
     },
     {
       "id": "up-british-rule-administration",
@@ -17654,7 +17691,12 @@
           "Cross-cutting reference; most entries link to a fuller period or biography elsewhere on this site"
         ]
       ],
-      "order": 91
+      "order": 91,
+      "prelimsFacts": [
+        "Bara Imambara & Bhool Bhulaiya (1784, Lucknow): Architectural masterpiece commissioned by Nawab Asaf-ud-Daula as a royal food-for-work famine relief project; features a colossal 50-meter unsupported central vaulted hall built without timber or iron columns, enveloped by the world-famous Bhool Bhulaiya (labyrinthine maze of 489 identical interlocking arched doorways) and flanked by the monumental Rumi Darwaza.",
+        "Sharqi Architectural Propylon Screens of Jaunpur: The Atala Masjid (1408 CE) and Lal Darwaza Masjid constructed by the Sharqi rulers of Jaunpur featured massive sloping propylon archways concealing the rear domes, symbolizing Jaunpur's status as 'Shiraz of the East' (Shiraz-i-Hind).",
+        "Kalinjar Fort & Death of Sher Shah Suri (1545 CE, Banda district): Historic Bundelkhand stronghold where Sher Shah Suri suffered fatal burns from an exploding artillery rocket (Ukka) during a military siege."
+      ]
     }
   ]
 }
