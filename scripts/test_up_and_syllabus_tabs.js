@@ -42,6 +42,6 @@ sylTabButtons.forEach(btnId => {
     process.exit(1);
   }
 });
-console.log('✓ All 8 Syllabus sections have 1:1 matching button and pane IDs!');
+console.log(`✓ All ${sylTabButtons.length} Syllabus sections have 1:1 matching button and pane IDs!`);
 
 console.log('\n=== ALL TAB TESTS PASSED 100%! ===');
