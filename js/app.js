@@ -62,6 +62,7 @@ const SUBJECT_TABS = [
   { id: 'map', label: 'Map Lab', icon: '🗺️', href: 'map.html' },
   { id: 'practice', label: 'UPSC Hub', icon: '🎯', href: 'practice.html', badge: '8k+ Qs' },
   { id: 'books', label: '27 Books', icon: '📚', href: 'books.html', badge: '27 Books' },
+  { id: 'revision', label: 'Quick Revision', icon: '⚡', href: 'revision.html', badge: '80 Topics' },
   { id: 'themes', label: 'Themes', icon: '🏷️', href: 'themes.html' },
   { id: 'people', label: 'People', icon: '👤', href: 'people.html' },
   { id: 'women', label: 'Women', icon: '👑', href: 'women.html' },
@@ -82,6 +83,7 @@ const PAGE_TITLE_MAP = {
   'women.html': 'Women in History',
   'graph.html': 'Knowledge Graph',
   'about.html': 'About',
+  'revision.html': 'Quick Revision Notes',
   'search.html': 'Search',
   'syllabus.html': 'Exam Syllabus',
   'period.html': 'Period Detail'
@@ -104,6 +106,7 @@ function renderNav(active){
 
   // Secondary hubs for "More ▾" dropdown
   const moreItems = [
+    { href: 'revision.html', label: 'Pointer Notes & Quick Revision', desc: '80 high-yield topics & 37 comparison matrices', icon: '⚡' },
     { href: 'syllabus.html', label: 'Exam Syllabus Hub', desc: 'UPSC, UPPSC, RO/ARO & RRB tracks', icon: '📋' },
     { href: 'society.html', label: 'Indian Society', desc: 'Salient features, diversity & issues', icon: '👥' },
     { href: 'up-history.html', label: 'UP History (UPPSC)', desc: 'Uttar Pradesh history, art & heritage', icon: '🏛️' },

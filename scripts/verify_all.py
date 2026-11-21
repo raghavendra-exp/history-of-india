@@ -53,7 +53,8 @@ PAGES = [
     'graph.html',
     'search.html',
     'about.html',
-    'syllabus.html'
+    'syllabus.html',
+    'revision.html'
 ]
 for p in PAGES:
     assert os.path.exists(p), f"Missing page {p}"
@@ -90,6 +91,7 @@ additional_tests = [
     ("test_books_dom.js", "27 Canonical Textbooks"),
     ("test_map_dom.js", "Historical Map GPS Coordinates"),
     ("test_history_data_integrity.js", "85 Period Chapters Data Integrity"),
+    ("test_revision_dom.js", "Pointer Notes & Quick Revision Hub"),
     ("comprehensive_site_audit.js", "Cross-Page Assets & Links Integrity"),
     ("audit_header_layout.js", "Header Layout & Overlap-Free Responsive Boundaries")
 ]
